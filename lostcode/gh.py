@@ -35,16 +35,19 @@ class GitHub:
                                                    "User-Agent": "lost-code-bot"})
         if self.token:
             req.add_header("Authorization", f"Bearer {self.token}")
-        if self.remaining is not None and self.remaining < self.min_remaining:
+        search = "/search/" in url
+        if not search and self.remaining is not None and self.remaining < self.min_remaining:
             raise RateLimited(f"only {self.remaining} API calls left; stopping politely")
         for attempt in range(3):
             try:
                 with urllib.request.urlopen(req, timeout=30) as r:
                     self.calls += 1
-                    self.remaining = int(r.headers.get("X-RateLimit-Remaining", "999"))
+                    if not search:  # search has its own small per-minute bucket; track the core budget
+                        self.remaining = int(r.headers.get("X-RateLimit-Remaining", "999"))
                     return json.loads(r.read() or b"null")
             except urllib.error.HTTPError as e:
-                self.remaining = int(e.headers.get("X-RateLimit-Remaining", "999") or 999)
+                if not search:
+                    self.remaining = int(e.headers.get("X-RateLimit-Remaining", "999") or 999)
                 if e.code in (403, 429) and (self.remaining == 0 or e.headers.get("Retry-After")):
                     wait = int(e.headers.get("Retry-After") or 0)
                     if wait and wait <= 60:

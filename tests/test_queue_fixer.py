@@ -87,3 +87,21 @@ def test_send_requires_human_approval():
     calls = []
     send.send(it, runner=lambda c, **k: calls.append(c) or type("R", (), {"stdout": "url"})())
     assert calls[0][:3] == ["gh", "pr", "create"]
+
+
+def test_search_bucket_does_not_block_core(monkeypatch):
+    import io
+    from lostcode import gh as ghmod
+
+    class R(io.BytesIO):
+        def __init__(self, body, rem):
+            super().__init__(body); self.headers = {"X-RateLimit-Remaining": rem}
+        def __enter__(self): return self
+        def __exit__(self, *a): pass
+    seq = [R(b'{"items": []}', "29"), R(b"[]", "900")]
+    monkeypatch.setattr(ghmod.urllib.request, "urlopen", lambda *a, **k: seq.pop(0))
+    g = ghmod.GitHub(token="t", min_remaining=100)
+    g.get("/search/repositories")
+    assert g.remaining is None
+    g.get("/repos/o/r/commits")
+    assert g.remaining == 900
