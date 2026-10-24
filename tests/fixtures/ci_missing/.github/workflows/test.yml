@@ -1,0 +1,7 @@
+on: push
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - run: bash scripts/run-e2e.sh
+      - run: python tools/present.py

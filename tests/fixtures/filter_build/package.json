@@ -1,0 +1,1 @@
+{"scripts":{"start":"node dist/server.js","x":"node .next/standalone/server.js"},"main":"dist/index.js"}

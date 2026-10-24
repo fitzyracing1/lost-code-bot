@@ -1,0 +1,11 @@
+on: push
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cli
+    steps:
+      - run: node scripts/build.js
+      - run: node scripts/gone.js
+      - run: node test/run.js

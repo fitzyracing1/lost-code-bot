@@ -1,0 +1,11 @@
+on: push
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: vllm-project/vllm
+          path: vllm
+      - run: python vllm/tools/check.py
+      - run: python tools/mine.py

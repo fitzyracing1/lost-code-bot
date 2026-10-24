@@ -1,0 +1,11 @@
+{
+  "name":"w",
+  "scripts": {
+    "lint:changed": "bash scripts/lint-changed.sh",
+    "ok": "node scripts/ok.js",
+    "seed": "tsx dbschema/seed.ts",
+    "flag": "eslint --fix"
+  },
+  "main": "src/index.js",
+  "bin": {"w": "bin/w.js"}
+}

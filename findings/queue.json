@@ -1,0 +1,455 @@
+{
+  "version": 1,
+  "items": {
+    "072b3761fb9f": {
+      "id": "072b3761fb9f",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "tensorflow/tensorflow",
+        "kind": "doc",
+        "file": "tensorflow/python/debug/examples/README.md",
+        "line": 6,
+        "ref": "docs_src/guide/debugger.md",
+        "path": "tensorflow/docs_src/guide/debugger.md",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/tensorflow/tensorflow/blob/14665b7f0b60bb47986eb566d8e51fc113c19a6a/tensorflow/python/debug/examples/README.md#L6",
+          "docs_src moved out of repo in 2018",
+          "removed in https://github.com/tensorflow/tensorflow/commit/6c2bf6576321ad53ff1eb6d66b6efae2c93ef4e0"
+        ],
+        "recovery_sha": "abc8452394aeeecc1f3fef27f7098a5924bdd0e9",
+        "deleted_in": "6c2bf6576321ad53ff1eb6d66b6efae2c93ef4e0",
+        "live_alternative": null,
+        "confidence": 0.75,
+        "head_sha": "14665b7f0b60bb47986eb566d8e51fc113c19a6a"
+      }
+    },
+    "14d25a452b80": {
+      "id": "14d25a452b80",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "langgenius/dify",
+        "kind": "ci",
+        "file": ".github/workflows/cli-e2e.yml",
+        "line": 146,
+        "ref": "test/e2e/suites/",
+        "path": "cli/test/e2e/suites",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/langgenius/dify/blob/fecf1a20ce45ff1ff8cca19653f0000cf891415c/.github/workflows/cli-e2e.yml#L146",
+          "whole suites tree deleted in difyctl v2 (#42608); workflow lines 146,192,259,311,376-383",
+          "removed in https://github.com/langgenius/dify/commit/a4524c215f299989e6488b8b3dc2c9c1b199489e"
+        ],
+        "recovery_sha": "96abb8ea220b5d17a2ef2958d94ffbf60d1cf950",
+        "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
+        "live_alternative": null,
+        "confidence": 0.97,
+        "head_sha": "fecf1a20ce45ff1ff8cca19653f0000cf891415c"
+      }
+    },
+    "1e6c88133b3c": {
+      "id": "1e6c88133b3c",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "flutter/flutter",
+        "kind": "doc",
+        "file": "packages/flutter_tools/lib/src/android/README.md",
+        "line": 22,
+        "ref": "FlutterExtention.kt",
+        "path": "packages/flutter_tools/gradle/src/main/kotlin/FlutterExtention.kt",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/flutter/flutter/blob/2541e508405f5d9728286d6ed3307163a5406e08/packages/flutter_tools/lib/src/android/README.md#L22",
+          "typo; real file FlutterExtension.kt"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "packages/flutter_tools/gradle/src/main/kotlin/FlutterExtension.kt",
+        "confidence": 0.9,
+        "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+      }
+    },
+    "49083294269b": {
+      "id": "49083294269b",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "langflow-ai/langflow",
+        "kind": "ci",
+        "file": ".github/workflows/smoke-tests.yml",
+        "line": 55,
+        "ref": "src/backend/tests/unit/components/languagemodels/test_openai_model.py",
+        "path": "src/backend/tests/unit/components/languagemodels/test_openai_model.py",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/langflow-ai/langflow/blob/aeb10d96bb2ea797696613af931e91ddf51f3320/.github/workflows/smoke-tests.yml#L55",
+          "renamed in #13805",
+          "removed in https://github.com/langflow-ai/langflow/commit/a42af78fe670e016d3698d76c2ad532a44dd2d00"
+        ],
+        "recovery_sha": "b565a14bdce5785f8e97b75c016247d6903e4e68",
+        "deleted_in": "a42af78fe670e016d3698d76c2ad532a44dd2d00",
+        "live_alternative": "src/bundles/openai/tests/test_openai_model.py",
+        "confidence": 0.97,
+        "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
+      }
+    },
+    "614f467624ed": {
+      "id": "614f467624ed",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "langflow-ai/langflow",
+        "kind": "script",
+        "file": "src/frontend/package.json",
+        "line": 175,
+        "ref": "scripts/lint-changed.sh",
+        "path": "src/frontend/scripts/lint-changed.sh",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/langflow-ai/langflow/blob/aeb10d96bb2ea797696613af931e91ddf51f3320/src/frontend/package.json#L175",
+          "never committed; scripts lint:changed and lint:types:changed (L175, L178)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.8,
+        "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
+      }
+    },
+    "733f7f23f771": {
+      "id": "733f7f23f771",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "microsoft/vscode",
+        "kind": "doc",
+        "file": "build/agentHost/README.md",
+        "line": 22,
+        "ref": "../../License.txt",
+        "path": "License.txt",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/microsoft/vscode/blob/43f10d53daac979d803a3275d8596c283321266e/build/agentHost/README.md#L22",
+          "case mismatch; GitHub paths are case-sensitive"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "LICENSE.txt",
+        "confidence": 0.92,
+        "head_sha": "43f10d53daac979d803a3275d8596c283321266e"
+      }
+    },
+    "7b8891ff6cb8": {
+      "id": "7b8891ff6cb8",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "langflow-ai/langflow",
+        "kind": "ci",
+        "file": ".github/workflows/smoke-tests.yml",
+        "line": 56,
+        "ref": "src/backend/tests/unit/components/agents/test_agent_component.py",
+        "path": "src/backend/tests/unit/components/agents/test_agent_component.py",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/langflow-ai/langflow/blob/aeb10d96bb2ea797696613af931e91ddf51f3320/.github/workflows/smoke-tests.yml#L56",
+          "renamed in #10180",
+          "removed in https://github.com/langflow-ai/langflow/commit/b1dc065feecc9f035f1bfd8197e0b178b8c57fdd"
+        ],
+        "recovery_sha": "11c0af4e35c921af13efeebff0be058f334b4f5d",
+        "deleted_in": "b1dc065feecc9f035f1bfd8197e0b178b8c57fdd",
+        "live_alternative": "src/backend/tests/unit/components/models_and_agents/test_agent_component.py",
+        "confidence": 0.97,
+        "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
+      }
+    },
+    "84e84a007297": {
+      "id": "84e84a007297",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "anomalyco/opencode",
+        "kind": "ci",
+        "file": ".github/workflows/publish.yml",
+        "line": 99,
+        "ref": "./packages/opencode/script/build.ts",
+        "path": "packages/opencode/script/build.ts",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/anomalyco/opencode/blob/20a6cc72917586eb5314be075f96dbb21d16c480/.github/workflows/publish.yml#L99",
+          "packages/opencode removed; live equivalent packages/cli/script/build.ts",
+          "removed in https://github.com/anomalyco/opencode/commit/44b6938b2ad2895bdd89d5d5cf753fb01ca8e3dd"
+        ],
+        "recovery_sha": "fc7e4cf93e660ad5ddabb0c48ecc99e934ebfe95",
+        "deleted_in": "44b6938b2ad2895bdd89d5d5cf753fb01ca8e3dd",
+        "live_alternative": "packages/cli/script/build.ts",
+        "confidence": 0.95,
+        "head_sha": "20a6cc72917586eb5314be075f96dbb21d16c480"
+      }
+    },
+    "9ddfec8c52a2": {
+      "id": "9ddfec8c52a2",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "vercel/next.js",
+        "kind": "script",
+        "file": "examples/with-edgedb/package.json",
+        "line": 7,
+        "ref": "dbschema/seed.ts",
+        "path": "examples/with-edgedb/dbschema/seed.ts",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/vercel/next.js/blob/a831acd90b7bb80cd284d3e7727ab8e1a0756991/examples/with-edgedb/package.json#L7",
+          "never committed (npm run seed)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+      }
+    },
+    "c61637aefd04": {
+      "id": "c61637aefd04",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "vercel/next.js",
+        "kind": "doc",
+        "file": "packages/next/src/next-devtools/README.md",
+        "line": 81,
+        "ref": "ui/styles/dark-theme.tsx",
+        "path": "packages/next/src/next-devtools/ui/styles/dark-theme.tsx",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/vercel/next.js/blob/a831acd90b7bb80cd284d3e7727ab8e1a0756991/packages/next/src/next-devtools/README.md#L81",
+          "moved in 0d7b49b, converted to CSS in #82778",
+          "removed in https://github.com/vercel/next.js/commit/13f413bb284e9e29729d051f557a01338a78c4cf"
+        ],
+        "recovery_sha": "49371dc364eecca41e52dfc5f6bf1b6cda3ed83d",
+        "deleted_in": "13f413bb284e9e29729d051f557a01338a78c4cf",
+        "live_alternative": "packages/next/src/next-devtools/dev-overlay/styles/dark-theme.css",
+        "confidence": 0.85,
+        "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+      }
+    },
+    "c75deaa1162f": {
+      "id": "c75deaa1162f",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "microsoft/vscode",
+        "kind": "doc",
+        "file": "extensions/copilot/CONTRIBUTING.md",
+        "line": 273,
+        "ref": "src/extension/prompts/node/agent/agentInstructions.tsx",
+        "path": "extensions/copilot/src/extension/prompts/node/agent/agentInstructions.tsx",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/microsoft/vscode/blob/43f10d53daac979d803a3275d8596c283321266e/extensions/copilot/CONTRIBUTING.md#L273",
+          "never in vscode history; current file defaultAgentInstructions.tsx"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "extensions/copilot/src/extension/prompts/node/agent/defaultAgentInstructions.tsx",
+        "confidence": 0.8,
+        "head_sha": "43f10d53daac979d803a3275d8596c283321266e"
+      }
+    },
+    "e2503867ff08": {
+      "id": "e2503867ff08",
+      "state": "verified",
+      "first_seen": "2026-10-24T14:52:05Z",
+      "last_seen": "2026-10-24T14:52:05Z",
+      "history": [
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "new",
+          "by": "scanner"
+        },
+        {
+          "at": "2026-10-24T14:52:05Z",
+          "state": "verified",
+          "by": "joshua-audit",
+          "note": "hand-checked in the 2026-10-24 audit"
+        }
+      ],
+      "finding": {
+        "repo": "NousResearch/hermes-agent",
+        "kind": "doc",
+        "file": "scripts/build/README.md",
+        "line": 5,
+        "ref": "docs/shared-bundle-builds.md",
+        "path": "docs/shared-bundle-builds.md",
+        "context": "seed: 2026-10-24 audit",
+        "evidence": [
+          "https://github.com/NousResearch/hermes-agent/blob/99fcd6944360925943688d30c39ec9a490ccdeb1/scripts/build/README.md#L5",
+          "never committed"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
+      }
+    }
+  }
+}

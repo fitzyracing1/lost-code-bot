@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+# Run the CLI without installing: ./scanner/lostcode scan --repo owner/name
+import os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+from lostcode.cli import main
+sys.exit(main())

@@ -1,0 +1,11 @@
+on: push
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'print(1)' > test/test_python.py
+      - run: python test/test_python.py
+      - run: cp templates/x.sh ci/run.sh
+      - run: bash ci/run.sh
+      - run: curl -sSL https://example.com/i.sh -o tools/install.sh
+      - run: bash tools/install.sh

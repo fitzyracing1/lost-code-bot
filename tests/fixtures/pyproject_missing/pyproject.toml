@@ -1,0 +1,6 @@
+[project]
+name="p"
+readme="README.rst"
+[project.scripts]
+good = "pkg.cli:main"
+bad = "pkg.removed:main"
