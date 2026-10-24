@@ -1,0 +1,3629 @@
+{
+  "scanned_at": "2026-10-24T14:57:35Z",
+  "repos": {
+    "codecrafters-io/build-your-own-x": 0,
+    "freeCodeCamp/freeCodeCamp": 40,
+    "openclaw/openclaw": 40,
+    "morluto/rea": 3,
+    "obra/superpowers": 0,
+    "mattpocock/skills": 1,
+    "affaan-m/ECC": 40,
+    "deepseek-ai/deepseek-harness": 40,
+    "NousResearch/hermes-agent": 17,
+    "torvalds/linux": 1,
+    "react/react": 9,
+    "TheAlgorithms/Python": 0,
+    "anomalyco/opencode": 7,
+    "vuejs/vue": 0,
+    "ossu/computer-science": 0,
+    "n8n-io/n8n": 34,
+    "DigitalPlatDev/FreeDomain": 0,
+    "yt-dlp/yt-dlp": 0,
+    "tensorflow/tensorflow": 11,
+    "trekhleb/javascript-algorithms": 8,
+    "massgravel/Microsoft-Activation-Scripts": 0,
+    "ultraworkers/claw-code": 2,
+    "firecrawl/firecrawl": 27,
+    "microsoft/vscode": 40,
+    "microsoft/markitdown": 0,
+    "ohmyzsh/ohmyzsh": 6,
+    "Significant-Gravitas/AutoGPT": 16,
+    "jackfrued/Python-100-Days": 40,
+    "ollama/ollama": 0,
+    "521xueweihan/HelloGitHub": 0,
+    "anthropics/skills": 3,
+    "flutter/flutter": 36,
+    "DietrichGebert/ponytail": 0,
+    "twbs/bootstrap": 6,
+    "huggingface/transformers": 40,
+    "AUTOMATIC1111/stable-diffusion-webui": 0,
+    "msitarzewski/agency-agents": 0,
+    "langgenius/dify": 3,
+    "open-webui/open-webui": 0,
+    "langflow-ai/langflow": 7,
+    "clash-verge-rev/clash-verge-rev": 0,
+    "anthropics/claude-code": 0,
+    "Genymobile/scrcpy": 0,
+    "langchain-ai/langchain": 0,
+    "farion1231/cc-switch": 14,
+    "airbnb/javascript": 0,
+    "vercel/next.js": 17,
+    "github/spec-kit": 0,
+    "Comfy-Org/ComfyUI": 5,
+    "iptv-org/iptv": 4
+  },
+  "errors": {},
+  "api_calls": 1,
+  "rate_remaining": 29,
+  "seconds": 265,
+  "findings": [
+    {
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "kind": "import",
+      "file": "api/package.json",
+      "line": 71,
+      "ref": "none",
+      "path": "api/none",
+      "context": "package.json main",
+      "evidence": [
+        "api/package.json \"main\" points to none"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
+    },
+    {
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "kind": "import",
+      "file": "client/package.json",
+      "line": 20,
+      "ref": "index.js",
+      "path": "client/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "client/package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
+    },
+    {
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "kind": "import",
+      "file": "package.json",
+      "line": 20,
+      "ref": "none",
+      "path": "none",
+      "context": "package.json main",
+      "evidence": [
+        "package.json \"main\" points to none"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
+    },
+    {
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "kind": "import",
+      "file": "packages/challenge-linter/package.json",
+      "line": 7,
+      "ref": "index.js",
+      "path": "packages/challenge-linter/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/challenge-linter/package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
+    },
+    {
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "kind": "import",
+      "file": "tools/challenge-parser/package.json",
+      "line": 20,
+      "ref": "index.js",
+      "path": "tools/challenge-parser/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "tools/challenge-parser/package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
+    },
+    {
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "kind": "import",
+      "file": "tools/client-plugins/browser-scripts/package.json",
+      "line": 29,
+      "ref": "index.js",
+      "path": "tools/client-plugins/browser-scripts/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "tools/client-plugins/browser-scripts/package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
+    },
+    {
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "kind": "import",
+      "file": "tools/scripts/seed-exams/package.json",
+      "line": 23,
+      "ref": "none",
+      "path": "tools/scripts/seed-exams/none",
+      "context": "package.json main",
+      "evidence": [
+        "tools/scripts/seed-exams/package.json \"main\" points to none"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
+    },
+    {
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "kind": "import",
+      "file": "tools/scripts/seed/package.json",
+      "line": 23,
+      "ref": "none",
+      "path": "tools/scripts/seed/none",
+      "context": "package.json main",
+      "evidence": [
+        "tools/scripts/seed/package.json \"main\" points to none"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1351,
+      "ref": "./.ci-harness/scripts/lib/release-context.mjs",
+      "path": ".ci-harness/scripts/lib/release-context.mjs",
+      "context": "job preflight",
+      "evidence": [
+        ".github/workflows/ci.yml job 'preflight' runs './.ci-harness/scripts/lib/release-context.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/release-context.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/release-context.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1550,
+      "ref": ".ci-harness/scripts/ci-build-manifest.mjs",
+      "path": ".ci-harness/scripts/ci-build-manifest.mjs",
+      "context": "job preflight",
+      "evidence": [
+        ".github/workflows/ci.yml job 'preflight' runs '.ci-harness/scripts/ci-build-manifest.mjs' (working-directory: .)",
+        "same file name exists at scripts/ci-build-manifest.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-build-manifest.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1661,
+      "ref": ".ci-harness/scripts/detect-private-keys.mts",
+      "path": ".ci-harness/scripts/detect-private-keys.mts",
+      "context": "job security-fast",
+      "evidence": [
+        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/detect-private-keys.mts' (working-directory: .)",
+        "same file name exists at scripts/detect-private-keys.mts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/detect-private-keys.mts",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1687,
+      "ref": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "path": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "context": "job security-fast",
+      "evidence": [
+        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh' (working-directory: .)",
+        "same file name exists at .github/actions/setup-pnpm-store-cache/ensure-node.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1760,
+      "ref": ".ci-harness/scripts/ci-production-audit.mjs",
+      "path": ".ci-harness/scripts/ci-production-audit.mjs",
+      "context": "job security-fast",
+      "evidence": [
+        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/ci-production-audit.mjs' (working-directory: .)",
+        "same file name exists at scripts/ci-production-audit.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-production-audit.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1777,
+      "ref": ".ci-harness/scripts/ci-collect-checks.sh",
+      "path": ".ci-harness/scripts/ci-collect-checks.sh",
+      "context": "job security-fast",
+      "evidence": [
+        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/ci-collect-checks.sh' (working-directory: .)",
+        "same file name exists at scripts/ci-collect-checks.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-collect-checks.sh",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1881,
+      "ref": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
+      "path": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
+      "context": "job build-artifacts",
+      "evidence": [
+        ".github/workflows/ci.yml job 'build-artifacts' runs '.ci-harness/scripts/macos-native-runtime-artifact.mjs' (working-directory: .)",
+        "same file name exists at scripts/macos-native-runtime-artifact.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/macos-native-runtime-artifact.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 2116,
+      "ref": "scripts/ensure-cli-startup-build.mjs",
+      "path": "scripts/ensure-cli-startup-build.mjs",
+      "context": "job build-artifacts",
+      "evidence": [
+        ".github/workflows/ci.yml job 'build-artifacts' runs 'scripts/ensure-cli-startup-build.mjs' (working-directory: .)"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.7,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 2989,
+      "ref": ".ci-harness/.github/actions/git-owner/owner.py",
+      "path": ".ci-harness/.github/actions/git-owner/owner.py",
+      "context": "job checks-fast-core",
+      "evidence": [
+        ".github/workflows/ci.yml job 'checks-fast-core' runs '.ci-harness/.github/actions/git-owner/owner.py' (working-directory: .)",
+        "same file name exists at .github/actions/git-owner/owner.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/actions/git-owner/owner.py",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 3759,
+      "ref": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
+      "path": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
+      "context": "job check-shard",
+      "evidence": [
+        ".github/workflows/ci.yml job 'check-shard' runs '.ci-harness/scripts/ci-npm-lock-admission.mjs' (working-directory: .)",
+        "same file name exists at scripts/ci-npm-lock-admission.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-npm-lock-admission.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 3887,
+      "ref": ".ci-harness/scripts/ci-static-step.sh",
+      "path": ".ci-harness/scripts/ci-static-step.sh",
+      "context": "job check-shard",
+      "evidence": [
+        ".github/workflows/ci.yml job 'check-shard' runs '.ci-harness/scripts/ci-static-step.sh' (working-directory: .)",
+        "same file name exists at scripts/ci-static-step.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-static-step.sh",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 4493,
+      "ref": ".ci-harness/scripts/ci-additional-checks.sh",
+      "path": ".ci-harness/scripts/ci-additional-checks.sh",
+      "context": "job check-additional-shard",
+      "evidence": [
+        ".github/workflows/ci.yml job 'check-additional-shard' runs '.ci-harness/scripts/ci-additional-checks.sh' (working-directory: .)",
+        "same file name exists at scripts/ci-additional-checks.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-additional-checks.sh",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 4917,
+      "ref": ".ci-harness/scripts/lib/swift-toolchain.sh",
+      "path": ".ci-harness/scripts/lib/swift-toolchain.sh",
+      "context": "job macos-swift",
+      "evidence": [
+        ".github/workflows/ci.yml job 'macos-swift' runs '.ci-harness/scripts/lib/swift-toolchain.sh' (working-directory: .)",
+        "same file name exists at scripts/lib/swift-toolchain.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/swift-toolchain.sh",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 5572,
+      "ref": "./.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
+      "path": ".ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
+      "context": "job ios-build",
+      "evidence": [
+        ".github/workflows/ci.yml job 'ios-build' runs './.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/ci-ios-smoke-plan.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/ci-ios-smoke-plan.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 5634,
+      "ref": ".ci-harness/scripts/swift-build-cache-metadata.py",
+      "path": ".ci-harness/scripts/swift-build-cache-metadata.py",
+      "context": "job ios-build",
+      "evidence": [
+        ".github/workflows/ci.yml job 'ios-build' runs '.ci-harness/scripts/swift-build-cache-metadata.py' (working-directory: .)",
+        "same file name exists at scripts/swift-build-cache-metadata.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/swift-build-cache-metadata.py",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 5636,
+      "ref": ".ci-harness/scripts/ci-xcodebuild.py",
+      "path": ".ci-harness/scripts/ci-xcodebuild.py",
+      "context": "job ios-build",
+      "evidence": [
+        ".github/workflows/ci.yml job 'ios-build' runs '.ci-harness/scripts/ci-xcodebuild.py' (working-directory: .)",
+        "same file name exists at scripts/ci-xcodebuild.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-xcodebuild.py",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 6032,
+      "ref": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
+      "path": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
+      "context": "job ios-screenshot-capture",
+      "evidence": [
+        ".github/workflows/ci.yml job 'ios-screenshot-capture' runs '.ci-harness/scripts/ios-screenshot-evidence.mjs' (working-directory: .)",
+        "same file name exists at scripts/ios-screenshot-evidence.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ios-screenshot-evidence.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 6261,
+      "ref": "../../.ci-harness/scripts/ci-collect-checks.sh",
+      "path": ".ci-harness/scripts/ci-collect-checks.sh",
+      "context": "job android",
+      "evidence": [
+        ".github/workflows/ci.yml job 'android' runs '../../.ci-harness/scripts/ci-collect-checks.sh' (working-directory: apps/android)",
+        "same file name exists at scripts/ci-collect-checks.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-collect-checks.sh",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 6593,
+      "ref": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
+      "path": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
+      "context": "job docker-seed-e2e",
+      "evidence": [
+        ".github/workflows/ci.yml job 'docker-seed-e2e' runs '.ci-harness/scripts/lib/release-upgrade-baseline.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/release-upgrade-baseline.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/release-upgrade-baseline.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 6605,
+      "ref": "./.ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
+      "path": ".ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
+      "context": "job docker-seed-e2e",
+      "evidence": [
+        ".github/workflows/ci.yml job 'docker-seed-e2e' runs './.ci-harness/scripts/lib/upgrade-survivor-policy.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/upgrade-survivor-policy.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/upgrade-survivor-policy.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release-prepare.yml",
+      "line": 104,
+      "ref": "./workflow-source/scripts/docker-release-artifacts.mjs",
+      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "context": "job resolve",
+      "evidence": [
+        ".github/workflows/docker-release-prepare.yml job 'resolve' runs './workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/docker-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/docker-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release-prepare.yml",
+      "line": 225,
+      "ref": "workflow-source/scripts/relay-build-limit-warnings.mts",
+      "path": "workflow-source/scripts/relay-build-limit-warnings.mts",
+      "context": "job build",
+      "evidence": [
+        ".github/workflows/docker-release-prepare.yml job 'build' runs 'workflow-source/scripts/relay-build-limit-warnings.mts' (working-directory: .)",
+        "same file name exists at scripts/relay-build-limit-warnings.mts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/relay-build-limit-warnings.mts",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release-prepare.yml",
+      "line": 104,
+      "ref": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "context": "job build",
+      "evidence": [
+        ".github/workflows/docker-release-prepare.yml job 'build' runs 'workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/docker-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/docker-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release.yml",
+      "line": 165,
+      "ref": "./workflow-source/scripts/docker-release-artifacts.mjs",
+      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "context": "job validate_release_identity",
+      "evidence": [
+        ".github/workflows/docker-release.yml job 'validate_release_identity' runs './workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/docker-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/docker-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release.yml",
+      "line": 346,
+      "ref": "workflow-source/scripts/verify-authorized-beta-focused-candidate.mjs",
+      "path": "workflow-source/scripts/verify-authorized-beta-focused-candidate.mjs",
+      "context": "job publish",
+      "evidence": [
+        ".github/workflows/docker-release.yml job 'publish' runs 'workflow-source/scripts/verify-authorized-beta-focused-candidate.mjs' (working-directory: .)",
+        "same file name exists at scripts/verify-authorized-beta-focused-candidate.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/verify-authorized-beta-focused-candidate.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release.yml",
+      "line": 348,
+      "ref": "workflow-source/scripts/validate-authorized-beta-focused-evidence.mts",
+      "path": "workflow-source/scripts/validate-authorized-beta-focused-evidence.mts",
+      "context": "job publish",
+      "evidence": [
+        ".github/workflows/docker-release.yml job 'publish' runs 'workflow-source/scripts/validate-authorized-beta-focused-evidence.mts' (working-directory: .)",
+        "same file name exists at scripts/validate-authorized-beta-focused-evidence.mts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/validate-authorized-beta-focused-evidence.mts",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release.yml",
+      "line": 165,
+      "ref": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "context": "job publish",
+      "evidence": [
+        ".github/workflows/docker-release.yml job 'publish' runs 'workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/docker-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/docker-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docs-sync-publish.yml",
+      "line": 159,
+      "ref": ".openclaw-sync/check-docs-mdx.mts",
+      "path": "publish/.openclaw-sync/check-docs-mdx.mts",
+      "context": "job sync-publish-repo",
+      "evidence": [
+        ".github/workflows/docs-sync-publish.yml job 'sync-publish-repo' runs '.openclaw-sync/check-docs-mdx.mts' (working-directory: publish)",
+        "same file name exists at scripts/check-docs-mdx.mts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/check-docs-mdx.mts",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 308,
+      "ref": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "path": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh' (working-directory: .)",
+        "same file name exists at .github/actions/setup-pnpm-store-cache/ensure-node.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 318,
+      "ref": "workflow/scripts/full-release-publication-contract.mjs",
+      "path": "workflow/scripts/full-release-publication-contract.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/full-release-publication-contract.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-publication-contract.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-publication-contract.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 340,
+      "ref": "workflow/scripts/release-tooling-identity.mjs",
+      "path": "workflow/scripts/release-tooling-identity.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/release-tooling-identity.mjs' (working-directory: .)",
+        "same file name exists at scripts/release-tooling-identity.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/release-tooling-identity.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 357,
+      "ref": "workflow/scripts/github/resolve-openclaw-ref.sh",
+      "path": "workflow/scripts/github/resolve-openclaw-ref.sh",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/github/resolve-openclaw-ref.sh' (working-directory: .)",
+        "same file name exists at scripts/github/resolve-openclaw-ref.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/github/resolve-openclaw-ref.sh",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 433,
+      "ref": "workflow/scripts/full-release-candidate-contract.mjs",
+      "path": "workflow/scripts/full-release-candidate-contract.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/full-release-candidate-contract.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-candidate-contract.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-candidate-contract.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 523,
+      "ref": "./workflow/scripts/lib/release-context.mjs",
+      "path": "workflow/scripts/lib/release-context.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs './workflow/scripts/lib/release-context.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/release-context.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/release-context.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 576,
+      "ref": "./workflow/scripts/full-release-validation-policy.mjs",
+      "path": "workflow/scripts/full-release-validation-policy.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs './workflow/scripts/full-release-validation-policy.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-validation-policy.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-validation-policy.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 577,
+      "ref": "./workflow/scripts/lib/release-version.mjs",
+      "path": "workflow/scripts/lib/release-version.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs './workflow/scripts/lib/release-version.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/release-version.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/release-version.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 1114,
+      "ref": "workflow/scripts/full-release-validation-state.mjs",
+      "path": "workflow/scripts/full-release-validation-state.mjs",
+      "context": "job evidence_reuse",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/full-release-validation-state.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-validation-state.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-validation-state.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 1179,
+      "ref": "workflow/scripts/github/find-reusable-release-validation.sh",
+      "path": "workflow/scripts/github/find-reusable-release-validation.sh",
+      "context": "job evidence_reuse",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/github/find-reusable-release-validation.sh' (working-directory: .)",
+        "same file name exists at scripts/github/find-reusable-release-validation.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/github/find-reusable-release-validation.sh",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 1212,
+      "ref": "workflow/scripts/full-release-artifacts.mjs",
+      "path": "workflow/scripts/full-release-artifacts.mjs",
+      "context": "job evidence_reuse",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/full-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 1367,
+      "ref": "workflow/scripts/find-reusable-release-child.mjs",
+      "path": "workflow/scripts/find-reusable-release-child.mjs",
+      "context": "job normal_ci",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'normal_ci' runs 'workflow/scripts/find-reusable-release-child.mjs' (working-directory: .)",
+        "same file name exists at scripts/find-reusable-release-child.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/find-reusable-release-child.mjs",
+      "confidence": 0.8,
+      "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+    },
+    {
+      "repo": "morluto/rea",
+      "kind": "ci",
+      "file": ".github/workflows/cache-retention.yml",
+      "line": 64,
+      "ref": "trusted-retention/scripts/ci/cache-retention.mjs",
+      "path": "trusted-retention/scripts/ci/cache-retention.mjs",
+      "context": "job retain",
+      "evidence": [
+        ".github/workflows/cache-retention.yml job 'retain' runs 'trusted-retention/scripts/ci/cache-retention.mjs' (working-directory: .)",
+        "same file name exists at scripts/ci/cache-retention.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci/cache-retention.mjs",
+      "confidence": 0.8,
+      "head_sha": "69f99c5198d8668056ad376cd74c5aea348224c2"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "kind": "ci",
+      "file": ".github/workflows/release.yml",
+      "line": 196,
+      "ref": "release-artifacts/tests/ci/packed-artifact-lifecycle.js",
+      "path": "release-artifacts/tests/ci/packed-artifact-lifecycle.js",
+      "context": "job lifecycle",
+      "evidence": [
+        ".github/workflows/release.yml job 'lifecycle' runs 'release-artifacts/tests/ci/packed-artifact-lifecycle.js' (working-directory: .)",
+        "same file name exists at tests/ci/packed-artifact-lifecycle.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "tests/ci/packed-artifact-lifecycle.js",
+      "confidence": 0.8,
+      "head_sha": "90606c8315ee09cafc303515c5f33024db6b9882"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "kind": "ci",
+      "file": ".github/workflows/release.yml",
+      "line": 247,
+      "ref": "release-gate-source/scripts/ci/verify-release-gates.js",
+      "path": "release-gate-source/scripts/ci/verify-release-gates.js",
+      "context": "job publish",
+      "evidence": [
+        ".github/workflows/release.yml job 'publish' runs 'release-gate-source/scripts/ci/verify-release-gates.js' (working-directory: .)",
+        "same file name exists at scripts/ci/verify-release-gates.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci/verify-release-gates.js",
+      "confidence": 0.8,
+      "head_sha": "90606c8315ee09cafc303515c5f33024db6b9882"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "kind": "ci",
+      "file": ".github/workflows/reusable-release.yml",
+      "line": 194,
+      "ref": "release-artifacts/tests/ci/packed-artifact-lifecycle.js",
+      "path": "release-artifacts/tests/ci/packed-artifact-lifecycle.js",
+      "context": "job lifecycle",
+      "evidence": [
+        ".github/workflows/reusable-release.yml job 'lifecycle' runs 'release-artifacts/tests/ci/packed-artifact-lifecycle.js' (working-directory: .)",
+        "same file name exists at tests/ci/packed-artifact-lifecycle.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "tests/ci/packed-artifact-lifecycle.js",
+      "confidence": 0.8,
+      "head_sha": "90606c8315ee09cafc303515c5f33024db6b9882"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "kind": "ci",
+      "file": ".github/workflows/reusable-release.yml",
+      "line": 239,
+      "ref": "release-gate-source/scripts/ci/verify-release-gates.js",
+      "path": "release-gate-source/scripts/ci/verify-release-gates.js",
+      "context": "job publish",
+      "evidence": [
+        ".github/workflows/reusable-release.yml job 'publish' runs 'release-gate-source/scripts/ci/verify-release-gates.js' (working-directory: .)",
+        "same file name exists at scripts/ci/verify-release-gates.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci/verify-release-gates.js",
+      "confidence": 0.8,
+      "head_sha": "90606c8315ee09cafc303515c5f33024db6b9882"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "apps/cli/package.json",
+      "line": 14,
+      "ref": "lib/bin.js",
+      "path": "apps/cli/lib/bin.js",
+      "context": "package.json bin.dsh",
+      "evidence": [
+        "apps/cli/package.json \"bin.dsh\" points to lib/bin.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "apps/desktop-host/package.json",
+      "line": 8,
+      "ref": "lib/index.js",
+      "path": "apps/desktop-host/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "apps/desktop-host/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "apps/desktop/package.json",
+      "line": 11,
+      "ref": "lib/main.js",
+      "path": "apps/desktop/lib/main.js",
+      "context": "package.json main",
+      "evidence": [
+        "apps/desktop/package.json \"main\" points to lib/main.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/acp/acp/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/acp/acp/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/acp/acp/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/account-controller/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/account-controller/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/account-controller/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/gateway/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/gateway/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/gateway/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/job-controller/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/job-controller/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/job-controller/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/remote-access/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/remote-access/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/remote-access/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/remotes/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/remotes/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/remotes/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/session-controller/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/session-controller/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/session-controller/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/settings-controller/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/settings-controller/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/settings-controller/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/terminal-controller/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/terminal-controller/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/terminal-controller/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/workspace-controller/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/workspace-controller/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/workspace-controller/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/api/workspace-files/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/api/workspace-files/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/api/workspace-files/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/attachment/attachment-local/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/attachment/attachment-local/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/attachment/attachment-local/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/attachment/attachment/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/attachment/attachment/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/attachment/attachment/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/boot/app-boot/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/boot/app-boot/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/boot/app-boot/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/boot/cmdline/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/boot/cmdline/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/boot/cmdline/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/boot/config-editor/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/boot/config-editor/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/boot/config-editor/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/boot/hmr/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/boot/hmr/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/boot/hmr/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/boot/plugin-manager/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/boot/plugin-manager/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/boot/plugin-manager/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/boot/plugin-market/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/boot/plugin-market/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/boot/plugin-market/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/browser-use/browser-use/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/browser-use/browser-use/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/browser-use/browser-use/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/bundle/acp-app/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/bundle/acp-app/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/bundle/acp-app/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/bundle/base/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/bundle/base/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/bundle/base/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/bundle/headless/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/bundle/headless/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/bundle/headless/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/bundle/sdk-app/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/bundle/sdk-app/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/bundle/sdk-app/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/bundle/sdk-minimal/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/bundle/sdk-minimal/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/bundle/sdk-minimal/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/bundle/web-app/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/bundle/web-app/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/bundle/web-app/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/connection/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/connection/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/connection/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/file-upload/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/file-upload/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/file-upload/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/hmr/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/hmr/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/hmr/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/locale/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/locale/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/locale/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/modules/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/modules/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/modules/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/product-analytics/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/product-analytics/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/product-analytics/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/resources/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/resources/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/resources/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/shortcuts/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/shortcuts/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/shortcuts/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/store/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/store/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/store/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/ui-agent-preset/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/ui-agent-preset/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/ui-agent-preset/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "kind": "import",
+      "file": "packages/client/ui-approval/package.json",
+      "line": 14,
+      "ref": "lib/index.js",
+      "path": "packages/client/ui-approval/lib/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/client/ui-approval/package.json \"main\" points to lib/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "22ddee3792402c3e70ec5f86a63c3e3e895a2f60"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "kind": "doc",
+      "file": "apps/desktop/BUILDING.md",
+      "line": 149,
+      "ref": "../../docs/shared-bundle-builds.md",
+      "path": "docs/shared-bundle-builds.md",
+      "context": "See [shared bundle builds](../../docs/shared-bundle-builds.md) for Termux reuse.",
+      "evidence": [
+        "apps/desktop/BUILDING.md:149 links to ../../docs/shared-bundle-builds.md",
+        "same file name exists at website/docs/developer-guide/shared-bundle-builds.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
+      "confidence": 0.55,
+      "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "kind": "doc",
+      "file": "apps/desktop/BUILDING.md",
+      "line": 174,
+      "ref": "../../docs/shared-bundle-builds.md#cache-ownership",
+      "path": "docs/shared-bundle-builds.md",
+      "context": "[cache-policy caveat](../../docs/shared-bundle-builds.md#cache-ownership)). A",
+      "evidence": [
+        "apps/desktop/BUILDING.md:174 links to ../../docs/shared-bundle-builds.md#cache-ownership",
+        "same file name exists at website/docs/developer-guide/shared-bundle-builds.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
+      "confidence": 0.55,
+      "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "kind": "doc",
+      "file": "apps/desktop/BUILDING.md",
+      "line": 353,
+      "ref": "../../docs/macos-bundle-updates.md",
+      "path": "docs/macos-bundle-updates.md",
+      "context": "See [macOS bundle updates](../../docs/macos-bundle-updates.md) for feed validation",
+      "evidence": [
+        "apps/desktop/BUILDING.md:353 links to ../../docs/macos-bundle-updates.md",
+        "same file name exists at website/docs/developer-guide/macos-bundle-updates.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "website/docs/developer-guide/macos-bundle-updates.md",
+      "confidence": 0.55,
+      "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "kind": "doc",
+      "file": "apps/desktop/BUILDING.md",
+      "line": 394,
+      "ref": "../../docs/stable-releases.md",
+      "path": "docs/stable-releases.md",
+      "context": "[Stable release admission](../../docs/stable-releases.md) requires the full",
+      "evidence": [
+        "apps/desktop/BUILDING.md:394 links to ../../docs/stable-releases.md",
+        "same file name exists at website/docs/developer-guide/stable-releases.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "website/docs/developer-guide/stable-releases.md",
+      "confidence": 0.55,
+      "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "kind": "doc",
+      "file": "apps/desktop/BUILDING.md",
+      "line": 399,
+      "ref": "../../docs/pm-audit-status.md",
+      "path": "docs/pm-audit-status.md",
+      "context": "separate in [PM audit status](../../docs/pm-audit-status.md).",
+      "evidence": [
+        "apps/desktop/BUILDING.md:399 links to ../../docs/pm-audit-status.md",
+        "same file name exists at website/docs/developer-guide/pm-audit-status.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "website/docs/developer-guide/pm-audit-status.md",
+      "confidence": 0.55,
+      "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "kind": "doc",
+      "file": "optional-skills/research/research-paper-writing/references/phase5-paper-drafting.md",
+      "line": 63,
+      "ref": "references/writing-guide.md",
+      "path": "optional-skills/research/research-paper-writing/references/references/writing-guide.md",
+      "context": "- [references/writing-guide.md](references/writing-guide.md) \u2014 Full explanations with examples",
+      "evidence": [
+        "optional-skills/research/research-paper-writing/references/phase5-paper-drafting.md:63 links to references/writing-guide.md",
+        "same file name exists at optional-skills/research/research-paper-writing/references/writing-guide.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "optional-skills/research/research-paper-writing/references/writing-guide.md",
+      "confidence": 0.55,
+      "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "kind": "doc",
+      "file": "optional-skills/research/research-paper-writing/references/phase5-paper-drafting.md",
+      "line": 64,
+      "ref": "references/sources.md",
+      "path": "optional-skills/research/research-paper-writing/references/references/sources.md",
+      "context": "- [references/sources.md](references/sources.md) \u2014 Complete bibliography",
+      "evidence": [
+        "optional-skills/research/research-paper-writing/references/phase5-paper-drafting.md:64 links to references/sources.md",
+        "same file name exists at optional-skills/research/research-paper-writing/references/sources.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "optional-skills/research/research-paper-writing/references/sources.md",
+      "confidence": 0.55,
+      "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "kind": "doc",
+      "file": "scripts/build/README.md",
+      "line": 5,
+      "ref": "../../docs/shared-bundle-builds.md",
+      "path": "docs/shared-bundle-builds.md",
+      "context": "[Shared bundle builds](../../docs/shared-bundle-builds.md) describes the",
+      "evidence": [
+        "scripts/build/README.md:5 links to ../../docs/shared-bundle-builds.md",
+        "same file name exists at website/docs/developer-guide/shared-bundle-builds.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
+      "confidence": 0.55,
+      "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
+    },
+    {
+      "repo": "torvalds/linux",
+      "kind": "import",
+      "file": "tools/net/ynl/pyproject.toml",
+      "line": 24,
+      "ref": "pyynl.ethtool:main",
+      "path": "tools/net/ynl/pyynl/ethtool.py",
+      "context": "project.scripts.ynl-ethtool",
+      "evidence": [
+        "tools/net/ynl/pyproject.toml [project.scripts] ynl-ethtool = 'pyynl.ethtool:main': module pyynl.ethtool not found",
+        "same file name exists at tools/net/ynl/tests/ethtool.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "tools/net/ynl/tests/ethtool.py",
+      "confidence": 0.7,
+      "head_sha": "5b0764a53235d3c77e1ed674e836e1b3fe1a4b1f"
+    },
+    {
+      "repo": "react/react",
+      "kind": "ci",
+      "file": ".github/workflows/runtime_commit_artifacts.yml",
+      "line": 139,
+      "ref": "./compiled/facebook-www/ESLintPluginReactHooks-dev.modern.js",
+      "path": "compiled/facebook-www/ESLintPluginReactHooks-dev.modern.js",
+      "context": "job process_artifacts",
+      "evidence": [
+        ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/facebook-www/ESLintPluginReactHooks-dev.modern.js' (working-directory: .)"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.7,
+      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+    },
+    {
+      "repo": "react/react",
+      "kind": "ci",
+      "file": ".github/workflows/runtime_commit_artifacts.yml",
+      "line": 140,
+      "ref": "./compiled/eslint-plugin-react-hooks/index.js",
+      "path": "compiled/eslint-plugin-react-hooks/index.js",
+      "context": "job process_artifacts",
+      "evidence": [
+        ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/eslint-plugin-react-hooks/index.js' (working-directory: .)"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.7,
+      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+    },
+    {
+      "repo": "react/react",
+      "kind": "ci",
+      "file": ".github/workflows/runtime_commit_artifacts.yml",
+      "line": 144,
+      "ref": "./compiled/facebook-www/unstable_server-external-runtime.js",
+      "path": "compiled/facebook-www/unstable_server-external-runtime.js",
+      "context": "job process_artifacts",
+      "evidence": [
+        ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/facebook-www/unstable_server-external-runtime.js' (working-directory: .)",
+        "same file name exists at packages/react-dom/unstable_server-external-runtime.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "packages/react-dom/unstable_server-external-runtime.js",
+      "confidence": 0.8,
+      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+    },
+    {
+      "repo": "react/react",
+      "kind": "ci",
+      "file": ".github/workflows/runtime_commit_artifacts.yml",
+      "line": 149,
+      "ref": "./compiled/babel-plugin-react-refresh/index.js",
+      "path": "compiled/babel-plugin-react-refresh/index.js",
+      "context": "job process_artifacts",
+      "evidence": [
+        ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/babel-plugin-react-refresh/index.js' (working-directory: .)"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.7,
+      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+    },
+    {
+      "repo": "react/react",
+      "kind": "import",
+      "file": "packages/react-dom-bindings/package.json",
+      "line": 6,
+      "ref": "index.js",
+      "path": "packages/react-dom-bindings/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "packages/react-dom-bindings/package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+    },
+    {
+      "repo": "react/react",
+      "kind": "doc",
+      "file": "compiler/packages/snap/src/sprout/README.md",
+      "line": 7,
+      "ref": "./src/SproutTodoFilter.ts",
+      "path": "compiler/packages/snap/src/sprout/src/SproutTodoFilter.ts",
+      "context": "Sprout is now enabled for all fixtures! If Sprout cannot execute your fixture due to some technical limitations, add your fixture to [`SproutTodoFilter.ts`](./src/SproutTodoFilter.ts) with a comment e",
+      "evidence": [
+        "compiler/packages/snap/src/sprout/README.md:7 links to ./src/SproutTodoFilter.ts",
+        "same file name exists at compiler/packages/snap/src/SproutTodoFilter.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "compiler/packages/snap/src/SproutTodoFilter.ts",
+      "confidence": 0.55,
+      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+    },
+    {
+      "repo": "react/react",
+      "kind": "doc",
+      "file": "scripts/release/README.md",
+      "line": 57,
+      "ref": "./actions/workflows/runtime_release_from_ci.yml",
+      "path": "scripts/release/actions/workflows/runtime_release_from_ci.yml",
+      "context": "Once the \"canary\" release has been tested and verified, you can promote it to stable by running the [Publish release](./actions/workflows/runtime_release_from_ci.yml) GitHub Action workflow. This work",
+      "evidence": [
+        "scripts/release/README.md:57 links to ./actions/workflows/runtime_release_from_ci.yml",
+        "same file name exists at .github/workflows/runtime_release_from_ci.yml"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/workflows/runtime_release_from_ci.yml",
+      "confidence": 0.55,
+      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "kind": "ci",
+      "file": ".github/workflows/publish.yml",
+      "line": 99,
+      "ref": "./packages/opencode/script/build.ts",
+      "path": "packages/opencode/script/build.ts",
+      "context": "job build-cli",
+      "evidence": [
+        ".github/workflows/publish.yml job 'build-cli' runs './packages/opencode/script/build.ts' (working-directory: .)"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.7,
+      "head_sha": "20a6cc72917586eb5314be075f96dbb21d16c480"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "kind": "script",
+      "file": "package.json",
+      "line": 10,
+      "ref": "src/index.ts",
+      "path": "src/index.ts",
+      "context": "script dev",
+      "evidence": [
+        "package.json script \"dev\": bun run --cwd packages/cli src/index.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "20a6cc72917586eb5314be075f96dbb21d16c480"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "kind": "script",
+      "file": "package.json",
+      "line": 12,
+      "ref": "dev/vite.ts",
+      "path": "dev/vite.ts",
+      "context": "script dev:vite",
+      "evidence": [
+        "package.json script \"dev:vite\": bun run --cwd packages/cli --conditions=browser dev/vite.ts",
+        "same file name exists at packages/cli/dev/vite.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "packages/cli/dev/vite.ts",
+      "confidence": 0.75,
+      "head_sha": "20a6cc72917586eb5314be075f96dbb21d16c480"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "kind": "script",
+      "file": "packages/app/package.json",
+      "line": 36,
+      "ref": "timeline/session-tab-switch-benchmark.spec.ts",
+      "path": "packages/app/timeline/session-tab-switch-benchmark.spec.ts",
+      "context": "script bench:tabs",
+      "evidence": [
+        "packages/app/package.json script \"bench:tabs\": PLAYWRIGHT_BUILD=1 playwright test --config e2e/performance/playwright.config.ts timeline/session-tab-switch-benchmark.spec.ts --repeat-each=20 --workers=1 --retries=0 --reporter=line,./e2e/performance/tab-switch-reporter.ts",
+        "same file name exists at packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts",
+      "confidence": 0.75,
+      "head_sha": "20a6cc72917586eb5314be075f96dbb21d16c480"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "kind": "script",
+      "file": "packages/app/package.json",
+      "line": 37,
+      "ref": "timeline/session-entry-benchmark.spec.ts",
+      "path": "packages/app/timeline/session-entry-benchmark.spec.ts",
+      "context": "script bench:entry",
+      "evidence": [
+        "packages/app/package.json script \"bench:entry\": PLAYWRIGHT_BUILD=1 playwright test --config e2e/performance/playwright.config.ts timeline/session-entry-benchmark.spec.ts --repeat-each=20 --workers=1 --retries=0 --reporter=line,./e2e/performance/tab-switch-reporter.ts",
+        "same file name exists at packages/app/e2e/performance/timeline/session-entry-benchmark.spec.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "packages/app/e2e/performance/timeline/session-entry-benchmark.spec.ts",
+      "confidence": 0.75,
+      "head_sha": "20a6cc72917586eb5314be075f96dbb21d16c480"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "kind": "script",
+      "file": "services/www/package.json",
+      "line": 10,
+      "ref": "script/schema.ts",
+      "path": "services/www/script/schema.ts",
+      "context": "script generate",
+      "evidence": [
+        "services/www/package.json script \"generate\": bun script/generate-openapi.ts && bun --cwd ../../packages/cli script/schema.ts ../../services/www/public/cli.json"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "20a6cc72917586eb5314be075f96dbb21d16c480"
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "kind": "doc",
+      "file": "packages/plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-variables.md",
+      "line": 35,
+      "ref": "../../figma-generate-library/references/token-creation.md",
+      "path": "packages/plugins/figma/skills/figma-use/figma-generate-library/references/token-creation.md",
+      "context": "`variable.scopes: VariableScope[]` specifies which properties in Figma the variable can be used for. This is important when you create and when you use variables. **Always set specific scopes rather t",
+      "evidence": [
+        "packages/plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-variables.md:35 links to ../../figma-generate-library/references/token-creation.md",
+        "same file name exists at packages/plugins/figma/skills/figma-generate-library/references/token-creation.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "packages/plugins/figma/skills/figma-generate-library/references/token-creation.md",
+      "confidence": 0.55,
+      "head_sha": "20a6cc72917586eb5314be075f96dbb21d16c480"
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "kind": "script",
+      "file": "packages/@n8n/ai-workflow-builder.ee/package.json",
+      "line": 29,
+      "ref": "src/tools/index.ts",
+      "path": "packages/@n8n/ai-workflow-builder.ee/src/tools/index.ts",
+      "context": "script deps:graph:tools",
+      "evidence": [
+        "packages/@n8n/ai-workflow-builder.ee/package.json script \"deps:graph:tools\": madge src/tools/index.ts --image deps-tools.svg"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "9a489b65ed539a042e819012558cfc6985aab78d"
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "kind": "doc",
+      "file": ".agents/skills/community-pr-readiness-check/SKILL.md",
+      "line": 298,
+      "ref": "../blob/master/.github/pull_request_template.md",
+      "path": ".agents/skills/blob/master/.github/pull_request_template.md",
+      "context": "> Thanks for the contribution! Per our [contributing guide](../blob/master/CONTRIBUTING.md#community-pr-guidelines) we ask for one focused change per PR. This PR bundles <N> unrelated fixes \u2014 please r",
+      "evidence": [
+        ".agents/skills/community-pr-readiness-check/SKILL.md:298 links to ../blob/master/.github/pull_request_template.md",
+        "same file name exists at .github/pull_request_template.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/pull_request_template.md",
+      "confidence": 0.55,
+      "head_sha": "9a489b65ed539a042e819012558cfc6985aab78d"
+    },
+    {
+      "repo": "tensorflow/tensorflow",
+      "kind": "doc",
+      "file": "tensorflow/lite/g3doc/performance/delegates.md",
+      "line": 76,
+      "ref": "nnapi.md",
+      "path": "tensorflow/lite/g3doc/performance/nnapi.md",
+      "context": "practices, see [TensorFlow Lite NNAPI delegate](nnapi.md).",
+      "evidence": [
+        "tensorflow/lite/g3doc/performance/delegates.md:76 links to nnapi.md",
+        "same file name exists at tensorflow/lite/g3doc/android/delegates/nnapi.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "tensorflow/lite/g3doc/android/delegates/nnapi.md",
+      "confidence": 0.55,
+      "head_sha": "14665b7f0b60bb47986eb566d8e51fc113c19a6a"
+    },
+    {
+      "repo": "trekhleb/javascript-algorithms",
+      "kind": "import",
+      "file": "package.json",
+      "line": 29,
+      "ref": "index.js",
+      "path": "index.js",
+      "context": "package.json main",
+      "evidence": [
+        "package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "85293e3e2b88f4d2ce330d956b139cf628aa1e82"
+    },
+    {
+      "repo": "trekhleb/javascript-algorithms",
+      "kind": "doc",
+      "file": "src/data-structures/lru-cache/README.ko-KR.md",
+      "line": 27,
+      "ref": "./**test**/LRUCache.test.js",
+      "path": "src/data-structures/lru-cache/**test**/LRUCache.test.js",
+      "context": "LRU \uce90\uc2dc\uac00 \uc5b4\ub5bb\uac8c \uc791\ub3d9\ud558\ub294\uc9c0 \ub354 \ub9ce\uc740 \uc608\uc2dc\ub85c \ud655\uc778\ud558\uace0 \uc2f6\ub2e4\uba74 LRUCache.test.js](./**test**/LRUCache.test.js) \ud30c\uc77c\uc744 \ucc38\uace0\ud558\uc138\uc694.",
+      "evidence": [
+        "src/data-structures/lru-cache/README.ko-KR.md:27 links to ./**test**/LRUCache.test.js",
+        "same file name exists at src/data-structures/lru-cache/__test__/LRUCache.test.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "src/data-structures/lru-cache/__test__/LRUCache.test.js",
+      "confidence": 0.55,
+      "head_sha": "85293e3e2b88f4d2ce330d956b139cf628aa1e82"
+    },
+    {
+      "repo": "firecrawl/firecrawl",
+      "kind": "import",
+      "file": "apps/api/native/package.json",
+      "line": 5,
+      "ref": "index.js",
+      "path": "apps/api/native/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "apps/api/native/package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "e1dc7a43954b1dd61eb7c7230363c62539a652b2"
+    },
+    {
+      "repo": "firecrawl/firecrawl",
+      "kind": "doc",
+      "file": "apps/test-suite/README.md",
+      "line": 33,
+      "ref": "../CONTRIBUTING.md",
+      "path": "apps/CONTRIBUTING.md",
+      "context": "Contributions to the test suite are welcome. Please refer to the project's main [CONTRIBUTING.md](../CONTRIBUTING.md) file for guidelines on how to contribute.",
+      "evidence": [
+        "apps/test-suite/README.md:33 links to ../CONTRIBUTING.md",
+        "same file name exists at CONTRIBUTING.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "CONTRIBUTING.md",
+      "confidence": 0.55,
+      "head_sha": "e1dc7a43954b1dd61eb7c7230363c62539a652b2"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "script",
+      "file": "extensions/copilot/chat-lib/package.json",
+      "line": 67,
+      "ref": "script/postinstall.js",
+      "path": "extensions/copilot/chat-lib/script/postinstall.js",
+      "context": "script postinstall",
+      "evidence": [
+        "extensions/copilot/chat-lib/package.json script \"postinstall\": tsx script/postinstall.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "script",
+      "file": "extensions/copilot/package.json",
+      "line": 6891,
+      "ref": "dotnet-install.sh",
+      "path": "extensions/copilot/dotnet-install.sh",
+      "context": "script setup:dotnet:darwin:linux",
+      "evidence": [
+        "extensions/copilot/package.json script \"setup:dotnet:darwin:linux\": curl -O https://raw.githubusercontent.com/dotnet/install-scripts/main/src/dotnet-install.sh && chmod u+x dotnet-install.sh && ./dotnet-install.sh --channel 10.0 && rm dotnet-install.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "script",
+      "file": "extensions/copilot/package.json",
+      "line": 6891,
+      "ref": "./dotnet-install.sh",
+      "path": "extensions/copilot/dotnet-install.sh",
+      "context": "script setup:dotnet:darwin:linux",
+      "evidence": [
+        "extensions/copilot/package.json script \"setup:dotnet:darwin:linux\": curl -O https://raw.githubusercontent.com/dotnet/install-scripts/main/src/dotnet-install.sh && chmod u+x dotnet-install.sh && ./dotnet-install.sh --channel 10.0 && rm dotnet-install.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "script",
+      "file": "extensions/copilot/package.json",
+      "line": 6892,
+      "ref": "./dotnet-install.ps1",
+      "path": "extensions/copilot/dotnet-install.ps1",
+      "context": "script setup:dotnet:win32",
+      "evidence": [
+        "extensions/copilot/package.json script \"setup:dotnet:win32\": powershell.exe -NoProfile -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -Uri https://raw.githubusercontent.com/dotnet/install-scripts/main/src/dotnet-install.ps1 -OutFile dotnet-install.ps1; ./dotnet-install.ps1 -channel 10.0; Remove-Item dotnet-install.ps1\""
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "script",
+      "file": "package.json",
+      "line": 65,
+      "ref": "test/index.js",
+      "path": "test/index.js",
+      "context": "script smoketest",
+      "evidence": [
+        "package.json script \"smoketest\": node build/lib/preLaunch.ts && cd test/smoke && npm run compile && node test/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "import",
+      "file": "test/integration/browser/package.json",
+      "line": 5,
+      "ref": "./index.js",
+      "path": "test/integration/browser/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "test/integration/browser/package.json \"main\" points to ./index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "import",
+      "file": "test/monaco/package.json",
+      "line": 4,
+      "ref": "index.js",
+      "path": "test/monaco/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "test/monaco/package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": ".github/instructions/buildNext.instructions.md",
+      "line": 42,
+      "ref": "nls-plugin.ts",
+      "path": ".github/instructions/nls-plugin.ts",
+      "context": "- **[nls-plugin.ts](nls-plugin.ts)** - NLS (localization) esbuild plugin",
+      "evidence": [
+        ".github/instructions/buildNext.instructions.md:42 links to nls-plugin.ts",
+        "same file name exists at build/next/nls-plugin.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "build/next/nls-plugin.ts",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": "build/agentHost/README.md",
+      "line": 22,
+      "ref": "../../License.txt",
+      "path": "License.txt",
+      "context": "The upstream schema descriptions and test vectors are Copyright GitHub, Inc., distributed under the MIT permission and warranty notice in the repository's [License.txt](../../License.txt). The generat",
+      "evidence": [
+        "build/agentHost/README.md:22 links to ../../License.txt",
+        "case mismatch: real file is LICENSE.txt"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "LICENSE.txt",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": "extensions/copilot/assets/prompts/skills/agent-customization/references/agents.md",
+      "line": 133,
+      "ref": "../hooks.md",
+      "path": "extensions/copilot/assets/prompts/skills/agent-customization/hooks.md",
+      "context": "Custom agents support inline `hooks` in frontmatter. These hooks execute shell commands at agent lifecycle points and are scoped to this agent only. The format matches standalone hook files (see [hook",
+      "evidence": [
+        "extensions/copilot/assets/prompts/skills/agent-customization/references/agents.md:133 links to ../hooks.md",
+        "same file name exists at extensions/copilot/assets/prompts/skills/agent-customization/references/hooks.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "extensions/copilot/assets/prompts/skills/agent-customization/references/hooks.md",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": "extensions/copilot/assets/prompts/skills/agent-customization/references/prompts.md",
+      "line": 44,
+      "ref": "./config.json",
+      "path": "extensions/copilot/assets/prompts/skills/agent-customization/references/config.json",
+      "context": "**Context references**: Use Markdown links for files (`[config](./config.json)`) and `#tool:<name>` for tools.",
+      "evidence": [
+        "extensions/copilot/assets/prompts/skills/agent-customization/references/prompts.md:44 links to ./config.json",
+        "same file name exists at extensions/copilot/test/pipeline/test/fixtures/config.json"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "extensions/copilot/test/pipeline/test/fixtures/config.json",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md",
+      "line": 129,
+      "ref": "vscode-node/components/expectedEditCaptureController.ts",
+      "path": "extensions/copilot/docs/vscode-node/components/expectedEditCaptureController.ts",
+      "context": "See `ExpectedEditCaptureController` in [vscode-node/components/expectedEditCaptureController.ts](vscode-node/components/expectedEditCaptureController.ts) for the full implementation.",
+      "evidence": [
+        "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md:129 links to vscode-node/components/expectedEditCaptureController.ts",
+        "same file name exists at extensions/copilot/src/extension/inlineEdits/vscode-node/components/expectedEditCaptureController.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/expectedEditCaptureController.ts",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md",
+      "line": 244,
+      "ref": "node/debugRecorder.ts",
+      "path": "extensions/copilot/docs/node/debugRecorder.ts",
+      "context": "- [node/debugRecorder.ts](node/debugRecorder.ts) - Core recording infrastructure",
+      "evidence": [
+        "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md:244 links to node/debugRecorder.ts",
+        "same file name exists at extensions/copilot/src/extension/inlineEdits/node/debugRecorder.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "extensions/copilot/src/extension/inlineEdits/node/debugRecorder.ts",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md",
+      "line": 245,
+      "ref": "vscode-node/components/inlineEditDebugComponent.ts",
+      "path": "extensions/copilot/docs/vscode-node/components/inlineEditDebugComponent.ts",
+      "context": "- [vscode-node/components/inlineEditDebugComponent.ts](vscode-node/components/inlineEditDebugComponent.ts) - Existing feedback/debug tooling and sensitive file filtering",
+      "evidence": [
+        "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md:245 links to vscode-node/components/inlineEditDebugComponent.ts",
+        "same file name exists at extensions/copilot/src/extension/inlineEdits/vscode-node/components/inlineEditDebugComponent.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/inlineEditDebugComponent.ts",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md",
+      "line": 247,
+      "ref": "vscode-node/components/nesFeedbackSubmitter.ts",
+      "path": "extensions/copilot/docs/vscode-node/components/nesFeedbackSubmitter.ts",
+      "context": "- [vscode-node/components/nesFeedbackSubmitter.ts](vscode-node/components/nesFeedbackSubmitter.ts) - Feedback submission to GitHub",
+      "evidence": [
+        "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md:247 links to vscode-node/components/nesFeedbackSubmitter.ts",
+        "same file name exists at extensions/copilot/src/extension/inlineEdits/vscode-node/components/nesFeedbackSubmitter.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/nesFeedbackSubmitter.ts",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md",
+      "line": 248,
+      "ref": "common/observableWorkspaceRecordingReplayer.ts",
+      "path": "extensions/copilot/docs/common/observableWorkspaceRecordingReplayer.ts",
+      "context": "- [common/observableWorkspaceRecordingReplayer.ts](common/observableWorkspaceRecordingReplayer.ts) - Recording replay logic",
+      "evidence": [
+        "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md:248 links to common/observableWorkspaceRecordingReplayer.ts",
+        "same file name exists at extensions/copilot/src/extension/inlineEdits/common/observableWorkspaceRecordingReplayer.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "extensions/copilot/src/extension/inlineEdits/common/observableWorkspaceRecordingReplayer.ts",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "microsoft/vscode",
+      "kind": "doc",
+      "file": "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md",
+      "line": 249,
+      "ref": "../../../test/simulation/inlineEdit/inlineEditTester.ts",
+      "path": "test/simulation/inlineEdit/inlineEditTester.ts",
+      "context": "- [../../../test/simulation/inlineEdit/inlineEditTester.ts](../../../test/simulation/inlineEdit/inlineEditTester.ts) - stest infrastructure",
+      "evidence": [
+        "extensions/copilot/docs/NES_EXPECTED_EDIT_CAPTURE.md:249 links to ../../../test/simulation/inlineEdit/inlineEditTester.ts",
+        "same file name exists at extensions/copilot/test/simulation/inlineEdit/inlineEditTester.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "extensions/copilot/test/simulation/inlineEdit/inlineEditTester.ts",
+      "confidence": 0.55,
+      "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "ci",
+      "file": ".github/workflows/classic-autogpt-docker-ci.yml",
+      "line": 89,
+      "ref": ".github/workflows/scripts/docker-ci-summary.sh",
+      "path": "classic/original_autogpt/.github/workflows/scripts/docker-ci-summary.sh",
+      "context": "job build",
+      "evidence": [
+        ".github/workflows/classic-autogpt-docker-ci.yml job 'build' runs '.github/workflows/scripts/docker-ci-summary.sh' (working-directory: classic/original_autogpt)",
+        "same file name exists at .github/workflows/scripts/docker-ci-summary.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/workflows/scripts/docker-ci-summary.sh",
+      "confidence": 0.8,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "ci",
+      "file": ".github/workflows/copilot-setup-steps.yml",
+      "line": 51,
+      "ref": "../../.github/workflows/scripts/get_package_version_from_lockfile.py",
+      "path": "../../.github/workflows/scripts/get_package_version_from_lockfile.py",
+      "context": "job copilot-setup-steps",
+      "evidence": [
+        ".github/workflows/copilot-setup-steps.yml job 'copilot-setup-steps' runs '../../.github/workflows/scripts/get_package_version_from_lockfile.py' (working-directory: .)",
+        "same file name exists at .github/workflows/scripts/get_package_version_from_lockfile.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/workflows/scripts/get_package_version_from_lockfile.py",
+      "confidence": 0.8,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "ci",
+      "file": ".github/workflows/docs-block-sync.yml",
+      "line": 82,
+      "ref": "../../.github/workflows/scripts/get_package_version_from_lockfile.py",
+      "path": "../../.github/workflows/scripts/get_package_version_from_lockfile.py",
+      "context": "job check-docs-sync",
+      "evidence": [
+        ".github/workflows/docs-block-sync.yml job 'check-docs-sync' runs '../../.github/workflows/scripts/get_package_version_from_lockfile.py' (working-directory: .)",
+        "same file name exists at .github/workflows/scripts/get_package_version_from_lockfile.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/workflows/scripts/get_package_version_from_lockfile.py",
+      "confidence": 0.8,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "script",
+      "file": "autogpt_platform/frontend/package.json",
+      "line": 12,
+      "ref": "server.js",
+      "path": "autogpt_platform/frontend/server.js",
+      "context": "script start:standalone",
+      "evidence": [
+        "autogpt_platform/frontend/package.json script \"start:standalone\": cd .next/standalone && node server.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "doc",
+      "file": "autogpt_platform/backend/AGENTS.md",
+      "line": 131,
+      "ref": "@../../docs/platform/contributing/managing-llm-models.md",
+      "path": "autogpt_platform/backend/docs/platform/contributing/managing-llm-models.md",
+      "context": "Model definitions, costs, and AutoPilot routing are catalog-as-code in `backend/data/llm_registry/catalog.py` \u2014 edit the file, open a PR (catalog-only diffs may ride `hotfix/*`\u2192`master` for incident-s",
+      "evidence": [
+        "autogpt_platform/backend/AGENTS.md:131 links to @../../docs/platform/contributing/managing-llm-models.md",
+        "same file name exists at docs/platform/contributing/managing-llm-models.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/platform/contributing/managing-llm-models.md",
+      "confidence": 0.55,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "doc",
+      "file": "autogpt_platform/backend/AGENTS.md",
+      "line": 141,
+      "ref": "@../../docs/platform/block-sdk-guide.md",
+      "path": "autogpt_platform/backend/docs/platform/block-sdk-guide.md",
+      "context": "Follow the comprehensive [Block SDK Guide](@../../docs/platform/block-sdk-guide.md) which covers:",
+      "evidence": [
+        "autogpt_platform/backend/AGENTS.md:141 links to @../../docs/platform/block-sdk-guide.md",
+        "same file name exists at docs/platform/block-sdk-guide.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/platform/block-sdk-guide.md",
+      "confidence": 0.55,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "doc",
+      "file": "classic/forge/forge/components/README.md",
+      "line": 3,
+      "ref": "./agents.md",
+      "path": "classic/forge/forge/components/agents.md",
+      "context": "Components are the building blocks of [\ud83e\udd16 Agents](./agents.md). They are classes inheriting `AgentComponent` or implementing one or more [\u2699\ufe0f Protocols](./protocols.md) that give agent additional abilit",
+      "evidence": [
+        "classic/forge/forge/components/README.md:3 links to ./agents.md",
+        "same file name exists at docs/content/forge/components/agents.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/content/forge/components/agents.md",
+      "confidence": 0.55,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "doc",
+      "file": "classic/forge/forge/components/README.md",
+      "line": 3,
+      "ref": "./protocols.md",
+      "path": "classic/forge/forge/components/protocols.md",
+      "context": "Components are the building blocks of [\ud83e\udd16 Agents](./agents.md). They are classes inheriting `AgentComponent` or implementing one or more [\u2699\ufe0f Protocols](./protocols.md) that give agent additional abilit",
+      "evidence": [
+        "classic/forge/forge/components/README.md:3 links to ./protocols.md",
+        "same file name exists at docs/content/forge/components/protocols.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/content/forge/components/protocols.md",
+      "confidence": 0.55,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "doc",
+      "file": "classic/forge/forge/components/README.md",
+      "line": 12,
+      "ref": "./built-in-components.md",
+      "path": "classic/forge/forge/components/built-in-components.md",
+      "context": "Visit [Built-in Components](./built-in-components.md) to see what components are available out of the box.",
+      "evidence": [
+        "classic/forge/forge/components/README.md:12 links to ./built-in-components.md",
+        "same file name exists at docs/content/forge/components/built-in-components.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/content/forge/components/built-in-components.md",
+      "confidence": 0.55,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "doc",
+      "file": "classic/forge/forge/components/README.md",
+      "line": 93,
+      "ref": "../../classic/setup/docker.md",
+      "path": "classic/forge/classic/setup/docker.md",
+      "context": "See [Docker Guide](../../classic/setup/docker.md) for more information.",
+      "evidence": [
+        "classic/forge/forge/components/README.md:93 links to ../../classic/setup/docker.md",
+        "same file name exists at docs/content/classic/setup/docker.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/content/classic/setup/docker.md",
+      "confidence": 0.55,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "doc",
+      "file": "classic/original_autogpt/autogpt/agents/README.md",
+      "line": 3,
+      "ref": "./components.md",
+      "path": "classic/original_autogpt/autogpt/agents/components.md",
+      "context": "Agent is composed of [\ud83e\udde9 Components](./components.md) and responsible for executing pipelines and some additional logic. The base class for all agents is `BaseAgent`, it has the necessary logic to coll",
+      "evidence": [
+        "classic/original_autogpt/autogpt/agents/README.md:3 links to ./components.md",
+        "same file name exists at docs/content/forge/components/components.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/content/forge/components/components.md",
+      "confidence": 0.55,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "doc",
+      "file": "classic/original_autogpt/autogpt/agents/README.md",
+      "line": 13,
+      "ref": "./built-in-components.md",
+      "path": "classic/original_autogpt/autogpt/agents/built-in-components.md",
+      "context": "`Agent` is the main agent provided by AutoGPT. It's a subclass of `BaseAgent`. It has all the [Built-in Components](./built-in-components.md). `Agent` implements the essential abstract methods from `B",
+      "evidence": [
+        "classic/original_autogpt/autogpt/agents/README.md:13 links to ./built-in-components.md",
+        "same file name exists at docs/content/forge/components/built-in-components.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/content/forge/components/built-in-components.md",
+      "confidence": 0.55,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "kind": "doc",
+      "file": "classic/original_autogpt/autogpt/agents/README.md",
+      "line": 17,
+      "ref": "./protocols.md",
+      "path": "classic/original_autogpt/autogpt/agents/protocols.md",
+      "context": "The easiest way to build your own agent is to extend the `Agent` class and add additional components. By doing this you can reuse the existing components and the default logic for executing [\u2699\ufe0f Protoc",
+      "evidence": [
+        "classic/original_autogpt/autogpt/agents/README.md:17 links to ./protocols.md",
+        "same file name exists at docs/content/forge/components/protocols.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/content/forge/components/protocols.md",
+      "confidence": 0.55,
+      "head_sha": "25511c503c73755c76a69c90889cdf9ce2f9e6d3"
+    },
+    {
+      "repo": "flutter/flutter",
+      "kind": "doc",
+      "file": "dev/integration_tests/android_hardware_smoke_test/README.md",
+      "line": 493,
+      "ref": "dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
+      "path": "dev/integration_tests/android_hardware_smoke_test/dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
+      "context": "([`run_android_hardware_smoke_tests.dart`](dev/bots/suite_runners/run_android_hardware_smoke_tests.dart))",
+      "evidence": [
+        "dev/integration_tests/android_hardware_smoke_test/README.md:493 links to dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
+        "same file name exists at dev/bots/suite_runners/run_android_hardware_smoke_tests.dart"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
+      "confidence": 0.55,
+      "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+    },
+    {
+      "repo": "flutter/flutter",
+      "kind": "doc",
+      "file": "docs/contributing/Tree-hygiene.md",
+      "line": 167,
+      "ref": "./contributing/Chat.md",
+      "path": "docs/contributing/contributing/Chat.md",
+      "context": "reach out on the [Discord](./contributing/Chat.md) #hackers channel.",
+      "evidence": [
+        "docs/contributing/Tree-hygiene.md:167 links to ./contributing/Chat.md",
+        "same file name exists at docs/contributing/Chat.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/contributing/Chat.md",
+      "confidence": 0.55,
+      "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+    },
+    {
+      "repo": "flutter/flutter",
+      "kind": "doc",
+      "file": "docs/contributing/testing/Fix-failing-checks.md",
+      "line": 84,
+      "ref": "../../Setting-up-the-Framework-development-environment.md",
+      "path": "docs/Setting-up-the-Framework-development-environment.md",
+      "context": "[setting up the framework dev environment](../../Setting-up-the-Framework-development-environment.md)",
+      "evidence": [
+        "docs/contributing/testing/Fix-failing-checks.md:84 links to ../../Setting-up-the-Framework-development-environment.md",
+        "same file name exists at docs/contributing/Setting-up-the-Framework-development-environment.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/contributing/Setting-up-the-Framework-development-environment.md",
+      "confidence": 0.55,
+      "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+    },
+    {
+      "repo": "flutter/flutter",
+      "kind": "doc",
+      "file": "docs/engine/impeller/docs/babys_first_triangle.md",
+      "line": 5,
+      "ref": "../renderer/renderer_unittests.cc",
+      "path": "docs/engine/impeller/renderer/renderer_unittests.cc",
+      "context": "A complete code example of this tutorial is in [`renderer_unittests.cc`](../renderer/renderer_unittests.cc) in `RendererTest.BabysFirstTriangle`.",
+      "evidence": [
+        "docs/engine/impeller/docs/babys_first_triangle.md:5 links to ../renderer/renderer_unittests.cc",
+        "same file name exists at engine/src/flutter/impeller/renderer/renderer_unittests.cc"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "engine/src/flutter/impeller/renderer/renderer_unittests.cc",
+      "confidence": 0.55,
+      "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+    },
+    {
+      "repo": "flutter/flutter",
+      "kind": "doc",
+      "file": "docs/engine/testing/Testing-the-engine.md",
+      "line": 146,
+      "ref": "../dev/Setting-up-the-Engine-development-environment.md",
+      "path": "docs/engine/dev/Setting-up-the-Engine-development-environment.md",
+      "context": "See [Setting-up-the-Engine-development-environment#using-vscode-as-an-ide-for-the-android-embedding-java](../dev/Setting-up-the-Engine-development-environment.md)",
+      "evidence": [
+        "docs/engine/testing/Testing-the-engine.md:146 links to ../dev/Setting-up-the-Engine-development-environment.md",
+        "same file name exists at docs/engine/contributing/Setting-up-the-Engine-development-environment.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/engine/contributing/Setting-up-the-Engine-development-environment.md",
+      "confidence": 0.55,
+      "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+    },
+    {
+      "repo": "flutter/flutter",
+      "kind": "doc",
+      "file": "docs/platforms/Hybrid-Composition.md",
+      "line": 9,
+      "ref": "Android-Platform-Views.md",
+      "path": "docs/platforms/Android-Platform-Views.md",
+      "context": "On Android, it is one of several modes for displaying platform views; see [Android Platform Views](Android-Platform-Views.md) for an overview of modes.",
+      "evidence": [
+        "docs/platforms/Hybrid-Composition.md:9 links to Android-Platform-Views.md",
+        "same file name exists at docs/platforms/android/Android-Platform-Views.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/platforms/android/Android-Platform-Views.md",
+      "confidence": 0.55,
+      "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+    },
+    {
+      "repo": "flutter/flutter",
+      "kind": "doc",
+      "file": "engine/src/README.md",
+      "line": 18,
+      "ref": "flutter/docs/testing/Testing-the-engine.md",
+      "path": "engine/src/flutter/docs/testing/Testing-the-engine.md",
+      "context": "To learn about running tests, see [testing the engine](flutter/docs/testing/Testing-the-engine.md).",
+      "evidence": [
+        "engine/src/README.md:18 links to flutter/docs/testing/Testing-the-engine.md",
+        "same file name exists at docs/engine/testing/Testing-the-engine.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/engine/testing/Testing-the-engine.md",
+      "confidence": 0.55,
+      "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+    },
+    {
+      "repo": "flutter/flutter",
+      "kind": "doc",
+      "file": "engine/src/flutter/testing/ios_scenario_app/ios/README.md",
+      "line": 28,
+      "ref": "../../../../ci/builders/mac_unopt.json",
+      "path": "engine/src/ci/builders/mac_unopt.json",
+      "context": "See [`ci/builders/mac_unopt.json`](../../../../ci/builders/mac_unopt.json), and",
+      "evidence": [
+        "engine/src/flutter/testing/ios_scenario_app/ios/README.md:28 links to ../../../../ci/builders/mac_unopt.json",
+        "same file name exists at engine/src/flutter/ci/builders/mac_unopt.json"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "engine/src/flutter/ci/builders/mac_unopt.json",
+      "confidence": 0.55,
+      "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+    },
+    {
+      "repo": "flutter/flutter",
+      "kind": "doc",
+      "file": "packages/flutter_tools/lib/src/android/README.md",
+      "line": 81,
+      "ref": "../../..test/general.shard/android/gradle_utils_test.dart",
+      "path": "packages/flutter_tools/lib/..test/general.shard/android/gradle_utils_test.dart",
+      "context": "- Update the test cases in [gradle_utils_test.dart](../../..test/general.shard/android/gradle_utils_test.dart) that test compatibility between Java and Gradle versions",
+      "evidence": [
+        "packages/flutter_tools/lib/src/android/README.md:81 links to ../../..test/general.shard/android/gradle_utils_test.dart",
+        "same file name exists at packages/flutter_tools/test/general.shard/android/gradle_utils_test.dart"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "packages/flutter_tools/test/general.shard/android/gradle_utils_test.dart",
+      "confidence": 0.55,
+      "head_sha": "2541e508405f5d9728286d6ed3307163a5406e08"
+    },
+    {
+      "repo": "huggingface/transformers",
+      "kind": "ci",
+      "file": ".github/workflows/add-model-like.yml",
+      "line": 71,
+      "ref": "tests/bert_new/test_modeling_bert_new.py",
+      "path": "tests/bert_new/test_modeling_bert_new.py",
+      "context": "job run_tests_templates_like",
+      "evidence": [
+        ".github/workflows/add-model-like.yml job 'run_tests_templates_like' runs 'tests/bert_new/test_modeling_bert_new.py' (working-directory: .)"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.7,
+      "head_sha": "50e35cc0ca18ec19b80653690de553e6decf74f5"
+    },
+    {
+      "repo": "huggingface/transformers",
+      "kind": "doc",
+      "file": "benchmark/README.md",
+      "line": 17,
+      "ref": "./llama.py",
+      "path": "benchmark/llama.py",
+      "context": "cf [`llama.py`](./llama.py) to see an example of this in practice.",
+      "evidence": [
+        "benchmark/README.md:17 links to ./llama.py",
+        "same file name exists at benchmark/benches/llama.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "benchmark/benches/llama.py",
+      "confidence": 0.55,
+      "head_sha": "50e35cc0ca18ec19b80653690de553e6decf74f5"
+    },
+    {
+      "repo": "langgenius/dify",
+      "kind": "ci",
+      "file": ".github/workflows/cli-e2e.yml",
+      "line": 376,
+      "ref": "test/e2e/suites/auth/use.e2e.ts",
+      "path": "cli/test/e2e/suites/auth/use.e2e.ts",
+      "context": "job suite-last",
+      "evidence": [
+        ".github/workflows/cli-e2e.yml job 'suite-last' runs 'test/e2e/suites/auth/use.e2e.ts' (working-directory: cli)"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.7,
+      "head_sha": "fecf1a20ce45ff1ff8cca19653f0000cf891415c"
+    },
+    {
+      "repo": "langgenius/dify",
+      "kind": "ci",
+      "file": ".github/workflows/cli-e2e.yml",
+      "line": 377,
+      "ref": "test/e2e/suites/auth/devices.e2e.ts",
+      "path": "cli/test/e2e/suites/auth/devices.e2e.ts",
+      "context": "job suite-last",
+      "evidence": [
+        ".github/workflows/cli-e2e.yml job 'suite-last' runs 'test/e2e/suites/auth/devices.e2e.ts' (working-directory: cli)"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.7,
+      "head_sha": "fecf1a20ce45ff1ff8cca19653f0000cf891415c"
+    },
+    {
+      "repo": "langgenius/dify",
+      "kind": "ci",
+      "file": ".github/workflows/cli-e2e.yml",
+      "line": 378,
+      "ref": "test/e2e/suites/auth/logout.e2e.ts",
+      "path": "cli/test/e2e/suites/auth/logout.e2e.ts",
+      "context": "job suite-last",
+      "evidence": [
+        ".github/workflows/cli-e2e.yml job 'suite-last' runs 'test/e2e/suites/auth/logout.e2e.ts' (working-directory: cli)"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.7,
+      "head_sha": "fecf1a20ce45ff1ff8cca19653f0000cf891415c"
+    },
+    {
+      "repo": "langflow-ai/langflow",
+      "kind": "ci",
+      "file": ".github/workflows/cross-platform-test.yml",
+      "line": 418,
+      "ref": "auth-smoke/scripts/ci/check_authentication.py",
+      "path": "auth-smoke/scripts/ci/check_authentication.py",
+      "context": "job test-installation-stable",
+      "evidence": [
+        ".github/workflows/cross-platform-test.yml job 'test-installation-stable' runs 'auth-smoke/scripts/ci/check_authentication.py' (working-directory: .)",
+        "same file name exists at scripts/ci/check_authentication.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci/check_authentication.py",
+      "confidence": 0.8,
+      "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
+    },
+    {
+      "repo": "langflow-ai/langflow",
+      "kind": "ci",
+      "file": ".github/workflows/smoke-tests.yml",
+      "line": 55,
+      "ref": "src/backend/tests/unit/components/languagemodels/test_openai_model.py",
+      "path": "src/backend/tests/unit/components/languagemodels/test_openai_model.py",
+      "context": "job backend-smoke-tests",
+      "evidence": [
+        ".github/workflows/smoke-tests.yml job 'backend-smoke-tests' runs 'src/backend/tests/unit/components/languagemodels/test_openai_model.py' (working-directory: .)",
+        "same file name exists at src/bundles/openai/tests/test_openai_model.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "src/bundles/openai/tests/test_openai_model.py",
+      "confidence": 0.8,
+      "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
+    },
+    {
+      "repo": "langflow-ai/langflow",
+      "kind": "ci",
+      "file": ".github/workflows/smoke-tests.yml",
+      "line": 56,
+      "ref": "src/backend/tests/unit/components/agents/test_agent_component.py",
+      "path": "src/backend/tests/unit/components/agents/test_agent_component.py",
+      "context": "job backend-smoke-tests",
+      "evidence": [
+        ".github/workflows/smoke-tests.yml job 'backend-smoke-tests' runs 'src/backend/tests/unit/components/agents/test_agent_component.py' (working-directory: .)",
+        "same file name exists at src/backend/tests/unit/components/models_and_agents/test_agent_component.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "src/backend/tests/unit/components/models_and_agents/test_agent_component.py",
+      "confidence": 0.8,
+      "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
+    },
+    {
+      "repo": "langflow-ai/langflow",
+      "kind": "script",
+      "file": "src/frontend/package.json",
+      "line": 175,
+      "ref": "scripts/lint-changed.sh",
+      "path": "src/frontend/scripts/lint-changed.sh",
+      "context": "script lint:changed",
+      "evidence": [
+        "src/frontend/package.json script \"lint:changed\": bash scripts/lint-changed.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
+    },
+    {
+      "repo": "langflow-ai/langflow",
+      "kind": "doc",
+      "file": "docs/features/langflow-assistant-mcp.md",
+      "line": 7,
+      "ref": "../../src/backend/base/langflow/agentic/ARCHITECTURE.md",
+      "path": "src/backend/base/langflow/agentic/ARCHITECTURE.md",
+      "context": "> Companion documents: [`langflow-assistant.md`](./langflow-assistant.md) \u2014 read first for base Assistant concepts (session model, SSE pipeline, provider configuration, off-topic guardrails); [`../../",
+      "evidence": [
+        "docs/features/langflow-assistant-mcp.md:7 links to ../../src/backend/base/langflow/agentic/ARCHITECTURE.md",
+        "same file name exists at docs/agents/ARCHITECTURE.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "docs/agents/ARCHITECTURE.md",
+      "confidence": 0.55,
+      "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.7.0-en.md",
+      "line": 425,
+      "ref": "../CHANGELOG.md",
+      "path": "docs/CHANGELOG.md",
+      "context": "- **Changelog**: [CHANGELOG.md](../CHANGELOG.md)",
+      "evidence": [
+        "docs/release-notes/v3.7.0-en.md:425 links to ../CHANGELOG.md",
+        "same file name exists at CHANGELOG.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "CHANGELOG.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.7.0-zh.md",
+      "line": 424,
+      "ref": "../README_ZH.md",
+      "path": "docs/README_ZH.md",
+      "context": "- **\u6587\u6863**\uff1a[README](../README_ZH.md)",
+      "evidence": [
+        "docs/release-notes/v3.7.0-zh.md:424 links to ../README_ZH.md",
+        "same file name exists at README_ZH.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "README_ZH.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.7.0-zh.md",
+      "line": 425,
+      "ref": "../CHANGELOG.md",
+      "path": "docs/CHANGELOG.md",
+      "context": "- **\u66f4\u65b0\u65e5\u5fd7**\uff1a[CHANGELOG.md](../CHANGELOG.md)",
+      "evidence": [
+        "docs/release-notes/v3.7.0-zh.md:425 links to ../CHANGELOG.md",
+        "same file name exists at CHANGELOG.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "CHANGELOG.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.7.1-en.md",
+      "line": 467,
+      "ref": "../CHANGELOG.md",
+      "path": "docs/CHANGELOG.md",
+      "context": "- **Changelog**: [CHANGELOG.md](../CHANGELOG.md)",
+      "evidence": [
+        "docs/release-notes/v3.7.1-en.md:467 links to ../CHANGELOG.md",
+        "same file name exists at CHANGELOG.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "CHANGELOG.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.7.1-zh.md",
+      "line": 466,
+      "ref": "../README_ZH.md",
+      "path": "docs/README_ZH.md",
+      "context": "- **\u6587\u6863**\uff1a[README](../README_ZH.md)",
+      "evidence": [
+        "docs/release-notes/v3.7.1-zh.md:466 links to ../README_ZH.md",
+        "same file name exists at README_ZH.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "README_ZH.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.7.1-zh.md",
+      "line": 467,
+      "ref": "../CHANGELOG.md",
+      "path": "docs/CHANGELOG.md",
+      "context": "- **\u66f4\u65b0\u65e5\u5fd7**\uff1a[CHANGELOG.md](../CHANGELOG.md)",
+      "evidence": [
+        "docs/release-notes/v3.7.1-zh.md:467 links to ../CHANGELOG.md",
+        "same file name exists at CHANGELOG.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "CHANGELOG.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.8.0-en.md",
+      "line": 355,
+      "ref": "../CHANGELOG.md",
+      "path": "docs/CHANGELOG.md",
+      "context": "- **Changelog**: [CHANGELOG.md](../CHANGELOG.md)",
+      "evidence": [
+        "docs/release-notes/v3.8.0-en.md:355 links to ../CHANGELOG.md",
+        "same file name exists at CHANGELOG.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "CHANGELOG.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.8.0-ja.md",
+      "line": 301,
+      "ref": "../CHANGELOG.md",
+      "path": "docs/CHANGELOG.md",
+      "context": "- **\u66f4\u65b0\u5c65\u6b74**: [CHANGELOG.md](../CHANGELOG.md)",
+      "evidence": [
+        "docs/release-notes/v3.8.0-ja.md:301 links to ../CHANGELOG.md",
+        "same file name exists at CHANGELOG.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "CHANGELOG.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.8.0-zh.md",
+      "line": 354,
+      "ref": "../README_ZH.md",
+      "path": "docs/README_ZH.md",
+      "context": "- **\u6587\u6863**\uff1a[README](../README_ZH.md)",
+      "evidence": [
+        "docs/release-notes/v3.8.0-zh.md:354 links to ../README_ZH.md",
+        "same file name exists at README_ZH.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "README_ZH.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "kind": "doc",
+      "file": "docs/release-notes/v3.8.0-zh.md",
+      "line": 355,
+      "ref": "../CHANGELOG.md",
+      "path": "docs/CHANGELOG.md",
+      "context": "- **\u66f4\u65b0\u65e5\u5fd7**\uff1a[CHANGELOG.md](../CHANGELOG.md)",
+      "evidence": [
+        "docs/release-notes/v3.8.0-zh.md:355 links to ../CHANGELOG.md",
+        "same file name exists at CHANGELOG.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "CHANGELOG.md",
+      "confidence": 0.55,
+      "head_sha": "309c9c5154e6d7f19b64ab4da6041da323ff9a42"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "script",
+      "file": ".github/actions/needs-triage/package.json",
+      "line": 8,
+      "ref": "lib/index.js",
+      "path": ".github/actions/needs-triage/lib/index.js",
+      "context": "script build",
+      "evidence": [
+        ".github/actions/needs-triage/package.json script \"build\": pnpm types && ncc build lib/index.js -m -o dist --license licenses.txt"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "script",
+      "file": "examples/with-edgedb/package.json",
+      "line": 7,
+      "ref": "dbschema/seed.ts",
+      "path": "examples/with-edgedb/dbschema/seed.ts",
+      "context": "script seed",
+      "evidence": [
+        "examples/with-edgedb/package.json script \"seed\": ts-node dbschema/seed.ts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.55,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "script",
+      "file": "package.json",
+      "line": 9,
+      "ref": "../../scripts/rm.mjs",
+      "path": "../../scripts/rm.mjs",
+      "context": "script clean",
+      "evidence": [
+        "package.json script \"clean\": pnpm --filter \"./packages/**\" run clean && pnpm --filter \"./packages/**\" exec node ../../scripts/rm.mjs dist node_modules",
+        "same file name exists at scripts/rm.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/rm.mjs",
+      "confidence": 0.75,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/darwin-arm64/package.json",
+      "line": 15,
+      "ref": "next-swc.darwin-arm64.node",
+      "path": "crates/next-napi-bindings/npm/darwin-arm64/next-swc.darwin-arm64.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/darwin-arm64/package.json \"main\" points to next-swc.darwin-arm64.node"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/darwin-x64/package.json",
+      "line": 15,
+      "ref": "next-swc.darwin-x64.node",
+      "path": "crates/next-napi-bindings/npm/darwin-x64/next-swc.darwin-x64.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/darwin-x64/package.json \"main\" points to next-swc.darwin-x64.node"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/linux-arm64-gnu/package.json",
+      "line": 18,
+      "ref": "next-swc.linux-arm64-gnu.node",
+      "path": "crates/next-napi-bindings/npm/linux-arm64-gnu/next-swc.linux-arm64-gnu.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/linux-arm64-gnu/package.json \"main\" points to next-swc.linux-arm64-gnu.node"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/linux-arm64-musl/package.json",
+      "line": 18,
+      "ref": "next-swc.linux-arm64-musl.node",
+      "path": "crates/next-napi-bindings/npm/linux-arm64-musl/next-swc.linux-arm64-musl.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/linux-arm64-musl/package.json \"main\" points to next-swc.linux-arm64-musl.node"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/linux-x64-gnu/package.json",
+      "line": 18,
+      "ref": "next-swc.linux-x64-gnu.node",
+      "path": "crates/next-napi-bindings/npm/linux-x64-gnu/next-swc.linux-x64-gnu.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/linux-x64-gnu/package.json \"main\" points to next-swc.linux-x64-gnu.node"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/linux-x64-musl/package.json",
+      "line": 18,
+      "ref": "next-swc.linux-x64-musl.node",
+      "path": "crates/next-napi-bindings/npm/linux-x64-musl/next-swc.linux-x64-musl.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/linux-x64-musl/package.json \"main\" points to next-swc.linux-x64-musl.node"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/win32-arm64-msvc/package.json",
+      "line": 15,
+      "ref": "next-swc.win32-arm64-msvc.node",
+      "path": "crates/next-napi-bindings/npm/win32-arm64-msvc/next-swc.win32-arm64-msvc.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/win32-arm64-msvc/package.json \"main\" points to next-swc.win32-arm64-msvc.node"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/win32-x64-msvc/package.json",
+      "line": 15,
+      "ref": "next-swc.win32-x64-msvc.node",
+      "path": "crates/next-napi-bindings/npm/win32-x64-msvc/next-swc.win32-x64-msvc.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/win32-x64-msvc/package.json \"main\" points to next-swc.win32-x64-msvc.node"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "examples/with-electron-typescript/package.json",
+      "line": 3,
+      "ref": "main/index.js",
+      "path": "examples/with-electron-typescript/main/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "examples/with-electron-typescript/package.json \"main\" points to main/index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.5,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "test/production/non-next-dist-exclude/app/package.json",
+      "line": 4,
+      "ref": "index.js",
+      "path": "test/production/non-next-dist-exclude/app/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "test/production/non-next-dist-exclude/app/package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "test/production/typeof-window-replace/app/package.json",
+      "line": 4,
+      "ref": "index.js",
+      "path": "test/production/typeof-window-replace/app/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "test/production/typeof-window-replace/app/package.json \"main\" points to index.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/package.json",
+      "line": 5,
+      "ref": "actual.js",
+      "path": "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/actual.js",
+      "context": "package.json main",
+      "evidence": [
+        "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/package.json \"main\" points to actual.js"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "a831acd90b7bb80cd284d3e7727ab8e1a0756991"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/stable-release.yml",
+      "line": 175,
+      "ref": "ComfyUI/main.py",
+      "path": "ComfyUI/main.py",
+      "context": "job package_comfy_windows",
+      "evidence": [
+        ".github/workflows/stable-release.yml job 'package_comfy_windows' runs 'ComfyUI/main.py' (working-directory: .)",
+        "same file name exists at main.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "main.py",
+      "confidence": 0.8,
+      "head_sha": "7cebca52227c63b4180ceed448cbd7ad22903b6d"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/stable-release.yml",
+      "line": 177,
+      "ref": "./update/update.py",
+      "path": "update/update.py",
+      "context": "job package_comfy_windows",
+      "evidence": [
+        ".github/workflows/stable-release.yml job 'package_comfy_windows' runs './update/update.py' (working-directory: .)",
+        "same file name exists at .ci/update_windows/update.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".ci/update_windows/update.py",
+      "confidence": 0.8,
+      "head_sha": "7cebca52227c63b4180ceed448cbd7ad22903b6d"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/windows_release_nightly_pytorch.yml",
+      "line": 83,
+      "ref": "ComfyUI/main.py",
+      "path": "ComfyUI/main.py",
+      "context": "job build",
+      "evidence": [
+        ".github/workflows/windows_release_nightly_pytorch.yml job 'build' runs 'ComfyUI/main.py' (working-directory: .)",
+        "same file name exists at main.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "main.py",
+      "confidence": 0.8,
+      "head_sha": "7cebca52227c63b4180ceed448cbd7ad22903b6d"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/windows_release_package.yml",
+      "line": 93,
+      "ref": "ComfyUI/main.py",
+      "path": "ComfyUI/main.py",
+      "context": "job package_comfyui",
+      "evidence": [
+        ".github/workflows/windows_release_package.yml job 'package_comfyui' runs 'ComfyUI/main.py' (working-directory: .)",
+        "same file name exists at main.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "main.py",
+      "confidence": 0.8,
+      "head_sha": "7cebca52227c63b4180ceed448cbd7ad22903b6d"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/windows_release_package.yml",
+      "line": 95,
+      "ref": "./update/update.py",
+      "path": "update/update.py",
+      "context": "job package_comfyui",
+      "evidence": [
+        ".github/workflows/windows_release_package.yml job 'package_comfyui' runs './update/update.py' (working-directory: .)",
+        "same file name exists at .ci/update_windows/update.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".ci/update_windows/update.py",
+      "confidence": 0.8,
+      "head_sha": "7cebca52227c63b4180ceed448cbd7ad22903b6d"
+    },
+    {
+      "repo": "iptv-org/iptv",
+      "kind": "doc",
+      "file": "docs/scripts.md",
+      "line": 208,
+      "ref": "PLAYLISTS.md",
+      "path": "docs/PLAYLISTS.md",
+      "context": "Updates the configuration and list of available streams in [PLAYLISTS.md](PLAYLISTS.md).",
+      "evidence": [
+        "docs/scripts.md:208 links to PLAYLISTS.md",
+        "same file name exists at PLAYLISTS.md"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "PLAYLISTS.md",
+      "confidence": 0.55,
+      "head_sha": "37a51365d85fefc456ad0864bae4a1752292cd70"
+    }
+  ]
+}
