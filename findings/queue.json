@@ -5,7 +5,7 @@
       "id": "01cfae63c531",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -22,7 +22,8 @@
         "path": "packages/api/remote-access/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/remote-access/package.json \"main\" points to lib/index.js"
+          "packages/api/remote-access/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -35,7 +36,7 @@
       "id": "02f5af930d1b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -59,14 +60,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/find-reusable-release-child.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "048dbcceb203": {
       "id": "048dbcceb203",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -83,7 +84,8 @@
         "path": "crates/next-napi-bindings/npm/linux-arm64-musl/next-swc.linux-arm64-musl.node",
         "context": "package.json main",
         "evidence": [
-          "crates/next-napi-bindings/npm/linux-arm64-musl/package.json \"main\" points to next-swc.linux-arm64-musl.node"
+          "crates/next-napi-bindings/npm/linux-arm64-musl/package.json \"main\" points to next-swc.linux-arm64-musl.node",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -96,7 +98,7 @@
       "id": "054de9b1e75a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -114,7 +116,8 @@
         "context": "script dev:vite",
         "evidence": [
           "package.json script \"dev:vite\": bun run --cwd packages/cli --conditions=browser dev/vite.ts",
-          "same file name exists at packages/cli/dev/vite.ts"
+          "same file name exists at packages/cli/dev/vite.ts",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -165,7 +168,7 @@
       "id": "087894938e3f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -183,7 +186,8 @@
         "context": "script bench:tabs",
         "evidence": [
           "packages/app/package.json script \"bench:tabs\": PLAYWRIGHT_BUILD=1 playwright test --config e2e/performance/playwright.config.ts timeline/session-tab-switch-benchmark.spec.ts --repeat-each=20 --workers=1 --retries=0 --reporter=line,./e2e/performance/tab-switch-reporter.ts",
-          "same file name exists at packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts"
+          "same file name exists at packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -196,7 +200,7 @@
       "id": "09b7bac1a835",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -226,7 +230,7 @@
       "id": "0aa9d71b2a2b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -243,7 +247,8 @@
         "path": "tools/scripts/seed-exams/none",
         "context": "package.json main",
         "evidence": [
-          "tools/scripts/seed-exams/package.json \"main\" points to none"
+          "tools/scripts/seed-exams/package.json \"main\" points to none",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -256,7 +261,7 @@
       "id": "0d2b33ad621f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -274,20 +279,21 @@
         "context": "job check-shard",
         "evidence": [
           ".github/workflows/ci.yml job 'check-shard' runs '.ci-harness/scripts/ci-npm-lock-admission.mjs' (working-directory: .)",
-          "same file name exists at scripts/ci-npm-lock-admission.mjs"
+          "same file name exists at scripts/ci-npm-lock-admission.mjs",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/ci-npm-lock-admission.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "11746b9fe11a": {
       "id": "11746b9fe11a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -304,7 +310,8 @@
         "path": "tests/bert_new/test_modeling_bert_new.py",
         "context": "job run_tests_templates_like",
         "evidence": [
-          ".github/workflows/add-model-like.yml job 'run_tests_templates_like' runs 'tests/bert_new/test_modeling_bert_new.py' (working-directory: .)"
+          ".github/workflows/add-model-like.yml job 'run_tests_templates_like' runs 'tests/bert_new/test_modeling_bert_new.py' (working-directory: .)",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -355,7 +362,7 @@
       "id": "1540b7d55a3c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -379,14 +386,14 @@
         "deleted_in": null,
         "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "166f0558c40a": {
       "id": "166f0558c40a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -404,12 +411,13 @@
         "context": "project.scripts.ynl-ethtool",
         "evidence": [
           "tools/net/ynl/pyproject.toml [project.scripts] ynl-ethtool = 'pyynl.ethtool:main': module pyynl.ethtool not found",
-          "same file name exists at tools/net/ynl/tests/ethtool.py"
+          "same file name exists at tools/net/ynl/tests/ethtool.py",
+          "last touched by 22ef8a263c (2026-04-12T18:23:49Z): tools: ynl: move ethtool.py to selftest; recover from parent 5acd07df86"
         ],
-        "recovery_sha": null,
-        "deleted_in": null,
+        "recovery_sha": "5acd07df8683371161969a7bb43f4a5b33e74870",
+        "deleted_in": "22ef8a263c17f02176e3a322b76da07411092c17",
         "live_alternative": "tools/net/ynl/tests/ethtool.py",
-        "confidence": 0.7,
+        "confidence": 0.9,
         "head_sha": "5b0764a53235d3c77e1ed674e836e1b3fe1a4b1f"
       }
     },
@@ -417,7 +425,7 @@
       "id": "174be4b4a7a8",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -448,7 +456,7 @@
       "id": "186a8958b7cf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -465,12 +473,13 @@
         "path": "cli/test/e2e/suites/auth/logout.e2e.ts",
         "context": "job suite-last",
         "evidence": [
-          ".github/workflows/cli-e2e.yml job 'suite-last' runs 'test/e2e/suites/auth/logout.e2e.ts' (working-directory: cli)"
+          ".github/workflows/cli-e2e.yml job 'suite-last' runs 'test/e2e/suites/auth/logout.e2e.ts' (working-directory: cli)",
+          "last touched by a4524c215f (2026-09-30T01:58:58Z): feat(cli): difyctl v2 over the server catalog (#42608); recover from parent 96abb8ea22"
         ],
-        "recovery_sha": null,
-        "deleted_in": null,
+        "recovery_sha": "96abb8ea220b5d17a2ef2958d94ffbf60d1cf950",
+        "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
         "live_alternative": null,
-        "confidence": 0.7,
+        "confidence": 0.9,
         "head_sha": "fecf1a20ce45ff1ff8cca19653f0000cf891415c"
       }
     },
@@ -478,7 +487,7 @@
       "id": "18ee9448da83",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -496,7 +505,8 @@
         "context": "job process_artifacts",
         "evidence": [
           ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/facebook-www/unstable_server-external-runtime.js' (working-directory: .)",
-          "same file name exists at packages/react-dom/unstable_server-external-runtime.js"
+          "same file name exists at packages/react-dom/unstable_server-external-runtime.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -509,7 +519,7 @@
       "id": "19a5e2d995ce",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -539,7 +549,7 @@
       "id": "1a1c4ccc3ce2",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -556,7 +566,8 @@
         "path": "crates/next-napi-bindings/npm/linux-arm64-gnu/next-swc.linux-arm64-gnu.node",
         "context": "package.json main",
         "evidence": [
-          "crates/next-napi-bindings/npm/linux-arm64-gnu/package.json \"main\" points to next-swc.linux-arm64-gnu.node"
+          "crates/next-napi-bindings/npm/linux-arm64-gnu/package.json \"main\" points to next-swc.linux-arm64-gnu.node",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -569,7 +580,7 @@
       "id": "1ab2a5e37d88",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -593,14 +604,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "1d8ffffaf98f": {
       "id": "1d8ffffaf98f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -668,7 +679,7 @@
       "id": "1eb570cfff74",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -685,7 +696,8 @@
         "path": "packages/api/job-controller/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/job-controller/package.json \"main\" points to lib/index.js"
+          "packages/api/job-controller/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -698,7 +710,7 @@
       "id": "203e5c9d144d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -715,7 +727,8 @@
         "path": "examples/with-electron-typescript/main/index.js",
         "context": "package.json main",
         "evidence": [
-          "examples/with-electron-typescript/package.json \"main\" points to main/index.js"
+          "examples/with-electron-typescript/package.json \"main\" points to main/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -728,7 +741,7 @@
       "id": "214cb444215d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -758,7 +771,7 @@
       "id": "22dfa662f099",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -776,7 +789,8 @@
         "context": "- **\u6587\u6863**\uff1a[README](../README_ZH.md)",
         "evidence": [
           "docs/release-notes/v3.7.0-zh.md:424 links to ../README_ZH.md",
-          "same file name exists at README_ZH.md"
+          "same file name exists at README_ZH.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -789,7 +803,7 @@
       "id": "251dd2d3da16",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -820,7 +834,7 @@
       "id": "25b72eaa60ef",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -837,20 +851,21 @@
         "path": "extensions/copilot/dotnet-install.ps1",
         "context": "script setup:dotnet:win32",
         "evidence": [
-          "extensions/copilot/package.json script \"setup:dotnet:win32\": powershell.exe -NoProfile -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -Uri https://raw.githubusercontent.com/dotnet/install-scripts/main/src/dotnet-install.ps1 -OutFile dotnet-install.ps1; ./dotnet-install.ps1 -channel 10.0; Remove-Item dotnet-install.ps1\""
+          "extensions/copilot/package.json script \"setup:dotnet:win32\": powershell.exe -NoProfile -ExecutionPolicy Bypass -Command \"Invoke-WebRequest -Uri https://raw.githubusercontent.com/dotnet/install-scripts/main/src/dotnet-install.ps1 -OutFile dotnet-install.ps1; ./dotnet-install.ps1 -channel 10.0; Remove-Item dotnet-install.ps1\"",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "26cec9374c26": {
       "id": "26cec9374c26",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -881,7 +896,7 @@
       "id": "27da8b09d41a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -898,7 +913,8 @@
         "path": "apps/cli/lib/bin.js",
         "context": "package.json bin.dsh",
         "evidence": [
-          "apps/cli/package.json \"bin.dsh\" points to lib/bin.js"
+          "apps/cli/package.json \"bin.dsh\" points to lib/bin.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -911,7 +927,7 @@
       "id": "292e9cef83a5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -935,14 +951,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/check-docs-mdx.mts",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "2d4321053809": {
       "id": "2d4321053809",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -959,7 +975,8 @@
         "path": "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/actual.js",
         "context": "package.json main",
         "evidence": [
-          "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/package.json \"main\" points to actual.js"
+          "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/package.json \"main\" points to actual.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -972,7 +989,7 @@
       "id": "2dea5f2b300d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1003,7 +1020,7 @@
       "id": "2e8ac7dd0843",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1033,7 +1050,7 @@
       "id": "2ff5a6aa8333",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1063,7 +1080,7 @@
       "id": "310e335058e9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1090,11 +1107,42 @@
         "head_sha": "99fcd6944360925943688d30c39ec9a490ccdeb1"
       }
     },
+    "334da1587b3b": {
+      "id": "334da1587b3b",
+      "state": "new",
+      "first_seen": "2026-10-24T15:02:25Z",
+      "last_seen": "2026-10-24T15:02:25Z",
+      "history": [
+        {
+          "at": "2026-10-24T15:02:25Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "tensorflow/tensorflow",
+        "kind": "doc",
+        "file": "tensorflow/lite/g3doc/performance/delegates.md",
+        "line": 80,
+        "ref": "hexagon_delegate.md",
+        "path": "tensorflow/lite/g3doc/performance/hexagon_delegate.md",
+        "context": "NNAPI. See [TensorFlow Lite Hexagon delegate](hexagon_delegate.md) for more",
+        "evidence": [
+          "tensorflow/lite/g3doc/performance/delegates.md:80 links to hexagon_delegate.md",
+          "last touched by ee6edaaeb0 (2022-04-15T18:40:40Z): Consolidating Android content in /lite/android directory; recover from parent d1ae20fa55"
+        ],
+        "recovery_sha": "d1ae20fa559cb5e5c0fd4dc8568e2495f5742c72",
+        "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
+        "live_alternative": null,
+        "confidence": 0.65,
+        "head_sha": "14665b7f0b60bb47986eb566d8e51fc113c19a6a"
+      }
+    },
     "34e887eea650": {
       "id": "34e887eea650",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1125,7 +1173,7 @@
       "id": "38163269801d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1142,7 +1190,8 @@
         "path": "services/www/script/schema.ts",
         "context": "script generate",
         "evidence": [
-          "services/www/package.json script \"generate\": bun script/generate-openapi.ts && bun --cwd ../../packages/cli script/schema.ts ../../services/www/public/cli.json"
+          "services/www/package.json script \"generate\": bun script/generate-openapi.ts && bun --cwd ../../packages/cli script/schema.ts ../../services/www/public/cli.json",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -1155,7 +1204,7 @@
       "id": "38302bdc0ba5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1173,20 +1222,21 @@
         "context": "job security-fast",
         "evidence": [
           ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh' (working-directory: .)",
-          "same file name exists at .github/actions/setup-pnpm-store-cache/ensure-node.sh"
+          "same file name exists at .github/actions/setup-pnpm-store-cache/ensure-node.sh",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "394c3d2e3b4e": {
       "id": "394c3d2e3b4e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1216,7 +1266,7 @@
       "id": "3985c53bbf7f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1246,7 +1296,7 @@
       "id": "3a2605275c6d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1263,7 +1313,8 @@
         "path": "packages/attachment/attachment-local/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/attachment/attachment-local/package.json \"main\" points to lib/index.js"
+          "packages/attachment/attachment-local/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -1276,7 +1327,7 @@
       "id": "3bc2d1595eba",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1293,20 +1344,21 @@
         "path": "extensions/copilot/chat-lib/script/postinstall.js",
         "context": "script postinstall",
         "evidence": [
-          "extensions/copilot/chat-lib/package.json script \"postinstall\": tsx script/postinstall.js"
+          "extensions/copilot/chat-lib/package.json script \"postinstall\": tsx script/postinstall.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "3ff1d8689c6f": {
       "id": "3ff1d8689c6f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1330,14 +1382,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/github/resolve-openclaw-ref.sh",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "4137ab9fc93c": {
       "id": "4137ab9fc93c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1361,14 +1413,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/node/debugRecorder.ts",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "440225205696": {
       "id": "440225205696",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1386,12 +1438,13 @@
         "context": "practices, see [TensorFlow Lite NNAPI delegate](nnapi.md).",
         "evidence": [
           "tensorflow/lite/g3doc/performance/delegates.md:76 links to nnapi.md",
-          "same file name exists at tensorflow/lite/g3doc/android/delegates/nnapi.md"
+          "same file name exists at tensorflow/lite/g3doc/android/delegates/nnapi.md",
+          "last touched by ee6edaaeb0 (2022-04-15T18:40:40Z): Consolidating Android content in /lite/android directory; recover from parent d1ae20fa55"
         ],
-        "recovery_sha": null,
-        "deleted_in": null,
+        "recovery_sha": "d1ae20fa559cb5e5c0fd4dc8568e2495f5742c72",
+        "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
         "live_alternative": "tensorflow/lite/g3doc/android/delegates/nnapi.md",
-        "confidence": 0.55,
+        "confidence": 0.75,
         "head_sha": "14665b7f0b60bb47986eb566d8e51fc113c19a6a"
       }
     },
@@ -1399,7 +1452,7 @@
       "id": "4532a91044cb",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1429,7 +1482,7 @@
       "id": "46155348328c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1459,7 +1512,7 @@
       "id": "474a7c553095",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1483,14 +1536,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/relay-build-limit-warnings.mts",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "47ae5137c8f9": {
       "id": "47ae5137c8f9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1507,20 +1560,21 @@
         "path": "test/integration/browser/index.js",
         "context": "package.json main",
         "evidence": [
-          "test/integration/browser/package.json \"main\" points to ./index.js"
+          "test/integration/browser/package.json \"main\" points to ./index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "49083294269b": {
       "id": "49083294269b",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -1544,12 +1598,13 @@
         "context": "seed: 2026-10-24 audit",
         "evidence": [
           ".github/workflows/smoke-tests.yml job 'backend-smoke-tests' runs 'src/backend/tests/unit/components/languagemodels/test_openai_model.py' (working-directory: .)",
-          "same file name exists at src/bundles/openai/tests/test_openai_model.py"
+          "same file name exists at src/bundles/openai/tests/test_openai_model.py",
+          "last touched by a42af78fe6 (2026-06-24T18:51:30Z): test: decouple core tests from disabled bundles (#13805); recover from parent b565a14bdc"
         ],
         "recovery_sha": "b565a14bdce5785f8e97b75c016247d6903e4e68",
         "deleted_in": "a42af78fe670e016d3698d76c2ad532a44dd2d00",
         "live_alternative": "src/bundles/openai/tests/test_openai_model.py",
-        "confidence": 0.8,
+        "confidence": 0.99,
         "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
       }
     },
@@ -1557,7 +1612,7 @@
       "id": "4cbd39a447e9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1575,7 +1630,8 @@
         "context": "> Companion documents: [`langflow-assistant.md`](./langflow-assistant.md) \u2014 read first for base Assistant concepts (session model, SSE pipeline, provider configuration, off-topic guardrails); [`../../",
         "evidence": [
           "docs/features/langflow-assistant-mcp.md:7 links to ../../src/backend/base/langflow/agentic/ARCHITECTURE.md",
-          "same file name exists at docs/agents/ARCHITECTURE.md"
+          "same file name exists at docs/agents/ARCHITECTURE.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -1588,7 +1644,7 @@
       "id": "4d5d6f2ec124",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1606,20 +1662,21 @@
         "context": "job check-additional-shard",
         "evidence": [
           ".github/workflows/ci.yml job 'check-additional-shard' runs '.ci-harness/scripts/ci-additional-checks.sh' (working-directory: .)",
-          "same file name exists at scripts/ci-additional-checks.sh"
+          "same file name exists at scripts/ci-additional-checks.sh",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/ci-additional-checks.sh",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "4df73733a55c": {
       "id": "4df73733a55c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1649,7 +1706,7 @@
       "id": "4e29b36682c0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1666,7 +1723,8 @@
         "path": "packages/api/session-controller/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/session-controller/package.json \"main\" points to lib/index.js"
+          "packages/api/session-controller/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -1679,7 +1737,7 @@
       "id": "501827a1c0ab",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1710,7 +1768,7 @@
       "id": "51b1e86cab3f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1740,7 +1798,7 @@
       "id": "527d029b845a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1764,14 +1822,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-context.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "539b3b8c73da": {
       "id": "539b3b8c73da",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1789,20 +1847,21 @@
         "context": "job preflight",
         "evidence": [
           ".github/workflows/ci.yml job 'preflight' runs '.ci-harness/scripts/ci-build-manifest.mjs' (working-directory: .)",
-          "same file name exists at scripts/ci-build-manifest.mjs"
+          "same file name exists at scripts/ci-build-manifest.mjs",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/ci-build-manifest.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "5ceaaf238bff": {
       "id": "5ceaaf238bff",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1826,14 +1885,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-version.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "5e92cfbe24bf": {
       "id": "5e92cfbe24bf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1864,7 +1923,7 @@
       "id": "5f83ddec1afc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1888,14 +1947,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/expectedEditCaptureController.ts",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "614f467624ed": {
       "id": "614f467624ed",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -1918,7 +1977,8 @@
         "path": "src/frontend/scripts/lint-changed.sh",
         "context": "seed: 2026-10-24 audit",
         "evidence": [
-          "src/frontend/package.json script \"lint:changed\": bash scripts/lint-changed.sh"
+          "src/frontend/package.json script \"lint:changed\": bash scripts/lint-changed.sh",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -1931,7 +1991,7 @@
       "id": "61628d97e2f5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1955,14 +2015,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/verify-authorized-beta-focused-candidate.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "6568d96f5f86": {
       "id": "6568d96f5f86",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1979,7 +2039,8 @@
         "path": "tools/scripts/seed/none",
         "context": "package.json main",
         "evidence": [
-          "tools/scripts/seed/package.json \"main\" points to none"
+          "tools/scripts/seed/package.json \"main\" points to none",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -1992,7 +2053,7 @@
       "id": "656b85d0bb75",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2022,7 +2083,7 @@
       "id": "66bd517b7f5d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2046,14 +2107,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "674451f24a42": {
       "id": "674451f24a42",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2071,7 +2132,8 @@
         "context": "- **Changelog**: [CHANGELOG.md](../CHANGELOG.md)",
         "evidence": [
           "docs/release-notes/v3.7.0-en.md:425 links to ../CHANGELOG.md",
-          "same file name exists at CHANGELOG.md"
+          "same file name exists at CHANGELOG.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2084,7 +2146,7 @@
       "id": "67f66668b0e7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2114,7 +2176,7 @@
       "id": "68ac393c2a8d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2138,14 +2200,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "6935c268d390": {
       "id": "6935c268d390",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2163,7 +2225,8 @@
         "context": "job build",
         "evidence": [
           ".github/workflows/classic-autogpt-docker-ci.yml job 'build' runs '.github/workflows/scripts/docker-ci-summary.sh' (working-directory: classic/original_autogpt)",
-          "same file name exists at .github/workflows/scripts/docker-ci-summary.sh"
+          "same file name exists at .github/workflows/scripts/docker-ci-summary.sh",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2176,7 +2239,7 @@
       "id": "696d2d4d49fc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2200,14 +2263,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/test/pipeline/test/fixtures/config.json",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "6baeede85508": {
       "id": "6baeede85508",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2234,11 +2297,42 @@
         "head_sha": "50e35cc0ca18ec19b80653690de553e6decf74f5"
       }
     },
+    "6c07753810d0": {
+      "id": "6c07753810d0",
+      "state": "new",
+      "first_seen": "2026-10-24T15:02:25Z",
+      "last_seen": "2026-10-24T15:02:25Z",
+      "history": [
+        {
+          "at": "2026-10-24T15:02:25Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "tensorflow/tensorflow",
+        "kind": "doc",
+        "file": "tensorflow/lite/g3doc/performance/delegates.md",
+        "line": 66,
+        "ref": "gpu_advanced.md",
+        "path": "tensorflow/lite/g3doc/performance/gpu_advanced.md",
+        "context": "delegate, see [TensorFlow Lite on GPU](gpu_advanced.md). For step-by-step",
+        "evidence": [
+          "tensorflow/lite/g3doc/performance/delegates.md:66 links to gpu_advanced.md",
+          "last touched by 43a0f25407 (2022-09-23T23:15:45Z): Improve TF Lite GPU docs organization and discoverability; recover from parent 35ec1e94d8"
+        ],
+        "recovery_sha": "35ec1e94d80b7470238850e1d75f74567110c8e2",
+        "deleted_in": "43a0f254074dc5f18c00817ca969514de4202533",
+        "live_alternative": null,
+        "confidence": 0.65,
+        "head_sha": "14665b7f0b60bb47986eb566d8e51fc113c19a6a"
+      }
+    },
     "6c675504001d": {
       "id": "6c675504001d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2268,7 +2362,7 @@
       "id": "6ca082e761b3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2286,7 +2380,8 @@
         "context": "- **\u66f4\u65b0\u65e5\u5fd7**\uff1a[CHANGELOG.md](../CHANGELOG.md)",
         "evidence": [
           "docs/release-notes/v3.7.0-zh.md:425 links to ../CHANGELOG.md",
-          "same file name exists at CHANGELOG.md"
+          "same file name exists at CHANGELOG.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2299,7 +2394,7 @@
       "id": "6d530f400141",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2316,7 +2411,8 @@
         "path": "crates/next-napi-bindings/npm/darwin-arm64/next-swc.darwin-arm64.node",
         "context": "package.json main",
         "evidence": [
-          "crates/next-napi-bindings/npm/darwin-arm64/package.json \"main\" points to next-swc.darwin-arm64.node"
+          "crates/next-napi-bindings/npm/darwin-arm64/package.json \"main\" points to next-swc.darwin-arm64.node",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2329,7 +2425,7 @@
       "id": "6df68a45abc3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2346,7 +2442,8 @@
         "path": "compiled/facebook-www/ESLintPluginReactHooks-dev.modern.js",
         "context": "job process_artifacts",
         "evidence": [
-          ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/facebook-www/ESLintPluginReactHooks-dev.modern.js' (working-directory: .)"
+          ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/facebook-www/ESLintPluginReactHooks-dev.modern.js' (working-directory: .)",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2359,7 +2456,7 @@
       "id": "6dfd61fb6f9b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2377,20 +2474,21 @@
         "context": "job security-fast",
         "evidence": [
           ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/detect-private-keys.mts' (working-directory: .)",
-          "same file name exists at scripts/detect-private-keys.mts"
+          "same file name exists at scripts/detect-private-keys.mts",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/detect-private-keys.mts",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "6e889f41b8c3": {
       "id": "6e889f41b8c3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2407,7 +2505,8 @@
         "path": "api/none",
         "context": "package.json main",
         "evidence": [
-          "api/package.json \"main\" points to none"
+          "api/package.json \"main\" points to none",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2420,7 +2519,7 @@
       "id": "6f31b545e856",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2437,20 +2536,21 @@
         "path": "scripts/ensure-cli-startup-build.mjs",
         "context": "job build-artifacts",
         "evidence": [
-          ".github/workflows/ci.yml job 'build-artifacts' runs 'scripts/ensure-cli-startup-build.mjs' (working-directory: .)"
+          ".github/workflows/ci.yml job 'build-artifacts' runs 'scripts/ensure-cli-startup-build.mjs' (working-directory: .)",
+          "last touched by c70aee247e (2026-08-09T14:21:35Z): refactor(scripts): migrate JavaScript tools to TypeScript (#121005); recover from parent 2433fa213c"
         ],
-        "recovery_sha": null,
-        "deleted_in": null,
+        "recovery_sha": "2433fa213c6f0a66404ef45daf5017e2ac8b78fe",
+        "deleted_in": "c70aee247e831d21895f5ea3dda7497c50af0721",
         "live_alternative": null,
-        "confidence": 0.7,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "confidence": 0.9,
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "6feca5ed61f2": {
       "id": "6feca5ed61f2",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2480,7 +2580,7 @@
       "id": "702578aa33df",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2498,7 +2598,8 @@
         "context": "job package_comfyui",
         "evidence": [
           ".github/workflows/windows_release_package.yml job 'package_comfyui' runs './update/update.py' (working-directory: .)",
-          "same file name exists at .ci/update_windows/update.py"
+          "same file name exists at .ci/update_windows/update.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2511,7 +2612,7 @@
       "id": "71173d7dfd63",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2528,7 +2629,8 @@
         "path": "index.js",
         "context": "package.json main",
         "evidence": [
-          "package.json \"main\" points to index.js"
+          "package.json \"main\" points to index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2541,7 +2643,7 @@
       "id": "7235febe4869",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2559,7 +2661,8 @@
         "context": "- **\u6587\u6863**\uff1a[README](../README_ZH.md)",
         "evidence": [
           "docs/release-notes/v3.7.1-zh.md:466 links to ../README_ZH.md",
-          "same file name exists at README_ZH.md"
+          "same file name exists at README_ZH.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2572,7 +2675,7 @@
       "id": "733f7f23f771",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -2602,14 +2705,14 @@
         "deleted_in": null,
         "live_alternative": "LICENSE.txt",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "73db37d5896b": {
       "id": "73db37d5896b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2640,7 +2743,7 @@
       "id": "7404d4bfcc5d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2670,7 +2773,7 @@
       "id": "7666d572e4c6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2694,14 +2797,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/test/simulation/inlineEdit/inlineEditTester.ts",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "76c8e563c87b": {
       "id": "76c8e563c87b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2732,7 +2835,7 @@
       "id": "77506738c9a7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2750,7 +2853,8 @@
         "context": "job publish",
         "evidence": [
           ".github/workflows/release.yml job 'publish' runs 'release-gate-source/scripts/ci/verify-release-gates.js' (working-directory: .)",
-          "same file name exists at scripts/ci/verify-release-gates.js"
+          "same file name exists at scripts/ci/verify-release-gates.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2763,7 +2867,7 @@
       "id": "77fc1b09b100",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2787,14 +2891,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/inlineEditDebugComponent.ts",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "798c43280d9b": {
       "id": "798c43280d9b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2811,7 +2915,8 @@
         "path": "test/production/non-next-dist-exclude/app/index.js",
         "context": "package.json main",
         "evidence": [
-          "test/production/non-next-dist-exclude/app/package.json \"main\" points to index.js"
+          "test/production/non-next-dist-exclude/app/package.json \"main\" points to index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2824,7 +2929,7 @@
       "id": "79d21e73c390",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2841,20 +2946,21 @@
         "path": "test/monaco/index.js",
         "context": "package.json main",
         "evidence": [
-          "test/monaco/package.json \"main\" points to index.js"
+          "test/monaco/package.json \"main\" points to index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "7a1beafc6284": {
       "id": "7a1beafc6284",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2878,14 +2984,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "7a425cd12eaf": {
       "id": "7a425cd12eaf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2903,7 +3009,8 @@
         "context": "job copilot-setup-steps",
         "evidence": [
           ".github/workflows/copilot-setup-steps.yml job 'copilot-setup-steps' runs '../../.github/workflows/scripts/get_package_version_from_lockfile.py' (working-directory: .)",
-          "same file name exists at .github/workflows/scripts/get_package_version_from_lockfile.py"
+          "same file name exists at .github/workflows/scripts/get_package_version_from_lockfile.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2916,7 +3023,7 @@
       "id": "7ae21577940d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2934,20 +3041,21 @@
         "context": "job check-shard",
         "evidence": [
           ".github/workflows/ci.yml job 'check-shard' runs '.ci-harness/scripts/ci-static-step.sh' (working-directory: .)",
-          "same file name exists at scripts/ci-static-step.sh"
+          "same file name exists at scripts/ci-static-step.sh",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/ci-static-step.sh",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "7b0be18396da": {
       "id": "7b0be18396da",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2965,7 +3073,8 @@
         "context": "`variable.scopes: VariableScope[]` specifies which properties in Figma the variable can be used for. This is important when you create and when you use variables. **Always set specific scopes rather t",
         "evidence": [
           "packages/plugins/figma/skills/figma-use/references/working-with-design-systems/wwds-variables.md:35 links to ../../figma-generate-library/references/token-creation.md",
-          "same file name exists at packages/plugins/figma/skills/figma-generate-library/references/token-creation.md"
+          "same file name exists at packages/plugins/figma/skills/figma-generate-library/references/token-creation.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -2978,7 +3087,7 @@
       "id": "7b8891ff6cb8",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -3002,12 +3111,13 @@
         "context": "seed: 2026-10-24 audit",
         "evidence": [
           ".github/workflows/smoke-tests.yml job 'backend-smoke-tests' runs 'src/backend/tests/unit/components/agents/test_agent_component.py' (working-directory: .)",
-          "same file name exists at src/backend/tests/unit/components/models_and_agents/test_agent_component.py"
+          "same file name exists at src/backend/tests/unit/components/models_and_agents/test_agent_component.py",
+          "last touched by b1dc065fee (2025-11-12T16:43:32Z): refactor: Reorganize sidebar categories (#10180); recover from parent 11c0af4e35"
         ],
         "recovery_sha": "11c0af4e35c921af13efeebff0be058f334b4f5d",
         "deleted_in": "b1dc065feecc9f035f1bfd8197e0b178b8c57fdd",
         "live_alternative": "src/backend/tests/unit/components/models_and_agents/test_agent_component.py",
-        "confidence": 0.8,
+        "confidence": 0.99,
         "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
       }
     },
@@ -3015,7 +3125,7 @@
       "id": "7be80a4304c3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3033,7 +3143,8 @@
         "context": "job publish",
         "evidence": [
           ".github/workflows/reusable-release.yml job 'publish' runs 'release-gate-source/scripts/ci/verify-release-gates.js' (working-directory: .)",
-          "same file name exists at scripts/ci/verify-release-gates.js"
+          "same file name exists at scripts/ci/verify-release-gates.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3046,7 +3157,7 @@
       "id": "7c12f7b3f3a0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3063,7 +3174,8 @@
         "path": "src/index.ts",
         "context": "script dev",
         "evidence": [
-          "package.json script \"dev\": bun run --cwd packages/cli src/index.ts"
+          "package.json script \"dev\": bun run --cwd packages/cli src/index.ts",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3076,7 +3188,7 @@
       "id": "7c474dcfad9c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3107,7 +3219,7 @@
       "id": "80613f19ece7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3124,12 +3236,13 @@
         "path": "cli/test/e2e/suites/auth/use.e2e.ts",
         "context": "job suite-last",
         "evidence": [
-          ".github/workflows/cli-e2e.yml job 'suite-last' runs 'test/e2e/suites/auth/use.e2e.ts' (working-directory: cli)"
+          ".github/workflows/cli-e2e.yml job 'suite-last' runs 'test/e2e/suites/auth/use.e2e.ts' (working-directory: cli)",
+          "last touched by a4524c215f (2026-09-30T01:58:58Z): feat(cli): difyctl v2 over the server catalog (#42608); recover from parent 96abb8ea22"
         ],
-        "recovery_sha": null,
-        "deleted_in": null,
+        "recovery_sha": "96abb8ea220b5d17a2ef2958d94ffbf60d1cf950",
+        "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
         "live_alternative": null,
-        "confidence": 0.7,
+        "confidence": 0.9,
         "head_sha": "fecf1a20ce45ff1ff8cca19653f0000cf891415c"
       }
     },
@@ -3137,7 +3250,7 @@
       "id": "8284af8da589",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3155,20 +3268,21 @@
         "context": "job checks-fast-core",
         "evidence": [
           ".github/workflows/ci.yml job 'checks-fast-core' runs '.ci-harness/.github/actions/git-owner/owner.py' (working-directory: .)",
-          "same file name exists at .github/actions/git-owner/owner.py"
+          "same file name exists at .github/actions/git-owner/owner.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": ".github/actions/git-owner/owner.py",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "831d7ab39bbb": {
       "id": "831d7ab39bbb",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3199,7 +3313,7 @@
       "id": "8434e1f1e2ef",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3216,7 +3330,8 @@
         "path": "crates/next-napi-bindings/npm/linux-x64-gnu/next-swc.linux-x64-gnu.node",
         "context": "package.json main",
         "evidence": [
-          "crates/next-napi-bindings/npm/linux-x64-gnu/package.json \"main\" points to next-swc.linux-x64-gnu.node"
+          "crates/next-napi-bindings/npm/linux-x64-gnu/package.json \"main\" points to next-swc.linux-x64-gnu.node",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3229,7 +3344,7 @@
       "id": "84d898cccf55",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3259,7 +3374,7 @@
       "id": "84e84a007297",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -3282,12 +3397,13 @@
         "path": "packages/opencode/script/build.ts",
         "context": "seed: 2026-10-24 audit",
         "evidence": [
-          ".github/workflows/publish.yml job 'build-cli' runs './packages/opencode/script/build.ts' (working-directory: .)"
+          ".github/workflows/publish.yml job 'build-cli' runs './packages/opencode/script/build.ts' (working-directory: .)",
+          "last touched by 44b6938b2a (2026-07-21T01:54:22Z): removed packages/opencode; recover from parent fc7e4cf93e"
         ],
         "recovery_sha": "fc7e4cf93e660ad5ddabb0c48ecc99e934ebfe95",
         "deleted_in": "44b6938b2ad2895bdd89d5d5cf753fb01ca8e3dd",
         "live_alternative": "packages/cli/script/build.ts",
-        "confidence": 0.7,
+        "confidence": 0.9,
         "head_sha": "20a6cc72917586eb5314be075f96dbb21d16c480"
       }
     },
@@ -3295,7 +3411,7 @@
       "id": "861372d9db0e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3313,7 +3429,8 @@
         "context": "script clean",
         "evidence": [
           "package.json script \"clean\": pnpm --filter \"./packages/**\" run clean && pnpm --filter \"./packages/**\" exec node ../../scripts/rm.mjs dist node_modules",
-          "same file name exists at scripts/rm.mjs"
+          "same file name exists at scripts/rm.mjs",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3326,7 +3443,7 @@
       "id": "88af0ff147b5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3343,20 +3460,21 @@
         "path": "test/index.js",
         "context": "script smoketest",
         "evidence": [
-          "package.json script \"smoketest\": node build/lib/preLaunch.ts && cd test/smoke && npm run compile && node test/index.js"
+          "package.json script \"smoketest\": node build/lib/preLaunch.ts && cd test/smoke && npm run compile && node test/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "8960b439605e": {
       "id": "8960b439605e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3373,7 +3491,8 @@
         "path": "apps/desktop/lib/main.js",
         "context": "package.json main",
         "evidence": [
-          "apps/desktop/package.json \"main\" points to lib/main.js"
+          "apps/desktop/package.json \"main\" points to lib/main.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3386,7 +3505,7 @@
       "id": "8a4558624cdc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3404,7 +3523,8 @@
         "context": "job lifecycle",
         "evidence": [
           ".github/workflows/reusable-release.yml job 'lifecycle' runs 'release-artifacts/tests/ci/packed-artifact-lifecycle.js' (working-directory: .)",
-          "same file name exists at tests/ci/packed-artifact-lifecycle.js"
+          "same file name exists at tests/ci/packed-artifact-lifecycle.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3417,7 +3537,7 @@
       "id": "8b6fb63dff6f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3448,7 +3568,7 @@
       "id": "8d898d28d160",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3466,7 +3586,8 @@
         "context": "- **\u66f4\u65b0\u65e5\u5fd7**\uff1a[CHANGELOG.md](../CHANGELOG.md)",
         "evidence": [
           "docs/release-notes/v3.8.0-zh.md:355 links to ../CHANGELOG.md",
-          "same file name exists at CHANGELOG.md"
+          "same file name exists at CHANGELOG.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3479,7 +3600,7 @@
       "id": "8e476b308c36",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3497,7 +3618,8 @@
         "context": "job package_comfy_windows",
         "evidence": [
           ".github/workflows/stable-release.yml job 'package_comfy_windows' runs 'ComfyUI/main.py' (working-directory: .)",
-          "same file name exists at main.py"
+          "same file name exists at main.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3510,7 +3632,7 @@
       "id": "8eb7953e6d57",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3534,14 +3656,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-upgrade-baseline.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "8f6dee6e2668": {
       "id": "8f6dee6e2668",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3565,14 +3687,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/nesFeedbackSubmitter.ts",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "90edfbeeff56": {
       "id": "90edfbeeff56",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3596,14 +3718,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-candidate-contract.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "91704d94a14a": {
       "id": "91704d94a14a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3621,7 +3743,8 @@
         "context": "job test-installation-stable",
         "evidence": [
           ".github/workflows/cross-platform-test.yml job 'test-installation-stable' runs 'auth-smoke/scripts/ci/check_authentication.py' (working-directory: .)",
-          "same file name exists at scripts/ci/check_authentication.py"
+          "same file name exists at scripts/ci/check_authentication.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3630,11 +3753,42 @@
         "head_sha": "aeb10d96bb2ea797696613af931e91ddf51f3320"
       }
     },
+    "91921b1a44c4": {
+      "id": "91921b1a44c4",
+      "state": "new",
+      "first_seen": "2026-10-24T15:02:25Z",
+      "last_seen": "2026-10-24T15:02:25Z",
+      "history": [
+        {
+          "at": "2026-10-24T15:02:25Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "tensorflow/tensorflow",
+        "kind": "doc",
+        "file": "tensorflow/lite/g3doc/performance/model_optimization.md",
+        "line": 199,
+        "ref": "../guide/hosted_models.md",
+        "path": "tensorflow/lite/g3doc/guide/hosted_models.md",
+        "context": "[hosted models](../guide/hosted_models.md) can work for your application. If",
+        "evidence": [
+          "tensorflow/lite/g3doc/performance/model_optimization.md:199 links to ../guide/hosted_models.md",
+          "last touched by 50b0cf2bd8 (2022-05-06T01:05:25Z): Update TF Lite redirects; recover from parent 17340cea6c"
+        ],
+        "recovery_sha": "17340cea6c8b439b1e530b126f1a256be06a6908",
+        "deleted_in": "50b0cf2bd8e0dee902d9ca4e0cb45c9e0e743bd8",
+        "live_alternative": null,
+        "confidence": 0.65,
+        "head_sha": "14665b7f0b60bb47986eb566d8e51fc113c19a6a"
+      }
+    },
     "9209703e1380": {
       "id": "9209703e1380",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3658,14 +3812,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/common/observableWorkspaceRecordingReplayer.ts",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "993a3c0217f4": {
       "id": "993a3c0217f4",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3683,20 +3837,21 @@
         "context": "job security-fast",
         "evidence": [
           ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/ci-collect-checks.sh' (working-directory: .)",
-          "same file name exists at scripts/ci-collect-checks.sh"
+          "same file name exists at scripts/ci-collect-checks.sh",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/ci-collect-checks.sh",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "99fad79d3295": {
       "id": "99fad79d3295",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3714,7 +3869,8 @@
         "context": "- **\u6587\u6863**\uff1a[README](../README_ZH.md)",
         "evidence": [
           "docs/release-notes/v3.8.0-zh.md:354 links to ../README_ZH.md",
-          "same file name exists at README_ZH.md"
+          "same file name exists at README_ZH.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3727,7 +3883,7 @@
       "id": "9c0fe2556019",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3745,7 +3901,8 @@
         "context": "script bench:entry",
         "evidence": [
           "packages/app/package.json script \"bench:entry\": PLAYWRIGHT_BUILD=1 playwright test --config e2e/performance/playwright.config.ts timeline/session-entry-benchmark.spec.ts --repeat-each=20 --workers=1 --retries=0 --reporter=line,./e2e/performance/tab-switch-reporter.ts",
-          "same file name exists at packages/app/e2e/performance/timeline/session-entry-benchmark.spec.ts"
+          "same file name exists at packages/app/e2e/performance/timeline/session-entry-benchmark.spec.ts",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3758,7 +3915,7 @@
       "id": "9c8f1d93e894",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3775,7 +3932,8 @@
         "path": "apps/desktop-host/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "apps/desktop-host/package.json \"main\" points to lib/index.js"
+          "apps/desktop-host/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3788,7 +3946,7 @@
       "id": "9ddfec8c52a2",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -3811,7 +3969,8 @@
         "path": "examples/with-edgedb/dbschema/seed.ts",
         "context": "seed: 2026-10-24 audit",
         "evidence": [
-          "examples/with-edgedb/package.json script \"seed\": ts-node dbschema/seed.ts"
+          "examples/with-edgedb/package.json script \"seed\": ts-node dbschema/seed.ts",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3824,7 +3983,7 @@
       "id": "9e14b7d3a466",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3842,20 +4001,21 @@
         "context": "job macos-swift",
         "evidence": [
           ".github/workflows/ci.yml job 'macos-swift' runs '.ci-harness/scripts/lib/swift-toolchain.sh' (working-directory: .)",
-          "same file name exists at scripts/lib/swift-toolchain.sh"
+          "same file name exists at scripts/lib/swift-toolchain.sh",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/lib/swift-toolchain.sh",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "a1c840f38dcc": {
       "id": "a1c840f38dcc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3872,7 +4032,8 @@
         "path": ".github/actions/needs-triage/lib/index.js",
         "context": "script build",
         "evidence": [
-          ".github/actions/needs-triage/package.json script \"build\": pnpm types && ncc build lib/index.js -m -o dist --license licenses.txt"
+          ".github/actions/needs-triage/package.json script \"build\": pnpm types && ncc build lib/index.js -m -o dist --license licenses.txt",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3885,7 +4046,7 @@
       "id": "a3db83e72a2c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3916,7 +4077,7 @@
       "id": "a41f3404b73f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3933,7 +4094,8 @@
         "path": "packages/api/settings-controller/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/settings-controller/package.json \"main\" points to lib/index.js"
+          "packages/api/settings-controller/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -3946,7 +4108,7 @@
       "id": "a43632de02db",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3963,12 +4125,13 @@
         "path": "tools/challenge-parser/index.js",
         "context": "package.json main",
         "evidence": [
-          "tools/challenge-parser/package.json \"main\" points to index.js"
+          "tools/challenge-parser/package.json \"main\" points to index.js",
+          "last touched by 9ff3a29a72 (2021-02-03T16:56:36Z): refactor: remove remains of old parser; recover from parent 2c7efe50fd"
         ],
-        "recovery_sha": null,
-        "deleted_in": null,
+        "recovery_sha": "2c7efe50fd60fa38a9b39251f05aaa6e37690f6a",
+        "deleted_in": "9ff3a29a72c0885366017b5379608554592b7e97",
         "live_alternative": null,
-        "confidence": 0.6,
+        "confidence": 0.8,
         "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
       }
     },
@@ -3976,7 +4139,7 @@
       "id": "a56c0a125855",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3993,12 +4156,13 @@
         "path": "cli/test/e2e/suites/auth/devices.e2e.ts",
         "context": "job suite-last",
         "evidence": [
-          ".github/workflows/cli-e2e.yml job 'suite-last' runs 'test/e2e/suites/auth/devices.e2e.ts' (working-directory: cli)"
+          ".github/workflows/cli-e2e.yml job 'suite-last' runs 'test/e2e/suites/auth/devices.e2e.ts' (working-directory: cli)",
+          "last touched by a4524c215f (2026-09-30T01:58:58Z): feat(cli): difyctl v2 over the server catalog (#42608); recover from parent 96abb8ea22"
         ],
-        "recovery_sha": null,
-        "deleted_in": null,
+        "recovery_sha": "96abb8ea220b5d17a2ef2958d94ffbf60d1cf950",
+        "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
         "live_alternative": null,
-        "confidence": 0.7,
+        "confidence": 0.9,
         "head_sha": "fecf1a20ce45ff1ff8cca19653f0000cf891415c"
       }
     },
@@ -4006,7 +4170,7 @@
       "id": "a5b2a2a32f13",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4036,7 +4200,7 @@
       "id": "a65222c8c58c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4053,20 +4217,21 @@
         "path": "extensions/copilot/dotnet-install.sh",
         "context": "script setup:dotnet:darwin:linux",
         "evidence": [
-          "extensions/copilot/package.json script \"setup:dotnet:darwin:linux\": curl -O https://raw.githubusercontent.com/dotnet/install-scripts/main/src/dotnet-install.sh && chmod u+x dotnet-install.sh && ./dotnet-install.sh --channel 10.0 && rm dotnet-install.sh"
+          "extensions/copilot/package.json script \"setup:dotnet:darwin:linux\": curl -O https://raw.githubusercontent.com/dotnet/install-scripts/main/src/dotnet-install.sh && chmod u+x dotnet-install.sh && ./dotnet-install.sh --channel 10.0 && rm dotnet-install.sh",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "a7938804cdca": {
       "id": "a7938804cdca",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4084,20 +4249,21 @@
         "context": "job ios-build",
         "evidence": [
           ".github/workflows/ci.yml job 'ios-build' runs './.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs' (working-directory: .)",
-          "same file name exists at scripts/lib/ci-ios-smoke-plan.mjs"
+          "same file name exists at scripts/lib/ci-ios-smoke-plan.mjs",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/lib/ci-ios-smoke-plan.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "a7b1d71bef7e": {
       "id": "a7b1d71bef7e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4121,14 +4287,14 @@
         "deleted_in": null,
         "live_alternative": "build/next/nls-plugin.ts",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "a8ee8a3fa2bf": {
       "id": "a8ee8a3fa2bf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4145,7 +4311,8 @@
         "path": "packages/api/remotes/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/remotes/package.json \"main\" points to lib/index.js"
+          "packages/api/remotes/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4158,7 +4325,7 @@
       "id": "aa10ae9c0bea",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4175,12 +4342,13 @@
         "path": "client/index.js",
         "context": "package.json main",
         "evidence": [
-          "client/package.json \"main\" points to index.js"
+          "client/package.json \"main\" points to index.js",
+          "last touched by e59ad6ebda (2018-09-03T12:17:48Z): chore(client): Move client app to /client; recover from parent 0e4f588a1c"
         ],
-        "recovery_sha": null,
-        "deleted_in": null,
+        "recovery_sha": "0e4f588a1cb03e5e16817c0b4ec505089a1fa452",
+        "deleted_in": "e59ad6ebda1d92de58cb55e230f9e1aa130c059b",
         "live_alternative": null,
-        "confidence": 0.6,
+        "confidence": 0.8,
         "head_sha": "1d59c16e9ce7bf4b6b951203440850a65430b327"
       }
     },
@@ -4188,7 +4356,7 @@
       "id": "aacf3fd8b812",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4219,7 +4387,7 @@
       "id": "af3460eec178",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4237,7 +4405,8 @@
         "context": "- **\u66f4\u65b0\u65e5\u5fd7**\uff1a[CHANGELOG.md](../CHANGELOG.md)",
         "evidence": [
           "docs/release-notes/v3.7.1-zh.md:467 links to ../CHANGELOG.md",
-          "same file name exists at CHANGELOG.md"
+          "same file name exists at CHANGELOG.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4250,7 +4419,7 @@
       "id": "b11ac59159af",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4268,7 +4437,8 @@
         "context": "job check-docs-sync",
         "evidence": [
           ".github/workflows/docs-block-sync.yml job 'check-docs-sync' runs '../../.github/workflows/scripts/get_package_version_from_lockfile.py' (working-directory: .)",
-          "same file name exists at .github/workflows/scripts/get_package_version_from_lockfile.py"
+          "same file name exists at .github/workflows/scripts/get_package_version_from_lockfile.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4281,7 +4451,7 @@
       "id": "b1b4438a6f27",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4298,7 +4468,8 @@
         "path": "packages/api/workspace-files/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/workspace-files/package.json \"main\" points to lib/index.js"
+          "packages/api/workspace-files/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4311,7 +4482,7 @@
       "id": "b3434f3d74b7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4328,7 +4499,8 @@
         "path": "apps/api/native/index.js",
         "context": "package.json main",
         "evidence": [
-          "apps/api/native/package.json \"main\" points to index.js"
+          "apps/api/native/package.json \"main\" points to index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4341,7 +4513,7 @@
       "id": "b4251c036bb9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4358,7 +4530,8 @@
         "path": "crates/next-napi-bindings/npm/linux-x64-musl/next-swc.linux-x64-musl.node",
         "context": "package.json main",
         "evidence": [
-          "crates/next-napi-bindings/npm/linux-x64-musl/package.json \"main\" points to next-swc.linux-x64-musl.node"
+          "crates/next-napi-bindings/npm/linux-x64-musl/package.json \"main\" points to next-swc.linux-x64-musl.node",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4371,7 +4544,7 @@
       "id": "b6c31bebc434",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4388,7 +4561,8 @@
         "path": "crates/next-napi-bindings/npm/win32-arm64-msvc/next-swc.win32-arm64-msvc.node",
         "context": "package.json main",
         "evidence": [
-          "crates/next-napi-bindings/npm/win32-arm64-msvc/package.json \"main\" points to next-swc.win32-arm64-msvc.node"
+          "crates/next-napi-bindings/npm/win32-arm64-msvc/package.json \"main\" points to next-swc.win32-arm64-msvc.node",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4401,7 +4575,7 @@
       "id": "b7424e391fea",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4418,7 +4592,8 @@
         "path": "compiled/babel-plugin-react-refresh/index.js",
         "context": "job process_artifacts",
         "evidence": [
-          ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/babel-plugin-react-refresh/index.js' (working-directory: .)"
+          ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/babel-plugin-react-refresh/index.js' (working-directory: .)",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4431,7 +4606,7 @@
       "id": "b76d06e889d2",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4462,7 +4637,7 @@
       "id": "b8f4812f86e0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4486,14 +4661,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ios-screenshot-evidence.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "ba99195cd62a": {
       "id": "ba99195cd62a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4524,7 +4699,7 @@
       "id": "bac2670aabfb",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4555,7 +4730,7 @@
       "id": "baf374dcc8e1",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4572,7 +4747,8 @@
         "path": "packages/challenge-linter/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/challenge-linter/package.json \"main\" points to index.js"
+          "packages/challenge-linter/package.json \"main\" points to index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4585,7 +4761,7 @@
       "id": "bbf3b773af09",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4602,7 +4778,8 @@
         "path": "tools/client-plugins/browser-scripts/index.js",
         "context": "package.json main",
         "evidence": [
-          "tools/client-plugins/browser-scripts/package.json \"main\" points to index.js"
+          "tools/client-plugins/browser-scripts/package.json \"main\" points to index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4615,7 +4792,7 @@
       "id": "bc16696ebe42",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4633,7 +4810,8 @@
         "context": "job package_comfyui",
         "evidence": [
           ".github/workflows/windows_release_package.yml job 'package_comfyui' runs 'ComfyUI/main.py' (working-directory: .)",
-          "same file name exists at main.py"
+          "same file name exists at main.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4646,7 +4824,7 @@
       "id": "bc79a623be45",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4664,7 +4842,8 @@
         "context": "- **Changelog**: [CHANGELOG.md](../CHANGELOG.md)",
         "evidence": [
           "docs/release-notes/v3.7.1-en.md:467 links to ../CHANGELOG.md",
-          "same file name exists at CHANGELOG.md"
+          "same file name exists at CHANGELOG.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4677,7 +4856,7 @@
       "id": "bc7f6e22ff23",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4707,7 +4886,7 @@
       "id": "bd09500e4eb6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4737,7 +4916,7 @@
       "id": "bdca48cc49d4",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4767,7 +4946,7 @@
       "id": "be6cc559820d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4797,7 +4976,7 @@
       "id": "bf9f63ed13c6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4828,7 +5007,7 @@
       "id": "c37127ae3680",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4852,14 +5031,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-publication-contract.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "c3fcbf22cc31": {
       "id": "c3fcbf22cc31",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4889,7 +5068,7 @@
       "id": "c4be09cb1f27",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4907,7 +5086,8 @@
         "context": "- **\u66f4\u65b0\u5c65\u6b74**: [CHANGELOG.md](../CHANGELOG.md)",
         "evidence": [
           "docs/release-notes/v3.8.0-ja.md:301 links to ../CHANGELOG.md",
-          "same file name exists at CHANGELOG.md"
+          "same file name exists at CHANGELOG.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4920,7 +5100,7 @@
       "id": "c5f37b4dc554",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4937,7 +5117,8 @@
         "path": "packages/@n8n/ai-workflow-builder.ee/src/tools/index.ts",
         "context": "script deps:graph:tools",
         "evidence": [
-          "packages/@n8n/ai-workflow-builder.ee/package.json script \"deps:graph:tools\": madge src/tools/index.ts --image deps-tools.svg"
+          "packages/@n8n/ai-workflow-builder.ee/package.json script \"deps:graph:tools\": madge src/tools/index.ts --image deps-tools.svg",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -4988,7 +5169,7 @@
       "id": "c62d99e28c5c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5005,7 +5186,8 @@
         "path": "compiled/eslint-plugin-react-hooks/index.js",
         "context": "job process_artifacts",
         "evidence": [
-          ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/eslint-plugin-react-hooks/index.js' (working-directory: .)"
+          ".github/workflows/runtime_commit_artifacts.yml job 'process_artifacts' runs './compiled/eslint-plugin-react-hooks/index.js' (working-directory: .)",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5018,7 +5200,7 @@
       "id": "c64433019523",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5036,13 +5218,14 @@
         "context": "job ios-build",
         "evidence": [
           ".github/workflows/ci.yml job 'ios-build' runs '.ci-harness/scripts/swift-build-cache-metadata.py' (working-directory: .)",
-          "same file name exists at scripts/swift-build-cache-metadata.py"
+          "same file name exists at scripts/swift-build-cache-metadata.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/swift-build-cache-metadata.py",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "c75deaa1162f": {
@@ -5086,7 +5269,7 @@
       "id": "c8f1e8912570",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5103,7 +5286,8 @@
         "path": "packages/api/gateway/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/gateway/package.json \"main\" points to lib/index.js"
+          "packages/api/gateway/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5116,7 +5300,7 @@
       "id": "cb4e79465e08",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5140,14 +5324,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-xcodebuild.py",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "cccefb986e5e": {
       "id": "cccefb986e5e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5177,7 +5361,7 @@
       "id": "d170c05be9fe",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5194,7 +5378,8 @@
         "path": "test/production/typeof-window-replace/app/index.js",
         "context": "package.json main",
         "evidence": [
-          "test/production/typeof-window-replace/app/package.json \"main\" points to index.js"
+          "test/production/typeof-window-replace/app/package.json \"main\" points to index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5207,7 +5392,7 @@
       "id": "d4d9f9c7e880",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5225,7 +5410,8 @@
         "context": "Once the \"canary\" release has been tested and verified, you can promote it to stable by running the [Publish release](./actions/workflows/runtime_release_from_ci.yml) GitHub Action workflow. This work",
         "evidence": [
           "scripts/release/README.md:57 links to ./actions/workflows/runtime_release_from_ci.yml",
-          "same file name exists at .github/workflows/runtime_release_from_ci.yml"
+          "same file name exists at .github/workflows/runtime_release_from_ci.yml",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5234,11 +5420,42 @@
         "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
       }
     },
+    "d5b2c2c0bf5b": {
+      "id": "d5b2c2c0bf5b",
+      "state": "new",
+      "first_seen": "2026-10-24T15:02:25Z",
+      "last_seen": "2026-10-24T15:02:25Z",
+      "history": [
+        {
+          "at": "2026-10-24T15:02:25Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "tensorflow/tensorflow",
+        "kind": "doc",
+        "file": "tensorflow/python/debug/examples/README.md",
+        "line": 6,
+        "ref": "../../../docs_src/guide/debugger.md",
+        "path": "tensorflow/docs_src/guide/debugger.md",
+        "context": "[this new location](../../../docs_src/guide/debugger.md).",
+        "evidence": [
+          "tensorflow/python/debug/examples/README.md:6 links to ../../../docs_src/guide/debugger.md",
+          "last touched by 6c2bf65763 (2018-08-27T19:01:50Z): Moved tensorflow/docs_src to https://github.com/tensorflow/docs; recover from parent abc8452394"
+        ],
+        "recovery_sha": "abc8452394aeeecc1f3fef27f7098a5924bdd0e9",
+        "deleted_in": "6c2bf6576321ad53ff1eb6d66b6efae2c93ef4e0",
+        "live_alternative": null,
+        "confidence": 0.55,
+        "head_sha": "14665b7f0b60bb47986eb566d8e51fc113c19a6a"
+      }
+    },
     "d6a6343b0150": {
       "id": "d6a6343b0150",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5255,20 +5472,21 @@
         "path": "extensions/copilot/dotnet-install.sh",
         "context": "script setup:dotnet:darwin:linux",
         "evidence": [
-          "extensions/copilot/package.json script \"setup:dotnet:darwin:linux\": curl -O https://raw.githubusercontent.com/dotnet/install-scripts/main/src/dotnet-install.sh && chmod u+x dotnet-install.sh && ./dotnet-install.sh --channel 10.0 && rm dotnet-install.sh"
+          "extensions/copilot/package.json script \"setup:dotnet:darwin:linux\": curl -O https://raw.githubusercontent.com/dotnet/install-scripts/main/src/dotnet-install.sh && chmod u+x dotnet-install.sh && ./dotnet-install.sh --channel 10.0 && rm dotnet-install.sh",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "d7bb6132844f": {
       "id": "d7bb6132844f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5292,14 +5510,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/github/find-reusable-release-validation.sh",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "d86ab7a33a9c": {
       "id": "d86ab7a33a9c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5316,7 +5534,8 @@
         "path": "packages/api/account-controller/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/account-controller/package.json \"main\" points to lib/index.js"
+          "packages/api/account-controller/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5329,7 +5548,7 @@
       "id": "d9ac29f55108",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5347,20 +5566,21 @@
         "context": "job preflight",
         "evidence": [
           ".github/workflows/ci.yml job 'preflight' runs './.ci-harness/scripts/lib/release-context.mjs' (working-directory: .)",
-          "same file name exists at scripts/lib/release-context.mjs"
+          "same file name exists at scripts/lib/release-context.mjs",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-context.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "d9be4158242d": {
       "id": "d9be4158242d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5384,14 +5604,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/release-tooling-identity.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "dab4d2e94fce": {
       "id": "dab4d2e94fce",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5409,7 +5629,8 @@
         "context": "LRU \uce90\uc2dc\uac00 \uc5b4\ub5bb\uac8c \uc791\ub3d9\ud558\ub294\uc9c0 \ub354 \ub9ce\uc740 \uc608\uc2dc\ub85c \ud655\uc778\ud558\uace0 \uc2f6\ub2e4\uba74 LRUCache.test.js](./**test**/LRUCache.test.js) \ud30c\uc77c\uc744 \ucc38\uace0\ud558\uc138\uc694.",
         "evidence": [
           "src/data-structures/lru-cache/README.ko-KR.md:27 links to ./**test**/LRUCache.test.js",
-          "same file name exists at src/data-structures/lru-cache/__test__/LRUCache.test.js"
+          "same file name exists at src/data-structures/lru-cache/__test__/LRUCache.test.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5422,7 +5643,7 @@
       "id": "db5b5af839ca",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5440,7 +5661,8 @@
         "context": "job lifecycle",
         "evidence": [
           ".github/workflows/release.yml job 'lifecycle' runs 'release-artifacts/tests/ci/packed-artifact-lifecycle.js' (working-directory: .)",
-          "same file name exists at tests/ci/packed-artifact-lifecycle.js"
+          "same file name exists at tests/ci/packed-artifact-lifecycle.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5453,7 +5675,7 @@
       "id": "dc717c7f7d29",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5471,7 +5693,8 @@
         "context": "job package_comfy_windows",
         "evidence": [
           ".github/workflows/stable-release.yml job 'package_comfy_windows' runs './update/update.py' (working-directory: .)",
-          "same file name exists at .ci/update_windows/update.py"
+          "same file name exists at .ci/update_windows/update.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5484,7 +5707,7 @@
       "id": "dc9cb8b17e42",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5515,7 +5738,7 @@
       "id": "df7fbd6746dd",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5533,20 +5756,21 @@
         "context": "job build-artifacts",
         "evidence": [
           ".github/workflows/ci.yml job 'build-artifacts' runs '.ci-harness/scripts/macos-native-runtime-artifact.mjs' (working-directory: .)",
-          "same file name exists at scripts/macos-native-runtime-artifact.mjs"
+          "same file name exists at scripts/macos-native-runtime-artifact.mjs",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/macos-native-runtime-artifact.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "dff877f63c19": {
       "id": "dff877f63c19",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5614,7 +5838,7 @@
       "id": "e305ad26f7a0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5645,7 +5869,7 @@
       "id": "e325c8679b18",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5662,7 +5886,8 @@
         "path": "packages/api/terminal-controller/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/terminal-controller/package.json \"main\" points to lib/index.js"
+          "packages/api/terminal-controller/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5675,7 +5900,7 @@
       "id": "e47e9dda26b1",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5693,7 +5918,8 @@
         "context": "Sprout is now enabled for all fixtures! If Sprout cannot execute your fixture due to some technical limitations, add your fixture to [`SproutTodoFilter.ts`](./src/SproutTodoFilter.ts) with a comment e",
         "evidence": [
           "compiler/packages/snap/src/sprout/README.md:7 links to ./src/SproutTodoFilter.ts",
-          "same file name exists at compiler/packages/snap/src/SproutTodoFilter.ts"
+          "same file name exists at compiler/packages/snap/src/SproutTodoFilter.ts",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5706,7 +5932,7 @@
       "id": "e4f2f668341a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5730,14 +5956,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/validate-authorized-beta-focused-evidence.mts",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "e5c3b06ea455": {
       "id": "e5c3b06ea455",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5768,7 +5994,7 @@
       "id": "e7113cc340dd",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5792,14 +6018,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-validation-state.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "e8f6fa47ca25": {
       "id": "e8f6fa47ca25",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5830,7 +6056,7 @@
       "id": "eb0d4e94b8cc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5854,14 +6080,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/upgrade-survivor-policy.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "ec71a3f98111": {
       "id": "ec71a3f98111",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5879,7 +6105,8 @@
         "context": "- **Changelog**: [CHANGELOG.md](../CHANGELOG.md)",
         "evidence": [
           "docs/release-notes/v3.8.0-en.md:355 links to ../CHANGELOG.md",
-          "same file name exists at CHANGELOG.md"
+          "same file name exists at CHANGELOG.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5892,7 +6119,7 @@
       "id": "ecaf489976e7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5909,7 +6136,8 @@
         "path": "autogpt_platform/frontend/server.js",
         "context": "script start:standalone",
         "evidence": [
-          "autogpt_platform/frontend/package.json script \"start:standalone\": cd .next/standalone && node server.js"
+          "autogpt_platform/frontend/package.json script \"start:standalone\": cd .next/standalone && node server.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5922,7 +6150,7 @@
       "id": "ee09841af308",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5946,14 +6174,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "ee38dbea718f": {
       "id": "ee38dbea718f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5970,7 +6198,8 @@
         "path": "packages/react-dom-bindings/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/react-dom-bindings/package.json \"main\" points to index.js"
+          "packages/react-dom-bindings/package.json \"main\" points to index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -5983,7 +6212,7 @@
       "id": "efa249524b45",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6014,7 +6243,7 @@
       "id": "f14ae5beb432",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6045,7 +6274,7 @@
       "id": "f2ed2bbe74e5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6069,14 +6298,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/assets/prompts/skills/agent-customization/references/hooks.md",
         "confidence": 0.55,
-        "head_sha": "9a717654ea25990c928c6fc190af37ce2e4b5047"
+        "head_sha": "ab0c7b8db7acf1563b0382fe795572dd2339baf4"
       }
     },
     "f604f8ce9abb": {
       "id": "f604f8ce9abb",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6093,7 +6322,8 @@
         "path": "crates/next-napi-bindings/npm/win32-x64-msvc/next-swc.win32-x64-msvc.node",
         "context": "package.json main",
         "evidence": [
-          "crates/next-napi-bindings/npm/win32-x64-msvc/package.json \"main\" points to next-swc.win32-x64-msvc.node"
+          "crates/next-napi-bindings/npm/win32-x64-msvc/package.json \"main\" points to next-swc.win32-x64-msvc.node",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -6106,7 +6336,7 @@
       "id": "f6ab5fc23d23",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6124,20 +6354,21 @@
         "context": "job security-fast",
         "evidence": [
           ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/ci-production-audit.mjs' (working-directory: .)",
-          "same file name exists at scripts/ci-production-audit.mjs"
+          "same file name exists at scripts/ci-production-audit.mjs",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/ci-production-audit.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "f83c93d96d01": {
       "id": "f83c93d96d01",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6154,7 +6385,8 @@
         "path": "none",
         "context": "package.json main",
         "evidence": [
-          "package.json \"main\" points to none"
+          "package.json \"main\" points to none",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -6167,7 +6399,7 @@
       "id": "fa377881d6ac",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6185,7 +6417,8 @@
         "context": "Updates the configuration and list of available streams in [PLAYLISTS.md](PLAYLISTS.md).",
         "evidence": [
           "docs/scripts.md:208 links to PLAYLISTS.md",
-          "same file name exists at PLAYLISTS.md"
+          "same file name exists at PLAYLISTS.md",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -6198,7 +6431,7 @@
       "id": "faf17fbbd267",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6222,14 +6455,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-collect-checks.sh",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "fafc4a604ef1": {
       "id": "fafc4a604ef1",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6253,14 +6486,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-validation-policy.mjs",
         "confidence": 0.8,
-        "head_sha": "7f919ca7ea83b0e2a2a5aaa6c824ffa98c813ef7"
+        "head_sha": "fe8d4597345c307f637fe0a2a5e6770226c7da9d"
       }
     },
     "fb4ce15fcfb6": {
       "id": "fb4ce15fcfb6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6278,20 +6511,21 @@
         "context": "job retain",
         "evidence": [
           ".github/workflows/cache-retention.yml job 'retain' runs 'trusted-retention/scripts/ci/cache-retention.mjs' (working-directory: .)",
-          "same file name exists at scripts/ci/cache-retention.mjs"
+          "same file name exists at scripts/ci/cache-retention.mjs",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "scripts/ci/cache-retention.mjs",
         "confidence": 0.8,
-        "head_sha": "69f99c5198d8668056ad376cd74c5aea348224c2"
+        "head_sha": "bff03bfc97f972dc5483cd5a382428507c635844"
       }
     },
     "fc73999400b9": {
       "id": "fc73999400b9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6322,7 +6556,7 @@
       "id": "fc79b7768c86",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6339,7 +6573,8 @@
         "path": "packages/acp/acp/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/acp/acp/package.json \"main\" points to lib/index.js"
+          "packages/acp/acp/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -6352,7 +6587,7 @@
       "id": "fcd5ff24b6f6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6369,7 +6604,8 @@
         "path": "packages/api/workspace-controller/lib/index.js",
         "context": "package.json main",
         "evidence": [
-          "packages/api/workspace-controller/package.json \"main\" points to lib/index.js"
+          "packages/api/workspace-controller/package.json \"main\" points to lib/index.js",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -6382,7 +6618,7 @@
       "id": "fcf2f7ebf83c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6400,7 +6636,8 @@
         "context": "job build",
         "evidence": [
           ".github/workflows/windows_release_nightly_pytorch.yml job 'build' runs 'ComfyUI/main.py' (working-directory: .)",
-          "same file name exists at main.py"
+          "same file name exists at main.py",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
@@ -6413,7 +6650,7 @@
       "id": "fe60adc0a327",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6443,7 +6680,7 @@
       "id": "ffdd2ddc504b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-24T14:57:35Z",
+      "last_seen": "2026-10-24T15:02:25Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6460,7 +6697,8 @@
         "path": "crates/next-napi-bindings/npm/darwin-x64/next-swc.darwin-x64.node",
         "context": "package.json main",
         "evidence": [
-          "crates/next-napi-bindings/npm/darwin-x64/package.json \"main\" points to next-swc.darwin-x64.node"
+          "crates/next-napi-bindings/npm/darwin-x64/package.json \"main\" points to next-swc.darwin-x64.node",
+          "no commit on the default branch ever touched this path"
         ],
         "recovery_sha": null,
         "deleted_in": null,
