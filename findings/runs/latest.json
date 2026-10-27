@@ -1,10 +1,10 @@
 {
-  "scanned_at": "2026-10-26T09:45:22Z",
+  "scanned_at": "2026-10-27T09:34:46Z",
   "repos": {
     "codecrafters-io/build-your-own-x": 0,
     "freeCodeCamp/freeCodeCamp": 40,
-    "openclaw/openclaw": 40,
     "morluto/rea": 3,
+    "openclaw/openclaw": 40,
     "obra/superpowers": 0,
     "mattpocock/skills": 1,
     "affaan-m/ECC": 40,
@@ -29,7 +29,7 @@
     "ohmyzsh/ohmyzsh": 6,
     "Significant-Gravitas/AutoGPT": 16,
     "jackfrued/Python-100-Days": 40,
-    "CyC2018/CS-Notes": 7,
+    "CyC2018/CS-Notes": 19,
     "ollama/ollama": 0,
     "521xueweihan/HelloGitHub": 0,
     "anthropics/skills": 3,
@@ -48,14 +48,14 @@
     "farion1231/cc-switch": 14,
     "langchain-ai/langchain": 1,
     "airbnb/javascript": 0,
-    "vercel/next.js": 17,
     "Comfy-Org/ComfyUI": 5,
+    "vercel/next.js": 17,
     "github/spec-kit": 0
   },
   "errors": {},
-  "api_calls": 166,
-  "rate_remaining": 4835,
-  "seconds": 340,
+  "api_calls": 159,
+  "rate_remaining": 4842,
+  "seconds": 228,
   "findings": [
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -73,7 +73,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "11858599782887bdcdf8bed3f030b80df00da243"
+      "head_sha": "b0d90a8ebe8db196402cf5d6491fcb7c0dd7e5ba"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -91,7 +91,7 @@
       "deleted_in": "e59ad6ebda1d92de58cb55e230f9e1aa130c059b",
       "live_alternative": null,
       "confidence": 0.8,
-      "head_sha": "11858599782887bdcdf8bed3f030b80df00da243"
+      "head_sha": "b0d90a8ebe8db196402cf5d6491fcb7c0dd7e5ba"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -109,7 +109,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "11858599782887bdcdf8bed3f030b80df00da243"
+      "head_sha": "b0d90a8ebe8db196402cf5d6491fcb7c0dd7e5ba"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -127,7 +127,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "11858599782887bdcdf8bed3f030b80df00da243"
+      "head_sha": "b0d90a8ebe8db196402cf5d6491fcb7c0dd7e5ba"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -145,7 +145,7 @@
       "deleted_in": "9ff3a29a72c0885366017b5379608554592b7e97",
       "live_alternative": null,
       "confidence": 0.8,
-      "head_sha": "11858599782887bdcdf8bed3f030b80df00da243"
+      "head_sha": "b0d90a8ebe8db196402cf5d6491fcb7c0dd7e5ba"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -163,7 +163,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "11858599782887bdcdf8bed3f030b80df00da243"
+      "head_sha": "b0d90a8ebe8db196402cf5d6491fcb7c0dd7e5ba"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -181,7 +181,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "11858599782887bdcdf8bed3f030b80df00da243"
+      "head_sha": "b0d90a8ebe8db196402cf5d6491fcb7c0dd7e5ba"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -199,741 +199,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "11858599782887bdcdf8bed3f030b80df00da243"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 1355,
-      "ref": "./.ci-harness/scripts/lib/release-context.mjs",
-      "path": ".ci-harness/scripts/lib/release-context.mjs",
-      "context": "job preflight",
-      "evidence": [
-        ".github/workflows/ci.yml job 'preflight' runs './.ci-harness/scripts/lib/release-context.mjs' (working-directory: .)",
-        "same file name exists at scripts/lib/release-context.mjs",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/lib/release-context.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 1554,
-      "ref": ".ci-harness/scripts/ci-build-manifest.mjs",
-      "path": ".ci-harness/scripts/ci-build-manifest.mjs",
-      "context": "job preflight",
-      "evidence": [
-        ".github/workflows/ci.yml job 'preflight' runs '.ci-harness/scripts/ci-build-manifest.mjs' (working-directory: .)",
-        "same file name exists at scripts/ci-build-manifest.mjs",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/ci-build-manifest.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 1665,
-      "ref": ".ci-harness/scripts/detect-private-keys.mts",
-      "path": ".ci-harness/scripts/detect-private-keys.mts",
-      "context": "job security-fast",
-      "evidence": [
-        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/detect-private-keys.mts' (working-directory: .)",
-        "same file name exists at scripts/detect-private-keys.mts",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/detect-private-keys.mts",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 1691,
-      "ref": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
-      "path": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
-      "context": "job security-fast",
-      "evidence": [
-        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh' (working-directory: .)",
-        "same file name exists at .github/actions/setup-pnpm-store-cache/ensure-node.sh",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 1764,
-      "ref": ".ci-harness/scripts/ci-production-audit.mjs",
-      "path": ".ci-harness/scripts/ci-production-audit.mjs",
-      "context": "job security-fast",
-      "evidence": [
-        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/ci-production-audit.mjs' (working-directory: .)",
-        "same file name exists at scripts/ci-production-audit.mjs",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/ci-production-audit.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 1781,
-      "ref": ".ci-harness/scripts/ci-collect-checks.sh",
-      "path": ".ci-harness/scripts/ci-collect-checks.sh",
-      "context": "job security-fast",
-      "evidence": [
-        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/ci-collect-checks.sh' (working-directory: .)",
-        "same file name exists at scripts/ci-collect-checks.sh",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/ci-collect-checks.sh",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 1962,
-      "ref": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
-      "path": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
-      "context": "job build-artifacts",
-      "evidence": [
-        ".github/workflows/ci.yml job 'build-artifacts' runs '.ci-harness/scripts/macos-native-runtime-artifact.mjs' (working-directory: .)",
-        "same file name exists at scripts/macos-native-runtime-artifact.mjs",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/macos-native-runtime-artifact.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 2197,
-      "ref": "scripts/ensure-cli-startup-build.mjs",
-      "path": "scripts/ensure-cli-startup-build.mjs",
-      "context": "job build-artifacts",
-      "evidence": [
-        ".github/workflows/ci.yml job 'build-artifacts' runs 'scripts/ensure-cli-startup-build.mjs' (working-directory: .)",
-        "last touched by c70aee247e (2026-08-09T14:21:35Z): refactor(scripts): migrate JavaScript tools to TypeScript (#121005); recover from parent 2433fa213c"
-      ],
-      "recovery_sha": "2433fa213c6f0a66404ef45daf5017e2ac8b78fe",
-      "deleted_in": "c70aee247e831d21895f5ea3dda7497c50af0721",
-      "live_alternative": null,
-      "confidence": 0.9,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 3082,
-      "ref": ".ci-harness/.github/actions/git-owner/owner.py",
-      "path": ".ci-harness/.github/actions/git-owner/owner.py",
-      "context": "job checks-fast-core",
-      "evidence": [
-        ".github/workflows/ci.yml job 'checks-fast-core' runs '.ci-harness/.github/actions/git-owner/owner.py' (working-directory: .)",
-        "same file name exists at .github/actions/git-owner/owner.py",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": ".github/actions/git-owner/owner.py",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 3852,
-      "ref": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
-      "path": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
-      "context": "job check-shard",
-      "evidence": [
-        ".github/workflows/ci.yml job 'check-shard' runs '.ci-harness/scripts/ci-npm-lock-admission.mjs' (working-directory: .)",
-        "same file name exists at scripts/ci-npm-lock-admission.mjs",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/ci-npm-lock-admission.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 3980,
-      "ref": ".ci-harness/scripts/ci-static-step.sh",
-      "path": ".ci-harness/scripts/ci-static-step.sh",
-      "context": "job check-shard",
-      "evidence": [
-        ".github/workflows/ci.yml job 'check-shard' runs '.ci-harness/scripts/ci-static-step.sh' (working-directory: .)",
-        "same file name exists at scripts/ci-static-step.sh",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/ci-static-step.sh",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 4586,
-      "ref": ".ci-harness/scripts/ci-additional-checks.sh",
-      "path": ".ci-harness/scripts/ci-additional-checks.sh",
-      "context": "job check-additional-shard",
-      "evidence": [
-        ".github/workflows/ci.yml job 'check-additional-shard' runs '.ci-harness/scripts/ci-additional-checks.sh' (working-directory: .)",
-        "same file name exists at scripts/ci-additional-checks.sh",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/ci-additional-checks.sh",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 5010,
-      "ref": ".ci-harness/scripts/lib/swift-toolchain.sh",
-      "path": ".ci-harness/scripts/lib/swift-toolchain.sh",
-      "context": "job macos-swift",
-      "evidence": [
-        ".github/workflows/ci.yml job 'macos-swift' runs '.ci-harness/scripts/lib/swift-toolchain.sh' (working-directory: .)",
-        "same file name exists at scripts/lib/swift-toolchain.sh",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/lib/swift-toolchain.sh",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 5665,
-      "ref": "./.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
-      "path": ".ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
-      "context": "job ios-build",
-      "evidence": [
-        ".github/workflows/ci.yml job 'ios-build' runs './.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs' (working-directory: .)",
-        "same file name exists at scripts/lib/ci-ios-smoke-plan.mjs",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/lib/ci-ios-smoke-plan.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 5727,
-      "ref": ".ci-harness/scripts/swift-build-cache-metadata.py",
-      "path": ".ci-harness/scripts/swift-build-cache-metadata.py",
-      "context": "job ios-build",
-      "evidence": [
-        ".github/workflows/ci.yml job 'ios-build' runs '.ci-harness/scripts/swift-build-cache-metadata.py' (working-directory: .)",
-        "same file name exists at scripts/swift-build-cache-metadata.py",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/swift-build-cache-metadata.py",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 5729,
-      "ref": ".ci-harness/scripts/ci-xcodebuild.py",
-      "path": ".ci-harness/scripts/ci-xcodebuild.py",
-      "context": "job ios-build",
-      "evidence": [
-        ".github/workflows/ci.yml job 'ios-build' runs '.ci-harness/scripts/ci-xcodebuild.py' (working-directory: .)",
-        "same file name exists at scripts/ci-xcodebuild.py"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/ci-xcodebuild.py",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 6125,
-      "ref": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
-      "path": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
-      "context": "job ios-screenshot-capture",
-      "evidence": [
-        ".github/workflows/ci.yml job 'ios-screenshot-capture' runs '.ci-harness/scripts/ios-screenshot-evidence.mjs' (working-directory: .)",
-        "same file name exists at scripts/ios-screenshot-evidence.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/ios-screenshot-evidence.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 6354,
-      "ref": "../../.ci-harness/scripts/ci-collect-checks.sh",
-      "path": ".ci-harness/scripts/ci-collect-checks.sh",
-      "context": "job android",
-      "evidence": [
-        ".github/workflows/ci.yml job 'android' runs '../../.ci-harness/scripts/ci-collect-checks.sh' (working-directory: apps/android)",
-        "same file name exists at scripts/ci-collect-checks.sh"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/ci-collect-checks.sh",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 6686,
-      "ref": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
-      "path": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
-      "context": "job docker-seed-e2e",
-      "evidence": [
-        ".github/workflows/ci.yml job 'docker-seed-e2e' runs '.ci-harness/scripts/lib/release-upgrade-baseline.mjs' (working-directory: .)",
-        "same file name exists at scripts/lib/release-upgrade-baseline.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/lib/release-upgrade-baseline.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/ci.yml",
-      "line": 6698,
-      "ref": "./.ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
-      "path": ".ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
-      "context": "job docker-seed-e2e",
-      "evidence": [
-        ".github/workflows/ci.yml job 'docker-seed-e2e' runs './.ci-harness/scripts/lib/upgrade-survivor-policy.mjs' (working-directory: .)",
-        "same file name exists at scripts/lib/upgrade-survivor-policy.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/lib/upgrade-survivor-policy.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/docker-release-prepare.yml",
-      "line": 104,
-      "ref": "./workflow-source/scripts/docker-release-artifacts.mjs",
-      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
-      "context": "job resolve",
-      "evidence": [
-        ".github/workflows/docker-release-prepare.yml job 'resolve' runs './workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
-        "same file name exists at scripts/docker-release-artifacts.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/docker-release-artifacts.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/docker-release-prepare.yml",
-      "line": 225,
-      "ref": "workflow-source/scripts/relay-build-limit-warnings.mts",
-      "path": "workflow-source/scripts/relay-build-limit-warnings.mts",
-      "context": "job build",
-      "evidence": [
-        ".github/workflows/docker-release-prepare.yml job 'build' runs 'workflow-source/scripts/relay-build-limit-warnings.mts' (working-directory: .)",
-        "same file name exists at scripts/relay-build-limit-warnings.mts"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/relay-build-limit-warnings.mts",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/docker-release-prepare.yml",
-      "line": 104,
-      "ref": "workflow-source/scripts/docker-release-artifacts.mjs",
-      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
-      "context": "job build",
-      "evidence": [
-        ".github/workflows/docker-release-prepare.yml job 'build' runs 'workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
-        "same file name exists at scripts/docker-release-artifacts.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/docker-release-artifacts.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/docker-release.yml",
-      "line": 165,
-      "ref": "./workflow-source/scripts/docker-release-artifacts.mjs",
-      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
-      "context": "job validate_release_identity",
-      "evidence": [
-        ".github/workflows/docker-release.yml job 'validate_release_identity' runs './workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
-        "same file name exists at scripts/docker-release-artifacts.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/docker-release-artifacts.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/docker-release.yml",
-      "line": 346,
-      "ref": "workflow-source/scripts/verify-authorized-beta-focused-candidate.mjs",
-      "path": "workflow-source/scripts/verify-authorized-beta-focused-candidate.mjs",
-      "context": "job publish",
-      "evidence": [
-        ".github/workflows/docker-release.yml job 'publish' runs 'workflow-source/scripts/verify-authorized-beta-focused-candidate.mjs' (working-directory: .)",
-        "same file name exists at scripts/verify-authorized-beta-focused-candidate.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/verify-authorized-beta-focused-candidate.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/docker-release.yml",
-      "line": 348,
-      "ref": "workflow-source/scripts/validate-authorized-beta-focused-evidence.mts",
-      "path": "workflow-source/scripts/validate-authorized-beta-focused-evidence.mts",
-      "context": "job publish",
-      "evidence": [
-        ".github/workflows/docker-release.yml job 'publish' runs 'workflow-source/scripts/validate-authorized-beta-focused-evidence.mts' (working-directory: .)",
-        "same file name exists at scripts/validate-authorized-beta-focused-evidence.mts"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/validate-authorized-beta-focused-evidence.mts",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/docker-release.yml",
-      "line": 165,
-      "ref": "workflow-source/scripts/docker-release-artifacts.mjs",
-      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
-      "context": "job publish",
-      "evidence": [
-        ".github/workflows/docker-release.yml job 'publish' runs 'workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
-        "same file name exists at scripts/docker-release-artifacts.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/docker-release-artifacts.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/docs-sync-publish.yml",
-      "line": 159,
-      "ref": ".openclaw-sync/check-docs-mdx.mts",
-      "path": "publish/.openclaw-sync/check-docs-mdx.mts",
-      "context": "job sync-publish-repo",
-      "evidence": [
-        ".github/workflows/docs-sync-publish.yml job 'sync-publish-repo' runs '.openclaw-sync/check-docs-mdx.mts' (working-directory: publish)",
-        "same file name exists at scripts/check-docs-mdx.mts"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/check-docs-mdx.mts",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 308,
-      "ref": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
-      "path": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
-      "context": "job resolve_target",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh' (working-directory: .)",
-        "same file name exists at .github/actions/setup-pnpm-store-cache/ensure-node.sh"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 318,
-      "ref": "workflow/scripts/full-release-publication-contract.mjs",
-      "path": "workflow/scripts/full-release-publication-contract.mjs",
-      "context": "job resolve_target",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/full-release-publication-contract.mjs' (working-directory: .)",
-        "same file name exists at scripts/full-release-publication-contract.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/full-release-publication-contract.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 340,
-      "ref": "workflow/scripts/release-tooling-identity.mjs",
-      "path": "workflow/scripts/release-tooling-identity.mjs",
-      "context": "job resolve_target",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/release-tooling-identity.mjs' (working-directory: .)",
-        "same file name exists at scripts/release-tooling-identity.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/release-tooling-identity.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 357,
-      "ref": "workflow/scripts/github/resolve-openclaw-ref.sh",
-      "path": "workflow/scripts/github/resolve-openclaw-ref.sh",
-      "context": "job resolve_target",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/github/resolve-openclaw-ref.sh' (working-directory: .)",
-        "same file name exists at scripts/github/resolve-openclaw-ref.sh"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/github/resolve-openclaw-ref.sh",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 433,
-      "ref": "workflow/scripts/full-release-candidate-contract.mjs",
-      "path": "workflow/scripts/full-release-candidate-contract.mjs",
-      "context": "job resolve_target",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/full-release-candidate-contract.mjs' (working-directory: .)",
-        "same file name exists at scripts/full-release-candidate-contract.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/full-release-candidate-contract.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 523,
-      "ref": "./workflow/scripts/lib/release-context.mjs",
-      "path": "workflow/scripts/lib/release-context.mjs",
-      "context": "job resolve_target",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'resolve_target' runs './workflow/scripts/lib/release-context.mjs' (working-directory: .)",
-        "same file name exists at scripts/lib/release-context.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/lib/release-context.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 576,
-      "ref": "./workflow/scripts/full-release-validation-policy.mjs",
-      "path": "workflow/scripts/full-release-validation-policy.mjs",
-      "context": "job resolve_target",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'resolve_target' runs './workflow/scripts/full-release-validation-policy.mjs' (working-directory: .)",
-        "same file name exists at scripts/full-release-validation-policy.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/full-release-validation-policy.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 577,
-      "ref": "./workflow/scripts/lib/release-version.mjs",
-      "path": "workflow/scripts/lib/release-version.mjs",
-      "context": "job resolve_target",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'resolve_target' runs './workflow/scripts/lib/release-version.mjs' (working-directory: .)",
-        "same file name exists at scripts/lib/release-version.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/lib/release-version.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 1114,
-      "ref": "workflow/scripts/full-release-validation-state.mjs",
-      "path": "workflow/scripts/full-release-validation-state.mjs",
-      "context": "job evidence_reuse",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/full-release-validation-state.mjs' (working-directory: .)",
-        "same file name exists at scripts/full-release-validation-state.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/full-release-validation-state.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 1179,
-      "ref": "workflow/scripts/github/find-reusable-release-validation.sh",
-      "path": "workflow/scripts/github/find-reusable-release-validation.sh",
-      "context": "job evidence_reuse",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/github/find-reusable-release-validation.sh' (working-directory: .)",
-        "same file name exists at scripts/github/find-reusable-release-validation.sh"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/github/find-reusable-release-validation.sh",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 1212,
-      "ref": "workflow/scripts/full-release-artifacts.mjs",
-      "path": "workflow/scripts/full-release-artifacts.mjs",
-      "context": "job evidence_reuse",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/full-release-artifacts.mjs' (working-directory: .)",
-        "same file name exists at scripts/full-release-artifacts.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/full-release-artifacts.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 1367,
-      "ref": "workflow/scripts/find-reusable-release-child.mjs",
-      "path": "workflow/scripts/find-reusable-release-child.mjs",
-      "context": "job normal_ci",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'normal_ci' runs 'workflow/scripts/find-reusable-release-child.mjs' (working-directory: .)",
-        "same file name exists at scripts/find-reusable-release-child.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/find-reusable-release-child.mjs",
-      "confidence": 0.8,
-      "head_sha": "79798ed63e1d974179c2bfd7960c04daa7f14dda"
+      "head_sha": "b0d90a8ebe8db196402cf5d6491fcb7c0dd7e5ba"
     },
     {
       "repo": "morluto/rea",
@@ -952,7 +218,741 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci/cache-retention.mjs",
       "confidence": 0.8,
-      "head_sha": "721dd3d1aa271b99feaf56559af6d3ed24cc101a"
+      "head_sha": "d6f88becd531cabafca1d968b89cf7fc77a80041"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1356,
+      "ref": "./.ci-harness/scripts/lib/release-context.mjs",
+      "path": ".ci-harness/scripts/lib/release-context.mjs",
+      "context": "job preflight",
+      "evidence": [
+        ".github/workflows/ci.yml job 'preflight' runs './.ci-harness/scripts/lib/release-context.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/release-context.mjs",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/release-context.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1555,
+      "ref": ".ci-harness/scripts/ci-build-manifest.mjs",
+      "path": ".ci-harness/scripts/ci-build-manifest.mjs",
+      "context": "job preflight",
+      "evidence": [
+        ".github/workflows/ci.yml job 'preflight' runs '.ci-harness/scripts/ci-build-manifest.mjs' (working-directory: .)",
+        "same file name exists at scripts/ci-build-manifest.mjs",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-build-manifest.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1666,
+      "ref": ".ci-harness/scripts/detect-private-keys.mts",
+      "path": ".ci-harness/scripts/detect-private-keys.mts",
+      "context": "job security-fast",
+      "evidence": [
+        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/detect-private-keys.mts' (working-directory: .)",
+        "same file name exists at scripts/detect-private-keys.mts",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/detect-private-keys.mts",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1692,
+      "ref": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "path": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "context": "job security-fast",
+      "evidence": [
+        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh' (working-directory: .)",
+        "same file name exists at .github/actions/setup-pnpm-store-cache/ensure-node.sh",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1765,
+      "ref": ".ci-harness/scripts/ci-production-audit.mjs",
+      "path": ".ci-harness/scripts/ci-production-audit.mjs",
+      "context": "job security-fast",
+      "evidence": [
+        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/ci-production-audit.mjs' (working-directory: .)",
+        "same file name exists at scripts/ci-production-audit.mjs",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-production-audit.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1782,
+      "ref": ".ci-harness/scripts/ci-collect-checks.sh",
+      "path": ".ci-harness/scripts/ci-collect-checks.sh",
+      "context": "job security-fast",
+      "evidence": [
+        ".github/workflows/ci.yml job 'security-fast' runs '.ci-harness/scripts/ci-collect-checks.sh' (working-directory: .)",
+        "same file name exists at scripts/ci-collect-checks.sh",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-collect-checks.sh",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1974,
+      "ref": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
+      "path": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
+      "context": "job build-artifacts",
+      "evidence": [
+        ".github/workflows/ci.yml job 'build-artifacts' runs '.ci-harness/scripts/macos-native-runtime-artifact.mjs' (working-directory: .)",
+        "same file name exists at scripts/macos-native-runtime-artifact.mjs",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/macos-native-runtime-artifact.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 2225,
+      "ref": "scripts/ensure-cli-startup-build.mjs",
+      "path": "scripts/ensure-cli-startup-build.mjs",
+      "context": "job build-artifacts",
+      "evidence": [
+        ".github/workflows/ci.yml job 'build-artifacts' runs 'scripts/ensure-cli-startup-build.mjs' (working-directory: .)",
+        "last touched by c70aee247e (2026-08-09T14:21:35Z): refactor(scripts): migrate JavaScript tools to TypeScript (#121005); recover from parent 2433fa213c"
+      ],
+      "recovery_sha": "2433fa213c6f0a66404ef45daf5017e2ac8b78fe",
+      "deleted_in": "c70aee247e831d21895f5ea3dda7497c50af0721",
+      "live_alternative": null,
+      "confidence": 0.9,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 3149,
+      "ref": ".ci-harness/.github/actions/git-owner/owner.py",
+      "path": ".ci-harness/.github/actions/git-owner/owner.py",
+      "context": "job checks-fast-core",
+      "evidence": [
+        ".github/workflows/ci.yml job 'checks-fast-core' runs '.ci-harness/.github/actions/git-owner/owner.py' (working-directory: .)",
+        "same file name exists at .github/actions/git-owner/owner.py",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/actions/git-owner/owner.py",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 3919,
+      "ref": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
+      "path": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
+      "context": "job check-shard",
+      "evidence": [
+        ".github/workflows/ci.yml job 'check-shard' runs '.ci-harness/scripts/ci-npm-lock-admission.mjs' (working-directory: .)",
+        "same file name exists at scripts/ci-npm-lock-admission.mjs",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-npm-lock-admission.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 4047,
+      "ref": ".ci-harness/scripts/ci-static-step.sh",
+      "path": ".ci-harness/scripts/ci-static-step.sh",
+      "context": "job check-shard",
+      "evidence": [
+        ".github/workflows/ci.yml job 'check-shard' runs '.ci-harness/scripts/ci-static-step.sh' (working-directory: .)",
+        "same file name exists at scripts/ci-static-step.sh",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-static-step.sh",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 4653,
+      "ref": ".ci-harness/scripts/ci-additional-checks.sh",
+      "path": ".ci-harness/scripts/ci-additional-checks.sh",
+      "context": "job check-additional-shard",
+      "evidence": [
+        ".github/workflows/ci.yml job 'check-additional-shard' runs '.ci-harness/scripts/ci-additional-checks.sh' (working-directory: .)",
+        "same file name exists at scripts/ci-additional-checks.sh",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-additional-checks.sh",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 5077,
+      "ref": ".ci-harness/scripts/lib/swift-toolchain.sh",
+      "path": ".ci-harness/scripts/lib/swift-toolchain.sh",
+      "context": "job macos-swift",
+      "evidence": [
+        ".github/workflows/ci.yml job 'macos-swift' runs '.ci-harness/scripts/lib/swift-toolchain.sh' (working-directory: .)",
+        "same file name exists at scripts/lib/swift-toolchain.sh",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/swift-toolchain.sh",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 5732,
+      "ref": "./.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
+      "path": ".ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
+      "context": "job ios-build",
+      "evidence": [
+        ".github/workflows/ci.yml job 'ios-build' runs './.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/ci-ios-smoke-plan.mjs",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/ci-ios-smoke-plan.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 5794,
+      "ref": ".ci-harness/scripts/swift-build-cache-metadata.py",
+      "path": ".ci-harness/scripts/swift-build-cache-metadata.py",
+      "context": "job ios-build",
+      "evidence": [
+        ".github/workflows/ci.yml job 'ios-build' runs '.ci-harness/scripts/swift-build-cache-metadata.py' (working-directory: .)",
+        "same file name exists at scripts/swift-build-cache-metadata.py",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/swift-build-cache-metadata.py",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 5796,
+      "ref": ".ci-harness/scripts/ci-xcodebuild.py",
+      "path": ".ci-harness/scripts/ci-xcodebuild.py",
+      "context": "job ios-build",
+      "evidence": [
+        ".github/workflows/ci.yml job 'ios-build' runs '.ci-harness/scripts/ci-xcodebuild.py' (working-directory: .)",
+        "same file name exists at scripts/ci-xcodebuild.py"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-xcodebuild.py",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 6192,
+      "ref": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
+      "path": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
+      "context": "job ios-screenshot-capture",
+      "evidence": [
+        ".github/workflows/ci.yml job 'ios-screenshot-capture' runs '.ci-harness/scripts/ios-screenshot-evidence.mjs' (working-directory: .)",
+        "same file name exists at scripts/ios-screenshot-evidence.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ios-screenshot-evidence.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 6421,
+      "ref": "../../.ci-harness/scripts/ci-collect-checks.sh",
+      "path": ".ci-harness/scripts/ci-collect-checks.sh",
+      "context": "job android",
+      "evidence": [
+        ".github/workflows/ci.yml job 'android' runs '../../.ci-harness/scripts/ci-collect-checks.sh' (working-directory: apps/android)",
+        "same file name exists at scripts/ci-collect-checks.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-collect-checks.sh",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 6753,
+      "ref": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
+      "path": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
+      "context": "job docker-seed-e2e",
+      "evidence": [
+        ".github/workflows/ci.yml job 'docker-seed-e2e' runs '.ci-harness/scripts/lib/release-upgrade-baseline.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/release-upgrade-baseline.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/release-upgrade-baseline.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 6765,
+      "ref": "./.ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
+      "path": ".ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
+      "context": "job docker-seed-e2e",
+      "evidence": [
+        ".github/workflows/ci.yml job 'docker-seed-e2e' runs './.ci-harness/scripts/lib/upgrade-survivor-policy.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/upgrade-survivor-policy.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/upgrade-survivor-policy.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release-prepare.yml",
+      "line": 104,
+      "ref": "./workflow-source/scripts/docker-release-artifacts.mjs",
+      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "context": "job resolve",
+      "evidence": [
+        ".github/workflows/docker-release-prepare.yml job 'resolve' runs './workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/docker-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/docker-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release-prepare.yml",
+      "line": 225,
+      "ref": "workflow-source/scripts/relay-build-limit-warnings.mts",
+      "path": "workflow-source/scripts/relay-build-limit-warnings.mts",
+      "context": "job build",
+      "evidence": [
+        ".github/workflows/docker-release-prepare.yml job 'build' runs 'workflow-source/scripts/relay-build-limit-warnings.mts' (working-directory: .)",
+        "same file name exists at scripts/relay-build-limit-warnings.mts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/relay-build-limit-warnings.mts",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release-prepare.yml",
+      "line": 104,
+      "ref": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "context": "job build",
+      "evidence": [
+        ".github/workflows/docker-release-prepare.yml job 'build' runs 'workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/docker-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/docker-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release.yml",
+      "line": 165,
+      "ref": "./workflow-source/scripts/docker-release-artifacts.mjs",
+      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "context": "job validate_release_identity",
+      "evidence": [
+        ".github/workflows/docker-release.yml job 'validate_release_identity' runs './workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/docker-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/docker-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release.yml",
+      "line": 346,
+      "ref": "workflow-source/scripts/verify-authorized-beta-focused-candidate.mjs",
+      "path": "workflow-source/scripts/verify-authorized-beta-focused-candidate.mjs",
+      "context": "job publish",
+      "evidence": [
+        ".github/workflows/docker-release.yml job 'publish' runs 'workflow-source/scripts/verify-authorized-beta-focused-candidate.mjs' (working-directory: .)",
+        "same file name exists at scripts/verify-authorized-beta-focused-candidate.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/verify-authorized-beta-focused-candidate.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release.yml",
+      "line": 348,
+      "ref": "workflow-source/scripts/validate-authorized-beta-focused-evidence.mts",
+      "path": "workflow-source/scripts/validate-authorized-beta-focused-evidence.mts",
+      "context": "job publish",
+      "evidence": [
+        ".github/workflows/docker-release.yml job 'publish' runs 'workflow-source/scripts/validate-authorized-beta-focused-evidence.mts' (working-directory: .)",
+        "same file name exists at scripts/validate-authorized-beta-focused-evidence.mts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/validate-authorized-beta-focused-evidence.mts",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docker-release.yml",
+      "line": 165,
+      "ref": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "path": "workflow-source/scripts/docker-release-artifacts.mjs",
+      "context": "job publish",
+      "evidence": [
+        ".github/workflows/docker-release.yml job 'publish' runs 'workflow-source/scripts/docker-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/docker-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/docker-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/docs-sync-publish.yml",
+      "line": 159,
+      "ref": ".openclaw-sync/check-docs-mdx.mts",
+      "path": "publish/.openclaw-sync/check-docs-mdx.mts",
+      "context": "job sync-publish-repo",
+      "evidence": [
+        ".github/workflows/docs-sync-publish.yml job 'sync-publish-repo' runs '.openclaw-sync/check-docs-mdx.mts' (working-directory: publish)",
+        "same file name exists at scripts/check-docs-mdx.mts"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/check-docs-mdx.mts",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 308,
+      "ref": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "path": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh' (working-directory: .)",
+        "same file name exists at .github/actions/setup-pnpm-store-cache/ensure-node.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 318,
+      "ref": "workflow/scripts/full-release-publication-contract.mjs",
+      "path": "workflow/scripts/full-release-publication-contract.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/full-release-publication-contract.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-publication-contract.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-publication-contract.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 340,
+      "ref": "workflow/scripts/release-tooling-identity.mjs",
+      "path": "workflow/scripts/release-tooling-identity.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/release-tooling-identity.mjs' (working-directory: .)",
+        "same file name exists at scripts/release-tooling-identity.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/release-tooling-identity.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 357,
+      "ref": "workflow/scripts/github/resolve-openclaw-ref.sh",
+      "path": "workflow/scripts/github/resolve-openclaw-ref.sh",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/github/resolve-openclaw-ref.sh' (working-directory: .)",
+        "same file name exists at scripts/github/resolve-openclaw-ref.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/github/resolve-openclaw-ref.sh",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 433,
+      "ref": "workflow/scripts/full-release-candidate-contract.mjs",
+      "path": "workflow/scripts/full-release-candidate-contract.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs 'workflow/scripts/full-release-candidate-contract.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-candidate-contract.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-candidate-contract.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 523,
+      "ref": "./workflow/scripts/lib/release-context.mjs",
+      "path": "workflow/scripts/lib/release-context.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs './workflow/scripts/lib/release-context.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/release-context.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/release-context.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 576,
+      "ref": "./workflow/scripts/full-release-validation-policy.mjs",
+      "path": "workflow/scripts/full-release-validation-policy.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs './workflow/scripts/full-release-validation-policy.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-validation-policy.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-validation-policy.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 577,
+      "ref": "./workflow/scripts/lib/release-version.mjs",
+      "path": "workflow/scripts/lib/release-version.mjs",
+      "context": "job resolve_target",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'resolve_target' runs './workflow/scripts/lib/release-version.mjs' (working-directory: .)",
+        "same file name exists at scripts/lib/release-version.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/lib/release-version.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 1114,
+      "ref": "workflow/scripts/full-release-validation-state.mjs",
+      "path": "workflow/scripts/full-release-validation-state.mjs",
+      "context": "job evidence_reuse",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/full-release-validation-state.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-validation-state.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-validation-state.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 1179,
+      "ref": "workflow/scripts/github/find-reusable-release-validation.sh",
+      "path": "workflow/scripts/github/find-reusable-release-validation.sh",
+      "context": "job evidence_reuse",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/github/find-reusable-release-validation.sh' (working-directory: .)",
+        "same file name exists at scripts/github/find-reusable-release-validation.sh"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/github/find-reusable-release-validation.sh",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 1212,
+      "ref": "workflow/scripts/full-release-artifacts.mjs",
+      "path": "workflow/scripts/full-release-artifacts.mjs",
+      "context": "job evidence_reuse",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/full-release-artifacts.mjs' (working-directory: .)",
+        "same file name exists at scripts/full-release-artifacts.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/full-release-artifacts.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/full-release-validation.yml",
+      "line": 1367,
+      "ref": "workflow/scripts/find-reusable-release-child.mjs",
+      "path": "workflow/scripts/find-reusable-release-child.mjs",
+      "context": "job normal_ci",
+      "evidence": [
+        ".github/workflows/full-release-validation.yml job 'normal_ci' runs 'workflow/scripts/find-reusable-release-child.mjs' (working-directory: .)",
+        "same file name exists at scripts/find-reusable-release-child.mjs"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/find-reusable-release-child.mjs",
+      "confidence": 0.8,
+      "head_sha": "965ada3e32dca796505c3398fd406b19c10a3a24"
     },
     {
       "repo": "affaan-m/ECC",
@@ -1741,7 +1741,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "9b904dcc22c23fe8b82834339bbdd96495072e59"
+      "head_sha": "69f73ec5f11f5a945cc864f29c4e2ad2307eaec3"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1759,7 +1759,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "9b904dcc22c23fe8b82834339bbdd96495072e59"
+      "head_sha": "69f73ec5f11f5a945cc864f29c4e2ad2307eaec3"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1777,7 +1777,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/macos-bundle-updates.md",
       "confidence": 0.55,
-      "head_sha": "9b904dcc22c23fe8b82834339bbdd96495072e59"
+      "head_sha": "69f73ec5f11f5a945cc864f29c4e2ad2307eaec3"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1795,7 +1795,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/stable-releases.md",
       "confidence": 0.55,
-      "head_sha": "9b904dcc22c23fe8b82834339bbdd96495072e59"
+      "head_sha": "69f73ec5f11f5a945cc864f29c4e2ad2307eaec3"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1813,7 +1813,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/pm-audit-status.md",
       "confidence": 0.55,
-      "head_sha": "9b904dcc22c23fe8b82834339bbdd96495072e59"
+      "head_sha": "69f73ec5f11f5a945cc864f29c4e2ad2307eaec3"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1831,7 +1831,7 @@
       "deleted_in": null,
       "live_alternative": "optional-skills/research/research-paper-writing/references/writing-guide.md",
       "confidence": 0.55,
-      "head_sha": "9b904dcc22c23fe8b82834339bbdd96495072e59"
+      "head_sha": "69f73ec5f11f5a945cc864f29c4e2ad2307eaec3"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1849,7 +1849,7 @@
       "deleted_in": null,
       "live_alternative": "optional-skills/research/research-paper-writing/references/sources.md",
       "confidence": 0.55,
-      "head_sha": "9b904dcc22c23fe8b82834339bbdd96495072e59"
+      "head_sha": "69f73ec5f11f5a945cc864f29c4e2ad2307eaec3"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1867,7 +1867,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "9b904dcc22c23fe8b82834339bbdd96495072e59"
+      "head_sha": "69f73ec5f11f5a945cc864f29c4e2ad2307eaec3"
     },
     {
       "repo": "torvalds/linux",
@@ -1886,7 +1886,7 @@
       "deleted_in": "22ef8a263c17f02176e3a322b76da07411092c17",
       "live_alternative": "tools/net/ynl/tests/ethtool.py",
       "confidence": 0.9,
-      "head_sha": "6b4b543fa18757297ac756a6fe6e64f506b7844a"
+      "head_sha": "d135ab453a7400a34930bdda1ef4bdc8acfac80e"
     },
     {
       "repo": "react/react",
@@ -1904,7 +1904,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+      "head_sha": "e9df86ca6991b779ee50bc744ad8bbdeefa9bae6"
     },
     {
       "repo": "react/react",
@@ -1922,7 +1922,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+      "head_sha": "e9df86ca6991b779ee50bc744ad8bbdeefa9bae6"
     },
     {
       "repo": "react/react",
@@ -1941,7 +1941,7 @@
       "deleted_in": null,
       "live_alternative": "packages/react-dom/unstable_server-external-runtime.js",
       "confidence": 0.8,
-      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+      "head_sha": "e9df86ca6991b779ee50bc744ad8bbdeefa9bae6"
     },
     {
       "repo": "react/react",
@@ -1959,7 +1959,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+      "head_sha": "e9df86ca6991b779ee50bc744ad8bbdeefa9bae6"
     },
     {
       "repo": "react/react",
@@ -1977,7 +1977,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+      "head_sha": "e9df86ca6991b779ee50bc744ad8bbdeefa9bae6"
     },
     {
       "repo": "react/react",
@@ -1996,7 +1996,7 @@
       "deleted_in": null,
       "live_alternative": "compiler/packages/snap/src/SproutTodoFilter.ts",
       "confidence": 0.55,
-      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+      "head_sha": "e9df86ca6991b779ee50bc744ad8bbdeefa9bae6"
     },
     {
       "repo": "react/react",
@@ -2015,25 +2015,26 @@
       "deleted_in": null,
       "live_alternative": ".github/workflows/runtime_release_from_ci.yml",
       "confidence": 0.55,
-      "head_sha": "a6b912fbe77f698ad43c922f206db0d4f4ad7485"
+      "head_sha": "e9df86ca6991b779ee50bc744ad8bbdeefa9bae6"
     },
     {
       "repo": "anomalyco/opencode",
       "kind": "ci",
-      "file": ".github/workflows/publish.yml",
-      "line": 154,
-      "ref": "./packages/opencode/script/build.ts",
-      "path": "packages/opencode/script/build.ts",
-      "context": "job build-cli",
+      "file": ".github/workflows/bot-nix-hashes.yml",
+      "line": 200,
+      "ref": "../trusted/.github/nix-hashes/publish.sh",
+      "path": "trusted/.github/nix-hashes/publish.sh",
+      "context": "job publish",
       "evidence": [
-        ".github/workflows/publish.yml job 'build-cli' runs './packages/opencode/script/build.ts' (working-directory: .)",
-        "last touched by 44b6938b2a (2026-07-21T01:54:22Z): removed packages/opencode; recover from parent fc7e4cf93e"
+        ".github/workflows/bot-nix-hashes.yml job 'publish' runs '../trusted/.github/nix-hashes/publish.sh' (working-directory: repo)",
+        "same file name exists at .github/nix-hashes/publish.sh",
+        "no commit on the default branch ever touched this path"
       ],
-      "recovery_sha": "fc7e4cf93e660ad5ddabb0c48ecc99e934ebfe95",
-      "deleted_in": "44b6938b2ad2895bdd89d5d5cf753fb01ca8e3dd",
-      "live_alternative": null,
-      "confidence": 0.9,
-      "head_sha": "ed74ec82ce1fe3a36da6c0815a935473ef4bb0fb"
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".github/nix-hashes/publish.sh",
+      "confidence": 0.8,
+      "head_sha": "86976449c40d48f2731553a024f74552593d1764"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2051,7 +2052,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "ed74ec82ce1fe3a36da6c0815a935473ef4bb0fb"
+      "head_sha": "86976449c40d48f2731553a024f74552593d1764"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2063,14 +2064,13 @@
       "context": "script dev:vite",
       "evidence": [
         "package.json script \"dev:vite\": bun run --cwd packages/cli --conditions=browser dev/vite.ts",
-        "same file name exists at packages/cli/dev/vite.ts",
         "no commit on the default branch ever touched this path"
       ],
       "recovery_sha": null,
       "deleted_in": null,
-      "live_alternative": "packages/cli/dev/vite.ts",
-      "confidence": 0.75,
-      "head_sha": "ed74ec82ce1fe3a36da6c0815a935473ef4bb0fb"
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "86976449c40d48f2731553a024f74552593d1764"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2089,7 +2089,7 @@
       "deleted_in": null,
       "live_alternative": "packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts",
       "confidence": 0.75,
-      "head_sha": "ed74ec82ce1fe3a36da6c0815a935473ef4bb0fb"
+      "head_sha": "86976449c40d48f2731553a024f74552593d1764"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2108,7 +2108,7 @@
       "deleted_in": null,
       "live_alternative": "packages/app/e2e/performance/timeline/session-entry-benchmark.spec.ts",
       "confidence": 0.75,
-      "head_sha": "ed74ec82ce1fe3a36da6c0815a935473ef4bb0fb"
+      "head_sha": "86976449c40d48f2731553a024f74552593d1764"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2126,7 +2126,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "ed74ec82ce1fe3a36da6c0815a935473ef4bb0fb"
+      "head_sha": "86976449c40d48f2731553a024f74552593d1764"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2145,7 +2145,7 @@
       "deleted_in": null,
       "live_alternative": "packages/plugins/figma/skills/figma-generate-library/references/token-creation.md",
       "confidence": 0.55,
-      "head_sha": "ed74ec82ce1fe3a36da6c0815a935473ef4bb0fb"
+      "head_sha": "86976449c40d48f2731553a024f74552593d1764"
     },
     {
       "repo": "n8n-io/n8n",
@@ -2163,7 +2163,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "64b1d460057e3ce86431ad09c1eadba5662cb1f9"
+      "head_sha": "99cd91686dcc5d528ba44c49f93607db4bd060c3"
     },
     {
       "repo": "n8n-io/n8n",
@@ -2181,7 +2181,7 @@
       "deleted_in": null,
       "live_alternative": ".github/pull_request_template.md",
       "confidence": 0.55,
-      "head_sha": "64b1d460057e3ce86431ad09c1eadba5662cb1f9"
+      "head_sha": "99cd91686dcc5d528ba44c49f93607db4bd060c3"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2199,7 +2199,7 @@
       "deleted_in": "43a0f254074dc5f18c00817ca969514de4202533",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "741cc8f940cad3e5e1b06c5e0ae97559db1992b4"
+      "head_sha": "8b98feb47435402a92460ecbb3ce8f247c864bdc"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2218,7 +2218,7 @@
       "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
       "live_alternative": "tensorflow/lite/g3doc/android/delegates/nnapi.md",
       "confidence": 0.75,
-      "head_sha": "741cc8f940cad3e5e1b06c5e0ae97559db1992b4"
+      "head_sha": "8b98feb47435402a92460ecbb3ce8f247c864bdc"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2236,7 +2236,7 @@
       "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "741cc8f940cad3e5e1b06c5e0ae97559db1992b4"
+      "head_sha": "8b98feb47435402a92460ecbb3ce8f247c864bdc"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2254,7 +2254,7 @@
       "deleted_in": "50b0cf2bd8e0dee902d9ca4e0cb45c9e0e743bd8",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "741cc8f940cad3e5e1b06c5e0ae97559db1992b4"
+      "head_sha": "8b98feb47435402a92460ecbb3ce8f247c864bdc"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2272,7 +2272,7 @@
       "deleted_in": "6c2bf6576321ad53ff1eb6d66b6efae2c93ef4e0",
       "live_alternative": null,
       "confidence": 0.55,
-      "head_sha": "741cc8f940cad3e5e1b06c5e0ae97559db1992b4"
+      "head_sha": "8b98feb47435402a92460ecbb3ce8f247c864bdc"
     },
     {
       "repo": "trekhleb/javascript-algorithms",
@@ -2327,7 +2327,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "989ee963c2796bdf6be9e7ab69889975ceb4cbc8"
+      "head_sha": "2b68c4c56efc54ab10229cd2f992d1f1e71961f9"
     },
     {
       "repo": "firecrawl/firecrawl",
@@ -2345,7 +2345,7 @@
       "deleted_in": null,
       "live_alternative": "CONTRIBUTING.md",
       "confidence": 0.55,
-      "head_sha": "989ee963c2796bdf6be9e7ab69889975ceb4cbc8"
+      "head_sha": "2b68c4c56efc54ab10229cd2f992d1f1e71961f9"
     },
     {
       "repo": "microsoft/vscode",
@@ -2363,7 +2363,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2381,7 +2381,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2399,7 +2399,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2417,7 +2417,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2435,7 +2435,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2453,7 +2453,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2471,7 +2471,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2489,7 +2489,7 @@
       "deleted_in": null,
       "live_alternative": "build/next/nls-plugin.ts",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2507,7 +2507,7 @@
       "deleted_in": null,
       "live_alternative": "LICENSE.txt",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2525,7 +2525,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/assets/prompts/skills/agent-customization/references/hooks.md",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2543,7 +2543,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/test/pipeline/test/fixtures/config.json",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2561,7 +2561,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/expectedEditCaptureController.ts",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2579,7 +2579,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/node/debugRecorder.ts",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2597,7 +2597,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/inlineEditDebugComponent.ts",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2615,7 +2615,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/nesFeedbackSubmitter.ts",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2633,7 +2633,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/common/observableWorkspaceRecordingReplayer.ts",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "microsoft/vscode",
@@ -2651,7 +2651,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/test/simulation/inlineEdit/inlineEditTester.ts",
       "confidence": 0.55,
-      "head_sha": "e2fb9a1be30766bd1d1cfd2107fe3e88666b7f4e"
+      "head_sha": "b8b6f56cf60c86e70fb4915cb280507013d43fba"
     },
     {
       "repo": "Significant-Gravitas/AutoGPT",
@@ -2891,132 +2891,6 @@
       "head_sha": "e7e9946fffe6b9544ce45aeb59e82baff8003a13"
     },
     {
-      "repo": "CyC2018/CS-Notes",
-      "kind": "doc",
-      "file": "README.md",
-      "line": 28,
-      "ref": "assets/\u5185\u63a8.md",
-      "path": "assets/\u5185\u63a8.md",
-      "context": "- [\u5b57\u8282\u8df3\u52a8\u5185\u63a8](assets/\u5185\u63a8.md)",
-      "evidence": [
-        "README.md:28 links to assets/\u5185\u63a8.md",
-        "last touched by 2bc3f0b588 (2023-07-20T03:00:55Z): Update \u5185\u63a8.md; recover from parent 2c31eddf34"
-      ],
-      "recovery_sha": "2c31eddf3481a31ab5c10ebced395497c6bf9d61",
-      "deleted_in": "2bc3f0b5881147646ab812a67abf91e27e23e6aa",
-      "live_alternative": null,
-      "confidence": 0.65,
-      "head_sha": "51e1f47a0e9da53b056da562a47ddba28cd02bf9"
-    },
-    {
-      "repo": "CyC2018/CS-Notes",
-      "kind": "doc",
-      "file": "assets/download.md",
-      "line": 33,
-      "ref": "\u516c\u4f17\u53f7\u4e8c\u7ef4\u7801-2.png",
-      "path": "assets/\u516c\u4f17\u53f7\u4e8c\u7ef4\u7801-2.png",
-      "context": "<div align=\"center\"><img width=\"350px\" src=\"\u516c\u4f17\u53f7\u4e8c\u7ef4\u7801-2.png\"></img></div>",
-      "evidence": [
-        "assets/download.md:33 links to \u516c\u4f17\u53f7\u4e8c\u7ef4\u7801-2.png",
-        "last touched by 8ca2b6426f (2019-12-05T16:29:51Z): auto commit; recover from parent 06199c5364"
-      ],
-      "recovery_sha": "06199c5364950593638d8e95be8175ecd878a5c4",
-      "deleted_in": "8ca2b6426f3ef52033fce47976224dd257d0fffd",
-      "live_alternative": null,
-      "confidence": 0.55,
-      "head_sha": "51e1f47a0e9da53b056da562a47ddba28cd02bf9"
-    },
-    {
-      "repo": "CyC2018/CS-Notes",
-      "kind": "doc",
-      "file": "notes/HTTP.md",
-      "line": 507,
-      "ref": "\u96c6\u7fa4.md#\u4e8c\u96c6\u7fa4\u4e0b\u7684-session-\u7ba1\u7406",
-      "path": "notes/\u96c6\u7fa4.md",
-      "context": "- Session \u7684\u72b6\u6001\u4fdd\u5b58\u5728\u670d\u52a1\u5668\uff0c\u5220\u9664 Session \u5c31\u80fd\u8ba9\u7528\u6237\u7acb\u5373\u4e0b\u7ebf\uff1b\u96c6\u7fa4\u4e2d\u9700\u8981\u5171\u4eab Session\uff0c\u89c1 [\u96c6\u7fa4\u4e0b\u7684 Session \u7ba1\u7406](\u96c6\u7fa4.md#\u4e8c\u96c6\u7fa4\u4e0b\u7684-session-\u7ba1\u7406)\uff1b",
-      "evidence": [
-        "notes/HTTP.md:507 links to \u96c6\u7fa4.md#\u4e8c\u96c6\u7fa4\u4e0b\u7684-session-\u7ba1\u7406",
-        "last touched by e959de0364 (2026-10-22T20:39:21Z): Update \u96c6\u7fa4.md; recover from parent 7108fceae6"
-      ],
-      "recovery_sha": "7108fceae6c4aa3d057548ecab838576efd2df09",
-      "deleted_in": "e959de03641c61ab98ec89bb91e0f79a33a52dd8",
-      "live_alternative": null,
-      "confidence": 0.65,
-      "head_sha": "51e1f47a0e9da53b056da562a47ddba28cd02bf9"
-    },
-    {
-      "repo": "CyC2018/CS-Notes",
-      "kind": "doc",
-      "file": "notes/HTTP.md",
-      "line": 512,
-      "ref": "\u653b\u51fb\u6280\u672f.md#\u4e8c\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020",
-      "path": "notes/\u653b\u51fb\u6280\u672f.md",
-      "context": "\u4ee4\u724c\u5728\u6d4f\u89c8\u5668\u4e2d\u7684\u5b58\u653e\u4f4d\u7f6e\uff1a\u653e\u5728 localStorage \u4e2d\uff0c\u9875\u9762\u4e0a\u7684\u4efb\u4f55\u811a\u672c\u90fd\u80fd\u8bfb\u53d6\uff0c\u4e00\u65e6\u5b58\u5728 XSS \u6f0f\u6d1e\uff0c\u4ee4\u724c\u5c31\u4f1a\u88ab\u76d7\u8d70\uff1b\u653e\u5728 HttpOnly \u7684 Cookie \u4e2d\uff0c\u811a\u672c\u8bfb\u4e0d\u5230\uff0c\u4f46\u6d4f\u89c8\u5668\u4f1a\u81ea\u52a8\u643a\u5e26 Cookie\uff0c\u9700\u8981\u9632\u8303 [\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020](\u653b\u51fb\u6280\u672f.md#\u4e8c\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020)\u3002",
-      "evidence": [
-        "notes/HTTP.md:512 links to \u653b\u51fb\u6280\u672f.md#\u4e8c\u8de8\u7ad9\u8bf7\u6c42\u4f2a\u9020",
-        "last touched by f6c77c1cab (2026-10-25T11:34:21Z): Update \u653b\u51fb\u6280\u672f.md; recover from parent b91f974dac"
-      ],
-      "recovery_sha": "b91f974dac3556f27b07d31ed8e5e78533e381fd",
-      "deleted_in": "f6c77c1cabf25b09e6c6ff211a62a989e002e591",
-      "live_alternative": null,
-      "confidence": 0.65,
-      "head_sha": "51e1f47a0e9da53b056da562a47ddba28cd02bf9"
-    },
-    {
-      "repo": "CyC2018/CS-Notes",
-      "kind": "doc",
-      "file": "notes/MySQL.md",
-      "line": 522,
-      "ref": "\u6570\u636e\u5e93\u7cfb\u7edf\u539f\u7406.md#\u4e94\u591a\u7248\u672c\u5e76\u53d1\u63a7\u5236",
-      "path": "notes/\u6570\u636e\u5e93\u7cfb\u7edf\u539f\u7406.md",
-      "context": "undo log \u7684\u4f5c\u7528\u89c1 [\u591a\u7248\u672c\u5e76\u53d1\u63a7\u5236](\u6570\u636e\u5e93\u7cfb\u7edf\u539f\u7406.md#\u4e94\u591a\u7248\u672c\u5e76\u53d1\u63a7\u5236)\u3002",
-      "evidence": [
-        "notes/MySQL.md:522 links to \u6570\u636e\u5e93\u7cfb\u7edf\u539f\u7406.md#\u4e94\u591a\u7248\u672c\u5e76\u53d1\u63a7\u5236",
-        "last touched by 734115be54 (2026-10-25T11:34:22Z): Update \u6570\u636e\u5e93\u7cfb\u7edf\u539f\u7406.md; recover from parent e3e2351a2f"
-      ],
-      "recovery_sha": "e3e2351a2f37601b1214d5397d89b444f76f5737",
-      "deleted_in": "734115be5440ca14a0e48c0161d9fe04f349e279",
-      "live_alternative": null,
-      "confidence": 0.65,
-      "head_sha": "51e1f47a0e9da53b056da562a47ddba28cd02bf9"
-    },
-    {
-      "repo": "CyC2018/CS-Notes",
-      "kind": "doc",
-      "file": "notes/Redis.md",
-      "line": 384,
-      "ref": "\u5206\u5e03\u5f0f.md",
-      "path": "notes/\u5206\u5e03\u5f0f.md",
-      "context": "\u53ef\u4ee5\u4f7f\u7528 SET \u547d\u4ee4\u7684 NX \u548c PX \u9009\u9879\u5b9e\u73b0\u5355\u5b9e\u4f8b\u7684\u5206\u5e03\u5f0f\u9501\uff0c\u9664\u6b64\u4e4b\u5916\uff0c\u8fd8\u53ef\u4ee5\u4f7f\u7528\u5b98\u65b9\u63d0\u51fa\u7684 RedLock \u7b97\u6cd5\u5728\u591a\u4e2a\u72ec\u7acb\u5b9e\u4f8b\u4e0a\u5b9e\u73b0\u5206\u5e03\u5f0f\u9501\uff0c\u8be6\u89c1 [\u5206\u5e03\u5f0f](\u5206\u5e03\u5f0f.md)\u3002",
-      "evidence": [
-        "notes/Redis.md:384 links to \u5206\u5e03\u5f0f.md",
-        "last touched by 2fddf5c4a2 (2026-10-25T17:17:35Z): Update \u5206\u5e03\u5f0f.md; recover from parent 5d46cfa1eb"
-      ],
-      "recovery_sha": "5d46cfa1ebe4e62daf26cbcb9ee90a4ee9f75143",
-      "deleted_in": "2fddf5c4a298f80accd8e37cce3d7771186805f7",
-      "live_alternative": null,
-      "confidence": 0.65,
-      "head_sha": "51e1f47a0e9da53b056da562a47ddba28cd02bf9"
-    },
-    {
-      "repo": "CyC2018/CS-Notes",
-      "kind": "doc",
-      "file": "notes/SQL.md",
-      "line": 1,
-      "ref": "SQL%20\u8bed\u6cd5.md",
-      "path": "notes/SQL \u8bed\u6cd5.md",
-      "context": "\u672c\u6587\u4e0e [SQL \u8bed\u6cd5](SQL%20\u8bed\u6cd5.md) \u5185\u5bb9\u76f8\u540c\uff0c\u5df2\u5408\u5e76\u5230\u8be5\u6587\u4ef6\u3002",
-      "evidence": [
-        "notes/SQL.md:1 links to SQL%20\u8bed\u6cd5.md",
-        "last touched by 68adbed871 (2026-10-25T11:03:38Z): Update SQL \u8bed\u6cd5.md; recover from parent 9f78e6e34d"
-      ],
-      "recovery_sha": "9f78e6e34d90982682168e1aa321da08c350c6d0",
-      "deleted_in": "68adbed87171767e66c86fd0803160ed85d73772",
-      "live_alternative": null,
-      "confidence": 0.65,
-      "head_sha": "51e1f47a0e9da53b056da562a47ddba28cd02bf9"
-    },
-    {
       "repo": "flutter/flutter",
       "kind": "doc",
       "file": "dev/integration_tests/android_hardware_smoke_test/README.md",
@@ -3032,7 +2906,7 @@
       "deleted_in": null,
       "live_alternative": "dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
       "confidence": 0.55,
-      "head_sha": "66b3ad90177ccbd2963836a5556076b370622fe4"
+      "head_sha": "7ebd8154adffd9a6f238dd19354849e7b20d67cb"
     },
     {
       "repo": "flutter/flutter",
@@ -3050,7 +2924,7 @@
       "deleted_in": null,
       "live_alternative": "docs/contributing/Chat.md",
       "confidence": 0.55,
-      "head_sha": "66b3ad90177ccbd2963836a5556076b370622fe4"
+      "head_sha": "7ebd8154adffd9a6f238dd19354849e7b20d67cb"
     },
     {
       "repo": "flutter/flutter",
@@ -3068,7 +2942,7 @@
       "deleted_in": null,
       "live_alternative": "docs/contributing/Setting-up-the-Framework-development-environment.md",
       "confidence": 0.55,
-      "head_sha": "66b3ad90177ccbd2963836a5556076b370622fe4"
+      "head_sha": "7ebd8154adffd9a6f238dd19354849e7b20d67cb"
     },
     {
       "repo": "flutter/flutter",
@@ -3086,7 +2960,7 @@
       "deleted_in": null,
       "live_alternative": "engine/src/flutter/impeller/renderer/renderer_unittests.cc",
       "confidence": 0.55,
-      "head_sha": "66b3ad90177ccbd2963836a5556076b370622fe4"
+      "head_sha": "7ebd8154adffd9a6f238dd19354849e7b20d67cb"
     },
     {
       "repo": "flutter/flutter",
@@ -3104,7 +2978,7 @@
       "deleted_in": null,
       "live_alternative": "docs/engine/contributing/Setting-up-the-Engine-development-environment.md",
       "confidence": 0.55,
-      "head_sha": "66b3ad90177ccbd2963836a5556076b370622fe4"
+      "head_sha": "7ebd8154adffd9a6f238dd19354849e7b20d67cb"
     },
     {
       "repo": "flutter/flutter",
@@ -3122,7 +2996,7 @@
       "deleted_in": null,
       "live_alternative": "docs/platforms/android/Android-Platform-Views.md",
       "confidence": 0.55,
-      "head_sha": "66b3ad90177ccbd2963836a5556076b370622fe4"
+      "head_sha": "7ebd8154adffd9a6f238dd19354849e7b20d67cb"
     },
     {
       "repo": "flutter/flutter",
@@ -3140,7 +3014,7 @@
       "deleted_in": null,
       "live_alternative": "docs/engine/testing/Testing-the-engine.md",
       "confidence": 0.55,
-      "head_sha": "66b3ad90177ccbd2963836a5556076b370622fe4"
+      "head_sha": "7ebd8154adffd9a6f238dd19354849e7b20d67cb"
     },
     {
       "repo": "flutter/flutter",
@@ -3158,7 +3032,7 @@
       "deleted_in": null,
       "live_alternative": "engine/src/flutter/ci/builders/mac_unopt.json",
       "confidence": 0.55,
-      "head_sha": "66b3ad90177ccbd2963836a5556076b370622fe4"
+      "head_sha": "7ebd8154adffd9a6f238dd19354849e7b20d67cb"
     },
     {
       "repo": "flutter/flutter",
@@ -3176,7 +3050,7 @@
       "deleted_in": null,
       "live_alternative": "packages/flutter_tools/test/general.shard/android/gradle_utils_test.dart",
       "confidence": 0.55,
-      "head_sha": "66b3ad90177ccbd2963836a5556076b370622fe4"
+      "head_sha": "7ebd8154adffd9a6f238dd19354849e7b20d67cb"
     },
     {
       "repo": "huggingface/transformers",
@@ -3194,7 +3068,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "7725fb89f210cf286f9489e9d70fed5e4dff019e"
+      "head_sha": "3570d2384e6b07986657b15347f379ac6af56eaa"
     },
     {
       "repo": "huggingface/transformers",
@@ -3212,7 +3086,7 @@
       "deleted_in": null,
       "live_alternative": "benchmark/benches/llama.py",
       "confidence": 0.55,
-      "head_sha": "7725fb89f210cf286f9489e9d70fed5e4dff019e"
+      "head_sha": "3570d2384e6b07986657b15347f379ac6af56eaa"
     },
     {
       "repo": "langgenius/dify",
@@ -3230,7 +3104,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "1dad48f0ef5145186ba9e459a3800f968ef344f6"
+      "head_sha": "d4560ac032ffc80e331f5d0165afaf37fd9f5437"
     },
     {
       "repo": "langgenius/dify",
@@ -3248,7 +3122,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "1dad48f0ef5145186ba9e459a3800f968ef344f6"
+      "head_sha": "d4560ac032ffc80e331f5d0165afaf37fd9f5437"
     },
     {
       "repo": "langgenius/dify",
@@ -3266,7 +3140,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "1dad48f0ef5145186ba9e459a3800f968ef344f6"
+      "head_sha": "d4560ac032ffc80e331f5d0165afaf37fd9f5437"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3379,7 +3253,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3398,7 +3272,7 @@
       "deleted_in": null,
       "live_alternative": "README_ZH.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3417,7 +3291,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3436,7 +3310,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3455,7 +3329,7 @@
       "deleted_in": null,
       "live_alternative": "README_ZH.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3474,7 +3348,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3493,7 +3367,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3512,7 +3386,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3531,7 +3405,7 @@
       "deleted_in": null,
       "live_alternative": "README_ZH.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3550,278 +3424,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "42ef63471f0ed879913f8de0d0c7e3e580293193"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "script",
-      "file": ".github/actions/needs-triage/package.json",
-      "line": 8,
-      "ref": "lib/index.js",
-      "path": ".github/actions/needs-triage/lib/index.js",
-      "context": "script build",
-      "evidence": [
-        ".github/actions/needs-triage/package.json script \"build\": pnpm types && ncc build lib/index.js -m -o dist --license licenses.txt",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.65,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "script",
-      "file": "examples/with-edgedb/package.json",
-      "line": 7,
-      "ref": "dbschema/seed.ts",
-      "path": "examples/with-edgedb/dbschema/seed.ts",
-      "context": "script seed",
-      "evidence": [
-        "examples/with-edgedb/package.json script \"seed\": ts-node dbschema/seed.ts",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.55,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "script",
-      "file": "package.json",
-      "line": 9,
-      "ref": "../../scripts/rm.mjs",
-      "path": "../../scripts/rm.mjs",
-      "context": "script clean",
-      "evidence": [
-        "package.json script \"clean\": pnpm --filter \"./packages/**\" run clean && pnpm --filter \"./packages/**\" exec node ../../scripts/rm.mjs dist node_modules",
-        "same file name exists at scripts/rm.mjs",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/rm.mjs",
-      "confidence": 0.75,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "crates/next-napi-bindings/npm/darwin-arm64/package.json",
-      "line": 15,
-      "ref": "next-swc.darwin-arm64.node",
-      "path": "crates/next-napi-bindings/npm/darwin-arm64/next-swc.darwin-arm64.node",
-      "context": "package.json main",
-      "evidence": [
-        "crates/next-napi-bindings/npm/darwin-arm64/package.json \"main\" points to next-swc.darwin-arm64.node",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "crates/next-napi-bindings/npm/darwin-x64/package.json",
-      "line": 15,
-      "ref": "next-swc.darwin-x64.node",
-      "path": "crates/next-napi-bindings/npm/darwin-x64/next-swc.darwin-x64.node",
-      "context": "package.json main",
-      "evidence": [
-        "crates/next-napi-bindings/npm/darwin-x64/package.json \"main\" points to next-swc.darwin-x64.node",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "crates/next-napi-bindings/npm/linux-arm64-gnu/package.json",
-      "line": 18,
-      "ref": "next-swc.linux-arm64-gnu.node",
-      "path": "crates/next-napi-bindings/npm/linux-arm64-gnu/next-swc.linux-arm64-gnu.node",
-      "context": "package.json main",
-      "evidence": [
-        "crates/next-napi-bindings/npm/linux-arm64-gnu/package.json \"main\" points to next-swc.linux-arm64-gnu.node",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "crates/next-napi-bindings/npm/linux-arm64-musl/package.json",
-      "line": 18,
-      "ref": "next-swc.linux-arm64-musl.node",
-      "path": "crates/next-napi-bindings/npm/linux-arm64-musl/next-swc.linux-arm64-musl.node",
-      "context": "package.json main",
-      "evidence": [
-        "crates/next-napi-bindings/npm/linux-arm64-musl/package.json \"main\" points to next-swc.linux-arm64-musl.node",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "crates/next-napi-bindings/npm/linux-x64-gnu/package.json",
-      "line": 18,
-      "ref": "next-swc.linux-x64-gnu.node",
-      "path": "crates/next-napi-bindings/npm/linux-x64-gnu/next-swc.linux-x64-gnu.node",
-      "context": "package.json main",
-      "evidence": [
-        "crates/next-napi-bindings/npm/linux-x64-gnu/package.json \"main\" points to next-swc.linux-x64-gnu.node",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "crates/next-napi-bindings/npm/linux-x64-musl/package.json",
-      "line": 18,
-      "ref": "next-swc.linux-x64-musl.node",
-      "path": "crates/next-napi-bindings/npm/linux-x64-musl/next-swc.linux-x64-musl.node",
-      "context": "package.json main",
-      "evidence": [
-        "crates/next-napi-bindings/npm/linux-x64-musl/package.json \"main\" points to next-swc.linux-x64-musl.node",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "crates/next-napi-bindings/npm/win32-arm64-msvc/package.json",
-      "line": 15,
-      "ref": "next-swc.win32-arm64-msvc.node",
-      "path": "crates/next-napi-bindings/npm/win32-arm64-msvc/next-swc.win32-arm64-msvc.node",
-      "context": "package.json main",
-      "evidence": [
-        "crates/next-napi-bindings/npm/win32-arm64-msvc/package.json \"main\" points to next-swc.win32-arm64-msvc.node",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "crates/next-napi-bindings/npm/win32-x64-msvc/package.json",
-      "line": 15,
-      "ref": "next-swc.win32-x64-msvc.node",
-      "path": "crates/next-napi-bindings/npm/win32-x64-msvc/next-swc.win32-x64-msvc.node",
-      "context": "package.json main",
-      "evidence": [
-        "crates/next-napi-bindings/npm/win32-x64-msvc/package.json \"main\" points to next-swc.win32-x64-msvc.node",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "examples/with-electron-typescript/package.json",
-      "line": 3,
-      "ref": "main/index.js",
-      "path": "examples/with-electron-typescript/main/index.js",
-      "context": "package.json main",
-      "evidence": [
-        "examples/with-electron-typescript/package.json \"main\" points to main/index.js",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.5,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "test/production/non-next-dist-exclude/app/package.json",
-      "line": 4,
-      "ref": "index.js",
-      "path": "test/production/non-next-dist-exclude/app/index.js",
-      "context": "package.json main",
-      "evidence": [
-        "test/production/non-next-dist-exclude/app/package.json \"main\" points to index.js",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "test/production/typeof-window-replace/app/package.json",
-      "line": 4,
-      "ref": "index.js",
-      "path": "test/production/typeof-window-replace/app/index.js",
-      "context": "package.json main",
-      "evidence": [
-        "test/production/typeof-window-replace/app/package.json \"main\" points to index.js",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
-    },
-    {
-      "repo": "vercel/next.js",
-      "kind": "import",
-      "file": "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/package.json",
-      "line": 5,
-      "ref": "actual.js",
-      "path": "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/actual.js",
-      "context": "package.json main",
-      "evidence": [
-        "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/package.json \"main\" points to actual.js",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.6,
-      "head_sha": "c8e811eee088c3d0fc92063a773b7bb5d54571b9"
+      "head_sha": "3fc8794cf21b44344becf844029fe1308d56bbf0"
     },
     {
       "repo": "Comfy-Org/ComfyUI",
@@ -3840,7 +3443,7 @@
       "deleted_in": null,
       "live_alternative": "main.py",
       "confidence": 0.8,
-      "head_sha": "0b05cd8a3683cbf0c291b1472bb8b64da41de9ae"
+      "head_sha": "426f5eea52a7ece1dd599fff4cb6cd1f352ddd24"
     },
     {
       "repo": "Comfy-Org/ComfyUI",
@@ -3859,7 +3462,7 @@
       "deleted_in": null,
       "live_alternative": ".ci/update_windows/update.py",
       "confidence": 0.8,
-      "head_sha": "0b05cd8a3683cbf0c291b1472bb8b64da41de9ae"
+      "head_sha": "426f5eea52a7ece1dd599fff4cb6cd1f352ddd24"
     },
     {
       "repo": "Comfy-Org/ComfyUI",
@@ -3878,7 +3481,7 @@
       "deleted_in": null,
       "live_alternative": "main.py",
       "confidence": 0.8,
-      "head_sha": "0b05cd8a3683cbf0c291b1472bb8b64da41de9ae"
+      "head_sha": "426f5eea52a7ece1dd599fff4cb6cd1f352ddd24"
     },
     {
       "repo": "Comfy-Org/ComfyUI",
@@ -3897,7 +3500,7 @@
       "deleted_in": null,
       "live_alternative": "main.py",
       "confidence": 0.8,
-      "head_sha": "0b05cd8a3683cbf0c291b1472bb8b64da41de9ae"
+      "head_sha": "426f5eea52a7ece1dd599fff4cb6cd1f352ddd24"
     },
     {
       "repo": "Comfy-Org/ComfyUI",
@@ -3916,7 +3519,278 @@
       "deleted_in": null,
       "live_alternative": ".ci/update_windows/update.py",
       "confidence": 0.8,
-      "head_sha": "0b05cd8a3683cbf0c291b1472bb8b64da41de9ae"
+      "head_sha": "426f5eea52a7ece1dd599fff4cb6cd1f352ddd24"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "script",
+      "file": ".github/actions/needs-triage/package.json",
+      "line": 8,
+      "ref": "lib/index.js",
+      "path": ".github/actions/needs-triage/lib/index.js",
+      "context": "script build",
+      "evidence": [
+        ".github/actions/needs-triage/package.json script \"build\": pnpm types && ncc build lib/index.js -m -o dist --license licenses.txt",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "script",
+      "file": "examples/with-edgedb/package.json",
+      "line": 7,
+      "ref": "dbschema/seed.ts",
+      "path": "examples/with-edgedb/dbschema/seed.ts",
+      "context": "script seed",
+      "evidence": [
+        "examples/with-edgedb/package.json script \"seed\": ts-node dbschema/seed.ts",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.55,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "script",
+      "file": "package.json",
+      "line": 9,
+      "ref": "../../scripts/rm.mjs",
+      "path": "../../scripts/rm.mjs",
+      "context": "script clean",
+      "evidence": [
+        "package.json script \"clean\": pnpm --filter \"./packages/**\" run clean && pnpm --filter \"./packages/**\" exec node ../../scripts/rm.mjs dist node_modules",
+        "same file name exists at scripts/rm.mjs",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/rm.mjs",
+      "confidence": 0.75,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/darwin-arm64/package.json",
+      "line": 15,
+      "ref": "next-swc.darwin-arm64.node",
+      "path": "crates/next-napi-bindings/npm/darwin-arm64/next-swc.darwin-arm64.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/darwin-arm64/package.json \"main\" points to next-swc.darwin-arm64.node",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/darwin-x64/package.json",
+      "line": 15,
+      "ref": "next-swc.darwin-x64.node",
+      "path": "crates/next-napi-bindings/npm/darwin-x64/next-swc.darwin-x64.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/darwin-x64/package.json \"main\" points to next-swc.darwin-x64.node",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/linux-arm64-gnu/package.json",
+      "line": 18,
+      "ref": "next-swc.linux-arm64-gnu.node",
+      "path": "crates/next-napi-bindings/npm/linux-arm64-gnu/next-swc.linux-arm64-gnu.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/linux-arm64-gnu/package.json \"main\" points to next-swc.linux-arm64-gnu.node",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/linux-arm64-musl/package.json",
+      "line": 18,
+      "ref": "next-swc.linux-arm64-musl.node",
+      "path": "crates/next-napi-bindings/npm/linux-arm64-musl/next-swc.linux-arm64-musl.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/linux-arm64-musl/package.json \"main\" points to next-swc.linux-arm64-musl.node",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/linux-x64-gnu/package.json",
+      "line": 18,
+      "ref": "next-swc.linux-x64-gnu.node",
+      "path": "crates/next-napi-bindings/npm/linux-x64-gnu/next-swc.linux-x64-gnu.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/linux-x64-gnu/package.json \"main\" points to next-swc.linux-x64-gnu.node",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/linux-x64-musl/package.json",
+      "line": 18,
+      "ref": "next-swc.linux-x64-musl.node",
+      "path": "crates/next-napi-bindings/npm/linux-x64-musl/next-swc.linux-x64-musl.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/linux-x64-musl/package.json \"main\" points to next-swc.linux-x64-musl.node",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/win32-arm64-msvc/package.json",
+      "line": 15,
+      "ref": "next-swc.win32-arm64-msvc.node",
+      "path": "crates/next-napi-bindings/npm/win32-arm64-msvc/next-swc.win32-arm64-msvc.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/win32-arm64-msvc/package.json \"main\" points to next-swc.win32-arm64-msvc.node",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "crates/next-napi-bindings/npm/win32-x64-msvc/package.json",
+      "line": 15,
+      "ref": "next-swc.win32-x64-msvc.node",
+      "path": "crates/next-napi-bindings/npm/win32-x64-msvc/next-swc.win32-x64-msvc.node",
+      "context": "package.json main",
+      "evidence": [
+        "crates/next-napi-bindings/npm/win32-x64-msvc/package.json \"main\" points to next-swc.win32-x64-msvc.node",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "examples/with-electron-typescript/package.json",
+      "line": 3,
+      "ref": "main/index.js",
+      "path": "examples/with-electron-typescript/main/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "examples/with-electron-typescript/package.json \"main\" points to main/index.js",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.5,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "test/production/non-next-dist-exclude/app/package.json",
+      "line": 4,
+      "ref": "index.js",
+      "path": "test/production/non-next-dist-exclude/app/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "test/production/non-next-dist-exclude/app/package.json \"main\" points to index.js",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "test/production/typeof-window-replace/app/package.json",
+      "line": 4,
+      "ref": "index.js",
+      "path": "test/production/typeof-window-replace/app/index.js",
+      "context": "package.json main",
+      "evidence": [
+        "test/production/typeof-window-replace/app/package.json \"main\" points to index.js",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
+    },
+    {
+      "repo": "vercel/next.js",
+      "kind": "import",
+      "file": "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/package.json",
+      "line": 5,
+      "ref": "actual.js",
+      "path": "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/actual.js",
+      "context": "package.json main",
+      "evidence": [
+        "turbopack/crates/turbopack-tracing/tests/node-file-trace/test/unit/pnpm-symlinks/package.json \"main\" points to actual.js",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": null,
+      "confidence": 0.6,
+      "head_sha": "94e2c32d8b1fdd637f07083f42184846c457c9a0"
     }
   ]
 }
