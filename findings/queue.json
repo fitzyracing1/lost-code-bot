@@ -5,7 +5,7 @@
       "id": "01cfae63c531",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -36,7 +36,7 @@
       "id": "02f5af930d1b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -60,7 +60,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/find-reusable-release-child.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "048dbcceb203": {
@@ -98,7 +98,7 @@
       "id": "054de9b1e75a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -122,7 +122,7 @@
         "deleted_in": null,
         "live_alternative": "packages/cli/dev/vite.ts",
         "confidence": 0.65,
-        "head_sha": "6c24ec953200c59f4b044ca70f9c549da35c6608"
+        "head_sha": "69269e4ebe309a08919b3c9be7948b9fd699c3a4"
       }
     },
     "072b3761fb9f": {
@@ -167,7 +167,7 @@
       "id": "08636fbaa723",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -198,7 +198,7 @@
       "id": "087894938e3f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -223,14 +223,14 @@
         "deleted_in": null,
         "live_alternative": "packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts",
         "confidence": 0.75,
-        "head_sha": "6c24ec953200c59f4b044ca70f9c549da35c6608"
+        "head_sha": "69269e4ebe309a08919b3c9be7948b9fd699c3a4"
       }
     },
     "09b7bac1a835": {
       "id": "09b7bac1a835",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -260,7 +260,7 @@
       "id": "0aa9d71b2a2b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -284,14 +284,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "78646837abaeccf9de3bc977418fab46e96e588b"
+        "head_sha": "67239c70776df016bb074ab25a90f397bbf2484c"
       }
     },
     "0d2b33ad621f": {
       "id": "0d2b33ad621f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -303,7 +303,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 3935,
+        "line": 3936,
         "ref": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
         "path": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
         "context": "job check-shard",
@@ -316,7 +316,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-npm-lock-admission.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "0fbf4ec0a310": {
@@ -354,7 +354,7 @@
       "id": "11746b9fe11a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -378,7 +378,7 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "66f51e76efd8542232b8bdd40ade7d1edbaac46f"
+        "head_sha": "ca8c871ede62b521a75a2ddfc5e1968ac9c8e097"
       }
     },
     "14d25a452b80": {
@@ -423,7 +423,7 @@
       "id": "1540b7d55a3c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -447,14 +447,14 @@
         "deleted_in": null,
         "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "166f0558c40a": {
       "id": "166f0558c40a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -479,14 +479,14 @@
         "deleted_in": "22ef8a263c17f02176e3a322b76da07411092c17",
         "live_alternative": "tools/net/ynl/tests/ethtool.py",
         "confidence": 0.9,
-        "head_sha": "36aad21d50d1af3f6954bb0c988257a908202477"
+        "head_sha": "cbbddb6b08cc9900a87cccaa9b22bbe06aa4f50a"
       }
     },
     "174be4b4a7a8": {
       "id": "174be4b4a7a8",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -510,14 +510,14 @@
         "deleted_in": null,
         "live_alternative": "docs/engine/contributing/Setting-up-the-Engine-development-environment.md",
         "confidence": 0.55,
-        "head_sha": "ee8b48245d7a4c261be74d05786ba46ac690a91d"
+        "head_sha": "327cc39c4d52f581e74adbb5fd28835b2df19041"
       }
     },
     "186a8958b7cf": {
       "id": "186a8958b7cf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -541,14 +541,14 @@
         "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
         "live_alternative": null,
         "confidence": 0.9,
-        "head_sha": "8ba1adfbc414292c4b4e84a8514e0262cc3257b5"
+        "head_sha": "f5d755bbbb0c1b37d14195ab0e7d586f04548aca"
       }
     },
     "18ee9448da83": {
       "id": "18ee9448da83",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -573,14 +573,14 @@
         "deleted_in": null,
         "live_alternative": "packages/react-dom/unstable_server-external-runtime.js",
         "confidence": 0.8,
-        "head_sha": "e84e14927537821acfa553c9995a655d23bbf755"
+        "head_sha": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25"
       }
     },
     "19a5e2d995ce": {
       "id": "19a5e2d995ce",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -641,7 +641,7 @@
       "id": "1ab2a5e37d88",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -665,14 +665,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "1d8ffffaf98f": {
       "id": "1d8ffffaf98f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -696,7 +696,7 @@
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
         "confidence": 0.55,
-        "head_sha": "f0888d77bf606ea5c96738d4deecbc0503f96bb1"
+        "head_sha": "a4994d4ead8f9c915b485cec5689909b349a49df"
       }
     },
     "1e6c88133b3c": {
@@ -740,7 +740,7 @@
       "id": "1eb570cfff74",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -802,7 +802,7 @@
       "id": "214cb444215d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -832,7 +832,7 @@
       "id": "22dfa662f099",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -857,14 +857,14 @@
         "deleted_in": null,
         "live_alternative": "README_ZH.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
       }
     },
     "251dd2d3da16": {
       "id": "251dd2d3da16",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -888,14 +888,14 @@
         "deleted_in": null,
         "live_alternative": "docs/platform/contributing/managing-llm-models.md",
         "confidence": 0.55,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "25b72eaa60ef": {
       "id": "25b72eaa60ef",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -919,14 +919,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "26cec9374c26": {
       "id": "26cec9374c26",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -950,14 +950,14 @@
         "deleted_in": null,
         "live_alternative": "docs/content/forge/components/built-in-components.md",
         "confidence": 0.55,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "27da8b09d41a": {
       "id": "27da8b09d41a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -988,7 +988,7 @@
       "id": "292e9cef83a5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1012,14 +1012,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/check-docs-mdx.mts",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "2c6a57a7ccbe": {
       "id": "2c6a57a7ccbe",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -1043,14 +1043,14 @@
         "deleted_in": null,
         "live_alternative": "src/vs/platform/agentHost/common/pendingRequestRegistry.ts",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "2cf2cf29efcd": {
       "id": "2cf2cf29efcd",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -1112,7 +1112,7 @@
       "id": "2dea5f2b300d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1143,7 +1143,7 @@
       "id": "2e8ac7dd0843",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1173,7 +1173,7 @@
       "id": "2ff5a6aa8333",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1203,7 +1203,7 @@
       "id": "310e335058e9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1227,14 +1227,14 @@
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/macos-bundle-updates.md",
         "confidence": 0.55,
-        "head_sha": "f0888d77bf606ea5c96738d4deecbc0503f96bb1"
+        "head_sha": "a4994d4ead8f9c915b485cec5689909b349a49df"
       }
     },
     "334da1587b3b": {
       "id": "334da1587b3b",
       "state": "new",
       "first_seen": "2026-10-24T15:02:25Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T15:02:25Z",
@@ -1258,14 +1258,45 @@
         "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "4224b883f3347deda6acb36ef885c005a9df5039"
+        "head_sha": "55b14ff64d36f31b788b7566bc5ecaed985da4fe"
+      }
+    },
+    "34bdc9d9b46c": {
+      "id": "34bdc9d9b46c",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "cli/package.json",
+        "line": 19,
+        "ref": "src/ui-ux-pro-max/scripts/validate_data.py",
+        "path": "cli/src/ui-ux-pro-max/scripts/validate_data.py",
+        "context": "script validate:semantic",
+        "evidence": [
+          "cli/package.json script \"validate:semantic\": cd .. && node cli/scripts/run-python.mjs src/ui-ux-pro-max/scripts/validate_data.py",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.65,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
       }
     },
     "34e887eea650": {
       "id": "34e887eea650",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1289,14 +1320,14 @@
         "deleted_in": null,
         "live_alternative": "docs/engine/testing/Testing-the-engine.md",
         "confidence": 0.55,
-        "head_sha": "ee8b48245d7a4c261be74d05786ba46ac690a91d"
+        "head_sha": "327cc39c4d52f581e74adbb5fd28835b2df19041"
       }
     },
     "38163269801d": {
       "id": "38163269801d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1320,14 +1351,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "6c24ec953200c59f4b044ca70f9c549da35c6608"
+        "head_sha": "69269e4ebe309a08919b3c9be7948b9fd699c3a4"
       }
     },
     "38302bdc0ba5": {
       "id": "38302bdc0ba5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1352,14 +1383,14 @@
         "deleted_in": null,
         "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "394c3d2e3b4e": {
       "id": "394c3d2e3b4e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1389,7 +1420,7 @@
       "id": "3985c53bbf7f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1419,7 +1450,7 @@
       "id": "3a2605275c6d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1450,7 +1481,7 @@
       "id": "3bc2d1595eba",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1474,14 +1505,46 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
+      }
+    },
+    "3d155d8d383f": {
+      "id": "3d155d8d383f",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "cli/package.json",
+        "line": 20,
+        "ref": "scripts/validate-agent-guide.py",
+        "path": "cli/scripts/validate-agent-guide.py",
+        "context": "script validate:agent-guide",
+        "evidence": [
+          "cli/package.json script \"validate:agent-guide\": cd .. && node cli/scripts/run-python.mjs scripts/validate-agent-guide.py",
+          "same file name exists at scripts/validate-agent-guide.py",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "scripts/validate-agent-guide.py",
+        "confidence": 0.75,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
       }
     },
     "3ff1d8689c6f": {
       "id": "3ff1d8689c6f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1505,14 +1568,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/github/resolve-openclaw-ref.sh",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "4137ab9fc93c": {
       "id": "4137ab9fc93c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1536,14 +1599,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/node/debugRecorder.ts",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "440225205696": {
       "id": "440225205696",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1568,14 +1631,14 @@
         "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
         "live_alternative": "tensorflow/lite/g3doc/android/delegates/nnapi.md",
         "confidence": 0.75,
-        "head_sha": "4224b883f3347deda6acb36ef885c005a9df5039"
+        "head_sha": "55b14ff64d36f31b788b7566bc5ecaed985da4fe"
       }
     },
     "4532a91044cb": {
       "id": "4532a91044cb",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1605,7 +1668,7 @@
       "id": "46155348328c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1635,7 +1698,7 @@
       "id": "474a7c553095",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1659,14 +1722,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/relay-build-limit-warnings.mts",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "47ae5137c8f9": {
       "id": "47ae5137c8f9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1690,14 +1753,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "49083294269b": {
       "id": "49083294269b",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -1731,11 +1794,43 @@
         "head_sha": "b5c54a64e685b7e50fd3bc76e965ad718fc2dea3"
       }
     },
+    "4a46bd8d5f22": {
+      "id": "4a46bd8d5f22",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "cli/package.json",
+        "line": 23,
+        "ref": "scripts/evaluate-relevance.py",
+        "path": "cli/scripts/evaluate-relevance.py",
+        "context": "script evaluate:relevance",
+        "evidence": [
+          "cli/package.json script \"evaluate:relevance\": cd .. && node cli/scripts/run-python.mjs scripts/evaluate-relevance.py",
+          "same file name exists at scripts/evaluate-relevance.py",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "scripts/evaluate-relevance.py",
+        "confidence": 0.75,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
+      }
+    },
     "4cbd39a447e9": {
       "id": "4cbd39a447e9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1767,7 +1862,7 @@
       "id": "4d5d6f2ec124",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1779,7 +1874,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 4669,
+        "line": 4670,
         "ref": ".ci-harness/scripts/ci-additional-checks.sh",
         "path": ".ci-harness/scripts/ci-additional-checks.sh",
         "context": "job check-additional-shard",
@@ -1792,14 +1887,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-additional-checks.sh",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "4df73733a55c": {
       "id": "4df73733a55c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1829,7 +1924,7 @@
       "id": "4e29b36682c0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1860,7 +1955,7 @@
       "id": "501827a1c0ab",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1884,14 +1979,14 @@
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/stable-releases.md",
         "confidence": 0.55,
-        "head_sha": "f0888d77bf606ea5c96738d4deecbc0503f96bb1"
+        "head_sha": "a4994d4ead8f9c915b485cec5689909b349a49df"
       }
     },
     "51b1e86cab3f": {
       "id": "51b1e86cab3f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1921,7 +2016,7 @@
       "id": "527d029b845a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1945,14 +2040,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-context.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "539b3b8c73da": {
       "id": "539b3b8c73da",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1977,14 +2072,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-build-manifest.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "5ceaaf238bff": {
       "id": "5ceaaf238bff",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2008,14 +2103,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-version.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "5e92cfbe24bf": {
       "id": "5e92cfbe24bf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2039,14 +2134,14 @@
         "deleted_in": null,
         "live_alternative": "docs/content/forge/components/built-in-components.md",
         "confidence": 0.55,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "5f83ddec1afc": {
       "id": "5f83ddec1afc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2070,14 +2165,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/expectedEditCaptureController.ts",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "614f467624ed": {
       "id": "614f467624ed",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -2114,7 +2209,7 @@
       "id": "61628d97e2f5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2138,14 +2233,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/verify-authorized-beta-focused-candidate.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "6568d96f5f86": {
       "id": "6568d96f5f86",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2169,14 +2264,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "78646837abaeccf9de3bc977418fab46e96e588b"
+        "head_sha": "67239c70776df016bb074ab25a90f397bbf2484c"
       }
     },
     "656b85d0bb75": {
       "id": "656b85d0bb75",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2237,7 +2332,7 @@
       "id": "66bd517b7f5d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2261,14 +2356,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "674451f24a42": {
       "id": "674451f24a42",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2293,14 +2388,14 @@
         "deleted_in": null,
         "live_alternative": "CHANGELOG.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
       }
     },
     "67f66668b0e7": {
       "id": "67f66668b0e7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2330,7 +2425,7 @@
       "id": "68ac393c2a8d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2354,14 +2449,46 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
+      }
+    },
+    "692a4b63aede": {
+      "id": "692a4b63aede",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "cli/package.json",
+        "line": 27,
+        "ref": "scripts/smoke-stacks.sh",
+        "path": "cli/scripts/smoke-stacks.sh",
+        "context": "script smoke:stacks",
+        "evidence": [
+          "cli/package.json script \"smoke:stacks\": cd .. && bash scripts/smoke-stacks.sh",
+          "same file name exists at scripts/smoke-stacks.sh",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "scripts/smoke-stacks.sh",
+        "confidence": 0.75,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
       }
     },
     "6935c268d390": {
       "id": "6935c268d390",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2386,14 +2513,14 @@
         "deleted_in": null,
         "live_alternative": ".github/workflows/scripts/docker-ci-summary.sh",
         "confidence": 0.8,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "696d2d4d49fc": {
       "id": "696d2d4d49fc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2417,7 +2544,7 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/test/pipeline/test/fixtures/config.json",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "6baeede85508": {
@@ -2455,7 +2582,7 @@
       "id": "6c07753810d0",
       "state": "new",
       "first_seen": "2026-10-24T15:02:25Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T15:02:25Z",
@@ -2479,14 +2606,14 @@
         "deleted_in": "43a0f254074dc5f18c00817ca969514de4202533",
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "4224b883f3347deda6acb36ef885c005a9df5039"
+        "head_sha": "55b14ff64d36f31b788b7566bc5ecaed985da4fe"
       }
     },
     "6c675504001d": {
       "id": "6c675504001d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2516,7 +2643,7 @@
       "id": "6ca082e761b3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2541,7 +2668,7 @@
         "deleted_in": null,
         "live_alternative": "CHANGELOG.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
       }
     },
     "6d530f400141": {
@@ -2610,7 +2737,7 @@
       "id": "6df68a45abc3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2634,14 +2761,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "e84e14927537821acfa553c9995a655d23bbf755"
+        "head_sha": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25"
       }
     },
     "6dfd61fb6f9b": {
       "id": "6dfd61fb6f9b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2666,14 +2793,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/detect-private-keys.mts",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "6e889f41b8c3": {
       "id": "6e889f41b8c3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2697,14 +2824,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "78646837abaeccf9de3bc977418fab46e96e588b"
+        "head_sha": "67239c70776df016bb074ab25a90f397bbf2484c"
       }
     },
     "6f31b545e856": {
       "id": "6f31b545e856",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2716,7 +2843,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 2233,
+        "line": 2234,
         "ref": "scripts/ensure-cli-startup-build.mjs",
         "path": "scripts/ensure-cli-startup-build.mjs",
         "context": "job build-artifacts",
@@ -2728,14 +2855,14 @@
         "deleted_in": "c70aee247e831d21895f5ea3dda7497c50af0721",
         "live_alternative": null,
         "confidence": 0.9,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "6feca5ed61f2": {
       "id": "6feca5ed61f2",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2765,7 +2892,7 @@
       "id": "702578aa33df",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2790,14 +2917,14 @@
         "deleted_in": null,
         "live_alternative": ".ci/update_windows/update.py",
         "confidence": 0.8,
-        "head_sha": "7c4390a6f70cd8eb41014d6af52969397a752fc4"
+        "head_sha": "6d352802d8f8b9133f664a1757d6c6d26390c335"
       }
     },
     "71173d7dfd63": {
       "id": "71173d7dfd63",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2828,7 +2955,7 @@
       "id": "7235febe4869",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2853,14 +2980,14 @@
         "deleted_in": null,
         "live_alternative": "README_ZH.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
       }
     },
     "733f7f23f771": {
       "id": "733f7f23f771",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -2890,14 +3017,14 @@
         "deleted_in": null,
         "live_alternative": "LICENSE.txt",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "73db37d5896b": {
       "id": "73db37d5896b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2921,14 +3048,14 @@
         "deleted_in": null,
         "live_alternative": "docs/contributing/Chat.md",
         "confidence": 0.55,
-        "head_sha": "ee8b48245d7a4c261be74d05786ba46ac690a91d"
+        "head_sha": "327cc39c4d52f581e74adbb5fd28835b2df19041"
       }
     },
     "7404d4bfcc5d": {
       "id": "7404d4bfcc5d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2985,11 +3112,43 @@
         "head_sha": "51e1f47a0e9da53b056da562a47ddba28cd02bf9"
       }
     },
+    "75ac70b9c751": {
+      "id": "75ac70b9c751",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "cli/package.json",
+        "line": 18,
+        "ref": "cli/scripts/run-python.mjs",
+        "path": "cli/cli/scripts/run-python.mjs",
+        "context": "script validate:csv",
+        "evidence": [
+          "cli/package.json script \"validate:csv\": cd .. && node cli/scripts/run-python.mjs scripts/validate-csv.py",
+          "same file name exists at cli/scripts/run-python.mjs",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "cli/scripts/run-python.mjs",
+        "confidence": 0.75,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
+      }
+    },
     "7609c49073d4": {
       "id": "7609c49073d4",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -3020,7 +3179,7 @@
       "id": "7666d572e4c6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3044,14 +3203,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/test/simulation/inlineEdit/inlineEditTester.ts",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "76c8e563c87b": {
       "id": "76c8e563c87b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3075,14 +3234,14 @@
         "deleted_in": null,
         "live_alternative": "docs/content/classic/setup/docker.md",
         "confidence": 0.55,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "77506738c9a7": {
       "id": "77506738c9a7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3114,7 +3273,7 @@
       "id": "77fc1b09b100",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3138,7 +3297,7 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/inlineEditDebugComponent.ts",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "798c43280d9b": {
@@ -3176,7 +3335,7 @@
       "id": "79d21e73c390",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3200,14 +3359,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "7a1beafc6284": {
       "id": "7a1beafc6284",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3231,14 +3390,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "7a425cd12eaf": {
       "id": "7a425cd12eaf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3263,14 +3422,14 @@
         "deleted_in": null,
         "live_alternative": ".github/workflows/scripts/get_package_version_from_lockfile.py",
         "confidence": 0.8,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "7ae21577940d": {
       "id": "7ae21577940d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3282,7 +3441,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 4063,
+        "line": 4064,
         "ref": ".ci-harness/scripts/ci-static-step.sh",
         "path": ".ci-harness/scripts/ci-static-step.sh",
         "context": "job check-shard",
@@ -3295,14 +3454,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-static-step.sh",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "7b0be18396da": {
       "id": "7b0be18396da",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3327,14 +3486,14 @@
         "deleted_in": null,
         "live_alternative": "packages/plugins/figma/skills/figma-generate-library/references/token-creation.md",
         "confidence": 0.55,
-        "head_sha": "6c24ec953200c59f4b044ca70f9c549da35c6608"
+        "head_sha": "69269e4ebe309a08919b3c9be7948b9fd699c3a4"
       }
     },
     "7b8891ff6cb8": {
       "id": "7b8891ff6cb8",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -3372,7 +3531,7 @@
       "id": "7be80a4304c3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3404,7 +3563,7 @@
       "id": "7c12f7b3f3a0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3428,14 +3587,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "6c24ec953200c59f4b044ca70f9c549da35c6608"
+        "head_sha": "69269e4ebe309a08919b3c9be7948b9fd699c3a4"
       }
     },
     "7c474dcfad9c": {
       "id": "7c474dcfad9c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3459,14 +3618,46 @@
         "deleted_in": null,
         "live_alternative": "docs/platforms/android/Android-Platform-Views.md",
         "confidence": 0.55,
-        "head_sha": "ee8b48245d7a4c261be74d05786ba46ac690a91d"
+        "head_sha": "327cc39c4d52f581e74adbb5fd28835b2df19041"
+      }
+    },
+    "7d91cdca0dbd": {
+      "id": "7d91cdca0dbd",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "cli/package.json",
+        "line": 26,
+        "ref": "scripts/smoke-domains.sh",
+        "path": "cli/scripts/smoke-domains.sh",
+        "context": "script smoke:domains",
+        "evidence": [
+          "cli/package.json script \"smoke:domains\": cd .. && bash scripts/smoke-domains.sh",
+          "same file name exists at scripts/smoke-domains.sh",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "scripts/smoke-domains.sh",
+        "confidence": 0.75,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
       }
     },
     "80613f19ece7": {
       "id": "80613f19ece7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3490,7 +3681,7 @@
         "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
         "live_alternative": null,
         "confidence": 0.9,
-        "head_sha": "8ba1adfbc414292c4b4e84a8514e0262cc3257b5"
+        "head_sha": "f5d755bbbb0c1b37d14195ab0e7d586f04548aca"
       }
     },
     "81d400b9c9be": {
@@ -3528,7 +3719,7 @@
       "id": "8284af8da589",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3540,7 +3731,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 3160,
+        "line": 3161,
         "ref": ".ci-harness/.github/actions/git-owner/owner.py",
         "path": ".ci-harness/.github/actions/git-owner/owner.py",
         "context": "job checks-fast-core",
@@ -3553,14 +3744,14 @@
         "deleted_in": null,
         "live_alternative": ".github/actions/git-owner/owner.py",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "831d7ab39bbb": {
       "id": "831d7ab39bbb",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3584,7 +3775,7 @@
         "deleted_in": null,
         "live_alternative": "optional-skills/research/research-paper-writing/references/sources.md",
         "confidence": 0.55,
-        "head_sha": "f0888d77bf606ea5c96738d4deecbc0503f96bb1"
+        "head_sha": "a4994d4ead8f9c915b485cec5689909b349a49df"
       }
     },
     "8434e1f1e2ef": {
@@ -3622,7 +3813,7 @@
       "id": "84d898cccf55",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3721,7 +3912,7 @@
       "id": "88af0ff147b5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3745,14 +3936,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "8960b439605e": {
       "id": "8960b439605e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3783,7 +3974,7 @@
       "id": "8a4558624cdc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3815,7 +4006,7 @@
       "id": "8b6fb63dff6f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3839,14 +4030,14 @@
         "deleted_in": null,
         "live_alternative": "docs/contributing/Setting-up-the-Framework-development-environment.md",
         "confidence": 0.55,
-        "head_sha": "ee8b48245d7a4c261be74d05786ba46ac690a91d"
+        "head_sha": "327cc39c4d52f581e74adbb5fd28835b2df19041"
       }
     },
     "8d898d28d160": {
       "id": "8d898d28d160",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3871,14 +4062,14 @@
         "deleted_in": null,
         "live_alternative": "CHANGELOG.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
       }
     },
     "8e476b308c36": {
       "id": "8e476b308c36",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3903,14 +4094,14 @@
         "deleted_in": null,
         "live_alternative": "main.py",
         "confidence": 0.8,
-        "head_sha": "7c4390a6f70cd8eb41014d6af52969397a752fc4"
+        "head_sha": "6d352802d8f8b9133f664a1757d6c6d26390c335"
       }
     },
     "8eb7953e6d57": {
       "id": "8eb7953e6d57",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3922,7 +4113,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 6869,
+        "line": 6870,
         "ref": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
         "path": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
         "context": "job docker-seed-e2e",
@@ -3934,14 +4125,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-upgrade-baseline.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "8f6dee6e2668": {
       "id": "8f6dee6e2668",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3965,14 +4156,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/nesFeedbackSubmitter.ts",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "90edfbeeff56": {
       "id": "90edfbeeff56",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3996,14 +4187,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-candidate-contract.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "91704d94a14a": {
       "id": "91704d94a14a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4035,7 +4226,7 @@
       "id": "91921b1a44c4",
       "state": "new",
       "first_seen": "2026-10-24T15:02:25Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T15:02:25Z",
@@ -4059,14 +4250,14 @@
         "deleted_in": "50b0cf2bd8e0dee902d9ca4e0cb45c9e0e743bd8",
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "4224b883f3347deda6acb36ef885c005a9df5039"
+        "head_sha": "55b14ff64d36f31b788b7566bc5ecaed985da4fe"
       }
     },
     "9209703e1380": {
       "id": "9209703e1380",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4090,14 +4281,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/common/observableWorkspaceRecordingReplayer.ts",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "993a3c0217f4": {
       "id": "993a3c0217f4",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4122,14 +4313,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-collect-checks.sh",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "99fad79d3295": {
       "id": "99fad79d3295",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4154,14 +4345,14 @@
         "deleted_in": null,
         "live_alternative": "README_ZH.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
       }
     },
     "9c0fe2556019": {
       "id": "9c0fe2556019",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4186,14 +4377,14 @@
         "deleted_in": null,
         "live_alternative": "packages/app/e2e/performance/timeline/session-entry-benchmark.spec.ts",
         "confidence": 0.75,
-        "head_sha": "6c24ec953200c59f4b044ca70f9c549da35c6608"
+        "head_sha": "69269e4ebe309a08919b3c9be7948b9fd699c3a4"
       }
     },
     "9c8f1d93e894": {
       "id": "9c8f1d93e894",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4224,7 +4415,7 @@
       "id": "9dc42ae64460",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -4292,7 +4483,7 @@
       "id": "9e14b7d3a466",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4304,7 +4495,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 5096,
+        "line": 5097,
         "ref": ".ci-harness/scripts/lib/swift-toolchain.sh",
         "path": ".ci-harness/scripts/lib/swift-toolchain.sh",
         "context": "job macos-swift",
@@ -4317,7 +4508,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/swift-toolchain.sh",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "a1c840f38dcc": {
@@ -4355,7 +4546,7 @@
       "id": "a35680438f83",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -4386,7 +4577,7 @@
       "id": "a3db83e72a2c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4410,14 +4601,14 @@
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
         "confidence": 0.55,
-        "head_sha": "f0888d77bf606ea5c96738d4deecbc0503f96bb1"
+        "head_sha": "a4994d4ead8f9c915b485cec5689909b349a49df"
       }
     },
     "a41f3404b73f": {
       "id": "a41f3404b73f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4448,7 +4639,7 @@
       "id": "a43632de02db",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4472,14 +4663,14 @@
         "deleted_in": "9ff3a29a72c0885366017b5379608554592b7e97",
         "live_alternative": null,
         "confidence": 0.8,
-        "head_sha": "78646837abaeccf9de3bc977418fab46e96e588b"
+        "head_sha": "67239c70776df016bb074ab25a90f397bbf2484c"
       }
     },
     "a56c0a125855": {
       "id": "a56c0a125855",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4503,14 +4694,14 @@
         "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
         "live_alternative": null,
         "confidence": 0.9,
-        "head_sha": "8ba1adfbc414292c4b4e84a8514e0262cc3257b5"
+        "head_sha": "f5d755bbbb0c1b37d14195ab0e7d586f04548aca"
       }
     },
     "a5b2a2a32f13": {
       "id": "a5b2a2a32f13",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4536,11 +4727,42 @@
         "head_sha": "ce7073d51254c26cd63b22a60835b8f948deb447"
       }
     },
+    "a5c41d866c3e": {
+      "id": "a5c41d866c3e",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "gallery/package.json",
+        "line": 8,
+        "ref": ".test-dist/lib/parseStyles.test.js",
+        "path": "gallery/.test-dist/lib/parseStyles.test.js",
+        "context": "script test",
+        "evidence": [
+          "gallery/package.json script \"test\": tsc -p tsconfig.test.json && node --test .test-dist/lib/parseStyles.test.js .test-dist/components/metadata-badges.test.js",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.65,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
+      }
+    },
     "a65222c8c58c": {
       "id": "a65222c8c58c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4564,14 +4786,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "a7938804cdca": {
       "id": "a7938804cdca",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4583,7 +4805,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 5752,
+        "line": 5753,
         "ref": "./.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
         "path": ".ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
         "context": "job ios-build",
@@ -4596,14 +4818,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/ci-ios-smoke-plan.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "a7b1d71bef7e": {
       "id": "a7b1d71bef7e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4627,14 +4849,14 @@
         "deleted_in": null,
         "live_alternative": "build/next/nls-plugin.ts",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "a8ee8a3fa2bf": {
       "id": "a8ee8a3fa2bf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4665,7 +4887,7 @@
       "id": "aa10ae9c0bea",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4689,14 +4911,14 @@
         "deleted_in": "e59ad6ebda1d92de58cb55e230f9e1aa130c059b",
         "live_alternative": null,
         "confidence": 0.8,
-        "head_sha": "78646837abaeccf9de3bc977418fab46e96e588b"
+        "head_sha": "67239c70776df016bb074ab25a90f397bbf2484c"
       }
     },
     "aacf3fd8b812": {
       "id": "aacf3fd8b812",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4720,14 +4942,14 @@
         "deleted_in": null,
         "live_alternative": "docs/content/forge/components/agents.md",
         "confidence": 0.55,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "af3460eec178": {
       "id": "af3460eec178",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4752,14 +4974,45 @@
         "deleted_in": null,
         "live_alternative": "CHANGELOG.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
+      }
+    },
+    "af67ad12df4e": {
+      "id": "af67ad12df4e",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "gallery/package.json",
+        "line": 8,
+        "ref": ".test-dist/components/metadata-badges.test.js",
+        "path": "gallery/.test-dist/components/metadata-badges.test.js",
+        "context": "script test",
+        "evidence": [
+          "gallery/package.json script \"test\": tsc -p tsconfig.test.json && node --test .test-dist/lib/parseStyles.test.js .test-dist/components/metadata-badges.test.js",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.65,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
       }
     },
     "b11ac59159af": {
       "id": "b11ac59159af",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4784,14 +5037,14 @@
         "deleted_in": null,
         "live_alternative": ".github/workflows/scripts/get_package_version_from_lockfile.py",
         "confidence": 0.8,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "b1b4438a6f27": {
       "id": "b1b4438a6f27",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4822,7 +5075,7 @@
       "id": "b2fa3fd6a6f3",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -4853,7 +5106,7 @@
       "id": "b3434f3d74b7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4977,7 +5230,7 @@
       "id": "b7424e391fea",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5001,14 +5254,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "e84e14927537821acfa553c9995a655d23bbf755"
+        "head_sha": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25"
       }
     },
     "b76d06e889d2": {
       "id": "b76d06e889d2",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5032,14 +5285,14 @@
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
         "confidence": 0.55,
-        "head_sha": "f0888d77bf606ea5c96738d4deecbc0503f96bb1"
+        "head_sha": "a4994d4ead8f9c915b485cec5689909b349a49df"
       }
     },
     "b8f4812f86e0": {
       "id": "b8f4812f86e0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5051,7 +5304,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 6238,
+        "line": 6239,
         "ref": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
         "path": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
         "context": "job ios-screenshot-capture",
@@ -5063,14 +5316,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ios-screenshot-evidence.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "ba99195cd62a": {
       "id": "ba99195cd62a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5094,14 +5347,14 @@
         "deleted_in": null,
         "live_alternative": "engine/src/flutter/ci/builders/mac_unopt.json",
         "confidence": 0.55,
-        "head_sha": "ee8b48245d7a4c261be74d05786ba46ac690a91d"
+        "head_sha": "327cc39c4d52f581e74adbb5fd28835b2df19041"
       }
     },
     "bac2670aabfb": {
       "id": "bac2670aabfb",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5125,14 +5378,14 @@
         "deleted_in": null,
         "live_alternative": "docs/content/forge/components/protocols.md",
         "confidence": 0.55,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "baf374dcc8e1": {
       "id": "baf374dcc8e1",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5156,14 +5409,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "78646837abaeccf9de3bc977418fab46e96e588b"
+        "head_sha": "67239c70776df016bb074ab25a90f397bbf2484c"
       }
     },
     "bbf3b773af09": {
       "id": "bbf3b773af09",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5187,14 +5440,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "78646837abaeccf9de3bc977418fab46e96e588b"
+        "head_sha": "67239c70776df016bb074ab25a90f397bbf2484c"
       }
     },
     "bc16696ebe42": {
       "id": "bc16696ebe42",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5219,14 +5472,14 @@
         "deleted_in": null,
         "live_alternative": "main.py",
         "confidence": 0.8,
-        "head_sha": "7c4390a6f70cd8eb41014d6af52969397a752fc4"
+        "head_sha": "6d352802d8f8b9133f664a1757d6c6d26390c335"
       }
     },
     "bc79a623be45": {
       "id": "bc79a623be45",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5251,14 +5504,14 @@
         "deleted_in": null,
         "live_alternative": "CHANGELOG.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
       }
     },
     "bc7f6e22ff23": {
       "id": "bc7f6e22ff23",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5288,7 +5541,7 @@
       "id": "bd09500e4eb6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5318,7 +5571,7 @@
       "id": "bdca48cc49d4",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5348,7 +5601,7 @@
       "id": "be6cc559820d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5378,7 +5631,7 @@
       "id": "bf9f63ed13c6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5402,14 +5655,14 @@
         "deleted_in": null,
         "live_alternative": "docs/platform/block-sdk-guide.md",
         "confidence": 0.55,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "c37127ae3680": {
       "id": "c37127ae3680",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5433,14 +5686,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-publication-contract.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "c3fcbf22cc31": {
       "id": "c3fcbf22cc31",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5470,7 +5723,7 @@
       "id": "c4be09cb1f27",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5495,14 +5748,14 @@
         "deleted_in": null,
         "live_alternative": "CHANGELOG.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
       }
     },
     "c5f37b4dc554": {
       "id": "c5f37b4dc554",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5526,7 +5779,7 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "61055d5cfd6a01b667c73a574cbd2be6d2ab58d0"
+        "head_sha": "f5ed6cc72cdc2f9270cbddf05761e8c1fddc9b60"
       }
     },
     "c61637aefd04": {
@@ -5571,7 +5824,7 @@
       "id": "c62d99e28c5c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5595,14 +5848,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "e84e14927537821acfa553c9995a655d23bbf755"
+        "head_sha": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25"
       }
     },
     "c64433019523": {
       "id": "c64433019523",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5614,7 +5867,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 5814,
+        "line": 5815,
         "ref": ".ci-harness/scripts/swift-build-cache-metadata.py",
         "path": ".ci-harness/scripts/swift-build-cache-metadata.py",
         "context": "job ios-build",
@@ -5627,14 +5880,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/swift-build-cache-metadata.py",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "c6b08d8d02cb": {
       "id": "c6b08d8d02cb",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -5702,7 +5955,7 @@
       "id": "c8f1e8912570",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5733,7 +5986,7 @@
       "id": "cb4e79465e08",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5745,7 +5998,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 5816,
+        "line": 5817,
         "ref": ".ci-harness/scripts/ci-xcodebuild.py",
         "path": ".ci-harness/scripts/ci-xcodebuild.py",
         "context": "job ios-build",
@@ -5757,14 +6010,46 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-xcodebuild.py",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
+      }
+    },
+    "cbe78fefa01d": {
+      "id": "cbe78fefa01d",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "cli/package.json",
+        "line": 18,
+        "ref": "scripts/validate-csv.py",
+        "path": "cli/scripts/validate-csv.py",
+        "context": "script validate:csv",
+        "evidence": [
+          "cli/package.json script \"validate:csv\": cd .. && node cli/scripts/run-python.mjs scripts/validate-csv.py",
+          "same file name exists at scripts/validate-csv.py",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "scripts/validate-csv.py",
+        "confidence": 0.75,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
       }
     },
     "cccefb986e5e": {
       "id": "cccefb986e5e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5825,7 +6110,7 @@
       "id": "d4d9f9c7e880",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5850,14 +6135,14 @@
         "deleted_in": null,
         "live_alternative": ".github/workflows/runtime_release_from_ci.yml",
         "confidence": 0.55,
-        "head_sha": "e84e14927537821acfa553c9995a655d23bbf755"
+        "head_sha": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25"
       }
     },
     "d5b2c2c0bf5b": {
       "id": "d5b2c2c0bf5b",
       "state": "new",
       "first_seen": "2026-10-24T15:02:25Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T15:02:25Z",
@@ -5881,14 +6166,14 @@
         "deleted_in": "6c2bf6576321ad53ff1eb6d66b6efae2c93ef4e0",
         "live_alternative": null,
         "confidence": 0.55,
-        "head_sha": "4224b883f3347deda6acb36ef885c005a9df5039"
+        "head_sha": "55b14ff64d36f31b788b7566bc5ecaed985da4fe"
       }
     },
     "d637b50b5146": {
       "id": "d637b50b5146",
       "state": "new",
       "first_seen": "2026-10-27T09:34:46Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-27T09:34:46Z",
@@ -5913,14 +6198,14 @@
         "deleted_in": null,
         "live_alternative": ".github/nix-hashes/publish.sh",
         "confidence": 0.8,
-        "head_sha": "6c24ec953200c59f4b044ca70f9c549da35c6608"
+        "head_sha": "69269e4ebe309a08919b3c9be7948b9fd699c3a4"
       }
     },
     "d6a6343b0150": {
       "id": "d6a6343b0150",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5944,14 +6229,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "d7bb6132844f": {
       "id": "d7bb6132844f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5975,14 +6260,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/github/find-reusable-release-validation.sh",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "d86ab7a33a9c": {
       "id": "d86ab7a33a9c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6013,7 +6298,7 @@
       "id": "d9ac29f55108",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6038,14 +6323,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-context.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "d9be4158242d": {
       "id": "d9be4158242d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6069,14 +6354,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/release-tooling-identity.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "dab4d2e94fce": {
       "id": "dab4d2e94fce",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6108,7 +6393,7 @@
       "id": "db5b5af839ca",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6140,7 +6425,7 @@
       "id": "dc717c7f7d29",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6165,14 +6450,14 @@
         "deleted_in": null,
         "live_alternative": ".ci/update_windows/update.py",
         "confidence": 0.8,
-        "head_sha": "7c4390a6f70cd8eb41014d6af52969397a752fc4"
+        "head_sha": "6d352802d8f8b9133f664a1757d6c6d26390c335"
       }
     },
     "dc9cb8b17e42": {
       "id": "dc9cb8b17e42",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6196,7 +6481,7 @@
         "deleted_in": null,
         "live_alternative": "docs/content/forge/components/protocols.md",
         "confidence": 0.55,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "dcc190c01dcd": {
@@ -6234,7 +6519,7 @@
       "id": "df7fbd6746dd",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6259,14 +6544,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/macos-native-runtime-artifact.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "dff877f63c19": {
       "id": "dff877f63c19",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6290,14 +6575,14 @@
         "deleted_in": null,
         "live_alternative": "optional-skills/research/research-paper-writing/references/writing-guide.md",
         "confidence": 0.55,
-        "head_sha": "f0888d77bf606ea5c96738d4deecbc0503f96bb1"
+        "head_sha": "a4994d4ead8f9c915b485cec5689909b349a49df"
       }
     },
     "e167b1a1ca2c": {
       "id": "e167b1a1ca2c",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -6365,7 +6650,7 @@
       "id": "e305ad26f7a0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6389,14 +6674,14 @@
         "deleted_in": null,
         "live_alternative": "engine/src/flutter/impeller/renderer/renderer_unittests.cc",
         "confidence": 0.55,
-        "head_sha": "ee8b48245d7a4c261be74d05786ba46ac690a91d"
+        "head_sha": "327cc39c4d52f581e74adbb5fd28835b2df19041"
       }
     },
     "e325c8679b18": {
       "id": "e325c8679b18",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6423,11 +6708,43 @@
         "head_sha": "ce7073d51254c26cd63b22a60835b8f948deb447"
       }
     },
+    "e3533300fe1b": {
+      "id": "e3533300fe1b",
+      "state": "new",
+      "first_seen": "2026-11-01T09:23:14Z",
+      "last_seen": "2026-11-01T09:23:14Z",
+      "history": [
+        {
+          "at": "2026-11-01T09:23:14Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "kind": "script",
+        "file": "cli/package.json",
+        "line": 21,
+        "ref": "scripts/generate-catalog-summary.py",
+        "path": "cli/scripts/generate-catalog-summary.py",
+        "context": "script validate:catalog-summary",
+        "evidence": [
+          "cli/package.json script \"validate:catalog-summary\": cd .. && node cli/scripts/run-python.mjs scripts/generate-catalog-summary.py --check",
+          "same file name exists at scripts/generate-catalog-summary.py",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "scripts/generate-catalog-summary.py",
+        "confidence": 0.75,
+        "head_sha": "3a13158ff1f32156cbe144108de48eda2ecaed9a"
+      }
+    },
     "e47e9dda26b1": {
       "id": "e47e9dda26b1",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6452,14 +6769,14 @@
         "deleted_in": null,
         "live_alternative": "compiler/packages/snap/src/SproutTodoFilter.ts",
         "confidence": 0.55,
-        "head_sha": "e84e14927537821acfa553c9995a655d23bbf755"
+        "head_sha": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25"
       }
     },
     "e4f2f668341a": {
       "id": "e4f2f668341a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6483,14 +6800,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/validate-authorized-beta-focused-evidence.mts",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "e5c3b06ea455": {
       "id": "e5c3b06ea455",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6514,14 +6831,14 @@
         "deleted_in": null,
         "live_alternative": ".github/pull_request_template.md",
         "confidence": 0.55,
-        "head_sha": "61055d5cfd6a01b667c73a574cbd2be6d2ab58d0"
+        "head_sha": "f5ed6cc72cdc2f9270cbddf05761e8c1fddc9b60"
       }
     },
     "e7113cc340dd": {
       "id": "e7113cc340dd",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6545,14 +6862,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-validation-state.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "e8397c11b686": {
       "id": "e8397c11b686",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -6576,14 +6893,14 @@
         "deleted_in": null,
         "live_alternative": "src/vs/platform/agentHost/node/claude/claudeAgent.ts",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "e8f6fa47ca25": {
       "id": "e8f6fa47ca25",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6607,14 +6924,14 @@
         "deleted_in": null,
         "live_alternative": "dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
         "confidence": 0.55,
-        "head_sha": "ee8b48245d7a4c261be74d05786ba46ac690a91d"
+        "head_sha": "327cc39c4d52f581e74adbb5fd28835b2df19041"
       }
     },
     "ea1ce37d812b": {
       "id": "ea1ce37d812b",
       "state": "new",
       "first_seen": "2026-10-28T09:29:23Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-28T09:29:23Z",
@@ -6639,14 +6956,14 @@
         "deleted_in": null,
         "live_alternative": ".github/workflows/scripts/security_public_sync.py",
         "confidence": 0.8,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "eb0d4e94b8cc": {
       "id": "eb0d4e94b8cc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6658,7 +6975,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 6881,
+        "line": 6882,
         "ref": "./.ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
         "path": ".ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
         "context": "job docker-seed-e2e",
@@ -6670,14 +6987,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/upgrade-survivor-policy.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "ec71a3f98111": {
       "id": "ec71a3f98111",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6702,14 +7019,14 @@
         "deleted_in": null,
         "live_alternative": "CHANGELOG.md",
         "confidence": 0.55,
-        "head_sha": "e49d12a5f90b70107cc4e69b6621d2e218524890"
+        "head_sha": "8be840557bacd89d592f13ddc1bee0586afaea14"
       }
     },
     "ecaf489976e7": {
       "id": "ecaf489976e7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6733,14 +7050,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "ee09841af308": {
       "id": "ee09841af308",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6764,14 +7081,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "ee38dbea718f": {
       "id": "ee38dbea718f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6795,14 +7112,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "e84e14927537821acfa553c9995a655d23bbf755"
+        "head_sha": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25"
       }
     },
     "efa249524b45": {
       "id": "efa249524b45",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6826,14 +7143,14 @@
         "deleted_in": null,
         "live_alternative": "packages/flutter_tools/test/general.shard/android/gradle_utils_test.dart",
         "confidence": 0.55,
-        "head_sha": "ee8b48245d7a4c261be74d05786ba46ac690a91d"
+        "head_sha": "327cc39c4d52f581e74adbb5fd28835b2df19041"
       }
     },
     "f14ae5beb432": {
       "id": "f14ae5beb432",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6857,14 +7174,14 @@
         "deleted_in": null,
         "live_alternative": "docs/content/forge/components/components.md",
         "confidence": 0.55,
-        "head_sha": "07212df377c4ea0ac5ed6a7c9c8ff72203564650"
+        "head_sha": "af21363c9e6477243174cc19a749b68eb2118625"
       }
     },
     "f2ed2bbe74e5": {
       "id": "f2ed2bbe74e5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6888,7 +7205,7 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/assets/prompts/skills/agent-customization/references/hooks.md",
         "confidence": 0.55,
-        "head_sha": "97d01924531421f671b69342f629ba0f9f0f1e2e"
+        "head_sha": "1306698e328e5e531f5e632301d30020aa994eff"
       }
     },
     "f604f8ce9abb": {
@@ -6926,7 +7243,7 @@
       "id": "f6ab5fc23d23",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6951,14 +7268,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-production-audit.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "f83c93d96d01": {
       "id": "f83c93d96d01",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6982,7 +7299,7 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "78646837abaeccf9de3bc977418fab46e96e588b"
+        "head_sha": "67239c70776df016bb074ab25a90f397bbf2484c"
       }
     },
     "fa377881d6ac": {
@@ -7021,7 +7338,7 @@
       "id": "faf17fbbd267",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7033,7 +7350,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 6476,
+        "line": 6477,
         "ref": "../../.ci-harness/scripts/ci-collect-checks.sh",
         "path": ".ci-harness/scripts/ci-collect-checks.sh",
         "context": "job android",
@@ -7045,14 +7362,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-collect-checks.sh",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "fafc4a604ef1": {
       "id": "fafc4a604ef1",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7076,14 +7393,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-validation-policy.mjs",
         "confidence": 0.8,
-        "head_sha": "64daa25640db61cf38ecceb64b2fa7619902f0d5"
+        "head_sha": "2423623c3461610130360fa978cd364653fee1b2"
       }
     },
     "fb4ce15fcfb6": {
       "id": "fb4ce15fcfb6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7108,14 +7425,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci/cache-retention.mjs",
         "confidence": 0.8,
-        "head_sha": "23de10bb2849cdce8ddbe70504aa7cc57de75a98"
+        "head_sha": "a6caa79bf4f393c02601fbf2f6df246eae0b1558"
       }
     },
     "fc73999400b9": {
       "id": "fc73999400b9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7139,14 +7456,14 @@
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/pm-audit-status.md",
         "confidence": 0.55,
-        "head_sha": "f0888d77bf606ea5c96738d4deecbc0503f96bb1"
+        "head_sha": "a4994d4ead8f9c915b485cec5689909b349a49df"
       }
     },
     "fc79b7768c86": {
       "id": "fc79b7768c86",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7177,7 +7494,7 @@
       "id": "fcd5ff24b6f6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7208,7 +7525,7 @@
       "id": "fcf2f7ebf83c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7233,14 +7550,14 @@
         "deleted_in": null,
         "live_alternative": "main.py",
         "confidence": 0.8,
-        "head_sha": "7c4390a6f70cd8eb41014d6af52969397a752fc4"
+        "head_sha": "6d352802d8f8b9133f664a1757d6c6d26390c335"
       }
     },
     "fe60adc0a327": {
       "id": "fe60adc0a327",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-10-31T09:23:24Z",
+      "last_seen": "2026-11-01T09:23:14Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
