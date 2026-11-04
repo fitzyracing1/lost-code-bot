@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-03T09:24:36Z",
+  "scanned_at": "2026-11-04T09:25:34Z",
   "repos": {
     "codecrafters-io/build-your-own-x": 0,
     "freeCodeCamp/freeCodeCamp": 40,
@@ -13,7 +13,7 @@
     "torvalds/linux": 1,
     "react/react": 9,
     "TheAlgorithms/Python": 0,
-    "anomalyco/opencode": 7,
+    "anomalyco/opencode": 5,
     "vuejs/vue": 0,
     "ossu/computer-science": 0,
     "n8n-io/n8n": 34,
@@ -27,7 +27,6 @@
     "microsoft/vscode": 40,
     "microsoft/markitdown": 0,
     "ohmyzsh/ohmyzsh": 6,
-    "Significant-Gravitas/AutoGPT": 17,
     "jackfrued/Python-100-Days": 40,
     "anthropics/skills": 3,
     "521xueweihan/HelloGitHub": 0,
@@ -48,14 +47,16 @@
     "farion1231/cc-switch": 14,
     "langchain-ai/langchain": 0,
     "airbnb/javascript": 0,
-    "github/spec-kit": 0,
-    "Comfy-Org/ComfyUI": 5,
-    "nextlevelbuilder/ui-ux-pro-max-skill": 10
+    "github/spec-kit": 2,
+    "nextlevelbuilder/ui-ux-pro-max-skill": 10,
+    "Comfy-Org/ComfyUI": 5
   },
-  "errors": {},
-  "api_calls": 153,
-  "rate_remaining": 4847,
-  "seconds": 297,
+  "errors": {
+    "Significant-Gravitas/AutoGPT": "HTTPError: HTTP Error 500: Internal Server Error"
+  },
+  "api_calls": 149,
+  "rate_remaining": 4849,
+  "seconds": 326,
   "findings": [
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -73,7 +74,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "9ee904df0b175ee89115e9605b9ecbbc7c870bd2"
+      "head_sha": "21f0b632bc49621669f897c6ee795a07e90426f4"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -91,7 +92,7 @@
       "deleted_in": "e59ad6ebda1d92de58cb55e230f9e1aa130c059b",
       "live_alternative": null,
       "confidence": 0.8,
-      "head_sha": "9ee904df0b175ee89115e9605b9ecbbc7c870bd2"
+      "head_sha": "21f0b632bc49621669f897c6ee795a07e90426f4"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -109,7 +110,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "9ee904df0b175ee89115e9605b9ecbbc7c870bd2"
+      "head_sha": "21f0b632bc49621669f897c6ee795a07e90426f4"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -127,7 +128,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "9ee904df0b175ee89115e9605b9ecbbc7c870bd2"
+      "head_sha": "21f0b632bc49621669f897c6ee795a07e90426f4"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -145,7 +146,7 @@
       "deleted_in": "9ff3a29a72c0885366017b5379608554592b7e97",
       "live_alternative": null,
       "confidence": 0.8,
-      "head_sha": "9ee904df0b175ee89115e9605b9ecbbc7c870bd2"
+      "head_sha": "21f0b632bc49621669f897c6ee795a07e90426f4"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -163,7 +164,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "9ee904df0b175ee89115e9605b9ecbbc7c870bd2"
+      "head_sha": "21f0b632bc49621669f897c6ee795a07e90426f4"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -181,7 +182,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "9ee904df0b175ee89115e9605b9ecbbc7c870bd2"
+      "head_sha": "21f0b632bc49621669f897c6ee795a07e90426f4"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -199,7 +200,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "9ee904df0b175ee89115e9605b9ecbbc7c870bd2"
+      "head_sha": "21f0b632bc49621669f897c6ee795a07e90426f4"
     },
     {
       "repo": "morluto/rea",
@@ -218,13 +219,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci/cache-retention.mjs",
       "confidence": 0.8,
-      "head_sha": "8c857ce56c68ca46d202db0c9571277974c9e167"
+      "head_sha": "47cedcc93aa639fb8445ab344308a6837d2b9d5a"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1364,
+      "line": 1366,
       "ref": "./.ci-harness/scripts/lib/release-context.mjs",
       "path": ".ci-harness/scripts/lib/release-context.mjs",
       "context": "job preflight",
@@ -237,13 +238,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-context.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1563,
+      "line": 1565,
       "ref": ".ci-harness/scripts/ci-build-manifest.mjs",
       "path": ".ci-harness/scripts/ci-build-manifest.mjs",
       "context": "job preflight",
@@ -256,13 +257,32 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-build-manifest.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1674,
+      "line": 1572,
+      "ref": ".ci-harness/scripts/ci-adaptive-priors.mjs",
+      "path": ".ci-harness/scripts/ci-adaptive-priors.mjs",
+      "context": "job preflight",
+      "evidence": [
+        ".github/workflows/ci.yml job 'preflight' runs '.ci-harness/scripts/ci-adaptive-priors.mjs' (working-directory: .)",
+        "same file name exists at scripts/ci-adaptive-priors.mjs",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-adaptive-priors.mjs",
+      "confidence": 0.8,
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1693,
       "ref": ".ci-harness/scripts/detect-private-keys.mts",
       "path": ".ci-harness/scripts/detect-private-keys.mts",
       "context": "job security-fast",
@@ -275,13 +295,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/detect-private-keys.mts",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1700,
+      "line": 1719,
       "ref": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "path": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "context": "job security-fast",
@@ -294,13 +314,13 @@
       "deleted_in": null,
       "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1773,
+      "line": 1798,
       "ref": ".ci-harness/scripts/ci-production-audit.mjs",
       "path": ".ci-harness/scripts/ci-production-audit.mjs",
       "context": "job security-fast",
@@ -313,13 +333,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-production-audit.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1790,
+      "line": 1820,
       "ref": ".ci-harness/scripts/ci-collect-checks.sh",
       "path": ".ci-harness/scripts/ci-collect-checks.sh",
       "context": "job security-fast",
@@ -332,13 +352,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-collect-checks.sh",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1982,
+      "line": 2012,
       "ref": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
       "path": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
       "context": "job build-artifacts",
@@ -351,13 +371,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/macos-native-runtime-artifact.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 2234,
+      "line": 2264,
       "ref": "scripts/ensure-cli-startup-build.mjs",
       "path": "scripts/ensure-cli-startup-build.mjs",
       "context": "job build-artifacts",
@@ -369,13 +389,13 @@
       "deleted_in": "c70aee247e831d21895f5ea3dda7497c50af0721",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 3161,
+      "line": 3191,
       "ref": ".ci-harness/.github/actions/git-owner/owner.py",
       "path": ".ci-harness/.github/actions/git-owner/owner.py",
       "context": "job checks-fast-core",
@@ -388,13 +408,13 @@
       "deleted_in": null,
       "live_alternative": ".github/actions/git-owner/owner.py",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 3947,
+      "line": 3988,
       "ref": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
       "path": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
       "context": "job check-shard",
@@ -407,13 +427,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-npm-lock-admission.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 4075,
+      "line": 4084,
       "ref": ".ci-harness/scripts/ci-static-step.sh",
       "path": ".ci-harness/scripts/ci-static-step.sh",
       "context": "job check-shard",
@@ -426,13 +446,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-static-step.sh",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 4681,
+      "line": 4659,
       "ref": ".ci-harness/scripts/ci-additional-checks.sh",
       "path": ".ci-harness/scripts/ci-additional-checks.sh",
       "context": "job check-additional-shard",
@@ -445,13 +465,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-additional-checks.sh",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 5108,
+      "line": 5073,
       "ref": ".ci-harness/scripts/lib/swift-toolchain.sh",
       "path": ".ci-harness/scripts/lib/swift-toolchain.sh",
       "context": "job macos-swift",
@@ -464,13 +484,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/swift-toolchain.sh",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 5764,
+      "line": 5729,
       "ref": "./.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
       "path": ".ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
       "context": "job ios-build",
@@ -483,32 +503,31 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/ci-ios-smoke-plan.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 5826,
+      "line": 5791,
       "ref": ".ci-harness/scripts/swift-build-cache-metadata.py",
       "path": ".ci-harness/scripts/swift-build-cache-metadata.py",
       "context": "job ios-build",
       "evidence": [
         ".github/workflows/ci.yml job 'ios-build' runs '.ci-harness/scripts/swift-build-cache-metadata.py' (working-directory: .)",
-        "same file name exists at scripts/swift-build-cache-metadata.py",
-        "no commit on the default branch ever touched this path"
+        "same file name exists at scripts/swift-build-cache-metadata.py"
       ],
       "recovery_sha": null,
       "deleted_in": null,
       "live_alternative": "scripts/swift-build-cache-metadata.py",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 5828,
+      "line": 5793,
       "ref": ".ci-harness/scripts/ci-xcodebuild.py",
       "path": ".ci-harness/scripts/ci-xcodebuild.py",
       "context": "job ios-build",
@@ -520,13 +539,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-xcodebuild.py",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6269,
+      "line": 6232,
       "ref": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
       "path": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
       "context": "job ios-screenshot-capture",
@@ -538,13 +557,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ios-screenshot-evidence.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6488,
+      "line": 6451,
       "ref": "../../.ci-harness/scripts/ci-collect-checks.sh",
       "path": ".ci-harness/scripts/ci-collect-checks.sh",
       "context": "job android",
@@ -556,13 +575,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-collect-checks.sh",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6888,
+      "line": 6851,
       "ref": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
       "path": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
       "context": "job docker-seed-e2e",
@@ -574,13 +593,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-upgrade-baseline.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6900,
+      "line": 6863,
       "ref": "./.ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
       "path": ".ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
       "context": "job docker-seed-e2e",
@@ -592,7 +611,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/upgrade-survivor-policy.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
@@ -610,7 +629,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
@@ -628,7 +647,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/relay-build-limit-warnings.mts",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
@@ -646,7 +665,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
@@ -664,7 +683,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
@@ -682,7 +701,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/verify-authorized-beta-focused-candidate.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
@@ -700,7 +719,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/validate-authorized-beta-focused-evidence.mts",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
@@ -718,7 +737,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
@@ -736,13 +755,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/check-docs-mdx.mts",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 308,
+      "line": 310,
       "ref": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "path": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "context": "job resolve_target",
@@ -754,13 +773,13 @@
       "deleted_in": null,
       "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 318,
+      "line": 320,
       "ref": "workflow/scripts/full-release-publication-contract.mjs",
       "path": "workflow/scripts/full-release-publication-contract.mjs",
       "context": "job resolve_target",
@@ -772,13 +791,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-publication-contract.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 340,
+      "line": 342,
       "ref": "workflow/scripts/release-tooling-identity.mjs",
       "path": "workflow/scripts/release-tooling-identity.mjs",
       "context": "job resolve_target",
@@ -790,13 +809,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/release-tooling-identity.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 358,
+      "line": 360,
       "ref": "workflow/scripts/github/resolve-openclaw-ref.sh",
       "path": "workflow/scripts/github/resolve-openclaw-ref.sh",
       "context": "job resolve_target",
@@ -808,13 +827,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/github/resolve-openclaw-ref.sh",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 434,
+      "line": 436,
       "ref": "workflow/scripts/full-release-candidate-contract.mjs",
       "path": "workflow/scripts/full-release-candidate-contract.mjs",
       "context": "job resolve_target",
@@ -826,13 +845,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-candidate-contract.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 524,
+      "line": 526,
       "ref": "./workflow/scripts/lib/release-context.mjs",
       "path": "workflow/scripts/lib/release-context.mjs",
       "context": "job resolve_target",
@@ -844,13 +863,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-context.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 577,
+      "line": 579,
       "ref": "./workflow/scripts/full-release-validation-policy.mjs",
       "path": "workflow/scripts/full-release-validation-policy.mjs",
       "context": "job resolve_target",
@@ -862,13 +881,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-validation-policy.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 578,
+      "line": 580,
       "ref": "./workflow/scripts/lib/release-version.mjs",
       "path": "workflow/scripts/lib/release-version.mjs",
       "context": "job resolve_target",
@@ -880,13 +899,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-version.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 1116,
+      "line": 1135,
       "ref": "workflow/scripts/full-release-validation-state.mjs",
       "path": "workflow/scripts/full-release-validation-state.mjs",
       "context": "job evidence_reuse",
@@ -898,13 +917,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-validation-state.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 1181,
+      "line": 1200,
       "ref": "workflow/scripts/github/find-reusable-release-validation.sh",
       "path": "workflow/scripts/github/find-reusable-release-validation.sh",
       "context": "job evidence_reuse",
@@ -916,13 +935,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/github/find-reusable-release-validation.sh",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 1214,
+      "line": 1233,
       "ref": "workflow/scripts/full-release-artifacts.mjs",
       "path": "workflow/scripts/full-release-artifacts.mjs",
       "context": "job evidence_reuse",
@@ -934,25 +953,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 1369,
-      "ref": "workflow/scripts/find-reusable-release-child.mjs",
-      "path": "workflow/scripts/find-reusable-release-child.mjs",
-      "context": "job normal_ci",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'normal_ci' runs 'workflow/scripts/find-reusable-release-child.mjs' (working-directory: .)",
-        "same file name exists at scripts/find-reusable-release-child.mjs"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/find-reusable-release-child.mjs",
-      "confidence": 0.8,
-      "head_sha": "29e5360e957886bf47810b72dfe25dca44250e96"
+      "head_sha": "258d034391ac03a8ee3530ba33552a5cbf2062fc"
     },
     {
       "repo": "affaan-m/ECC",
@@ -1885,7 +1886,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "c314285f077e91937c995d419b9fa40af9eb4981"
+      "head_sha": "71736c9f32597bbca9d89cede5aa136e55946b2f"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1903,7 +1904,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "c314285f077e91937c995d419b9fa40af9eb4981"
+      "head_sha": "71736c9f32597bbca9d89cede5aa136e55946b2f"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1921,7 +1922,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/macos-bundle-updates.md",
       "confidence": 0.55,
-      "head_sha": "c314285f077e91937c995d419b9fa40af9eb4981"
+      "head_sha": "71736c9f32597bbca9d89cede5aa136e55946b2f"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1939,7 +1940,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/stable-releases.md",
       "confidence": 0.55,
-      "head_sha": "c314285f077e91937c995d419b9fa40af9eb4981"
+      "head_sha": "71736c9f32597bbca9d89cede5aa136e55946b2f"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1957,7 +1958,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/pm-audit-status.md",
       "confidence": 0.55,
-      "head_sha": "c314285f077e91937c995d419b9fa40af9eb4981"
+      "head_sha": "71736c9f32597bbca9d89cede5aa136e55946b2f"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1975,7 +1976,7 @@
       "deleted_in": null,
       "live_alternative": "optional-skills/research/research-paper-writing/references/writing-guide.md",
       "confidence": 0.55,
-      "head_sha": "c314285f077e91937c995d419b9fa40af9eb4981"
+      "head_sha": "71736c9f32597bbca9d89cede5aa136e55946b2f"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1993,7 +1994,7 @@
       "deleted_in": null,
       "live_alternative": "optional-skills/research/research-paper-writing/references/sources.md",
       "confidence": 0.55,
-      "head_sha": "c314285f077e91937c995d419b9fa40af9eb4981"
+      "head_sha": "71736c9f32597bbca9d89cede5aa136e55946b2f"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -2011,7 +2012,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "c314285f077e91937c995d419b9fa40af9eb4981"
+      "head_sha": "71736c9f32597bbca9d89cede5aa136e55946b2f"
     },
     {
       "repo": "torvalds/linux",
@@ -2030,7 +2031,7 @@
       "deleted_in": "22ef8a263c17f02176e3a322b76da07411092c17",
       "live_alternative": "tools/net/ynl/tests/ethtool.py",
       "confidence": 0.9,
-      "head_sha": "6628e7d4c6b25c8d18f1345e3a20d21829aae7e4"
+      "head_sha": "05441d697f7f9a927264f4058cbbc6a03dfcac9d"
     },
     {
       "repo": "react/react",
@@ -2178,7 +2179,7 @@
       "deleted_in": null,
       "live_alternative": ".github/nix-hashes/publish.sh",
       "confidence": 0.8,
-      "head_sha": "3ba597f7769e19cc3b5f67e3d6667e7b6318f6a3"
+      "head_sha": "ffe6fed58334d921f64a86a8d86128bff5a4b566"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2196,7 +2197,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "3ba597f7769e19cc3b5f67e3d6667e7b6318f6a3"
+      "head_sha": "ffe6fed58334d921f64a86a8d86128bff5a4b566"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2214,45 +2215,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "3ba597f7769e19cc3b5f67e3d6667e7b6318f6a3"
-    },
-    {
-      "repo": "anomalyco/opencode",
-      "kind": "script",
-      "file": "packages/app/package.json",
-      "line": 36,
-      "ref": "timeline/session-tab-switch-benchmark.spec.ts",
-      "path": "packages/app/timeline/session-tab-switch-benchmark.spec.ts",
-      "context": "script bench:tabs",
-      "evidence": [
-        "packages/app/package.json script \"bench:tabs\": PLAYWRIGHT_BUILD=1 playwright test --config e2e/performance/playwright.config.ts timeline/session-tab-switch-benchmark.spec.ts --repeat-each=20 --workers=1 --retries=0 --reporter=line,./e2e/performance/tab-switch-reporter.ts",
-        "same file name exists at packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts",
-      "confidence": 0.75,
-      "head_sha": "3ba597f7769e19cc3b5f67e3d6667e7b6318f6a3"
-    },
-    {
-      "repo": "anomalyco/opencode",
-      "kind": "script",
-      "file": "packages/app/package.json",
-      "line": 37,
-      "ref": "timeline/session-entry-benchmark.spec.ts",
-      "path": "packages/app/timeline/session-entry-benchmark.spec.ts",
-      "context": "script bench:entry",
-      "evidence": [
-        "packages/app/package.json script \"bench:entry\": PLAYWRIGHT_BUILD=1 playwright test --config e2e/performance/playwright.config.ts timeline/session-entry-benchmark.spec.ts --repeat-each=20 --workers=1 --retries=0 --reporter=line,./e2e/performance/tab-switch-reporter.ts",
-        "same file name exists at packages/app/e2e/performance/timeline/session-entry-benchmark.spec.ts",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "packages/app/e2e/performance/timeline/session-entry-benchmark.spec.ts",
-      "confidence": 0.75,
-      "head_sha": "3ba597f7769e19cc3b5f67e3d6667e7b6318f6a3"
+      "head_sha": "ffe6fed58334d921f64a86a8d86128bff5a4b566"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2270,7 +2233,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "3ba597f7769e19cc3b5f67e3d6667e7b6318f6a3"
+      "head_sha": "ffe6fed58334d921f64a86a8d86128bff5a4b566"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2289,7 +2252,7 @@
       "deleted_in": null,
       "live_alternative": "packages/plugins/figma/skills/figma-generate-library/references/token-creation.md",
       "confidence": 0.55,
-      "head_sha": "3ba597f7769e19cc3b5f67e3d6667e7b6318f6a3"
+      "head_sha": "ffe6fed58334d921f64a86a8d86128bff5a4b566"
     },
     {
       "repo": "n8n-io/n8n",
@@ -2307,7 +2270,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "0db6d6bf374db313655bc324345d1569981b78e8"
+      "head_sha": "d5e7db2bf57dbc06e65648cdbec7f5db6b91bedc"
     },
     {
       "repo": "n8n-io/n8n",
@@ -2325,7 +2288,7 @@
       "deleted_in": null,
       "live_alternative": ".github/pull_request_template.md",
       "confidence": 0.55,
-      "head_sha": "0db6d6bf374db313655bc324345d1569981b78e8"
+      "head_sha": "d5e7db2bf57dbc06e65648cdbec7f5db6b91bedc"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2343,7 +2306,7 @@
       "deleted_in": "43a0f254074dc5f18c00817ca969514de4202533",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "3ddaa9cd610c108b5c75d723d81bebfa6d9c063f"
+      "head_sha": "faa06da43657488c1f7479289d11d15e03a15ba1"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2362,7 +2325,7 @@
       "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
       "live_alternative": "tensorflow/lite/g3doc/android/delegates/nnapi.md",
       "confidence": 0.75,
-      "head_sha": "3ddaa9cd610c108b5c75d723d81bebfa6d9c063f"
+      "head_sha": "faa06da43657488c1f7479289d11d15e03a15ba1"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2380,7 +2343,7 @@
       "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "3ddaa9cd610c108b5c75d723d81bebfa6d9c063f"
+      "head_sha": "faa06da43657488c1f7479289d11d15e03a15ba1"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2398,7 +2361,7 @@
       "deleted_in": "50b0cf2bd8e0dee902d9ca4e0cb45c9e0e743bd8",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "3ddaa9cd610c108b5c75d723d81bebfa6d9c063f"
+      "head_sha": "faa06da43657488c1f7479289d11d15e03a15ba1"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2416,7 +2379,7 @@
       "deleted_in": "6c2bf6576321ad53ff1eb6d66b6efae2c93ef4e0",
       "live_alternative": null,
       "confidence": 0.55,
-      "head_sha": "3ddaa9cd610c108b5c75d723d81bebfa6d9c063f"
+      "head_sha": "faa06da43657488c1f7479289d11d15e03a15ba1"
     },
     {
       "repo": "firecrawl/firecrawl",
@@ -2434,7 +2397,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "5ca5e53bde538864e0ddcf359992583f381ea119"
+      "head_sha": "830fb0fb06c33360ad014e970338b263fd6723b5"
     },
     {
       "repo": "firecrawl/firecrawl",
@@ -2452,7 +2415,7 @@
       "deleted_in": null,
       "live_alternative": "CONTRIBUTING.md",
       "confidence": 0.55,
-      "head_sha": "5ca5e53bde538864e0ddcf359992583f381ea119"
+      "head_sha": "830fb0fb06c33360ad014e970338b263fd6723b5"
     },
     {
       "repo": "trekhleb/javascript-algorithms",
@@ -2495,7 +2458,7 @@
       "repo": "microsoft/vscode",
       "kind": "script",
       "file": "extensions/copilot/chat-lib/package.json",
-      "line": 69,
+      "line": 70,
       "ref": "script/postinstall.js",
       "path": "extensions/copilot/chat-lib/script/postinstall.js",
       "context": "script postinstall",
@@ -2507,7 +2470,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2525,7 +2488,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2543,7 +2506,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2561,7 +2524,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2579,7 +2542,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2597,7 +2560,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2615,7 +2578,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2633,7 +2596,7 @@
       "deleted_in": null,
       "live_alternative": "build/next/nls-plugin.ts",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2651,7 +2614,7 @@
       "deleted_in": null,
       "live_alternative": "LICENSE.txt",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2669,7 +2632,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/assets/prompts/skills/agent-customization/references/hooks.md",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2687,7 +2650,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/test/pipeline/test/fixtures/config.json",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2705,7 +2668,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/expectedEditCaptureController.ts",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2723,7 +2686,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/node/debugRecorder.ts",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2741,7 +2704,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/inlineEditDebugComponent.ts",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2759,7 +2722,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/nesFeedbackSubmitter.ts",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2777,7 +2740,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/common/observableWorkspaceRecordingReplayer.ts",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2795,7 +2758,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/test/simulation/inlineEdit/inlineEditTester.ts",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2813,7 +2776,7 @@
       "deleted_in": null,
       "live_alternative": "src/vs/platform/agentHost/node/claude/claudeAgent.ts",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "microsoft/vscode",
@@ -2831,263 +2794,7 @@
       "deleted_in": null,
       "live_alternative": "src/vs/platform/agentHost/common/pendingRequestRegistry.ts",
       "confidence": 0.55,
-      "head_sha": "c19d19e78960558cb7e57cf44b93ec6f6ff0e885"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "ci",
-      "file": ".github/workflows/classic-autogpt-docker-ci.yml",
-      "line": 89,
-      "ref": ".github/workflows/scripts/docker-ci-summary.sh",
-      "path": "classic/original_autogpt/.github/workflows/scripts/docker-ci-summary.sh",
-      "context": "job build",
-      "evidence": [
-        ".github/workflows/classic-autogpt-docker-ci.yml job 'build' runs '.github/workflows/scripts/docker-ci-summary.sh' (working-directory: classic/original_autogpt)",
-        "same file name exists at .github/workflows/scripts/docker-ci-summary.sh",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": ".github/workflows/scripts/docker-ci-summary.sh",
-      "confidence": 0.8,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "ci",
-      "file": ".github/workflows/copilot-setup-steps.yml",
-      "line": 51,
-      "ref": "../../.github/workflows/scripts/get_package_version_from_lockfile.py",
-      "path": "../../.github/workflows/scripts/get_package_version_from_lockfile.py",
-      "context": "job copilot-setup-steps",
-      "evidence": [
-        ".github/workflows/copilot-setup-steps.yml job 'copilot-setup-steps' runs '../../.github/workflows/scripts/get_package_version_from_lockfile.py' (working-directory: .)",
-        "same file name exists at .github/workflows/scripts/get_package_version_from_lockfile.py",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": ".github/workflows/scripts/get_package_version_from_lockfile.py",
-      "confidence": 0.8,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "ci",
-      "file": ".github/workflows/docs-block-sync.yml",
-      "line": 82,
-      "ref": "../../.github/workflows/scripts/get_package_version_from_lockfile.py",
-      "path": "../../.github/workflows/scripts/get_package_version_from_lockfile.py",
-      "context": "job check-docs-sync",
-      "evidence": [
-        ".github/workflows/docs-block-sync.yml job 'check-docs-sync' runs '../../.github/workflows/scripts/get_package_version_from_lockfile.py' (working-directory: .)",
-        "same file name exists at .github/workflows/scripts/get_package_version_from_lockfile.py",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": ".github/workflows/scripts/get_package_version_from_lockfile.py",
-      "confidence": 0.8,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "ci",
-      "file": ".github/workflows/security-advisory-sync.yml",
-      "line": 84,
-      "ref": "trusted/.github/workflows/scripts/security_public_sync.py",
-      "path": "trusted/.github/workflows/scripts/security_public_sync.py",
-      "context": "job credits-pr",
-      "evidence": [
-        ".github/workflows/security-advisory-sync.yml job 'credits-pr' runs 'trusted/.github/workflows/scripts/security_public_sync.py' (working-directory: .)",
-        "same file name exists at .github/workflows/scripts/security_public_sync.py",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": ".github/workflows/scripts/security_public_sync.py",
-      "confidence": 0.8,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "script",
-      "file": "autogpt_platform/frontend/package.json",
-      "line": 12,
-      "ref": "server.js",
-      "path": "autogpt_platform/frontend/server.js",
-      "context": "script start:standalone",
-      "evidence": [
-        "autogpt_platform/frontend/package.json script \"start:standalone\": cd .next/standalone && node server.js",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": null,
-      "confidence": 0.65,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "doc",
-      "file": "autogpt_platform/backend/AGENTS.md",
-      "line": 139,
-      "ref": "@../../docs/platform/contributing/managing-llm-models.md",
-      "path": "autogpt_platform/backend/docs/platform/contributing/managing-llm-models.md",
-      "context": "Model definitions, costs, and AutoPilot routing are catalog-as-code in `backend/data/llm_registry/catalog.py` \u2014 edit the file, open a PR (catalog-only diffs may ride `hotfix/*`\u2192`master` for incident-s",
-      "evidence": [
-        "autogpt_platform/backend/AGENTS.md:139 links to @../../docs/platform/contributing/managing-llm-models.md",
-        "same file name exists at docs/platform/contributing/managing-llm-models.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "docs/platform/contributing/managing-llm-models.md",
-      "confidence": 0.55,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "doc",
-      "file": "autogpt_platform/backend/AGENTS.md",
-      "line": 149,
-      "ref": "@../../docs/platform/block-sdk-guide.md",
-      "path": "autogpt_platform/backend/docs/platform/block-sdk-guide.md",
-      "context": "Follow the comprehensive [Block SDK Guide](@../../docs/platform/block-sdk-guide.md) which covers:",
-      "evidence": [
-        "autogpt_platform/backend/AGENTS.md:149 links to @../../docs/platform/block-sdk-guide.md",
-        "same file name exists at docs/platform/block-sdk-guide.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "docs/platform/block-sdk-guide.md",
-      "confidence": 0.55,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "doc",
-      "file": "classic/forge/forge/components/README.md",
-      "line": 3,
-      "ref": "./agents.md",
-      "path": "classic/forge/forge/components/agents.md",
-      "context": "Components are the building blocks of [\ud83e\udd16 Agents](./agents.md). They are classes inheriting `AgentComponent` or implementing one or more [\u2699\ufe0f Protocols](./protocols.md) that give agent additional abilit",
-      "evidence": [
-        "classic/forge/forge/components/README.md:3 links to ./agents.md",
-        "same file name exists at docs/content/forge/components/agents.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "docs/content/forge/components/agents.md",
-      "confidence": 0.55,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "doc",
-      "file": "classic/forge/forge/components/README.md",
-      "line": 3,
-      "ref": "./protocols.md",
-      "path": "classic/forge/forge/components/protocols.md",
-      "context": "Components are the building blocks of [\ud83e\udd16 Agents](./agents.md). They are classes inheriting `AgentComponent` or implementing one or more [\u2699\ufe0f Protocols](./protocols.md) that give agent additional abilit",
-      "evidence": [
-        "classic/forge/forge/components/README.md:3 links to ./protocols.md",
-        "same file name exists at docs/content/forge/components/protocols.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "docs/content/forge/components/protocols.md",
-      "confidence": 0.55,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "doc",
-      "file": "classic/forge/forge/components/README.md",
-      "line": 12,
-      "ref": "./built-in-components.md",
-      "path": "classic/forge/forge/components/built-in-components.md",
-      "context": "Visit [Built-in Components](./built-in-components.md) to see what components are available out of the box.",
-      "evidence": [
-        "classic/forge/forge/components/README.md:12 links to ./built-in-components.md",
-        "same file name exists at docs/content/forge/components/built-in-components.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "docs/content/forge/components/built-in-components.md",
-      "confidence": 0.55,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "doc",
-      "file": "classic/forge/forge/components/README.md",
-      "line": 93,
-      "ref": "../../classic/setup/docker.md",
-      "path": "classic/forge/classic/setup/docker.md",
-      "context": "See [Docker Guide](../../classic/setup/docker.md) for more information.",
-      "evidence": [
-        "classic/forge/forge/components/README.md:93 links to ../../classic/setup/docker.md",
-        "same file name exists at docs/content/classic/setup/docker.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "docs/content/classic/setup/docker.md",
-      "confidence": 0.55,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "doc",
-      "file": "classic/original_autogpt/autogpt/agents/README.md",
-      "line": 3,
-      "ref": "./components.md",
-      "path": "classic/original_autogpt/autogpt/agents/components.md",
-      "context": "Agent is composed of [\ud83e\udde9 Components](./components.md) and responsible for executing pipelines and some additional logic. The base class for all agents is `BaseAgent`, it has the necessary logic to coll",
-      "evidence": [
-        "classic/original_autogpt/autogpt/agents/README.md:3 links to ./components.md",
-        "same file name exists at docs/content/forge/components/components.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "docs/content/forge/components/components.md",
-      "confidence": 0.55,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "doc",
-      "file": "classic/original_autogpt/autogpt/agents/README.md",
-      "line": 13,
-      "ref": "./built-in-components.md",
-      "path": "classic/original_autogpt/autogpt/agents/built-in-components.md",
-      "context": "`Agent` is the main agent provided by AutoGPT. It's a subclass of `BaseAgent`. It has all the [Built-in Components](./built-in-components.md). `Agent` implements the essential abstract methods from `B",
-      "evidence": [
-        "classic/original_autogpt/autogpt/agents/README.md:13 links to ./built-in-components.md",
-        "same file name exists at docs/content/forge/components/built-in-components.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "docs/content/forge/components/built-in-components.md",
-      "confidence": 0.55,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
-    },
-    {
-      "repo": "Significant-Gravitas/AutoGPT",
-      "kind": "doc",
-      "file": "classic/original_autogpt/autogpt/agents/README.md",
-      "line": 17,
-      "ref": "./protocols.md",
-      "path": "classic/original_autogpt/autogpt/agents/protocols.md",
-      "context": "The easiest way to build your own agent is to extend the `Agent` class and add additional components. By doing this you can reuse the existing components and the default logic for executing [\u2699\ufe0f Protoc",
-      "evidence": [
-        "classic/original_autogpt/autogpt/agents/README.md:17 links to ./protocols.md",
-        "same file name exists at docs/content/forge/components/protocols.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "docs/content/forge/components/protocols.md",
-      "confidence": 0.55,
-      "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
+      "head_sha": "7a4fab9da6f2494cf11759e57ba0a6b20c4bb8d4"
     },
     {
       "repo": "flutter/flutter",
@@ -3105,7 +2812,7 @@
       "deleted_in": null,
       "live_alternative": "dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
       "confidence": 0.55,
-      "head_sha": "934720261be051307da25be7911628d61ccb8b72"
+      "head_sha": "3623d2d34543adb1b340510eb5e7bfc0ae1aa1ae"
     },
     {
       "repo": "flutter/flutter",
@@ -3123,7 +2830,7 @@
       "deleted_in": null,
       "live_alternative": "docs/contributing/Chat.md",
       "confidence": 0.55,
-      "head_sha": "934720261be051307da25be7911628d61ccb8b72"
+      "head_sha": "3623d2d34543adb1b340510eb5e7bfc0ae1aa1ae"
     },
     {
       "repo": "flutter/flutter",
@@ -3141,7 +2848,7 @@
       "deleted_in": null,
       "live_alternative": "docs/contributing/Setting-up-the-Framework-development-environment.md",
       "confidence": 0.55,
-      "head_sha": "934720261be051307da25be7911628d61ccb8b72"
+      "head_sha": "3623d2d34543adb1b340510eb5e7bfc0ae1aa1ae"
     },
     {
       "repo": "flutter/flutter",
@@ -3159,7 +2866,7 @@
       "deleted_in": null,
       "live_alternative": "engine/src/flutter/impeller/renderer/renderer_unittests.cc",
       "confidence": 0.55,
-      "head_sha": "934720261be051307da25be7911628d61ccb8b72"
+      "head_sha": "3623d2d34543adb1b340510eb5e7bfc0ae1aa1ae"
     },
     {
       "repo": "flutter/flutter",
@@ -3177,7 +2884,7 @@
       "deleted_in": null,
       "live_alternative": "docs/engine/contributing/Setting-up-the-Engine-development-environment.md",
       "confidence": 0.55,
-      "head_sha": "934720261be051307da25be7911628d61ccb8b72"
+      "head_sha": "3623d2d34543adb1b340510eb5e7bfc0ae1aa1ae"
     },
     {
       "repo": "flutter/flutter",
@@ -3195,7 +2902,7 @@
       "deleted_in": null,
       "live_alternative": "docs/platforms/android/Android-Platform-Views.md",
       "confidence": 0.55,
-      "head_sha": "934720261be051307da25be7911628d61ccb8b72"
+      "head_sha": "3623d2d34543adb1b340510eb5e7bfc0ae1aa1ae"
     },
     {
       "repo": "flutter/flutter",
@@ -3213,7 +2920,7 @@
       "deleted_in": null,
       "live_alternative": "docs/engine/testing/Testing-the-engine.md",
       "confidence": 0.55,
-      "head_sha": "934720261be051307da25be7911628d61ccb8b72"
+      "head_sha": "3623d2d34543adb1b340510eb5e7bfc0ae1aa1ae"
     },
     {
       "repo": "flutter/flutter",
@@ -3231,7 +2938,7 @@
       "deleted_in": null,
       "live_alternative": "engine/src/flutter/ci/builders/mac_unopt.json",
       "confidence": 0.55,
-      "head_sha": "934720261be051307da25be7911628d61ccb8b72"
+      "head_sha": "3623d2d34543adb1b340510eb5e7bfc0ae1aa1ae"
     },
     {
       "repo": "flutter/flutter",
@@ -3249,7 +2956,7 @@
       "deleted_in": null,
       "live_alternative": "packages/flutter_tools/test/general.shard/android/gradle_utils_test.dart",
       "confidence": 0.55,
-      "head_sha": "934720261be051307da25be7911628d61ccb8b72"
+      "head_sha": "3623d2d34543adb1b340510eb5e7bfc0ae1aa1ae"
     },
     {
       "repo": "huggingface/transformers",
@@ -3267,7 +2974,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "865e28f9d6fd255d8cbad2b8e7ee19a0738e3dbe"
+      "head_sha": "baa3646ebfa4d8e4f8a857bae03dd01f0331ce10"
     },
     {
       "repo": "langgenius/dify",
@@ -3285,7 +2992,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "fbc33cae439912ef247309039e9805d86d2950b5"
+      "head_sha": "7de3c2938c60578bf09447c3dc49f01eb2096c76"
     },
     {
       "repo": "langgenius/dify",
@@ -3303,7 +3010,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "fbc33cae439912ef247309039e9805d86d2950b5"
+      "head_sha": "7de3c2938c60578bf09447c3dc49f01eb2096c76"
     },
     {
       "repo": "langgenius/dify",
@@ -3321,7 +3028,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "fbc33cae439912ef247309039e9805d86d2950b5"
+      "head_sha": "7de3c2938c60578bf09447c3dc49f01eb2096c76"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3340,7 +3047,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci/check_authentication.py",
       "confidence": 0.8,
-      "head_sha": "e63907b0f05304f2de2dab3e19add7e2b6393fb2"
+      "head_sha": "60999cc9a7350e44dde3ef641baae864e10861f0"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3359,7 +3066,7 @@
       "deleted_in": "a42af78fe670e016d3698d76c2ad532a44dd2d00",
       "live_alternative": "src/bundles/openai/tests/test_openai_model.py",
       "confidence": 0.99,
-      "head_sha": "e63907b0f05304f2de2dab3e19add7e2b6393fb2"
+      "head_sha": "60999cc9a7350e44dde3ef641baae864e10861f0"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3378,13 +3085,13 @@
       "deleted_in": "b1dc065feecc9f035f1bfd8197e0b178b8c57fdd",
       "live_alternative": "src/backend/tests/unit/components/models_and_agents/test_agent_component.py",
       "confidence": 0.99,
-      "head_sha": "e63907b0f05304f2de2dab3e19add7e2b6393fb2"
+      "head_sha": "60999cc9a7350e44dde3ef641baae864e10861f0"
     },
     {
       "repo": "langflow-ai/langflow",
       "kind": "script",
       "file": "src/frontend/package.json",
-      "line": 175,
+      "line": 179,
       "ref": "scripts/lint-changed.sh",
       "path": "src/frontend/scripts/lint-changed.sh",
       "context": "script lint:changed",
@@ -3396,7 +3103,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "e63907b0f05304f2de2dab3e19add7e2b6393fb2"
+      "head_sha": "60999cc9a7350e44dde3ef641baae864e10861f0"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3415,7 +3122,7 @@
       "deleted_in": null,
       "live_alternative": "docs/agents/ARCHITECTURE.md",
       "confidence": 0.55,
-      "head_sha": "e63907b0f05304f2de2dab3e19add7e2b6393fb2"
+      "head_sha": "60999cc9a7350e44dde3ef641baae864e10861f0"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3434,7 +3141,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3453,7 +3160,7 @@
       "deleted_in": null,
       "live_alternative": "README_ZH.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3472,7 +3179,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3491,7 +3198,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3510,7 +3217,7 @@
       "deleted_in": null,
       "live_alternative": "README_ZH.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3529,7 +3236,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3548,7 +3255,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3567,7 +3274,7 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3586,7 +3293,7 @@
       "deleted_in": null,
       "live_alternative": "README_ZH.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
       "repo": "farion1231/cc-switch",
@@ -3605,102 +3312,44 @@
       "deleted_in": null,
       "live_alternative": "CHANGELOG.md",
       "confidence": 0.55,
-      "head_sha": "7afceec14b977ecc2f4373e8ffb40e7223b435ac"
+      "head_sha": "e217bfcbbbbbf82f4619ab62f08fb002635b7858"
     },
     {
-      "repo": "Comfy-Org/ComfyUI",
-      "kind": "ci",
-      "file": ".github/workflows/stable-release.yml",
-      "line": 175,
-      "ref": "ComfyUI/main.py",
-      "path": "ComfyUI/main.py",
-      "context": "job package_comfy_windows",
+      "repo": "github/spec-kit",
+      "kind": "doc",
+      "file": "docs/history.md",
+      "line": 226,
+      "ref": "reference/workflows.md#workflow-composition",
+      "path": "docs/reference/workflows.md",
+      "context": "[calls to other workflows](reference/workflows.md#workflow-composition) within",
       "evidence": [
-        ".github/workflows/stable-release.yml job 'package_comfy_windows' runs 'ComfyUI/main.py' (working-directory: .)",
-        "same file name exists at main.py",
-        "no commit on the default branch ever touched this path"
+        "docs/history.md:226 links to reference/workflows.md#workflow-composition",
+        "last touched by 980f9c1550 (2026-11-03T20:00:50Z): docs: consolidate and correct workflow documentation (#5225); recover from parent f22ae68194"
       ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "main.py",
-      "confidence": 0.8,
-      "head_sha": "ab08f7b2caa6d4007ecde3762116c6193613f43b"
+      "recovery_sha": "f22ae68194f1425349669b058aed95bba728b1f9",
+      "deleted_in": "980f9c1550341e35672df17593ce2e5a792cb7d1",
+      "live_alternative": null,
+      "confidence": 0.65,
+      "head_sha": "a227e38315cd38172b04f2fb8f06ce8b69b38331"
     },
     {
-      "repo": "Comfy-Org/ComfyUI",
-      "kind": "ci",
-      "file": ".github/workflows/stable-release.yml",
-      "line": 177,
-      "ref": "./update/update.py",
-      "path": "update/update.py",
-      "context": "job package_comfy_windows",
+      "repo": "github/spec-kit",
+      "kind": "doc",
+      "file": "docs/history.md",
+      "line": 228,
+      "ref": "reference/bundles.md#bundle-references",
+      "path": "docs/reference/bundles.md",
+      "context": "[references to other bundles](reference/bundles.md#bundle-references).",
       "evidence": [
-        ".github/workflows/stable-release.yml job 'package_comfy_windows' runs './update/update.py' (working-directory: .)",
-        "same file name exists at .ci/update_windows/update.py",
-        "no commit on the default branch ever touched this path"
+        "docs/history.md:228 links to reference/bundles.md#bundle-references",
+        "same file name exists at docs/community/bundles.md",
+        "last touched by 275ebdd99e (2026-11-03T21:46:01Z): docs: consolidate bundle documentation and remove unusable examples (#5226); recover from parent bc0f30a09e"
       ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": ".ci/update_windows/update.py",
-      "confidence": 0.8,
-      "head_sha": "ab08f7b2caa6d4007ecde3762116c6193613f43b"
-    },
-    {
-      "repo": "Comfy-Org/ComfyUI",
-      "kind": "ci",
-      "file": ".github/workflows/windows_release_nightly_pytorch.yml",
-      "line": 83,
-      "ref": "ComfyUI/main.py",
-      "path": "ComfyUI/main.py",
-      "context": "job build",
-      "evidence": [
-        ".github/workflows/windows_release_nightly_pytorch.yml job 'build' runs 'ComfyUI/main.py' (working-directory: .)",
-        "same file name exists at main.py",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "main.py",
-      "confidence": 0.8,
-      "head_sha": "ab08f7b2caa6d4007ecde3762116c6193613f43b"
-    },
-    {
-      "repo": "Comfy-Org/ComfyUI",
-      "kind": "ci",
-      "file": ".github/workflows/windows_release_package.yml",
-      "line": 93,
-      "ref": "ComfyUI/main.py",
-      "path": "ComfyUI/main.py",
-      "context": "job package_comfyui",
-      "evidence": [
-        ".github/workflows/windows_release_package.yml job 'package_comfyui' runs 'ComfyUI/main.py' (working-directory: .)",
-        "same file name exists at main.py",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "main.py",
-      "confidence": 0.8,
-      "head_sha": "ab08f7b2caa6d4007ecde3762116c6193613f43b"
-    },
-    {
-      "repo": "Comfy-Org/ComfyUI",
-      "kind": "ci",
-      "file": ".github/workflows/windows_release_package.yml",
-      "line": 95,
-      "ref": "./update/update.py",
-      "path": "update/update.py",
-      "context": "job package_comfyui",
-      "evidence": [
-        ".github/workflows/windows_release_package.yml job 'package_comfyui' runs './update/update.py' (working-directory: .)",
-        "same file name exists at .ci/update_windows/update.py",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": ".ci/update_windows/update.py",
-      "confidence": 0.8,
-      "head_sha": "ab08f7b2caa6d4007ecde3762116c6193613f43b"
+      "recovery_sha": "bc0f30a09e6ce0a0ad8cb97723f73b84e39b3d14",
+      "deleted_in": "275ebdd99e6e2e8eb78f180d4d6b5f119f96b4e4",
+      "live_alternative": "docs/community/bundles.md",
+      "confidence": 0.75,
+      "head_sha": "a227e38315cd38172b04f2fb8f06ce8b69b38331"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3719,7 +3368,7 @@
       "deleted_in": null,
       "live_alternative": "cli/scripts/run-python.mjs",
       "confidence": 0.75,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3738,7 +3387,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/validate-csv.py",
       "confidence": 0.75,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3756,7 +3405,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3775,7 +3424,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/validate-agent-guide.py",
       "confidence": 0.75,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3794,7 +3443,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/generate-catalog-summary.py",
       "confidence": 0.75,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3813,7 +3462,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/evaluate-relevance.py",
       "confidence": 0.75,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3832,7 +3481,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/smoke-domains.sh",
       "confidence": 0.75,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3851,7 +3500,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/smoke-stacks.sh",
       "confidence": 0.75,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3869,7 +3518,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3887,7 +3536,102 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "713eef51b04efc98d6fa565323b495f7c9c89fd4"
+      "head_sha": "dd9a1b4cf9f67ca2e326f646d93e101b2778db30"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/stable-release.yml",
+      "line": 175,
+      "ref": "ComfyUI/main.py",
+      "path": "ComfyUI/main.py",
+      "context": "job package_comfy_windows",
+      "evidence": [
+        ".github/workflows/stable-release.yml job 'package_comfy_windows' runs 'ComfyUI/main.py' (working-directory: .)",
+        "same file name exists at main.py",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "main.py",
+      "confidence": 0.8,
+      "head_sha": "70bcb4e9fc70f19b7cdb340966351ed6479f2188"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/stable-release.yml",
+      "line": 177,
+      "ref": "./update/update.py",
+      "path": "update/update.py",
+      "context": "job package_comfy_windows",
+      "evidence": [
+        ".github/workflows/stable-release.yml job 'package_comfy_windows' runs './update/update.py' (working-directory: .)",
+        "same file name exists at .ci/update_windows/update.py",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".ci/update_windows/update.py",
+      "confidence": 0.8,
+      "head_sha": "70bcb4e9fc70f19b7cdb340966351ed6479f2188"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/windows_release_nightly_pytorch.yml",
+      "line": 83,
+      "ref": "ComfyUI/main.py",
+      "path": "ComfyUI/main.py",
+      "context": "job build",
+      "evidence": [
+        ".github/workflows/windows_release_nightly_pytorch.yml job 'build' runs 'ComfyUI/main.py' (working-directory: .)",
+        "same file name exists at main.py",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "main.py",
+      "confidence": 0.8,
+      "head_sha": "70bcb4e9fc70f19b7cdb340966351ed6479f2188"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/windows_release_package.yml",
+      "line": 93,
+      "ref": "ComfyUI/main.py",
+      "path": "ComfyUI/main.py",
+      "context": "job package_comfyui",
+      "evidence": [
+        ".github/workflows/windows_release_package.yml job 'package_comfyui' runs 'ComfyUI/main.py' (working-directory: .)",
+        "same file name exists at main.py",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "main.py",
+      "confidence": 0.8,
+      "head_sha": "70bcb4e9fc70f19b7cdb340966351ed6479f2188"
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "kind": "ci",
+      "file": ".github/workflows/windows_release_package.yml",
+      "line": 95,
+      "ref": "./update/update.py",
+      "path": "update/update.py",
+      "context": "job package_comfyui",
+      "evidence": [
+        ".github/workflows/windows_release_package.yml job 'package_comfyui' runs './update/update.py' (working-directory: .)",
+        "same file name exists at .ci/update_windows/update.py",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": ".ci/update_windows/update.py",
+      "confidence": 0.8,
+      "head_sha": "70bcb4e9fc70f19b7cdb340966351ed6479f2188"
     }
   ]
 }
