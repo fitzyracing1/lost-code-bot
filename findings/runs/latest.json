@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-16T09:37:28Z",
+  "scanned_at": "2026-11-17T09:24:26Z",
   "repos": {
     "codecrafters-io/build-your-own-x": 0,
     "morluto/rea": 3,
@@ -7,7 +7,7 @@
     "openclaw/openclaw": 40,
     "mattpocock/skills": 1,
     "obra/superpowers": 0,
-    "affaan-m/ECC": 26,
+    "affaan-m/ECC": 20,
     "deepseek-ai/deepseek-harness": 40,
     "NousResearch/hermes-agent": 17,
     "torvalds/linux": 1,
@@ -17,14 +17,14 @@
     "vuejs/vue": 0,
     "ossu/computer-science": 0,
     "n8n-io/n8n": 25,
-    "DigitalPlatDev/FreeDomain": 0,
     "yt-dlp/yt-dlp": 0,
-    "firecrawl/firecrawl": 8,
+    "DigitalPlatDev/FreeDomain": 0,
+    "firecrawl/firecrawl": 7,
     "tensorflow/tensorflow": 11,
     "massgravel/Microsoft-Activation-Scripts": 0,
     "trekhleb/javascript-algorithms": 8,
-    "microsoft/markitdown": 0,
     "anthropics/skills": 3,
+    "microsoft/markitdown": 0,
     "microsoft/vscode": 40,
     "ultraworkers/claw-code": 2,
     "DietrichGebert/ponytail": 0,
@@ -39,12 +39,12 @@
     "msitarzewski/agency-agents": 0,
     "AUTOMATIC1111/stable-diffusion-webui": 0,
     "langgenius/dify": 3,
-    "open-webui/open-webui": 0,
     "clash-verge-rev/clash-verge-rev": 0,
+    "open-webui/open-webui": 0,
     "langflow-ai/langflow": 7,
     "anthropics/claude-code": 0,
-    "Genymobile/scrcpy": 0,
     "farion1231/cc-switch": 0,
+    "Genymobile/scrcpy": 0,
     "nextlevelbuilder/ui-ux-pro-max-skill": 11,
     "github/spec-kit": 1,
     "langchain-ai/langchain": 1,
@@ -54,15 +54,15 @@
   "errors": {
     "Significant-Gravitas/AutoGPT": "HTTPError: HTTP Error 500: Internal Server Error"
   },
-  "api_calls": 136,
-  "rate_remaining": 4862,
-  "seconds": 548,
+  "api_calls": 135,
+  "rate_remaining": 4863,
+  "seconds": 242,
   "findings": [
     {
       "repo": "morluto/rea",
       "kind": "ci",
       "file": ".github/workflows/cache-retention.yml",
-      "line": 64,
+      "line": 66,
       "ref": "trusted-retention/scripts/ci/cache-retention.mjs",
       "path": "trusted-retention/scripts/ci/cache-retention.mjs",
       "context": "job retain",
@@ -75,7 +75,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci/cache-retention.mjs",
       "confidence": 0.8,
-      "head_sha": "d6bcfc10eafa3c0893c7cbd5f3dc6a90359be022"
+      "head_sha": "e9c72dbd1fa6b318cb3e455c92df064eed62333a"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -93,7 +93,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "72950950af13888a6d0d396f489c6bddac762d21"
+      "head_sha": "012550e766525b2a8e4d413b70825a0aab862f91"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -111,7 +111,7 @@
       "deleted_in": "e59ad6ebda1d92de58cb55e230f9e1aa130c059b",
       "live_alternative": null,
       "confidence": 0.8,
-      "head_sha": "72950950af13888a6d0d396f489c6bddac762d21"
+      "head_sha": "012550e766525b2a8e4d413b70825a0aab862f91"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -129,7 +129,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "72950950af13888a6d0d396f489c6bddac762d21"
+      "head_sha": "012550e766525b2a8e4d413b70825a0aab862f91"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -147,7 +147,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "72950950af13888a6d0d396f489c6bddac762d21"
+      "head_sha": "012550e766525b2a8e4d413b70825a0aab862f91"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -165,7 +165,7 @@
       "deleted_in": "9ff3a29a72c0885366017b5379608554592b7e97",
       "live_alternative": null,
       "confidence": 0.8,
-      "head_sha": "72950950af13888a6d0d396f489c6bddac762d21"
+      "head_sha": "012550e766525b2a8e4d413b70825a0aab862f91"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -183,7 +183,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "72950950af13888a6d0d396f489c6bddac762d21"
+      "head_sha": "012550e766525b2a8e4d413b70825a0aab862f91"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -201,7 +201,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "72950950af13888a6d0d396f489c6bddac762d21"
+      "head_sha": "012550e766525b2a8e4d413b70825a0aab862f91"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -219,13 +219,32 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "72950950af13888a6d0d396f489c6bddac762d21"
+      "head_sha": "012550e766525b2a8e4d413b70825a0aab862f91"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1434,
+      "line": 1142,
+      "ref": ".ci-harness/scripts/ci-resolve-runner-profile.sh",
+      "path": ".ci-harness/scripts/ci-resolve-runner-profile.sh",
+      "context": "job preflight",
+      "evidence": [
+        ".github/workflows/ci.yml job 'preflight' runs '.ci-harness/scripts/ci-resolve-runner-profile.sh' (working-directory: .)",
+        "same file name exists at scripts/ci-resolve-runner-profile.sh",
+        "no commit on the default branch ever touched this path"
+      ],
+      "recovery_sha": null,
+      "deleted_in": null,
+      "live_alternative": "scripts/ci-resolve-runner-profile.sh",
+      "confidence": 0.8,
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "kind": "ci",
+      "file": ".github/workflows/ci.yml",
+      "line": 1337,
       "ref": "./.ci-harness/scripts/lib/release-context.mjs",
       "path": ".ci-harness/scripts/lib/release-context.mjs",
       "context": "job preflight",
@@ -238,13 +257,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-context.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1634,
+      "line": 1538,
       "ref": ".ci-harness/scripts/ci-build-manifest.mjs",
       "path": ".ci-harness/scripts/ci-build-manifest.mjs",
       "context": "job preflight",
@@ -257,13 +276,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-build-manifest.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1641,
+      "line": 1545,
       "ref": ".ci-harness/scripts/ci-adaptive-priors.mjs",
       "path": ".ci-harness/scripts/ci-adaptive-priors.mjs",
       "context": "job preflight",
@@ -276,13 +295,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-adaptive-priors.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1765,
+      "line": 1669,
       "ref": ".ci-harness/scripts/detect-private-keys.mts",
       "path": ".ci-harness/scripts/detect-private-keys.mts",
       "context": "job security-fast",
@@ -295,13 +314,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/detect-private-keys.mts",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1791,
+      "line": 1695,
       "ref": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "path": ".ci-harness/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "context": "job security-fast",
@@ -314,13 +333,13 @@
       "deleted_in": null,
       "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 1870,
+      "line": 1774,
       "ref": ".ci-harness/scripts/ci-production-audit.mjs",
       "path": ".ci-harness/scripts/ci-production-audit.mjs",
       "context": "job security-fast",
@@ -333,13 +352,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-production-audit.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 2078,
+      "line": 1982,
       "ref": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
       "path": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
       "context": "job build-artifacts",
@@ -352,13 +371,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/macos-native-runtime-artifact.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 2123,
+      "line": 2027,
       "ref": ".ci-harness/scripts/ci-collect-checks.sh",
       "path": ".ci-harness/scripts/ci-collect-checks.sh",
       "context": "job build-artifacts",
@@ -371,13 +390,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-collect-checks.sh",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 2323,
+      "line": 2227,
       "ref": "scripts/ensure-cli-startup-build.mjs",
       "path": "scripts/ensure-cli-startup-build.mjs",
       "context": "job build-artifacts",
@@ -389,13 +408,13 @@
       "deleted_in": "c70aee247e831d21895f5ea3dda7497c50af0721",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 3277,
+      "line": 3181,
       "ref": ".ci-harness/.github/actions/git-owner/owner.py",
       "path": ".ci-harness/.github/actions/git-owner/owner.py",
       "context": "job checks-fast-core",
@@ -408,13 +427,13 @@
       "deleted_in": null,
       "live_alternative": ".github/actions/git-owner/owner.py",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 4033,
+      "line": 3937,
       "ref": "./.ci-harness/scripts/lib/process-memory.mts",
       "path": ".ci-harness/scripts/lib/process-memory.mts",
       "context": "job checks-node-core-test-nondist-shard",
@@ -427,13 +446,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/process-memory.mts",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 4127,
+      "line": 4031,
       "ref": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
       "path": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
       "context": "job check-shard",
@@ -446,13 +465,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-npm-lock-admission.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 4229,
+      "line": 4133,
       "ref": ".ci-harness/scripts/ci-static-step.sh",
       "path": ".ci-harness/scripts/ci-static-step.sh",
       "context": "job check-shard",
@@ -465,13 +484,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-static-step.sh",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 4815,
+      "line": 4719,
       "ref": ".ci-harness/scripts/ci-additional-checks.sh",
       "path": ".ci-harness/scripts/ci-additional-checks.sh",
       "context": "job check-additional-shard",
@@ -484,32 +503,31 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-additional-checks.sh",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 5256,
+      "line": 5160,
       "ref": ".ci-harness/scripts/lib/swift-toolchain.sh",
       "path": ".ci-harness/scripts/lib/swift-toolchain.sh",
       "context": "job macos-swift",
       "evidence": [
         ".github/workflows/ci.yml job 'macos-swift' runs '.ci-harness/scripts/lib/swift-toolchain.sh' (working-directory: .)",
-        "same file name exists at scripts/lib/swift-toolchain.sh",
-        "no commit on the default branch ever touched this path"
+        "same file name exists at scripts/lib/swift-toolchain.sh"
       ],
       "recovery_sha": null,
       "deleted_in": null,
       "live_alternative": "scripts/lib/swift-toolchain.sh",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 5955,
+      "line": 5859,
       "ref": "./.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
       "path": ".ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
       "context": "job ios-build",
@@ -521,13 +539,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/ci-ios-smoke-plan.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6017,
+      "line": 5921,
       "ref": ".ci-harness/scripts/swift-build-cache-metadata.py",
       "path": ".ci-harness/scripts/swift-build-cache-metadata.py",
       "context": "job ios-build",
@@ -539,13 +557,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/swift-build-cache-metadata.py",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6022,
+      "line": 5926,
       "ref": ".ci-harness/scripts/ci-xcodebuild.py",
       "path": ".ci-harness/scripts/ci-xcodebuild.py",
       "context": "job ios-build",
@@ -557,13 +575,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-xcodebuild.py",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6493,
+      "line": 6397,
       "ref": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
       "path": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
       "context": "job ios-screenshot-capture",
@@ -575,13 +593,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ios-screenshot-evidence.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6705,
+      "line": 6609,
       "ref": "../../.ci-harness/scripts/ci-collect-checks.sh",
       "path": ".ci-harness/scripts/ci-collect-checks.sh",
       "context": "job android",
@@ -593,13 +611,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-collect-checks.sh",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 7106,
+      "line": 7010,
       "ref": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
       "path": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
       "context": "job docker-seed-e2e",
@@ -611,13 +629,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-upgrade-baseline.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 7118,
+      "line": 7022,
       "ref": "./.ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
       "path": ".ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
       "context": "job docker-seed-e2e",
@@ -629,7 +647,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/upgrade-survivor-policy.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
@@ -647,7 +665,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
@@ -665,7 +683,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/relay-build-limit-warnings.mts",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
@@ -683,7 +701,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
@@ -701,7 +719,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
@@ -719,7 +737,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/verify-authorized-beta-focused-candidate.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
@@ -737,7 +755,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/validate-authorized-beta-focused-evidence.mts",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
@@ -755,7 +773,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
@@ -773,13 +791,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/check-docs-mdx.mts",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 314,
+      "line": 328,
       "ref": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "path": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "context": "job resolve_target",
@@ -791,13 +809,13 @@
       "deleted_in": null,
       "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 324,
+      "line": 338,
       "ref": "workflow/scripts/full-release-publication-contract.mjs",
       "path": "workflow/scripts/full-release-publication-contract.mjs",
       "context": "job resolve_target",
@@ -809,13 +827,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-publication-contract.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 346,
+      "line": 360,
       "ref": "workflow/scripts/release-tooling-identity.mjs",
       "path": "workflow/scripts/release-tooling-identity.mjs",
       "context": "job resolve_target",
@@ -827,13 +845,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/release-tooling-identity.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 364,
+      "line": 378,
       "ref": "workflow/scripts/github/resolve-openclaw-ref.sh",
       "path": "workflow/scripts/github/resolve-openclaw-ref.sh",
       "context": "job resolve_target",
@@ -845,13 +863,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/github/resolve-openclaw-ref.sh",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 441,
+      "line": 455,
       "ref": "workflow/scripts/full-release-candidate-contract.mjs",
       "path": "workflow/scripts/full-release-candidate-contract.mjs",
       "context": "job resolve_target",
@@ -863,13 +881,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-candidate-contract.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 531,
+      "line": 545,
       "ref": "./workflow/scripts/lib/release-context.mjs",
       "path": "workflow/scripts/lib/release-context.mjs",
       "context": "job resolve_target",
@@ -881,13 +899,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-context.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 584,
+      "line": 598,
       "ref": "./workflow/scripts/full-release-validation-policy.mjs",
       "path": "workflow/scripts/full-release-validation-policy.mjs",
       "context": "job resolve_target",
@@ -899,13 +917,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-validation-policy.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 585,
+      "line": 599,
       "ref": "./workflow/scripts/lib/release-version.mjs",
       "path": "workflow/scripts/lib/release-version.mjs",
       "context": "job resolve_target",
@@ -917,13 +935,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-version.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 1151,
+      "line": 1165,
       "ref": "workflow/scripts/full-release-validation-state.mjs",
       "path": "workflow/scripts/full-release-validation-state.mjs",
       "context": "job evidence_reuse",
@@ -935,31 +953,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-validation-state.mjs",
       "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
-    },
-    {
-      "repo": "openclaw/openclaw",
-      "kind": "ci",
-      "file": ".github/workflows/full-release-validation.yml",
-      "line": 1216,
-      "ref": "workflow/scripts/github/find-reusable-release-validation.sh",
-      "path": "workflow/scripts/github/find-reusable-release-validation.sh",
-      "context": "job evidence_reuse",
-      "evidence": [
-        ".github/workflows/full-release-validation.yml job 'evidence_reuse' runs 'workflow/scripts/github/find-reusable-release-validation.sh' (working-directory: .)",
-        "same file name exists at scripts/github/find-reusable-release-validation.sh"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "scripts/github/find-reusable-release-validation.sh",
-      "confidence": 0.8,
-      "head_sha": "33d26e441f91c3d2534071a8d36e8aa9d146d07f"
+      "head_sha": "0ffeebc9df427e3140aa6611baa7d6ebd79e16e4"
     },
     {
       "repo": "affaan-m/ECC",
       "kind": "ci",
       "file": ".github/workflows/release.yml",
-      "line": 196,
+      "line": 199,
       "ref": "release-artifacts/tests/ci/packed-artifact-lifecycle.js",
       "path": "release-artifacts/tests/ci/packed-artifact-lifecycle.js",
       "context": "job lifecycle",
@@ -972,13 +972,13 @@
       "deleted_in": null,
       "live_alternative": "tests/ci/packed-artifact-lifecycle.js",
       "confidence": 0.8,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+      "head_sha": "3f14a103a8694e51c1df9a806217a6d0b5f7a6f7"
     },
     {
       "repo": "affaan-m/ECC",
       "kind": "ci",
       "file": ".github/workflows/release.yml",
-      "line": 247,
+      "line": 250,
       "ref": "release-gate-source/scripts/ci/verify-release-gates.js",
       "path": "release-gate-source/scripts/ci/verify-release-gates.js",
       "context": "job publish",
@@ -991,13 +991,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci/verify-release-gates.js",
       "confidence": 0.8,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+      "head_sha": "3f14a103a8694e51c1df9a806217a6d0b5f7a6f7"
     },
     {
       "repo": "affaan-m/ECC",
       "kind": "ci",
       "file": ".github/workflows/reusable-release.yml",
-      "line": 194,
+      "line": 197,
       "ref": "release-artifacts/tests/ci/packed-artifact-lifecycle.js",
       "path": "release-artifacts/tests/ci/packed-artifact-lifecycle.js",
       "context": "job lifecycle",
@@ -1010,13 +1010,13 @@
       "deleted_in": null,
       "live_alternative": "tests/ci/packed-artifact-lifecycle.js",
       "confidence": 0.8,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+      "head_sha": "3f14a103a8694e51c1df9a806217a6d0b5f7a6f7"
     },
     {
       "repo": "affaan-m/ECC",
       "kind": "ci",
       "file": ".github/workflows/reusable-release.yml",
-      "line": 239,
+      "line": 242,
       "ref": "release-gate-source/scripts/ci/verify-release-gates.js",
       "path": "release-gate-source/scripts/ci/verify-release-gates.js",
       "context": "job publish",
@@ -1029,115 +1029,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci/verify-release-gates.js",
       "confidence": 0.8,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "kind": "doc",
-      "file": "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md",
-      "line": 120,
-      "ref": "references/identity-tension.md",
-      "path": "docs/ja-JP/skills/openclaw-persona-forge/references/identity-tension.md",
-      "context": "**\u8be6\u7ec6\u6a21\u677f\u548c\u793a\u4f8b**\uff1a\u89c1 [references/identity-tension.md](references/identity-tension.md)",
-      "evidence": [
-        "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md:120 links to references/identity-tension.md",
-        "same file name exists at skills/openclaw-persona-forge/references/identity-tension.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "skills/openclaw-persona-forge/references/identity-tension.md",
-      "confidence": 0.55,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "kind": "doc",
-      "file": "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md",
-      "line": 128,
-      "ref": "references/boundary-rules.md",
-      "path": "docs/ja-JP/skills/openclaw-persona-forge/references/boundary-rules.md",
-      "context": "**\u63a8\u5bfc\u516c\u5f0f\u548c\u5404\u65b9\u5411\u53c2\u8003**\uff1a\u89c1 [references/boundary-rules.md](references/boundary-rules.md)",
-      "evidence": [
-        "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md:128 links to references/boundary-rules.md",
-        "same file name exists at skills/openclaw-persona-forge/references/boundary-rules.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "skills/openclaw-persona-forge/references/boundary-rules.md",
-      "confidence": 0.55,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "kind": "doc",
-      "file": "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md",
-      "line": 136,
-      "ref": "references/naming-system.md",
-      "path": "docs/ja-JP/skills/openclaw-persona-forge/references/naming-system.md",
-      "context": "**\u547d\u540d\u7b56\u7565\u548c\u7ea2\u7ebf**\uff1a\u89c1 [references/naming-system.md](references/naming-system.md)",
-      "evidence": [
-        "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md:136 links to references/naming-system.md",
-        "same file name exists at skills/openclaw-persona-forge/references/naming-system.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "skills/openclaw-persona-forge/references/naming-system.md",
-      "confidence": 0.55,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "kind": "doc",
-      "file": "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md",
-      "line": 144,
-      "ref": "references/avatar-style.md",
-      "path": "docs/ja-JP/skills/openclaw-persona-forge/references/avatar-style.md",
-      "context": "**\u98ce\u683c\u57fa\u5e95\u3001\u53d8\u91cf\u3001\u63d0\u793a\u8bcd\u6a21\u677f**\uff1a\u89c1 [references/avatar-style.md](references/avatar-style.md)",
-      "evidence": [
-        "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md:144 links to references/avatar-style.md",
-        "same file name exists at skills/openclaw-persona-forge/references/avatar-style.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "skills/openclaw-persona-forge/references/avatar-style.md",
-      "confidence": 0.55,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "kind": "doc",
-      "file": "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md",
-      "line": 169,
-      "ref": "references/output-template.md",
-      "path": "docs/ja-JP/skills/openclaw-persona-forge/references/output-template.md",
-      "context": "**\u5b8c\u6574\u8f93\u51fa\u6a21\u677f**\uff1a\u89c1 [references/output-template.md](references/output-template.md)",
-      "evidence": [
-        "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md:169 links to references/output-template.md",
-        "same file name exists at skills/openclaw-persona-forge/references/output-template.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "skills/openclaw-persona-forge/references/output-template.md",
-      "confidence": 0.55,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
-    },
-    {
-      "repo": "affaan-m/ECC",
-      "kind": "doc",
-      "file": "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md",
-      "line": 230,
-      "ref": "references/error-handling.md",
-      "path": "docs/ja-JP/skills/openclaw-persona-forge/references/error-handling.md",
-      "context": "**\u5b8c\u6574\u964d\u7ea7\u7b56\u7565**\uff1a\u89c1 [references/error-handling.md](references/error-handling.md)",
-      "evidence": [
-        "docs/ja-JP/skills/openclaw-persona-forge/SKILL.md:230 links to references/error-handling.md",
-        "same file name exists at skills/openclaw-persona-forge/references/error-handling.md"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "skills/openclaw-persona-forge/references/error-handling.md",
-      "confidence": 0.55,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+      "head_sha": "3f14a103a8694e51c1df9a806217a6d0b5f7a6f7"
     },
     {
       "repo": "affaan-m/ECC",
@@ -1155,7 +1047,7 @@
       "deleted_in": null,
       "live_alternative": "docs/PLAN-PRD-PATTERN.md",
       "confidence": 0.55,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+      "head_sha": "3f14a103a8694e51c1df9a806217a6d0b5f7a6f7"
     },
     {
       "repo": "affaan-m/ECC",
@@ -1173,7 +1065,7 @@
       "deleted_in": null,
       "live_alternative": "docs/capability-surface-selection.md",
       "confidence": 0.55,
-      "head_sha": "d2ef2680594f9a17526a6e1a2e18b3d242c5d17b"
+      "head_sha": "3f14a103a8694e51c1df9a806217a6d0b5f7a6f7"
     },
     {
       "repo": "deepseek-ai/deepseek-harness",
@@ -1886,7 +1778,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "e42008dae42d647ee5a263dbbd95893d9fbdbaab"
+      "head_sha": "3e9d42b876081b0aa58010862fc4c0a16c57e60d"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1904,7 +1796,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "e42008dae42d647ee5a263dbbd95893d9fbdbaab"
+      "head_sha": "3e9d42b876081b0aa58010862fc4c0a16c57e60d"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1922,7 +1814,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/macos-bundle-updates.md",
       "confidence": 0.55,
-      "head_sha": "e42008dae42d647ee5a263dbbd95893d9fbdbaab"
+      "head_sha": "3e9d42b876081b0aa58010862fc4c0a16c57e60d"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1940,7 +1832,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/stable-releases.md",
       "confidence": 0.55,
-      "head_sha": "e42008dae42d647ee5a263dbbd95893d9fbdbaab"
+      "head_sha": "3e9d42b876081b0aa58010862fc4c0a16c57e60d"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1958,7 +1850,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/pm-audit-status.md",
       "confidence": 0.55,
-      "head_sha": "e42008dae42d647ee5a263dbbd95893d9fbdbaab"
+      "head_sha": "3e9d42b876081b0aa58010862fc4c0a16c57e60d"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1976,7 +1868,7 @@
       "deleted_in": null,
       "live_alternative": "optional-skills/research/research-paper-writing/references/writing-guide.md",
       "confidence": 0.55,
-      "head_sha": "e42008dae42d647ee5a263dbbd95893d9fbdbaab"
+      "head_sha": "3e9d42b876081b0aa58010862fc4c0a16c57e60d"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1994,7 +1886,7 @@
       "deleted_in": null,
       "live_alternative": "optional-skills/research/research-paper-writing/references/sources.md",
       "confidence": 0.55,
-      "head_sha": "e42008dae42d647ee5a263dbbd95893d9fbdbaab"
+      "head_sha": "3e9d42b876081b0aa58010862fc4c0a16c57e60d"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -2012,7 +1904,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "e42008dae42d647ee5a263dbbd95893d9fbdbaab"
+      "head_sha": "3e9d42b876081b0aa58010862fc4c0a16c57e60d"
     },
     {
       "repo": "torvalds/linux",
@@ -2031,7 +1923,7 @@
       "deleted_in": "22ef8a263c17f02176e3a322b76da07411092c17",
       "live_alternative": "tools/net/ynl/tests/ethtool.py",
       "confidence": 0.9,
-      "head_sha": "aebb7274476403040d582c61478df8f4a7bf9cd3"
+      "head_sha": "666539eecdf4db623f5e3c3e55cf9f2dfad24aa4"
     },
     {
       "repo": "react/react",
@@ -2049,7 +1941,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "df6aa4ec76cff5b3adde531c6fe8c36099e0469b"
+      "head_sha": "1cd5eb8e0edb0b3a1ba33de9c886d91627f8b5ac"
     },
     {
       "repo": "react/react",
@@ -2067,7 +1959,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "df6aa4ec76cff5b3adde531c6fe8c36099e0469b"
+      "head_sha": "1cd5eb8e0edb0b3a1ba33de9c886d91627f8b5ac"
     },
     {
       "repo": "react/react",
@@ -2086,7 +1978,7 @@
       "deleted_in": null,
       "live_alternative": "packages/react-dom/unstable_server-external-runtime.js",
       "confidence": 0.8,
-      "head_sha": "df6aa4ec76cff5b3adde531c6fe8c36099e0469b"
+      "head_sha": "1cd5eb8e0edb0b3a1ba33de9c886d91627f8b5ac"
     },
     {
       "repo": "react/react",
@@ -2104,7 +1996,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "df6aa4ec76cff5b3adde531c6fe8c36099e0469b"
+      "head_sha": "1cd5eb8e0edb0b3a1ba33de9c886d91627f8b5ac"
     },
     {
       "repo": "react/react",
@@ -2122,7 +2014,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "df6aa4ec76cff5b3adde531c6fe8c36099e0469b"
+      "head_sha": "1cd5eb8e0edb0b3a1ba33de9c886d91627f8b5ac"
     },
     {
       "repo": "react/react",
@@ -2141,7 +2033,7 @@
       "deleted_in": null,
       "live_alternative": "compiler/packages/snap/src/SproutTodoFilter.ts",
       "confidence": 0.55,
-      "head_sha": "df6aa4ec76cff5b3adde531c6fe8c36099e0469b"
+      "head_sha": "1cd5eb8e0edb0b3a1ba33de9c886d91627f8b5ac"
     },
     {
       "repo": "react/react",
@@ -2160,7 +2052,7 @@
       "deleted_in": null,
       "live_alternative": ".github/workflows/runtime_release_from_ci.yml",
       "confidence": 0.55,
-      "head_sha": "df6aa4ec76cff5b3adde531c6fe8c36099e0469b"
+      "head_sha": "1cd5eb8e0edb0b3a1ba33de9c886d91627f8b5ac"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2179,7 +2071,7 @@
       "deleted_in": null,
       "live_alternative": ".github/nix-hashes/publish.sh",
       "confidence": 0.8,
-      "head_sha": "9b57cc05cb15a190480f4436a8ffff9e333d27f9"
+      "head_sha": "db1d7b9120fb899dc1d471a93e8bfad1e6dfbd98"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2197,7 +2089,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "9b57cc05cb15a190480f4436a8ffff9e333d27f9"
+      "head_sha": "db1d7b9120fb899dc1d471a93e8bfad1e6dfbd98"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2215,7 +2107,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "9b57cc05cb15a190480f4436a8ffff9e333d27f9"
+      "head_sha": "db1d7b9120fb899dc1d471a93e8bfad1e6dfbd98"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2233,7 +2125,7 @@
       "deleted_in": null,
       "live_alternative": "packages/plugins/figma/skills/figma-generate-library/references/token-creation.md",
       "confidence": 0.55,
-      "head_sha": "9b57cc05cb15a190480f4436a8ffff9e333d27f9"
+      "head_sha": "db1d7b9120fb899dc1d471a93e8bfad1e6dfbd98"
     },
     {
       "repo": "n8n-io/n8n",
@@ -2251,7 +2143,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "83f7ecf5dcb842b4e11a98da60a1ff2e582ad041"
+      "head_sha": "4aae343f081051f70a11de2dbd1b02f9ad9d6bd1"
     },
     {
       "repo": "n8n-io/n8n",
@@ -2269,7 +2161,7 @@
       "deleted_in": null,
       "live_alternative": ".github/pull_request_template.md",
       "confidence": 0.55,
-      "head_sha": "83f7ecf5dcb842b4e11a98da60a1ff2e582ad041"
+      "head_sha": "4aae343f081051f70a11de2dbd1b02f9ad9d6bd1"
     },
     {
       "repo": "firecrawl/firecrawl",
@@ -2287,26 +2179,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "e8f98a02ecaabd578fb2868f096924e229d879f0"
-    },
-    {
-      "repo": "firecrawl/firecrawl",
-      "kind": "doc",
-      "file": "apps/test-suite/README.md",
-      "line": 33,
-      "ref": "../CONTRIBUTING.md",
-      "path": "apps/CONTRIBUTING.md",
-      "context": "Contributions to the test suite are welcome. Please refer to the project's main [CONTRIBUTING.md](../CONTRIBUTING.md) file for guidelines on how to contribute.",
-      "evidence": [
-        "apps/test-suite/README.md:33 links to ../CONTRIBUTING.md",
-        "same file name exists at CONTRIBUTING.md",
-        "no commit on the default branch ever touched this path"
-      ],
-      "recovery_sha": null,
-      "deleted_in": null,
-      "live_alternative": "CONTRIBUTING.md",
-      "confidence": 0.55,
-      "head_sha": "e8f98a02ecaabd578fb2868f096924e229d879f0"
+      "head_sha": "8e7e5887cfd69e1db2d3f16be22a642a02370aec"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2324,7 +2197,7 @@
       "deleted_in": "43a0f254074dc5f18c00817ca969514de4202533",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1f3a897acea05031b9113109a14873c0b4c3a69c"
+      "head_sha": "55bf2eb1093d2e736806e20db6cc3f17d23f5128"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2343,7 +2216,7 @@
       "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
       "live_alternative": "tensorflow/lite/g3doc/android/delegates/nnapi.md",
       "confidence": 0.75,
-      "head_sha": "1f3a897acea05031b9113109a14873c0b4c3a69c"
+      "head_sha": "55bf2eb1093d2e736806e20db6cc3f17d23f5128"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2361,7 +2234,7 @@
       "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1f3a897acea05031b9113109a14873c0b4c3a69c"
+      "head_sha": "55bf2eb1093d2e736806e20db6cc3f17d23f5128"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2379,7 +2252,7 @@
       "deleted_in": "50b0cf2bd8e0dee902d9ca4e0cb45c9e0e743bd8",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1f3a897acea05031b9113109a14873c0b4c3a69c"
+      "head_sha": "55bf2eb1093d2e736806e20db6cc3f17d23f5128"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2397,7 +2270,7 @@
       "deleted_in": "6c2bf6576321ad53ff1eb6d66b6efae2c93ef4e0",
       "live_alternative": null,
       "confidence": 0.55,
-      "head_sha": "1f3a897acea05031b9113109a14873c0b4c3a69c"
+      "head_sha": "55bf2eb1093d2e736806e20db6cc3f17d23f5128"
     },
     {
       "repo": "trekhleb/javascript-algorithms",
@@ -2452,7 +2325,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2470,7 +2343,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2488,7 +2361,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2506,7 +2379,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2524,7 +2397,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2542,7 +2415,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2560,7 +2433,7 @@
       "deleted_in": null,
       "live_alternative": "build/next/nls-plugin.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2578,7 +2451,7 @@
       "deleted_in": null,
       "live_alternative": "LICENSE.txt",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2596,7 +2469,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/assets/prompts/skills/agent-customization/references/hooks.md",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2614,7 +2487,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/test/pipeline/test/fixtures/config.json",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2632,7 +2505,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/expectedEditCaptureController.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2650,7 +2523,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/node/debugRecorder.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2668,7 +2541,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/inlineEditDebugComponent.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2686,7 +2559,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/nesFeedbackSubmitter.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2704,7 +2577,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/common/observableWorkspaceRecordingReplayer.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2722,7 +2595,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/test/simulation/inlineEdit/inlineEditTester.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2740,7 +2613,7 @@
       "deleted_in": null,
       "live_alternative": "src/vs/platform/agentHost/node/claude/claudeAgent.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2758,7 +2631,7 @@
       "deleted_in": null,
       "live_alternative": "src/vs/platform/agentHost/common/pendingRequestRegistry.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "microsoft/vscode",
@@ -2776,7 +2649,7 @@
       "deleted_in": null,
       "live_alternative": "src/vs/platform/agentHost/node/copilot/copilotAgent.ts",
       "confidence": 0.55,
-      "head_sha": "6659689e6b03ec062f5b7bcea9850b4c59045807"
+      "head_sha": "4fb5428f5a82389a72688911d3868add1bdd964c"
     },
     {
       "repo": "flutter/flutter",
@@ -2794,7 +2667,7 @@
       "deleted_in": null,
       "live_alternative": "dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
       "confidence": 0.55,
-      "head_sha": "77c99d7901c67bdb927d02a09c42a2ea287f5860"
+      "head_sha": "a360f0be2746833de2244dbb814822c5667961d2"
     },
     {
       "repo": "flutter/flutter",
@@ -2812,7 +2685,7 @@
       "deleted_in": null,
       "live_alternative": "docs/contributing/Chat.md",
       "confidence": 0.55,
-      "head_sha": "77c99d7901c67bdb927d02a09c42a2ea287f5860"
+      "head_sha": "a360f0be2746833de2244dbb814822c5667961d2"
     },
     {
       "repo": "flutter/flutter",
@@ -2830,7 +2703,7 @@
       "deleted_in": null,
       "live_alternative": "docs/contributing/Setting-up-the-Framework-development-environment.md",
       "confidence": 0.55,
-      "head_sha": "77c99d7901c67bdb927d02a09c42a2ea287f5860"
+      "head_sha": "a360f0be2746833de2244dbb814822c5667961d2"
     },
     {
       "repo": "flutter/flutter",
@@ -2848,7 +2721,7 @@
       "deleted_in": null,
       "live_alternative": "engine/src/flutter/impeller/renderer/renderer_unittests.cc",
       "confidence": 0.55,
-      "head_sha": "77c99d7901c67bdb927d02a09c42a2ea287f5860"
+      "head_sha": "a360f0be2746833de2244dbb814822c5667961d2"
     },
     {
       "repo": "flutter/flutter",
@@ -2866,7 +2739,7 @@
       "deleted_in": null,
       "live_alternative": "docs/engine/contributing/Setting-up-the-Engine-development-environment.md",
       "confidence": 0.55,
-      "head_sha": "77c99d7901c67bdb927d02a09c42a2ea287f5860"
+      "head_sha": "a360f0be2746833de2244dbb814822c5667961d2"
     },
     {
       "repo": "flutter/flutter",
@@ -2884,7 +2757,7 @@
       "deleted_in": null,
       "live_alternative": "docs/platforms/android/Android-Platform-Views.md",
       "confidence": 0.55,
-      "head_sha": "77c99d7901c67bdb927d02a09c42a2ea287f5860"
+      "head_sha": "a360f0be2746833de2244dbb814822c5667961d2"
     },
     {
       "repo": "flutter/flutter",
@@ -2902,7 +2775,7 @@
       "deleted_in": null,
       "live_alternative": "docs/engine/testing/Testing-the-engine.md",
       "confidence": 0.55,
-      "head_sha": "77c99d7901c67bdb927d02a09c42a2ea287f5860"
+      "head_sha": "a360f0be2746833de2244dbb814822c5667961d2"
     },
     {
       "repo": "flutter/flutter",
@@ -2920,7 +2793,7 @@
       "deleted_in": null,
       "live_alternative": "engine/src/flutter/ci/builders/standalone/mac_ios_debug_unopt_sim_arm64.json",
       "confidence": 0.55,
-      "head_sha": "77c99d7901c67bdb927d02a09c42a2ea287f5860"
+      "head_sha": "a360f0be2746833de2244dbb814822c5667961d2"
     },
     {
       "repo": "flutter/flutter",
@@ -2938,7 +2811,7 @@
       "deleted_in": null,
       "live_alternative": "packages/flutter_tools/test/general.shard/android/gradle_utils_test.dart",
       "confidence": 0.55,
-      "head_sha": "77c99d7901c67bdb927d02a09c42a2ea287f5860"
+      "head_sha": "a360f0be2746833de2244dbb814822c5667961d2"
     },
     {
       "repo": "huggingface/transformers",
@@ -2956,7 +2829,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "696c46bacf291909624c4f8d62e8016281aa762e"
+      "head_sha": "42cd3d9b5c7be7adc3e0578a9a7cb1c4b40b0e55"
     },
     {
       "repo": "langgenius/dify",
@@ -2974,7 +2847,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "3f72db6c4be7d3136ce69ada81e688820190bc8f"
+      "head_sha": "ef7c7d620d9e41bd35b26e7dbcf59d7e4fe47d4a"
     },
     {
       "repo": "langgenius/dify",
@@ -2992,7 +2865,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "3f72db6c4be7d3136ce69ada81e688820190bc8f"
+      "head_sha": "ef7c7d620d9e41bd35b26e7dbcf59d7e4fe47d4a"
     },
     {
       "repo": "langgenius/dify",
@@ -3010,7 +2883,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "3f72db6c4be7d3136ce69ada81e688820190bc8f"
+      "head_sha": "ef7c7d620d9e41bd35b26e7dbcf59d7e4fe47d4a"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3029,7 +2902,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci/check_authentication.py",
       "confidence": 0.8,
-      "head_sha": "260cbf347cc5563cc48c79094c175ca31532ea2b"
+      "head_sha": "86fde091f88a8b40507512d36ed78b5917dc165e"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3048,7 +2921,7 @@
       "deleted_in": "a42af78fe670e016d3698d76c2ad532a44dd2d00",
       "live_alternative": "src/bundles/openai/tests/test_openai_model.py",
       "confidence": 0.99,
-      "head_sha": "260cbf347cc5563cc48c79094c175ca31532ea2b"
+      "head_sha": "86fde091f88a8b40507512d36ed78b5917dc165e"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3067,7 +2940,7 @@
       "deleted_in": "b1dc065feecc9f035f1bfd8197e0b178b8c57fdd",
       "live_alternative": "src/backend/tests/unit/components/models_and_agents/test_agent_component.py",
       "confidence": 0.99,
-      "head_sha": "260cbf347cc5563cc48c79094c175ca31532ea2b"
+      "head_sha": "86fde091f88a8b40507512d36ed78b5917dc165e"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3085,7 +2958,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "260cbf347cc5563cc48c79094c175ca31532ea2b"
+      "head_sha": "86fde091f88a8b40507512d36ed78b5917dc165e"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3104,7 +2977,7 @@
       "deleted_in": null,
       "live_alternative": "docs/agents/ARCHITECTURE.md",
       "confidence": 0.55,
-      "head_sha": "260cbf347cc5563cc48c79094c175ca31532ea2b"
+      "head_sha": "86fde091f88a8b40507512d36ed78b5917dc165e"
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -3328,7 +3201,7 @@
       "deleted_in": "980f9c1550341e35672df17593ce2e5a792cb7d1",
       "live_alternative": "docs/community/workflows.md",
       "confidence": 0.75,
-      "head_sha": "2ee2b1e8005905db05f5717300a469b3068b908f"
+      "head_sha": "e210504aa09c9273a38bba665b12b8088468c96f"
     }
   ]
 }
