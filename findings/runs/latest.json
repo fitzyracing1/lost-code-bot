@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-11-20T09:23:59Z",
+  "scanned_at": "2026-11-21T09:23:06Z",
   "repos": {
     "codecrafters-io/build-your-own-x": 0,
     "morluto/rea": 2,
@@ -25,8 +25,8 @@
     "anthropics/skills": 3,
     "microsoft/markitdown": 0,
     "trekhleb/javascript-algorithms": 8,
-    "microsoft/vscode": 40,
     "DietrichGebert/ponytail": 0,
+    "microsoft/vscode": 40,
     "ultraworkers/claw-code": 2,
     "ohmyzsh/ohmyzsh": 6,
     "521xueweihan/HelloGitHub": 0,
@@ -56,7 +56,7 @@
   },
   "api_calls": 135,
   "rate_remaining": 4863,
-  "seconds": 253,
+  "seconds": 267,
   "findings": [
     {
       "repo": "morluto/rea",
@@ -75,7 +75,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci/cache-retention.mjs",
       "confidence": 0.8,
-      "head_sha": "8bb01b514ac766c0c3ecc8f362bd38186eaec9c2"
+      "head_sha": "bf77776873b6fa5b8a72d39f8a701fed4de6de46"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -93,7 +93,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "ed2b5f67a07390ede81f045a2e41158803027384"
+      "head_sha": "a09ce850de64e38cbd3c5d02e360a35ddd39f201"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -111,7 +111,7 @@
       "deleted_in": "e59ad6ebda1d92de58cb55e230f9e1aa130c059b",
       "live_alternative": null,
       "confidence": 0.8,
-      "head_sha": "ed2b5f67a07390ede81f045a2e41158803027384"
+      "head_sha": "a09ce850de64e38cbd3c5d02e360a35ddd39f201"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -129,7 +129,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "ed2b5f67a07390ede81f045a2e41158803027384"
+      "head_sha": "a09ce850de64e38cbd3c5d02e360a35ddd39f201"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -147,7 +147,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "ed2b5f67a07390ede81f045a2e41158803027384"
+      "head_sha": "a09ce850de64e38cbd3c5d02e360a35ddd39f201"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -165,7 +165,7 @@
       "deleted_in": "9ff3a29a72c0885366017b5379608554592b7e97",
       "live_alternative": null,
       "confidence": 0.8,
-      "head_sha": "ed2b5f67a07390ede81f045a2e41158803027384"
+      "head_sha": "a09ce850de64e38cbd3c5d02e360a35ddd39f201"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -183,7 +183,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "ed2b5f67a07390ede81f045a2e41158803027384"
+      "head_sha": "a09ce850de64e38cbd3c5d02e360a35ddd39f201"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -201,7 +201,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "ed2b5f67a07390ede81f045a2e41158803027384"
+      "head_sha": "a09ce850de64e38cbd3c5d02e360a35ddd39f201"
     },
     {
       "repo": "freeCodeCamp/freeCodeCamp",
@@ -219,7 +219,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "ed2b5f67a07390ede81f045a2e41158803027384"
+      "head_sha": "a09ce850de64e38cbd3c5d02e360a35ddd39f201"
     },
     {
       "repo": "openclaw/openclaw",
@@ -238,7 +238,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-resolve-runner-profile.sh",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -257,7 +257,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-context.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -276,7 +276,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-build-manifest.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -295,7 +295,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-adaptive-priors.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -314,7 +314,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/detect-private-keys.mts",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -333,7 +333,7 @@
       "deleted_in": null,
       "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -352,7 +352,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-production-audit.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -371,7 +371,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/macos-native-runtime-artifact.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -390,7 +390,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-collect-checks.sh",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -408,7 +408,7 @@
       "deleted_in": "c70aee247e831d21895f5ea3dda7497c50af0721",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -427,7 +427,7 @@
       "deleted_in": null,
       "live_alternative": ".github/actions/git-owner/owner.py",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -446,7 +446,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/process-memory.mts",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -465,7 +465,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-npm-lock-admission.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -484,7 +484,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-static-step.sh",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -503,7 +503,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-additional-checks.sh",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -521,7 +521,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/swift-toolchain.sh",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -539,13 +539,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/ci-ios-smoke-plan.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 5946,
+      "line": 5949,
       "ref": ".ci-harness/scripts/swift-build-cache-metadata.py",
       "path": ".ci-harness/scripts/swift-build-cache-metadata.py",
       "context": "job ios-build",
@@ -557,13 +557,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/swift-build-cache-metadata.py",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 5951,
+      "line": 5954,
       "ref": ".ci-harness/scripts/ci-xcodebuild.py",
       "path": ".ci-harness/scripts/ci-xcodebuild.py",
       "context": "job ios-build",
@@ -575,13 +575,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-xcodebuild.py",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6424,
+      "line": 6427,
       "ref": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
       "path": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
       "context": "job ios-screenshot-capture",
@@ -593,13 +593,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ios-screenshot-evidence.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 6636,
+      "line": 6639,
       "ref": "../../.ci-harness/scripts/ci-collect-checks.sh",
       "path": ".ci-harness/scripts/ci-collect-checks.sh",
       "context": "job android",
@@ -611,13 +611,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/ci-collect-checks.sh",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 7039,
+      "line": 7048,
       "ref": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
       "path": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
       "context": "job docker-seed-e2e",
@@ -629,13 +629,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-upgrade-baseline.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/ci.yml",
-      "line": 7051,
+      "line": 7060,
       "ref": "./.ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
       "path": ".ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
       "context": "job docker-seed-e2e",
@@ -647,7 +647,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/upgrade-survivor-policy.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -665,7 +665,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -683,7 +683,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/relay-build-limit-warnings.mts",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -701,7 +701,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -719,7 +719,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -737,7 +737,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/verify-authorized-beta-focused-candidate.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -755,7 +755,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/validate-authorized-beta-focused-evidence.mts",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -773,7 +773,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/release-ci-summary.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -791,7 +791,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/docker-release-artifacts.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -809,7 +809,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/check-docs-mdx.mts",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -827,7 +827,7 @@
       "deleted_in": null,
       "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -845,7 +845,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-publication-contract.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -863,7 +863,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/release-tooling-identity.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -881,7 +881,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/github/resolve-openclaw-ref.sh",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -899,7 +899,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-candidate-contract.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -917,7 +917,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/lib/release-context.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
@@ -935,13 +935,13 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-validation-policy.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "openclaw/openclaw",
       "kind": "ci",
       "file": ".github/workflows/full-release-validation.yml",
-      "line": 1160,
+      "line": 1161,
       "ref": "workflow/scripts/full-release-validation-state.mjs",
       "path": "workflow/scripts/full-release-validation-state.mjs",
       "context": "job evidence_reuse",
@@ -953,7 +953,7 @@
       "deleted_in": null,
       "live_alternative": "scripts/full-release-validation-state.mjs",
       "confidence": 0.8,
-      "head_sha": "a030cff0d8c33330f641bbaad0294c3f4e5b04fa"
+      "head_sha": "df2faf7d476cae3d437624b1ba61dec51ab455b8"
     },
     {
       "repo": "affaan-m/ECC",
@@ -1778,7 +1778,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "b1ef9bea695d0a4780e275da2b85f845de7d9bc1"
+      "head_sha": "aeb5a071069dbd85d85f2c8d44337f16df29d475"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1796,7 +1796,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "b1ef9bea695d0a4780e275da2b85f845de7d9bc1"
+      "head_sha": "aeb5a071069dbd85d85f2c8d44337f16df29d475"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1814,7 +1814,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/macos-bundle-updates.md",
       "confidence": 0.55,
-      "head_sha": "b1ef9bea695d0a4780e275da2b85f845de7d9bc1"
+      "head_sha": "aeb5a071069dbd85d85f2c8d44337f16df29d475"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1832,7 +1832,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/stable-releases.md",
       "confidence": 0.55,
-      "head_sha": "b1ef9bea695d0a4780e275da2b85f845de7d9bc1"
+      "head_sha": "aeb5a071069dbd85d85f2c8d44337f16df29d475"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1850,7 +1850,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/pm-audit-status.md",
       "confidence": 0.55,
-      "head_sha": "b1ef9bea695d0a4780e275da2b85f845de7d9bc1"
+      "head_sha": "aeb5a071069dbd85d85f2c8d44337f16df29d475"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1868,7 +1868,7 @@
       "deleted_in": null,
       "live_alternative": "optional-skills/research/research-paper-writing/references/writing-guide.md",
       "confidence": 0.55,
-      "head_sha": "b1ef9bea695d0a4780e275da2b85f845de7d9bc1"
+      "head_sha": "aeb5a071069dbd85d85f2c8d44337f16df29d475"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1886,7 +1886,7 @@
       "deleted_in": null,
       "live_alternative": "optional-skills/research/research-paper-writing/references/sources.md",
       "confidence": 0.55,
-      "head_sha": "b1ef9bea695d0a4780e275da2b85f845de7d9bc1"
+      "head_sha": "aeb5a071069dbd85d85f2c8d44337f16df29d475"
     },
     {
       "repo": "NousResearch/hermes-agent",
@@ -1904,7 +1904,7 @@
       "deleted_in": null,
       "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
       "confidence": 0.55,
-      "head_sha": "b1ef9bea695d0a4780e275da2b85f845de7d9bc1"
+      "head_sha": "aeb5a071069dbd85d85f2c8d44337f16df29d475"
     },
     {
       "repo": "torvalds/linux",
@@ -1923,7 +1923,7 @@
       "deleted_in": "22ef8a263c17f02176e3a322b76da07411092c17",
       "live_alternative": "tools/net/ynl/tests/ethtool.py",
       "confidence": 0.9,
-      "head_sha": "65e4fd942f72a9dba0e4e257290c4fa1aa756854"
+      "head_sha": "c44104f3642da720164042623e4832836aefdd8e"
     },
     {
       "repo": "react/react",
@@ -1941,7 +1941,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "e04279e76e2703ceb0d99c3599f0b74f01770dd4"
+      "head_sha": "043ce5953cb1849280fc18edb8c20066896e4d83"
     },
     {
       "repo": "react/react",
@@ -1959,7 +1959,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "e04279e76e2703ceb0d99c3599f0b74f01770dd4"
+      "head_sha": "043ce5953cb1849280fc18edb8c20066896e4d83"
     },
     {
       "repo": "react/react",
@@ -1978,7 +1978,7 @@
       "deleted_in": null,
       "live_alternative": "packages/react-dom/unstable_server-external-runtime.js",
       "confidence": 0.8,
-      "head_sha": "e04279e76e2703ceb0d99c3599f0b74f01770dd4"
+      "head_sha": "043ce5953cb1849280fc18edb8c20066896e4d83"
     },
     {
       "repo": "react/react",
@@ -1996,7 +1996,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "e04279e76e2703ceb0d99c3599f0b74f01770dd4"
+      "head_sha": "043ce5953cb1849280fc18edb8c20066896e4d83"
     },
     {
       "repo": "react/react",
@@ -2014,7 +2014,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "e04279e76e2703ceb0d99c3599f0b74f01770dd4"
+      "head_sha": "043ce5953cb1849280fc18edb8c20066896e4d83"
     },
     {
       "repo": "react/react",
@@ -2033,7 +2033,7 @@
       "deleted_in": null,
       "live_alternative": "compiler/packages/snap/src/SproutTodoFilter.ts",
       "confidence": 0.55,
-      "head_sha": "e04279e76e2703ceb0d99c3599f0b74f01770dd4"
+      "head_sha": "043ce5953cb1849280fc18edb8c20066896e4d83"
     },
     {
       "repo": "react/react",
@@ -2052,7 +2052,7 @@
       "deleted_in": null,
       "live_alternative": ".github/workflows/runtime_release_from_ci.yml",
       "confidence": 0.55,
-      "head_sha": "e04279e76e2703ceb0d99c3599f0b74f01770dd4"
+      "head_sha": "043ce5953cb1849280fc18edb8c20066896e4d83"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2071,7 +2071,7 @@
       "deleted_in": null,
       "live_alternative": ".github/nix-hashes/publish.sh",
       "confidence": 0.8,
-      "head_sha": "20f6dda1074d8bfb5bf0ac2c61c717c5ad14c7c2"
+      "head_sha": "edacc8686a8b89ed5aae75b2833fd99fcd8da7f9"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2089,7 +2089,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "20f6dda1074d8bfb5bf0ac2c61c717c5ad14c7c2"
+      "head_sha": "edacc8686a8b89ed5aae75b2833fd99fcd8da7f9"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2107,7 +2107,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "20f6dda1074d8bfb5bf0ac2c61c717c5ad14c7c2"
+      "head_sha": "edacc8686a8b89ed5aae75b2833fd99fcd8da7f9"
     },
     {
       "repo": "anomalyco/opencode",
@@ -2125,7 +2125,7 @@
       "deleted_in": null,
       "live_alternative": "packages/plugins/figma/skills/figma-generate-library/references/token-creation.md",
       "confidence": 0.55,
-      "head_sha": "20f6dda1074d8bfb5bf0ac2c61c717c5ad14c7c2"
+      "head_sha": "edacc8686a8b89ed5aae75b2833fd99fcd8da7f9"
     },
     {
       "repo": "n8n-io/n8n",
@@ -2143,7 +2143,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "b12dbc37be53b1d0e151de30debc0a4281502a9c"
+      "head_sha": "e8809bbc21663bc6f8998eeaac8a15e5eddbb005"
     },
     {
       "repo": "n8n-io/n8n",
@@ -2161,7 +2161,7 @@
       "deleted_in": null,
       "live_alternative": ".github/pull_request_template.md",
       "confidence": 0.55,
-      "head_sha": "b12dbc37be53b1d0e151de30debc0a4281502a9c"
+      "head_sha": "e8809bbc21663bc6f8998eeaac8a15e5eddbb005"
     },
     {
       "repo": "firecrawl/firecrawl",
@@ -2179,7 +2179,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "484be117975ac7b8be085c25f1fbd54d005f17ff"
+      "head_sha": "41b36dfd28ad69df7da221d1d51f3d5fb4838be3"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2197,7 +2197,7 @@
       "deleted_in": "43a0f254074dc5f18c00817ca969514de4202533",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1bff2b077158f1b2e9d0a568333740e0364acdc1"
+      "head_sha": "3ceba449fd7e1bdf3ce593b90e3adc37d3f4d420"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2216,7 +2216,7 @@
       "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
       "live_alternative": "tensorflow/lite/g3doc/android/delegates/nnapi.md",
       "confidence": 0.75,
-      "head_sha": "1bff2b077158f1b2e9d0a568333740e0364acdc1"
+      "head_sha": "3ceba449fd7e1bdf3ce593b90e3adc37d3f4d420"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2234,7 +2234,7 @@
       "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1bff2b077158f1b2e9d0a568333740e0364acdc1"
+      "head_sha": "3ceba449fd7e1bdf3ce593b90e3adc37d3f4d420"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2252,7 +2252,7 @@
       "deleted_in": "50b0cf2bd8e0dee902d9ca4e0cb45c9e0e743bd8",
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1bff2b077158f1b2e9d0a568333740e0364acdc1"
+      "head_sha": "3ceba449fd7e1bdf3ce593b90e3adc37d3f4d420"
     },
     {
       "repo": "tensorflow/tensorflow",
@@ -2270,7 +2270,7 @@
       "deleted_in": "6c2bf6576321ad53ff1eb6d66b6efae2c93ef4e0",
       "live_alternative": null,
       "confidence": 0.55,
-      "head_sha": "1bff2b077158f1b2e9d0a568333740e0364acdc1"
+      "head_sha": "3ceba449fd7e1bdf3ce593b90e3adc37d3f4d420"
     },
     {
       "repo": "trekhleb/javascript-algorithms",
@@ -2325,7 +2325,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2343,7 +2343,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2361,7 +2361,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2379,7 +2379,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.65,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2397,7 +2397,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2415,7 +2415,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.6,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2433,7 +2433,7 @@
       "deleted_in": null,
       "live_alternative": "build/next/nls-plugin.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2451,7 +2451,7 @@
       "deleted_in": null,
       "live_alternative": "LICENSE.txt",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2469,7 +2469,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/assets/prompts/skills/agent-customization/references/hooks.md",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2487,7 +2487,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/test/pipeline/test/fixtures/config.json",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2505,7 +2505,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/expectedEditCaptureController.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2523,7 +2523,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/node/debugRecorder.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2541,7 +2541,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/inlineEditDebugComponent.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2559,7 +2559,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/nesFeedbackSubmitter.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2577,7 +2577,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/src/extension/inlineEdits/common/observableWorkspaceRecordingReplayer.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2595,7 +2595,7 @@
       "deleted_in": null,
       "live_alternative": "extensions/copilot/test/simulation/inlineEdit/inlineEditTester.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2613,7 +2613,7 @@
       "deleted_in": null,
       "live_alternative": "src/vs/platform/agentHost/node/claude/claudeAgent.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2631,7 +2631,7 @@
       "deleted_in": null,
       "live_alternative": "src/vs/platform/agentHost/common/pendingRequestRegistry.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "microsoft/vscode",
@@ -2649,7 +2649,7 @@
       "deleted_in": null,
       "live_alternative": "src/vs/platform/agentHost/node/copilot/copilotAgent.ts",
       "confidence": 0.55,
-      "head_sha": "1934a004211cdeb23d9caa8062379e55d0689368"
+      "head_sha": "4bb450d0b993177c934a60453067c88f9547e926"
     },
     {
       "repo": "flutter/flutter",
@@ -2667,7 +2667,7 @@
       "deleted_in": null,
       "live_alternative": "dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
       "confidence": 0.55,
-      "head_sha": "6000d6961ed86338e9bb1135d0370d945029c569"
+      "head_sha": "5423f94083d4752bfd20681047ee6884dd816f21"
     },
     {
       "repo": "flutter/flutter",
@@ -2685,7 +2685,7 @@
       "deleted_in": null,
       "live_alternative": "docs/contributing/Chat.md",
       "confidence": 0.55,
-      "head_sha": "6000d6961ed86338e9bb1135d0370d945029c569"
+      "head_sha": "5423f94083d4752bfd20681047ee6884dd816f21"
     },
     {
       "repo": "flutter/flutter",
@@ -2703,7 +2703,7 @@
       "deleted_in": null,
       "live_alternative": "docs/contributing/Setting-up-the-Framework-development-environment.md",
       "confidence": 0.55,
-      "head_sha": "6000d6961ed86338e9bb1135d0370d945029c569"
+      "head_sha": "5423f94083d4752bfd20681047ee6884dd816f21"
     },
     {
       "repo": "flutter/flutter",
@@ -2721,7 +2721,7 @@
       "deleted_in": null,
       "live_alternative": "engine/src/flutter/impeller/renderer/renderer_unittests.cc",
       "confidence": 0.55,
-      "head_sha": "6000d6961ed86338e9bb1135d0370d945029c569"
+      "head_sha": "5423f94083d4752bfd20681047ee6884dd816f21"
     },
     {
       "repo": "flutter/flutter",
@@ -2739,7 +2739,7 @@
       "deleted_in": null,
       "live_alternative": "docs/engine/contributing/Setting-up-the-Engine-development-environment.md",
       "confidence": 0.55,
-      "head_sha": "6000d6961ed86338e9bb1135d0370d945029c569"
+      "head_sha": "5423f94083d4752bfd20681047ee6884dd816f21"
     },
     {
       "repo": "flutter/flutter",
@@ -2757,7 +2757,7 @@
       "deleted_in": null,
       "live_alternative": "docs/platforms/android/Android-Platform-Views.md",
       "confidence": 0.55,
-      "head_sha": "6000d6961ed86338e9bb1135d0370d945029c569"
+      "head_sha": "5423f94083d4752bfd20681047ee6884dd816f21"
     },
     {
       "repo": "flutter/flutter",
@@ -2775,7 +2775,7 @@
       "deleted_in": null,
       "live_alternative": "docs/engine/testing/Testing-the-engine.md",
       "confidence": 0.55,
-      "head_sha": "6000d6961ed86338e9bb1135d0370d945029c569"
+      "head_sha": "5423f94083d4752bfd20681047ee6884dd816f21"
     },
     {
       "repo": "flutter/flutter",
@@ -2793,7 +2793,7 @@
       "deleted_in": null,
       "live_alternative": "engine/src/flutter/ci/builders/standalone/mac_ios_debug_unopt_sim_arm64.json",
       "confidence": 0.55,
-      "head_sha": "6000d6961ed86338e9bb1135d0370d945029c569"
+      "head_sha": "5423f94083d4752bfd20681047ee6884dd816f21"
     },
     {
       "repo": "flutter/flutter",
@@ -2811,7 +2811,7 @@
       "deleted_in": null,
       "live_alternative": "packages/flutter_tools/test/general.shard/android/gradle_utils_test.dart",
       "confidence": 0.55,
-      "head_sha": "6000d6961ed86338e9bb1135d0370d945029c569"
+      "head_sha": "5423f94083d4752bfd20681047ee6884dd816f21"
     },
     {
       "repo": "huggingface/transformers",
@@ -2829,7 +2829,7 @@
       "deleted_in": null,
       "live_alternative": null,
       "confidence": 0.7,
-      "head_sha": "439bba079891ecd766900e8ce80ee961b94ef132"
+      "head_sha": "4d9ef623e3b0a1fb6c12891a907e0e50d41f0af8"
     },
     {
       "repo": "langgenius/dify",
@@ -2847,7 +2847,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "3f0ae21bb60dbad233c9f01cae28c4e5be705a23"
+      "head_sha": "47527178f97b7a4b8950506fec4589bb6a53e017"
     },
     {
       "repo": "langgenius/dify",
@@ -2865,7 +2865,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "3f0ae21bb60dbad233c9f01cae28c4e5be705a23"
+      "head_sha": "47527178f97b7a4b8950506fec4589bb6a53e017"
     },
     {
       "repo": "langgenius/dify",
@@ -2883,7 +2883,7 @@
       "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
       "live_alternative": null,
       "confidence": 0.9,
-      "head_sha": "3f0ae21bb60dbad233c9f01cae28c4e5be705a23"
+      "head_sha": "47527178f97b7a4b8950506fec4589bb6a53e017"
     },
     {
       "repo": "langflow-ai/langflow",
@@ -3201,7 +3201,7 @@
       "deleted_in": "980f9c1550341e35672df17593ce2e5a792cb7d1",
       "live_alternative": "docs/community/workflows.md",
       "confidence": 0.75,
-      "head_sha": "61d3abb13b39413a7048770ab9738ab44b8c2f5f"
+      "head_sha": "a4d571229e164e440f8950cac034607bae7b7518"
     }
   ]
 }
