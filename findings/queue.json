@@ -5,7 +5,7 @@
       "id": "01cfae63c531",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -98,7 +98,7 @@
       "id": "054de9b1e75a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -122,14 +122,14 @@
         "deleted_in": null,
         "live_alternative": "packages/cli/dev/vite.ts",
         "confidence": 0.65,
-        "head_sha": "b5dba31bf20d758d86871af65d206a197d411a0c"
+        "head_sha": "314842df119544845441fe6f7a3dec0bba857624"
       }
     },
     "05556444a83f": {
       "id": "05556444a83f",
       "state": "new",
       "first_seen": "2026-11-18T09:27:04Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-18T09:27:04Z",
@@ -154,6 +154,36 @@
         "live_alternative": null,
         "confidence": 0.6,
         "head_sha": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96"
+      }
+    },
+    "070be19cda5e": {
+      "id": "070be19cda5e",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 737,
+        "ref": "tests/v1/structured_output/test_backend_xgrammar_stop_tokens.py",
+        "path": "vllm/tests/v1/structured_output/test_backend_xgrammar_stop_tokens.py",
+        "context": "job vllm-test-tokenizer-features",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizer-features' runs 'tests/v1/structured_output/test_backend_xgrammar_stop_tokens.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "072b3761fb9f": {
@@ -261,7 +291,7 @@
       "id": "09b7bac1a835",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -291,7 +321,7 @@
       "id": "0aa9d71b2a2b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -315,14 +345,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "c5b4f1bd4d4b1fcbe8525000630c97f260d3e2fd"
+        "head_sha": "18b0b76b7409e6929075dc88a50571776a55e5d8"
       }
     },
     "0cb96a4224ea": {
       "id": "0cb96a4224ea",
       "state": "new",
       "first_seen": "2026-11-06T09:24:37Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-06T09:24:37Z",
@@ -346,14 +376,14 @@
         "deleted_in": null,
         "live_alternative": "engine/src/flutter/ci/builders/standalone/mac_ios_debug_unopt_sim_arm64.json",
         "confidence": 0.55,
-        "head_sha": "06f1c24345a29b26fc388ca8072f2b03a36a4d82"
+        "head_sha": "6d613d30ea6d3e89488c964d22aa53e44e65fa13"
       }
     },
     "0d2b33ad621f": {
       "id": "0d2b33ad621f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -365,7 +395,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 4043,
+        "line": 4053,
         "ref": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
         "path": ".ci-harness/scripts/ci-npm-lock-admission.mjs",
         "context": "job check-shard",
@@ -378,7 +408,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-npm-lock-admission.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "0fbf4ec0a310": {
@@ -416,7 +446,7 @@
       "id": "11746b9fe11a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -440,7 +470,7 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "37fdf622014f8a825d2a63a78165b398ca1b5b4a"
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "14d25a452b80": {
@@ -485,7 +515,7 @@
       "id": "1540b7d55a3c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -497,7 +527,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/full-release-validation.yml",
-        "line": 331,
+        "line": 333,
         "ref": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
         "path": "workflow/.github/actions/setup-pnpm-store-cache/ensure-node.sh",
         "context": "job resolve_target",
@@ -509,14 +539,14 @@
         "deleted_in": null,
         "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "166f0558c40a": {
       "id": "166f0558c40a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -541,14 +571,45 @@
         "deleted_in": "22ef8a263c17f02176e3a322b76da07411092c17",
         "live_alternative": "tools/net/ynl/tests/ethtool.py",
         "confidence": 0.9,
-        "head_sha": "4dce97c6c265544342e716e62fd24bbb232590c5"
+        "head_sha": "25faec9ce61c01fb45abf812a222c5b43c3cd5c5"
+      }
+    },
+    "170d34ecb094": {
+      "id": "170d34ecb094",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 355,
+        "ref": "tests/models/multimodal/processing/test_tensor_schema.py",
+        "path": "vllm/tests/models/multimodal/processing/test_tensor_schema.py",
+        "context": "job vllm-test-multimodal-processing",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-multimodal-processing' runs 'tests/models/multimodal/processing/test_tensor_schema.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "174be4b4a7a8": {
       "id": "174be4b4a7a8",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -572,14 +633,44 @@
         "deleted_in": null,
         "live_alternative": "docs/engine/contributing/Setting-up-the-Engine-development-environment.md",
         "confidence": 0.55,
-        "head_sha": "06f1c24345a29b26fc388ca8072f2b03a36a4d82"
+        "head_sha": "6d613d30ea6d3e89488c964d22aa53e44e65fa13"
+      }
+    },
+    "17fca02b21be": {
+      "id": "17fca02b21be",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 501,
+        "ref": "tests/v1/e2e/test_cpu_linear_attn_chunked_prefix.py",
+        "path": "vllm/tests/v1/e2e/test_cpu_linear_attn_chunked_prefix.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/v1/e2e/test_cpu_linear_attn_chunked_prefix.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "186a8958b7cf": {
       "id": "186a8958b7cf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -603,14 +694,14 @@
         "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
         "live_alternative": null,
         "confidence": 0.9,
-        "head_sha": "4e394cfcb9fcf2da9b9e3d2ee2e0fd0375f5a739"
+        "head_sha": "f6c206bc1753e6baddb5dcf20e6174ec1f74cc71"
       }
     },
     "18ee9448da83": {
       "id": "18ee9448da83",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -635,14 +726,14 @@
         "deleted_in": null,
         "live_alternative": "packages/react-dom/unstable_server-external-runtime.js",
         "confidence": 0.8,
-        "head_sha": "92bb0678c52133a47b3095f6e54da883ea0d6cff"
+        "head_sha": "edae846a9a17442c00429f2b15375afbfa0376c9"
       }
     },
     "19a5e2d995ce": {
       "id": "19a5e2d995ce",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -703,7 +794,7 @@
       "id": "1ab2a5e37d88",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -727,14 +818,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "1d8ffffaf98f": {
       "id": "1d8ffffaf98f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -746,19 +837,50 @@
         "repo": "NousResearch/hermes-agent",
         "kind": "doc",
         "file": "apps/desktop/BUILDING.md",
-        "line": 183,
+        "line": 187,
         "ref": "../../docs/shared-bundle-builds.md#cache-ownership",
         "path": "docs/shared-bundle-builds.md",
         "context": "[cache-policy caveat](../../docs/shared-bundle-builds.md#cache-ownership)). A",
         "evidence": [
-          "apps/desktop/BUILDING.md:183 links to ../../docs/shared-bundle-builds.md#cache-ownership",
+          "apps/desktop/BUILDING.md:187 links to ../../docs/shared-bundle-builds.md#cache-ownership",
           "same file name exists at website/docs/developer-guide/shared-bundle-builds.md"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
         "confidence": 0.55,
-        "head_sha": "2fcdbfea1847a1119901835d5970fdca2b3d8ea8"
+        "head_sha": "76b55a46791914921da552c91a2264569dca2055"
+      }
+    },
+    "1e0748d2dfca": {
+      "id": "1e0748d2dfca",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 419,
+        "ref": "tests/renderers/test_numpy_embedding_byteorder.py",
+        "path": "vllm/tests/renderers/test_numpy_embedding_byteorder.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/renderers/test_numpy_embedding_byteorder.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "1e6c88133b3c": {
@@ -802,7 +924,7 @@
       "id": "1eb570cfff74",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -827,6 +949,67 @@
         "live_alternative": null,
         "confidence": 0.6,
         "head_sha": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96"
+      }
+    },
+    "1ee3d066f1ed": {
+      "id": "1ee3d066f1ed",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 524,
+        "ref": "tests/models/language/generation/test_common.py",
+        "path": "vllm/tests/models/language/generation/test_common.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/language/generation/test_common.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
+    "202dd28f2f5c": {
+      "id": "202dd28f2f5c",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 414,
+        "ref": "tests/tokenizers_/test_registry.py",
+        "path": "vllm/tests/tokenizers_/test_registry.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/tokenizers_/test_registry.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "203e5c9d144d": {
@@ -864,7 +1047,7 @@
       "id": "214cb444215d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -957,7 +1140,7 @@
       "id": "2563f987fd31",
       "state": "new",
       "first_seen": "2026-11-07T09:24:41Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-07T09:24:41Z",
@@ -981,14 +1164,14 @@
         "deleted_in": null,
         "live_alternative": "dev/bots/suite_runners/run_android_hardware_smoke_tests.dart",
         "confidence": 0.55,
-        "head_sha": "06f1c24345a29b26fc388ca8072f2b03a36a4d82"
+        "head_sha": "6d613d30ea6d3e89488c964d22aa53e44e65fa13"
       }
     },
     "25b72eaa60ef": {
       "id": "25b72eaa60ef",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1012,7 +1195,7 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "2649fccc027f": {
@@ -1081,7 +1264,7 @@
       "id": "27da8b09d41a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1112,7 +1295,7 @@
       "id": "292e9cef83a5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1136,7 +1319,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/check-docs-mdx.mts",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "2c6a57a7ccbe": {
@@ -1268,7 +1451,7 @@
       "id": "2e8ac7dd0843",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1298,7 +1481,7 @@
       "id": "2ff5a6aa8333",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1328,7 +1511,7 @@
       "id": "310e335058e9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1340,19 +1523,19 @@
         "repo": "NousResearch/hermes-agent",
         "kind": "doc",
         "file": "apps/desktop/BUILDING.md",
-        "line": 362,
+        "line": 366,
         "ref": "../../docs/macos-bundle-updates.md",
         "path": "docs/macos-bundle-updates.md",
         "context": "See [macOS bundle updates](../../docs/macos-bundle-updates.md) for feed validation",
         "evidence": [
-          "apps/desktop/BUILDING.md:362 links to ../../docs/macos-bundle-updates.md",
+          "apps/desktop/BUILDING.md:366 links to ../../docs/macos-bundle-updates.md",
           "same file name exists at website/docs/developer-guide/macos-bundle-updates.md"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/macos-bundle-updates.md",
         "confidence": 0.55,
-        "head_sha": "2fcdbfea1847a1119901835d5970fdca2b3d8ea8"
+        "head_sha": "76b55a46791914921da552c91a2264569dca2055"
       }
     },
     "3173aae32ae2": {
@@ -1390,7 +1573,7 @@
       "id": "334da1587b3b",
       "state": "new",
       "first_seen": "2026-10-24T15:02:25Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T15:02:25Z",
@@ -1414,14 +1597,14 @@
         "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "9853d0fbac048c269bb1852cc384bc8cc00d51b6"
+        "head_sha": "c814fd7928e14d134f4f59afc19430122a5647a1"
       }
     },
     "34bdc9d9b46c": {
       "id": "34bdc9d9b46c",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -1445,14 +1628,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
       }
     },
     "34e887eea650": {
       "id": "34e887eea650",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1476,7 +1659,7 @@
         "deleted_in": null,
         "live_alternative": "docs/engine/testing/Testing-the-engine.md",
         "confidence": 0.55,
-        "head_sha": "06f1c24345a29b26fc388ca8072f2b03a36a4d82"
+        "head_sha": "6d613d30ea6d3e89488c964d22aa53e44e65fa13"
       }
     },
     "38163269801d": {
@@ -1514,7 +1697,7 @@
       "id": "38302bdc0ba5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1539,14 +1722,14 @@
         "deleted_in": null,
         "live_alternative": ".github/actions/setup-pnpm-store-cache/ensure-node.sh",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "38dc3951a048": {
       "id": "38dc3951a048",
       "state": "new",
       "first_seen": "2026-11-22T09:23:55Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-22T09:23:55Z",
@@ -1606,7 +1789,7 @@
       "id": "3985c53bbf7f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1636,7 +1819,7 @@
       "id": "3a2605275c6d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1697,7 +1880,7 @@
       "id": "3d155d8d383f",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -1722,14 +1905,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/validate-agent-guide.py",
         "confidence": 0.75,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
       }
     },
     "3ff1d8689c6f": {
       "id": "3ff1d8689c6f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1741,7 +1924,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/full-release-validation.yml",
-        "line": 381,
+        "line": 383,
         "ref": "workflow/scripts/github/resolve-openclaw-ref.sh",
         "path": "workflow/scripts/github/resolve-openclaw-ref.sh",
         "context": "job resolve_target",
@@ -1753,14 +1936,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/github/resolve-openclaw-ref.sh",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "4137ab9fc93c": {
       "id": "4137ab9fc93c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1784,14 +1967,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/node/debugRecorder.ts",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "440225205696": {
       "id": "440225205696",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1816,14 +1999,14 @@
         "deleted_in": "ee6edaaeb02c645ed1f67fcc9140588a8cb834c0",
         "live_alternative": "tensorflow/lite/g3doc/android/delegates/nnapi.md",
         "confidence": 0.75,
-        "head_sha": "9853d0fbac048c269bb1852cc384bc8cc00d51b6"
+        "head_sha": "c814fd7928e14d134f4f59afc19430122a5647a1"
       }
     },
     "4532a91044cb": {
       "id": "4532a91044cb",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1853,7 +2036,7 @@
       "id": "46155348328c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1879,11 +2062,41 @@
         "head_sha": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96"
       }
     },
+    "47271020f601": {
+      "id": "47271020f601",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 515,
+        "ref": "tests/models/multimodal/pooling/test_clip.py",
+        "path": "vllm/tests/models/multimodal/pooling/test_clip.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/multimodal/pooling/test_clip.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "474a7c553095": {
       "id": "474a7c553095",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1907,14 +2120,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/relay-build-limit-warnings.mts",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "47ae5137c8f9": {
       "id": "47ae5137c8f9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -1938,14 +2151,45 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
+      }
+    },
+    "482aacfa76a9": {
+      "id": "482aacfa76a9",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 411,
+        "ref": "tests/tokenizers_/test_hf.py",
+        "path": "vllm/tests/tokenizers_/test_hf.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/tokenizers_/test_hf.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "49083294269b": {
       "id": "49083294269b",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -1983,7 +2227,7 @@
       "id": "4a46bd8d5f22",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -2008,14 +2252,44 @@
         "deleted_in": null,
         "live_alternative": "scripts/evaluate-relevance.py",
         "confidence": 0.75,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
+      }
+    },
+    "4b87b40d6dbb": {
+      "id": "4b87b40d6dbb",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 614,
+        "ref": "tests/models/language/pooling/test_auto_prefix_cache_support.py",
+        "path": "vllm/tests/models/language/pooling/test_auto_prefix_cache_support.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/language/pooling/test_auto_prefix_cache_support.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "4cbd39a447e9": {
       "id": "4cbd39a447e9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2047,7 +2321,7 @@
       "id": "4d5d6f2ec124",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2059,7 +2333,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 4752,
+        "line": 4762,
         "ref": ".ci-harness/scripts/ci-additional-checks.sh",
         "path": ".ci-harness/scripts/ci-additional-checks.sh",
         "context": "job check-additional-shard",
@@ -2072,14 +2346,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-additional-checks.sh",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "4df73733a55c": {
       "id": "4df73733a55c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2109,7 +2383,7 @@
       "id": "4e29b36682c0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2140,7 +2414,7 @@
       "id": "501827a1c0ab",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2152,26 +2426,26 @@
         "repo": "NousResearch/hermes-agent",
         "kind": "doc",
         "file": "apps/desktop/BUILDING.md",
-        "line": 403,
+        "line": 407,
         "ref": "../../docs/stable-releases.md",
         "path": "docs/stable-releases.md",
         "context": "[Stable release admission](../../docs/stable-releases.md) requires the full",
         "evidence": [
-          "apps/desktop/BUILDING.md:403 links to ../../docs/stable-releases.md",
+          "apps/desktop/BUILDING.md:407 links to ../../docs/stable-releases.md",
           "same file name exists at website/docs/developer-guide/stable-releases.md"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/stable-releases.md",
         "confidence": 0.55,
-        "head_sha": "2fcdbfea1847a1119901835d5970fdca2b3d8ea8"
+        "head_sha": "76b55a46791914921da552c91a2264569dca2055"
       }
     },
     "51b1e86cab3f": {
       "id": "51b1e86cab3f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2201,7 +2475,7 @@
       "id": "527d029b845a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2213,7 +2487,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/full-release-validation.yml",
-        "line": 550,
+        "line": 552,
         "ref": "./workflow/scripts/lib/release-context.mjs",
         "path": "workflow/scripts/lib/release-context.mjs",
         "context": "job resolve_target",
@@ -2225,14 +2499,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-context.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "539b3b8c73da": {
       "id": "539b3b8c73da",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2257,14 +2531,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-build-manifest.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "563f2a70bbc9": {
       "id": "563f2a70bbc9",
       "state": "new",
       "first_seen": "2026-11-20T09:23:59Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-20T09:23:59Z",
@@ -2288,7 +2562,37 @@
         "deleted_in": null,
         "live_alternative": "scripts/release-ci-summary.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
+      }
+    },
+    "599a9e9cd997": {
+      "id": "599a9e9cd997",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 610,
+        "ref": "tests/models/language/pooling/test_token_classification.py",
+        "path": "vllm/tests/models/language/pooling/test_token_classification.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/language/pooling/test_token_classification.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "5ceaaf238bff": {
@@ -2357,7 +2661,7 @@
       "id": "5f83ddec1afc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2381,14 +2685,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/expectedEditCaptureController.ts",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "614f467624ed": {
       "id": "614f467624ed",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -2425,7 +2729,7 @@
       "id": "61628d97e2f5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2449,14 +2753,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/verify-authorized-beta-focused-candidate.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "617748afa8bc": {
       "id": "617748afa8bc",
       "state": "new",
       "first_seen": "2026-11-22T09:23:55Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-22T09:23:55Z",
@@ -2483,11 +2787,42 @@
         "head_sha": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96"
       }
     },
+    "629a16c7fa3e": {
+      "id": "629a16c7fa3e",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 415,
+        "ref": "tests/renderers/test_hf.py",
+        "path": "vllm/tests/renderers/test_hf.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/renderers/test_hf.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "6568d96f5f86": {
       "id": "6568d96f5f86",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2511,14 +2846,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "c5b4f1bd4d4b1fcbe8525000630c97f260d3e2fd"
+        "head_sha": "18b0b76b7409e6929075dc88a50571776a55e5d8"
       }
     },
     "656b85d0bb75": {
       "id": "656b85d0bb75",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2579,7 +2914,7 @@
       "id": "66bd517b7f5d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2603,7 +2938,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "674451f24a42": {
@@ -2636,6 +2971,36 @@
         "live_alternative": "CHANGELOG.md",
         "confidence": 0.55,
         "head_sha": "abf50589ed0ff60900ead3a83cfda9ff009cd6ef"
+      }
+    },
+    "67945624619e": {
+      "id": "67945624619e",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 628,
+        "ref": "tests/models/language/pooling/test_classification.py",
+        "path": "vllm/tests/models/language/pooling/test_classification.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/language/pooling/test_classification.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "67f66668b0e7": {
@@ -2699,11 +3064,42 @@
         "head_sha": "28d7bb63a53ebf5b6e51a2e1b1592a87361c7f58"
       }
     },
+    "68eaed5e1911": {
+      "id": "68eaed5e1911",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 412,
+        "ref": "tests/tokenizers_/test_basic.py",
+        "path": "vllm/tests/tokenizers_/test_basic.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/tokenizers_/test_basic.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "692a4b63aede": {
       "id": "692a4b63aede",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -2728,7 +3124,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/smoke-stacks.sh",
         "confidence": 0.75,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
       }
     },
     "6935c268d390": {
@@ -2767,7 +3163,7 @@
       "id": "696d2d4d49fc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -2791,7 +3187,7 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/test/pipeline/test/fixtures/config.json",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "6baeede85508": {
@@ -2825,11 +3221,42 @@
         "head_sha": "3570d2384e6b07986657b15347f379ac6af56eaa"
       }
     },
+    "6bcd3631e138": {
+      "id": "6bcd3631e138",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 417,
+        "ref": "tests/renderers/test_token_offsets.py",
+        "path": "vllm/tests/renderers/test_token_offsets.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/renderers/test_token_offsets.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "6c07753810d0": {
       "id": "6c07753810d0",
       "state": "new",
       "first_seen": "2026-10-24T15:02:25Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T15:02:25Z",
@@ -2853,7 +3280,7 @@
         "deleted_in": "43a0f254074dc5f18c00817ca969514de4202533",
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "9853d0fbac048c269bb1852cc384bc8cc00d51b6"
+        "head_sha": "c814fd7928e14d134f4f59afc19430122a5647a1"
       }
     },
     "6c0952cc2121": {
@@ -2890,7 +3317,7 @@
       "id": "6c675504001d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3014,7 +3441,7 @@
       "id": "6df68a45abc3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3038,14 +3465,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "92bb0678c52133a47b3095f6e54da883ea0d6cff"
+        "head_sha": "edae846a9a17442c00429f2b15375afbfa0376c9"
       }
     },
     "6dfd61fb6f9b": {
       "id": "6dfd61fb6f9b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3070,14 +3497,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/detect-private-keys.mts",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "6e889f41b8c3": {
       "id": "6e889f41b8c3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3101,14 +3528,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "c5b4f1bd4d4b1fcbe8525000630c97f260d3e2fd"
+        "head_sha": "18b0b76b7409e6929075dc88a50571776a55e5d8"
       }
     },
     "6f31b545e856": {
       "id": "6f31b545e856",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3120,7 +3547,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 2229,
+        "line": 2239,
         "ref": "scripts/ensure-cli-startup-build.mjs",
         "path": "scripts/ensure-cli-startup-build.mjs",
         "context": "job build-artifacts",
@@ -3132,7 +3559,7 @@
         "deleted_in": "c70aee247e831d21895f5ea3dda7497c50af0721",
         "live_alternative": null,
         "confidence": 0.9,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "6feca5ed61f2": {
@@ -3169,7 +3596,7 @@
       "id": "702578aa33df",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3194,14 +3621,14 @@
         "deleted_in": null,
         "live_alternative": ".ci/update_windows/update.py",
         "confidence": 0.8,
-        "head_sha": "b27006af3d753e4a94cd703d9a2432b68a7e6865"
+        "head_sha": "4a4b3409792d499cc36626d76a24fe425f40b5e7"
       }
     },
     "71173d7dfd63": {
       "id": "71173d7dfd63",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3264,7 +3691,7 @@
       "id": "733f7f23f771",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -3294,14 +3721,14 @@
         "deleted_in": null,
         "live_alternative": "LICENSE.txt",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "73db37d5896b": {
       "id": "73db37d5896b",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3325,14 +3752,14 @@
         "deleted_in": null,
         "live_alternative": "docs/contributing/Chat.md",
         "confidence": 0.55,
-        "head_sha": "06f1c24345a29b26fc388ca8072f2b03a36a4d82"
+        "head_sha": "6d613d30ea6d3e89488c964d22aa53e44e65fa13"
       }
     },
     "7404d4bfcc5d": {
       "id": "7404d4bfcc5d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3393,7 +3820,7 @@
       "id": "75ac70b9c751",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -3418,7 +3845,7 @@
         "deleted_in": null,
         "live_alternative": "cli/scripts/run-python.mjs",
         "confidence": 0.75,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
       }
     },
     "7609c49073d4": {
@@ -3456,7 +3883,7 @@
       "id": "7666d572e4c6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3480,7 +3907,7 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/test/simulation/inlineEdit/inlineEditTester.ts",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "76c8e563c87b": {
@@ -3518,7 +3945,7 @@
       "id": "77506738c9a7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3550,7 +3977,7 @@
       "id": "77fc1b09b100",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3574,7 +4001,37 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/inlineEditDebugComponent.ts",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
+      }
+    },
+    "783fb46ed863": {
+      "id": "783fb46ed863",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 611,
+        "ref": "tests/models/language/pooling/test_multilabel_classification_support.py",
+        "path": "vllm/tests/models/language/pooling/test_multilabel_classification_support.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/language/pooling/test_multilabel_classification_support.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "798c43280d9b": {
@@ -3612,7 +4069,7 @@
       "id": "79a0efe50069",
       "state": "new",
       "first_seen": "2026-11-16T09:37:28Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-16T09:37:28Z",
@@ -3636,14 +4093,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
       }
     },
     "79d21e73c390": {
       "id": "79d21e73c390",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3667,14 +4124,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "7a1beafc6284": {
       "id": "7a1beafc6284",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3698,7 +4155,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "7a425cd12eaf": {
@@ -3737,7 +4194,7 @@
       "id": "7ae21577940d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3749,7 +4206,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 4166,
+        "line": 4176,
         "ref": ".ci-harness/scripts/ci-static-step.sh",
         "path": ".ci-harness/scripts/ci-static-step.sh",
         "context": "job check-shard",
@@ -3762,14 +4219,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-static-step.sh",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "7b0be18396da": {
       "id": "7b0be18396da",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3794,14 +4251,14 @@
         "deleted_in": null,
         "live_alternative": "packages/plugins/figma/skills/figma-generate-library/references/token-creation.md",
         "confidence": 0.55,
-        "head_sha": "b5dba31bf20d758d86871af65d206a197d411a0c"
+        "head_sha": "314842df119544845441fe6f7a3dec0bba857624"
       }
     },
     "7b8891ff6cb8": {
       "id": "7b8891ff6cb8",
       "state": "verified",
       "first_seen": "2026-10-24T14:52:05Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:52:05Z",
@@ -3839,7 +4296,7 @@
       "id": "7be80a4304c3",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3871,7 +4328,7 @@
       "id": "7c12f7b3f3a0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3895,14 +4352,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "b5dba31bf20d758d86871af65d206a197d411a0c"
+        "head_sha": "314842df119544845441fe6f7a3dec0bba857624"
       }
     },
     "7c474dcfad9c": {
       "id": "7c474dcfad9c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -3926,14 +4383,14 @@
         "deleted_in": null,
         "live_alternative": "docs/platforms/android/Android-Platform-Views.md",
         "confidence": 0.55,
-        "head_sha": "06f1c24345a29b26fc388ca8072f2b03a36a4d82"
+        "head_sha": "6d613d30ea6d3e89488c964d22aa53e44e65fa13"
       }
     },
     "7d91cdca0dbd": {
       "id": "7d91cdca0dbd",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -3958,14 +4415,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/smoke-domains.sh",
         "confidence": 0.75,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
       }
     },
     "7ec14f80cd43": {
       "id": "7ec14f80cd43",
       "state": "new",
       "first_seen": "2026-11-10T09:25:16Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-10T09:25:16Z",
@@ -3990,14 +4447,44 @@
         "deleted_in": "980f9c1550341e35672df17593ce2e5a792cb7d1",
         "live_alternative": "docs/community/workflows.md",
         "confidence": 0.75,
-        "head_sha": "f61648db96b5ac5eb65a54577865dafc2c830a7c"
+        "head_sha": "f2010547121b3351e4923fe467205079e4593a32"
+      }
+    },
+    "7fd9e9698a61": {
+      "id": "7fd9e9698a61",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 426,
+        "ref": "transformers_utils/test_utils.py",
+        "path": "vllm/transformers_utils/test_utils.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'transformers_utils/test_utils.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "80613f19ece7": {
       "id": "80613f19ece7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4021,7 +4508,37 @@
         "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
         "live_alternative": null,
         "confidence": 0.9,
-        "head_sha": "4e394cfcb9fcf2da9b9e3d2ee2e0fd0375f5a739"
+        "head_sha": "f6c206bc1753e6baddb5dcf20e6174ec1f74cc71"
+      }
+    },
+    "810764dfa0e0": {
+      "id": "810764dfa0e0",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 629,
+        "ref": "tests/models/language/pooling/test_multi_vector_retrieval.py",
+        "path": "vllm/tests/models/language/pooling/test_multi_vector_retrieval.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/language/pooling/test_multi_vector_retrieval.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "81d400b9c9be": {
@@ -4059,7 +4576,7 @@
       "id": "8284af8da589",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4071,7 +4588,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 3191,
+        "line": 3202,
         "ref": ".ci-harness/.github/actions/git-owner/owner.py",
         "path": ".ci-harness/.github/actions/git-owner/owner.py",
         "context": "job checks-fast-core",
@@ -4084,14 +4601,14 @@
         "deleted_in": null,
         "live_alternative": ".github/actions/git-owner/owner.py",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "831d7ab39bbb": {
       "id": "831d7ab39bbb",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4115,7 +4632,7 @@
         "deleted_in": null,
         "live_alternative": "optional-skills/research/research-paper-writing/references/sources.md",
         "confidence": 0.55,
-        "head_sha": "2fcdbfea1847a1119901835d5970fdca2b3d8ea8"
+        "head_sha": "76b55a46791914921da552c91a2264569dca2055"
       }
     },
     "8383dc3b909b": {
@@ -4183,7 +4700,7 @@
       "id": "84d898cccf55",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4278,11 +4795,41 @@
         "head_sha": "746212d43aab1d20e05ba532628c40b91197a142"
       }
     },
+    "877b0c7f7710": {
+      "id": "877b0c7f7710",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 515,
+        "ref": "tests/models/multimodal/pooling/test_siglip.py",
+        "path": "vllm/tests/models/multimodal/pooling/test_siglip.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/multimodal/pooling/test_siglip.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "883ece07f9fe": {
       "id": "883ece07f9fe",
       "state": "new",
       "first_seen": "2026-11-25T09:25:54Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-25T09:25:54Z",
@@ -4306,14 +4853,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "88af0ff147b5": {
       "id": "88af0ff147b5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4337,14 +4884,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "8960b439605e": {
       "id": "8960b439605e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4375,7 +4922,7 @@
       "id": "8a4558624cdc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4403,11 +4950,41 @@
         "head_sha": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
       }
     },
+    "8b3b91b8dc83": {
+      "id": "8b3b91b8dc83",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 738,
+        "ref": "tests/v1/structured_output/test_backend_guidance.py",
+        "path": "vllm/tests/v1/structured_output/test_backend_guidance.py",
+        "context": "job vllm-test-tokenizer-features",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizer-features' runs 'tests/v1/structured_output/test_backend_guidance.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "8b6fb63dff6f": {
       "id": "8b6fb63dff6f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4431,7 +5008,7 @@
         "deleted_in": null,
         "live_alternative": "docs/contributing/Setting-up-the-Framework-development-environment.md",
         "confidence": 0.55,
-        "head_sha": "06f1c24345a29b26fc388ca8072f2b03a36a4d82"
+        "head_sha": "6d613d30ea6d3e89488c964d22aa53e44e65fa13"
       }
     },
     "8d898d28d160": {
@@ -4470,7 +5047,7 @@
       "id": "8e476b308c36",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4495,14 +5072,14 @@
         "deleted_in": null,
         "live_alternative": "main.py",
         "confidence": 0.8,
-        "head_sha": "b27006af3d753e4a94cd703d9a2432b68a7e6865"
+        "head_sha": "4a4b3409792d499cc36626d76a24fe425f40b5e7"
       }
     },
     "8eb7953e6d57": {
       "id": "8eb7953e6d57",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4514,7 +5091,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 6876,
+        "line": 6895,
         "ref": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
         "path": ".ci-harness/scripts/lib/release-upgrade-baseline.mjs",
         "context": "job docker-seed-e2e",
@@ -4526,14 +5103,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-upgrade-baseline.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "8f6dee6e2668": {
       "id": "8f6dee6e2668",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4557,14 +5134,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/vscode-node/components/nesFeedbackSubmitter.ts",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "90edfbeeff56": {
       "id": "90edfbeeff56",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4576,7 +5153,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/full-release-validation.yml",
-        "line": 458,
+        "line": 460,
         "ref": "workflow/scripts/full-release-candidate-contract.mjs",
         "path": "workflow/scripts/full-release-candidate-contract.mjs",
         "context": "job resolve_target",
@@ -4588,14 +5165,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-candidate-contract.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "91704d94a14a": {
       "id": "91704d94a14a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4627,7 +5204,7 @@
       "id": "91921b1a44c4",
       "state": "new",
       "first_seen": "2026-10-24T15:02:25Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T15:02:25Z",
@@ -4651,14 +5228,14 @@
         "deleted_in": "50b0cf2bd8e0dee902d9ca4e0cb45c9e0e743bd8",
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "9853d0fbac048c269bb1852cc384bc8cc00d51b6"
+        "head_sha": "c814fd7928e14d134f4f59afc19430122a5647a1"
       }
     },
     "9209703e1380": {
       "id": "9209703e1380",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4682,14 +5259,14 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/src/extension/inlineEdits/common/observableWorkspaceRecordingReplayer.ts",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "93ceb431d74a": {
       "id": "93ceb431d74a",
       "state": "new",
       "first_seen": "2026-11-07T09:24:41Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-07T09:24:41Z",
@@ -4701,7 +5278,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 3949,
+        "line": 3959,
         "ref": "./.ci-harness/scripts/lib/process-memory.mts",
         "path": ".ci-harness/scripts/lib/process-memory.mts",
         "context": "job checks-node-core-test-nondist-shard",
@@ -4714,7 +5291,37 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/process-memory.mts",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
+      }
+    },
+    "956c407ca5b5": {
+      "id": "956c407ca5b5",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 433,
+        "ref": "tests/config/test_config_generation.py",
+        "path": "vllm/tests/config/test_config_generation.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/config/test_config_generation.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "98bd72be9b86": {
@@ -4751,7 +5358,7 @@
       "id": "993a3c0217f4",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4763,7 +5370,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 2029,
+        "line": 2039,
         "ref": ".ci-harness/scripts/ci-collect-checks.sh",
         "path": ".ci-harness/scripts/ci-collect-checks.sh",
         "context": "job security-fast",
@@ -4776,7 +5383,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-collect-checks.sh",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "99fad79d3295": {
@@ -4809,6 +5416,36 @@
         "live_alternative": "README_ZH.md",
         "confidence": 0.55,
         "head_sha": "abf50589ed0ff60900ead3a83cfda9ff009cd6ef"
+      }
+    },
+    "9ba5f4bffc13": {
+      "id": "9ba5f4bffc13",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 435,
+        "ref": "tests/config/test_step5_mtp_config.py",
+        "path": "vllm/tests/config/test_step5_mtp_config.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/config/test_step5_mtp_config.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "9c0fe2556019": {
@@ -4847,7 +5484,7 @@
       "id": "9c8f1d93e894",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4946,7 +5583,7 @@
       "id": "9e14b7d3a466",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -4958,7 +5595,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 5194,
+        "line": 5205,
         "ref": ".ci-harness/scripts/lib/swift-toolchain.sh",
         "path": ".ci-harness/scripts/lib/swift-toolchain.sh",
         "context": "job macos-swift",
@@ -4970,7 +5607,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/swift-toolchain.sh",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "a1c840f38dcc": {
@@ -5039,7 +5676,7 @@
       "id": "a3db83e72a2c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5063,14 +5700,14 @@
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
         "confidence": 0.55,
-        "head_sha": "2fcdbfea1847a1119901835d5970fdca2b3d8ea8"
+        "head_sha": "76b55a46791914921da552c91a2264569dca2055"
       }
     },
     "a41f3404b73f": {
       "id": "a41f3404b73f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5101,7 +5738,7 @@
       "id": "a43632de02db",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5125,14 +5762,44 @@
         "deleted_in": "9ff3a29a72c0885366017b5379608554592b7e97",
         "live_alternative": null,
         "confidence": 0.8,
-        "head_sha": "c5b4f1bd4d4b1fcbe8525000630c97f260d3e2fd"
+        "head_sha": "18b0b76b7409e6929075dc88a50571776a55e5d8"
+      }
+    },
+    "a4992b93221b": {
+      "id": "a4992b93221b",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 613,
+        "ref": "tests/models/language/pooling/test_all_pooling_plus_chunked_prefill.py",
+        "path": "vllm/tests/models/language/pooling/test_all_pooling_plus_chunked_prefill.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/language/pooling/test_all_pooling_plus_chunked_prefill.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "a56c0a125855": {
       "id": "a56c0a125855",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5156,14 +5823,14 @@
         "deleted_in": "a4524c215f299989e6488b8b3dc2c9c1b199489e",
         "live_alternative": null,
         "confidence": 0.9,
-        "head_sha": "4e394cfcb9fcf2da9b9e3d2ee2e0fd0375f5a739"
+        "head_sha": "f6c206bc1753e6baddb5dcf20e6174ec1f74cc71"
       }
     },
     "a5b2a2a32f13": {
       "id": "a5b2a2a32f13",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5193,7 +5860,7 @@
       "id": "a5c41d866c3e",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -5217,14 +5884,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
       }
     },
     "a65222c8c58c": {
       "id": "a65222c8c58c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5248,14 +5915,45 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
+      }
+    },
+    "a664c971987c": {
+      "id": "a664c971987c",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 104,
+        "ref": "tests/models/multimodal/test_mapping.py",
+        "path": "vllm/tests/models/multimodal/test_mapping.py",
+        "context": "job vllm-test-examples",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-examples' runs 'tests/models/multimodal/test_mapping.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "a7938804cdca": {
       "id": "a7938804cdca",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5267,7 +5965,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 5894,
+        "line": 5913,
         "ref": "./.ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
         "path": ".ci-harness/scripts/lib/ci-ios-smoke-plan.mjs",
         "context": "job ios-build",
@@ -5279,14 +5977,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/ci-ios-smoke-plan.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "a7b1d71bef7e": {
       "id": "a7b1d71bef7e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5310,14 +6008,44 @@
         "deleted_in": null,
         "live_alternative": "build/next/nls-plugin.ts",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
+      }
+    },
+    "a83cf6e3365b": {
+      "id": "a83cf6e3365b",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 735,
+        "ref": "tests/v1/structured_output/test_backend_xgrammar.py",
+        "path": "vllm/tests/v1/structured_output/test_backend_xgrammar.py",
+        "context": "job vllm-test-tokenizer-features",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizer-features' runs 'tests/v1/structured_output/test_backend_xgrammar.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "a8ee8a3fa2bf": {
       "id": "a8ee8a3fa2bf",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5344,11 +6072,41 @@
         "head_sha": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96"
       }
     },
+    "a8f531c1b2aa": {
+      "id": "a8f531c1b2aa",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 443,
+        "ref": "tests/test_config.py",
+        "path": "vllm/tests/test_config.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/test_config.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "aa10ae9c0bea": {
       "id": "aa10ae9c0bea",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5372,7 +6130,7 @@
         "deleted_in": "e59ad6ebda1d92de58cb55e230f9e1aa130c059b",
         "live_alternative": null,
         "confidence": 0.8,
-        "head_sha": "c5b4f1bd4d4b1fcbe8525000630c97f260d3e2fd"
+        "head_sha": "18b0b76b7409e6929075dc88a50571776a55e5d8"
       }
     },
     "aacf3fd8b812": {
@@ -5404,6 +6162,36 @@
         "live_alternative": "docs/content/forge/components/agents.md",
         "confidence": 0.55,
         "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
+      }
+    },
+    "ac65ce518d10": {
+      "id": "ac65ce518d10",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 627,
+        "ref": "tests/models/language/pooling/test_embedding.py",
+        "path": "vllm/tests/models/language/pooling/test_embedding.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/language/pooling/test_embedding.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "af3460eec178": {
@@ -5442,7 +6230,7 @@
       "id": "af67ad12df4e",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -5466,7 +6254,7 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
       }
     },
     "b11ac59159af": {
@@ -5505,7 +6293,7 @@
       "id": "b1b4438a6f27",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5535,7 +6323,7 @@
       "id": "b1bccc38cda0",
       "state": "new",
       "first_seen": "2026-11-04T09:25:34Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-04T09:25:34Z",
@@ -5560,7 +6348,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-adaptive-priors.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "b2fa3fd6a6f3": {
@@ -5598,7 +6386,7 @@
       "id": "b3434f3d74b7",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5622,7 +6410,7 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "0519b26a2b73c13048c0d29bce12c0306f7601ec"
+        "head_sha": "68291b7a8c27d60b848a58f26e271be808912735"
       }
     },
     "b4251c036bb9": {
@@ -5722,7 +6510,7 @@
       "id": "b7424e391fea",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5746,14 +6534,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "92bb0678c52133a47b3095f6e54da883ea0d6cff"
+        "head_sha": "edae846a9a17442c00429f2b15375afbfa0376c9"
       }
     },
     "b76d06e889d2": {
       "id": "b76d06e889d2",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5765,26 +6553,26 @@
         "repo": "NousResearch/hermes-agent",
         "kind": "doc",
         "file": "apps/desktop/BUILDING.md",
-        "line": 158,
+        "line": 162,
         "ref": "../../docs/shared-bundle-builds.md",
         "path": "docs/shared-bundle-builds.md",
         "context": "See [shared bundle builds](../../docs/shared-bundle-builds.md) for Termux reuse.",
         "evidence": [
-          "apps/desktop/BUILDING.md:158 links to ../../docs/shared-bundle-builds.md",
+          "apps/desktop/BUILDING.md:162 links to ../../docs/shared-bundle-builds.md",
           "same file name exists at website/docs/developer-guide/shared-bundle-builds.md"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/shared-bundle-builds.md",
         "confidence": 0.55,
-        "head_sha": "2fcdbfea1847a1119901835d5970fdca2b3d8ea8"
+        "head_sha": "76b55a46791914921da552c91a2264569dca2055"
       }
     },
     "b8f4812f86e0": {
       "id": "b8f4812f86e0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5796,7 +6584,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 6294,
+        "line": 6313,
         "ref": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
         "path": ".ci-harness/scripts/ios-screenshot-evidence.mjs",
         "context": "job ios-screenshot-capture",
@@ -5808,7 +6596,39 @@
         "deleted_in": null,
         "live_alternative": "scripts/ios-screenshot-evidence.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
+      }
+    },
+    "b9ff16419b4d": {
+      "id": "b9ff16419b4d",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 109,
+        "ref": "examples/basic/offline_inference/chat.py",
+        "path": "vllm/examples/basic/offline_inference/chat.py",
+        "context": "job vllm-test-examples",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-examples' runs 'examples/basic/offline_inference/chat.py' (working-directory: vllm)",
+          "same file name exists at src/transformers/cli/chat.py",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": "src/transformers/cli/chat.py",
+        "confidence": 0.8,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "ba99195cd62a": {
@@ -5877,7 +6697,7 @@
       "id": "baf374dcc8e1",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5901,14 +6721,44 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "c5b4f1bd4d4b1fcbe8525000630c97f260d3e2fd"
+        "head_sha": "18b0b76b7409e6929075dc88a50571776a55e5d8"
+      }
+    },
+    "bbf23d682f91": {
+      "id": "bbf23d682f91",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 736,
+        "ref": "tests/v1/structured_output/test_backend_xgrammar_lark.py",
+        "path": "vllm/tests/v1/structured_output/test_backend_xgrammar_lark.py",
+        "context": "job vllm-test-tokenizer-features",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizer-features' runs 'tests/v1/structured_output/test_backend_xgrammar_lark.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "bbf3b773af09": {
       "id": "bbf3b773af09",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5932,14 +6782,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "c5b4f1bd4d4b1fcbe8525000630c97f260d3e2fd"
+        "head_sha": "18b0b76b7409e6929075dc88a50571776a55e5d8"
       }
     },
     "bc16696ebe42": {
       "id": "bc16696ebe42",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -5964,7 +6814,38 @@
         "deleted_in": null,
         "live_alternative": "main.py",
         "confidence": 0.8,
-        "head_sha": "b27006af3d753e4a94cd703d9a2432b68a7e6865"
+        "head_sha": "4a4b3409792d499cc36626d76a24fe425f40b5e7"
+      }
+    },
+    "bc59f5caefb8": {
+      "id": "bc59f5caefb8",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 418,
+        "ref": "tests/renderers/test_tokenizer_pool.py",
+        "path": "vllm/tests/renderers/test_tokenizer_pool.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/renderers/test_tokenizer_pool.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "bc79a623be45": {
@@ -6003,7 +6884,7 @@
       "id": "bc7f6e22ff23",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6033,7 +6914,7 @@
       "id": "bd09500e4eb6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6063,7 +6944,7 @@
       "id": "bdca48cc49d4",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6093,7 +6974,7 @@
       "id": "be6cc559820d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6184,7 +7065,7 @@
       "id": "bfed27b66459",
       "state": "new",
       "first_seen": "2026-11-17T09:24:26Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-17T09:24:26Z",
@@ -6209,14 +7090,44 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-resolve-runner-profile.sh",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
+      }
+    },
+    "c21c8fc3ed79": {
+      "id": "c21c8fc3ed79",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 431,
+        "ref": "tests/transformers_utils/test_repo_utils.py",
+        "path": "vllm/tests/transformers_utils/test_repo_utils.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/transformers_utils/test_repo_utils.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "c37127ae3680": {
       "id": "c37127ae3680",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6228,7 +7139,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/full-release-validation.yml",
-        "line": 341,
+        "line": 343,
         "ref": "workflow/scripts/full-release-publication-contract.mjs",
         "path": "workflow/scripts/full-release-publication-contract.mjs",
         "context": "job resolve_target",
@@ -6240,7 +7151,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-publication-contract.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "c3ae2b57c448": {
@@ -6341,7 +7252,7 @@
       "id": "c5f37b4dc554",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6365,7 +7276,7 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "7ada757567b27c4fcac98f8fd72d510d9d75d999"
+        "head_sha": "84a8e8dceedfff90b452b88f26bb7ebe84f6ff19"
       }
     },
     "c61637aefd04": {
@@ -6410,7 +7321,7 @@
       "id": "c62d99e28c5c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6434,14 +7345,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "92bb0678c52133a47b3095f6e54da883ea0d6cff"
+        "head_sha": "edae846a9a17442c00429f2b15375afbfa0376c9"
       }
     },
     "c64433019523": {
       "id": "c64433019523",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6453,7 +7364,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 5959,
+        "line": 5978,
         "ref": ".ci-harness/scripts/swift-build-cache-metadata.py",
         "path": ".ci-harness/scripts/swift-build-cache-metadata.py",
         "context": "job ios-build",
@@ -6465,14 +7376,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/swift-build-cache-metadata.py",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "c6b08d8d02cb": {
       "id": "c6b08d8d02cb",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -6540,7 +7451,7 @@
       "id": "c8f1e8912570",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6571,7 +7482,7 @@
       "id": "cb4e79465e08",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6583,7 +7494,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 5964,
+        "line": 5983,
         "ref": ".ci-harness/scripts/ci-xcodebuild.py",
         "path": ".ci-harness/scripts/ci-xcodebuild.py",
         "context": "job ios-build",
@@ -6595,14 +7506,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-xcodebuild.py",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "cbe78fefa01d": {
       "id": "cbe78fefa01d",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -6627,14 +7538,45 @@
         "deleted_in": null,
         "live_alternative": "scripts/validate-csv.py",
         "confidence": 0.75,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
+      }
+    },
+    "cc1cb7595d1c": {
+      "id": "cc1cb7595d1c",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 119,
+        "ref": "examples/generate/multimodal/audio_language_offline.py",
+        "path": "vllm/examples/generate/multimodal/audio_language_offline.py",
+        "context": "job vllm-test-examples",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-examples' runs 'examples/generate/multimodal/audio_language_offline.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "cccefb986e5e": {
       "id": "cccefb986e5e",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6664,7 +7606,7 @@
       "id": "d0653397e638",
       "state": "new",
       "first_seen": "2026-11-18T09:27:04Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-18T09:27:04Z",
@@ -6721,11 +7663,41 @@
         "head_sha": "746212d43aab1d20e05ba532628c40b91197a142"
       }
     },
+    "d4231c34632d": {
+      "id": "d4231c34632d",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 612,
+        "ref": "tests/models/language/pooling/test_head_dtype.py",
+        "path": "vllm/tests/models/language/pooling/test_head_dtype.py",
+        "context": "job vllm-test-hf-comparison",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-hf-comparison' runs 'tests/models/language/pooling/test_head_dtype.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "d4d9f9c7e880": {
       "id": "d4d9f9c7e880",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6750,14 +7722,14 @@
         "deleted_in": null,
         "live_alternative": ".github/workflows/runtime_release_from_ci.yml",
         "confidence": 0.55,
-        "head_sha": "92bb0678c52133a47b3095f6e54da883ea0d6cff"
+        "head_sha": "edae846a9a17442c00429f2b15375afbfa0376c9"
       }
     },
     "d5b2c2c0bf5b": {
       "id": "d5b2c2c0bf5b",
       "state": "new",
       "first_seen": "2026-10-24T15:02:25Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T15:02:25Z",
@@ -6781,14 +7753,14 @@
         "deleted_in": "6c2bf6576321ad53ff1eb6d66b6efae2c93ef4e0",
         "live_alternative": null,
         "confidence": 0.55,
-        "head_sha": "9853d0fbac048c269bb1852cc384bc8cc00d51b6"
+        "head_sha": "c814fd7928e14d134f4f59afc19430122a5647a1"
       }
     },
     "d637b50b5146": {
       "id": "d637b50b5146",
       "state": "new",
       "first_seen": "2026-10-27T09:34:46Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-27T09:34:46Z",
@@ -6813,14 +7785,14 @@
         "deleted_in": null,
         "live_alternative": ".github/nix-hashes/publish.sh",
         "confidence": 0.8,
-        "head_sha": "b5dba31bf20d758d86871af65d206a197d411a0c"
+        "head_sha": "314842df119544845441fe6f7a3dec0bba857624"
       }
     },
     "d6a6343b0150": {
       "id": "d6a6343b0150",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6844,7 +7816,7 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.65,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "d7bb6132844f": {
@@ -6913,7 +7885,7 @@
       "id": "d8eb4d91cab3",
       "state": "new",
       "first_seen": "2026-11-22T09:23:55Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-22T09:23:55Z",
@@ -6938,14 +7910,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci/check_macos_notary_auth.py",
         "confidence": 0.8,
-        "head_sha": "2fcdbfea1847a1119901835d5970fdca2b3d8ea8"
+        "head_sha": "76b55a46791914921da552c91a2264569dca2055"
       }
     },
     "d9ac29f55108": {
       "id": "d9ac29f55108",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6970,14 +7942,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/release-context.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "d9be4158242d": {
       "id": "d9be4158242d",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -6989,7 +7961,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/full-release-validation.yml",
-        "line": 363,
+        "line": 365,
         "ref": "workflow/scripts/release-tooling-identity.mjs",
         "path": "workflow/scripts/release-tooling-identity.mjs",
         "context": "job resolve_target",
@@ -7001,14 +7973,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/release-tooling-identity.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "dab4d2e94fce": {
       "id": "dab4d2e94fce",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7040,7 +8012,7 @@
       "id": "db5b5af839ca",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7072,7 +8044,7 @@
       "id": "dc717c7f7d29",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7097,7 +8069,7 @@
         "deleted_in": null,
         "live_alternative": ".ci/update_windows/update.py",
         "confidence": 0.8,
-        "head_sha": "b27006af3d753e4a94cd703d9a2432b68a7e6865"
+        "head_sha": "4a4b3409792d499cc36626d76a24fe425f40b5e7"
       }
     },
     "dc9cb8b17e42": {
@@ -7166,7 +8138,7 @@
       "id": "dd554b4c2980",
       "state": "new",
       "first_seen": "2026-11-25T09:25:54Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-25T09:25:54Z",
@@ -7190,14 +8162,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.7,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "df7fbd6746dd": {
       "id": "df7fbd6746dd",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7209,7 +8181,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 1984,
+        "line": 1993,
         "ref": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
         "path": ".ci-harness/scripts/macos-native-runtime-artifact.mjs",
         "context": "job build-artifacts",
@@ -7222,14 +8194,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/macos-native-runtime-artifact.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "dff877f63c19": {
       "id": "dff877f63c19",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7253,14 +8225,14 @@
         "deleted_in": null,
         "live_alternative": "optional-skills/research/research-paper-writing/references/writing-guide.md",
         "confidence": 0.55,
-        "head_sha": "2fcdbfea1847a1119901835d5970fdca2b3d8ea8"
+        "head_sha": "76b55a46791914921da552c91a2264569dca2055"
       }
     },
     "e167b1a1ca2c": {
       "id": "e167b1a1ca2c",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -7285,6 +8257,37 @@
         "live_alternative": "docs/PLAN-PRD-PATTERN.md",
         "confidence": 0.55,
         "head_sha": "4adeee6732a12d1540f49a4d50a38ce8c97f9a53"
+      }
+    },
+    "e1e7b3f21715": {
+      "id": "e1e7b3f21715",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 114,
+        "ref": "examples/generate/multimodal/vision_language_offline.py",
+        "path": "vllm/examples/generate/multimodal/vision_language_offline.py",
+        "context": "job vllm-test-examples",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-examples' runs 'examples/generate/multimodal/vision_language_offline.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "e2503867ff08": {
@@ -7328,7 +8331,7 @@
       "id": "e305ad26f7a0",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7352,14 +8355,14 @@
         "deleted_in": null,
         "live_alternative": "engine/src/flutter/impeller/renderer/renderer_unittests.cc",
         "confidence": 0.55,
-        "head_sha": "06f1c24345a29b26fc388ca8072f2b03a36a4d82"
+        "head_sha": "6d613d30ea6d3e89488c964d22aa53e44e65fa13"
       }
     },
     "e325c8679b18": {
       "id": "e325c8679b18",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7390,7 +8393,7 @@
       "id": "e3533300fe1b",
       "state": "new",
       "first_seen": "2026-11-01T09:23:14Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-01T09:23:14Z",
@@ -7415,14 +8418,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/generate-catalog-summary.py",
         "confidence": 0.75,
-        "head_sha": "8db36338810d0942567b97ce439affd1619fcf31"
+        "head_sha": "b73ee96f8d4ff7bbc279c52dadcd907ffe23629c"
       }
     },
     "e3cf2e053971": {
       "id": "e3cf2e053971",
       "state": "new",
       "first_seen": "2026-11-18T09:27:04Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-18T09:27:04Z",
@@ -7453,7 +8456,7 @@
       "id": "e47e9dda26b1",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7478,14 +8481,14 @@
         "deleted_in": null,
         "live_alternative": "compiler/packages/snap/src/SproutTodoFilter.ts",
         "confidence": 0.55,
-        "head_sha": "92bb0678c52133a47b3095f6e54da883ea0d6cff"
+        "head_sha": "edae846a9a17442c00429f2b15375afbfa0376c9"
       }
     },
     "e4f2f668341a": {
       "id": "e4f2f668341a",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7509,14 +8512,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/validate-authorized-beta-focused-evidence.mts",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "e5c3b06ea455": {
       "id": "e5c3b06ea455",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7540,14 +8543,14 @@
         "deleted_in": null,
         "live_alternative": ".github/pull_request_template.md",
         "confidence": 0.55,
-        "head_sha": "7ada757567b27c4fcac98f8fd72d510d9d75d999"
+        "head_sha": "84a8e8dceedfff90b452b88f26bb7ebe84f6ff19"
       }
     },
     "e7113cc340dd": {
       "id": "e7113cc340dd",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7559,7 +8562,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/full-release-validation.yml",
-        "line": 1170,
+        "line": 1172,
         "ref": "workflow/scripts/full-release-validation-state.mjs",
         "path": "workflow/scripts/full-release-validation-state.mjs",
         "context": "job evidence_reuse",
@@ -7571,14 +8574,44 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-validation-state.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
+      }
+    },
+    "e78837998a22": {
+      "id": "e78837998a22",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 420,
+        "ref": "tests/renderers/chat_utils/test_prompt_embeds.py",
+        "path": "vllm/tests/renderers/chat_utils/test_prompt_embeds.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/renderers/chat_utils/test_prompt_embeds.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "e8397c11b686": {
       "id": "e8397c11b686",
       "state": "new",
       "first_seen": "2026-10-30T09:27:03Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-30T09:27:03Z",
@@ -7602,7 +8635,7 @@
         "deleted_in": null,
         "live_alternative": "src/vs/platform/agentHost/node/claude/claudeAgent.ts",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
       }
     },
     "e8f6fa47ca25": {
@@ -7672,7 +8705,7 @@
       "id": "eb0d4e94b8cc",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7684,7 +8717,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 6888,
+        "line": 6907,
         "ref": "./.ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
         "path": ".ci-harness/scripts/lib/upgrade-survivor-policy.mjs",
         "context": "job docker-seed-e2e",
@@ -7696,7 +8729,7 @@
         "deleted_in": null,
         "live_alternative": "scripts/lib/upgrade-survivor-policy.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "ec71a3f98111": {
@@ -7762,6 +8795,36 @@
         "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
       }
     },
+    "ed29647af0ba": {
+      "id": "ed29647af0ba",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 430,
+        "ref": "tests/transformers_utils/test_utils.py",
+        "path": "vllm/tests/transformers_utils/test_utils.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/transformers_utils/test_utils.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "eda64366b526": {
       "id": "eda64366b526",
       "state": "new",
@@ -7797,7 +8860,7 @@
       "id": "ee09841af308",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7821,14 +8884,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/docker-release-artifacts.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "ee38dbea718f": {
       "id": "ee38dbea718f",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7852,14 +8915,14 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "92bb0678c52133a47b3095f6e54da883ea0d6cff"
+        "head_sha": "edae846a9a17442c00429f2b15375afbfa0376c9"
       }
     },
     "efa249524b45": {
       "id": "efa249524b45",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7883,7 +8946,7 @@
         "deleted_in": null,
         "live_alternative": "packages/flutter_tools/test/general.shard/android/gradle_utils_test.dart",
         "confidence": 0.55,
-        "head_sha": "06f1c24345a29b26fc388ca8072f2b03a36a4d82"
+        "head_sha": "6d613d30ea6d3e89488c964d22aa53e44e65fa13"
       }
     },
     "f14ae5beb432": {
@@ -7917,11 +8980,42 @@
         "head_sha": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8"
       }
     },
+    "f20b6b7dfaf2": {
+      "id": "f20b6b7dfaf2",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 416,
+        "ref": "tests/renderers/test_kimi_k3.py",
+        "path": "vllm/tests/renderers/test_kimi_k3.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/renderers/test_kimi_k3.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
+      }
+    },
     "f2ed2bbe74e5": {
       "id": "f2ed2bbe74e5",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -7945,7 +9039,37 @@
         "deleted_in": null,
         "live_alternative": "extensions/copilot/assets/prompts/skills/agent-customization/references/hooks.md",
         "confidence": 0.55,
-        "head_sha": "aaba18ad864b56cbc8bc0239e7ab873e8621e450"
+        "head_sha": "71455ead7e42b27ba0498d3c1c40c7ca4aea9398"
+      }
+    },
+    "f56a2482c69f": {
+      "id": "f56a2482c69f",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 434,
+        "ref": "tests/config/test_bailing_mtp_config.py",
+        "path": "vllm/tests/config/test_bailing_mtp_config.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/config/test_bailing_mtp_config.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "f604f8ce9abb": {
@@ -7983,7 +9107,7 @@
       "id": "f6ab5fc23d23",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -8008,14 +9132,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-production-audit.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "f7ca5871f754": {
       "id": "f7ca5871f754",
       "state": "new",
       "first_seen": "2026-11-22T09:23:55Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-11-22T09:23:55Z",
@@ -8040,14 +9164,14 @@
         "deleted_in": null,
         "live_alternative": "packages/cli-rs/parity/machines/plugins.test.tsx",
         "confidence": 0.75,
-        "head_sha": "b5dba31bf20d758d86871af65d206a197d411a0c"
+        "head_sha": "314842df119544845441fe6f7a3dec0bba857624"
       }
     },
     "f83c93d96d01": {
       "id": "f83c93d96d01",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -8071,7 +9195,38 @@
         "deleted_in": null,
         "live_alternative": null,
         "confidence": 0.6,
-        "head_sha": "c5b4f1bd4d4b1fcbe8525000630c97f260d3e2fd"
+        "head_sha": "18b0b76b7409e6929075dc88a50571776a55e5d8"
+      }
+    },
+    "f8f3ad188ce1": {
+      "id": "f8f3ad188ce1",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 413,
+        "ref": "tests/tokenizers_/test_detokenize.py",
+        "path": "vllm/tests/tokenizers_/test_detokenize.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/tokenizers_/test_detokenize.py' (working-directory: vllm)",
+          "no commit on the default branch ever touched this path"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "fa377881d6ac": {
@@ -8110,7 +9265,7 @@
       "id": "faf17fbbd267",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -8122,7 +9277,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/ci.yml",
-        "line": 6495,
+        "line": 6514,
         "ref": "../../.ci-harness/scripts/ci-collect-checks.sh",
         "path": ".ci-harness/scripts/ci-collect-checks.sh",
         "context": "job android",
@@ -8134,14 +9289,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci-collect-checks.sh",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "fafc4a604ef1": {
       "id": "fafc4a604ef1",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -8153,7 +9308,7 @@
         "repo": "openclaw/openclaw",
         "kind": "ci",
         "file": ".github/workflows/full-release-validation.yml",
-        "line": 603,
+        "line": 605,
         "ref": "./workflow/scripts/full-release-validation-policy.mjs",
         "path": "workflow/scripts/full-release-validation-policy.mjs",
         "context": "job resolve_target",
@@ -8165,14 +9320,14 @@
         "deleted_in": null,
         "live_alternative": "scripts/full-release-validation-policy.mjs",
         "confidence": 0.8,
-        "head_sha": "56f1ccf39b0939935b7b3e3b025f82c1a52268d7"
+        "head_sha": "b6a0808d1235b5eb340ac47841f2e5af2e8b1e17"
       }
     },
     "fb4ce15fcfb6": {
       "id": "fb4ce15fcfb6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -8184,7 +9339,7 @@
         "repo": "morluto/rea",
         "kind": "ci",
         "file": ".github/workflows/cache-retention.yml",
-        "line": 76,
+        "line": 81,
         "ref": "trusted-retention/scripts/ci/cache-retention.mjs",
         "path": "trusted-retention/scripts/ci/cache-retention.mjs",
         "context": "job retain",
@@ -8197,14 +9352,44 @@
         "deleted_in": null,
         "live_alternative": "scripts/ci/cache-retention.mjs",
         "confidence": 0.8,
-        "head_sha": "fda73b9f24ba71ad0d0f1fba3db9aa277b594a02"
+        "head_sha": "8d302d2dade726f720520fa1addaaabfda6212e5"
+      }
+    },
+    "fb7994daca03": {
+      "id": "fb7994daca03",
+      "state": "new",
+      "first_seen": "2026-11-26T09:28:05Z",
+      "last_seen": "2026-11-26T09:28:05Z",
+      "history": [
+        {
+          "at": "2026-11-26T09:28:05Z",
+          "state": "new",
+          "by": "scanner"
+        }
+      ],
+      "finding": {
+        "repo": "huggingface/transformers",
+        "kind": "ci",
+        "file": ".github/workflows/vllm-ci-caller.yml",
+        "line": 432,
+        "ref": "tests/config/test_model_arch_config.py",
+        "path": "vllm/tests/config/test_model_arch_config.py",
+        "context": "job vllm-test-tokenizers-configs",
+        "evidence": [
+          ".github/workflows/vllm-ci-caller.yml job 'vllm-test-tokenizers-configs' runs 'tests/config/test_model_arch_config.py' (working-directory: vllm)"
+        ],
+        "recovery_sha": null,
+        "deleted_in": null,
+        "live_alternative": null,
+        "confidence": 0.7,
+        "head_sha": "d3c4bfdc3a9f93fb869419f396833d165497e8ec"
       }
     },
     "fc73999400b9": {
       "id": "fc73999400b9",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -8216,26 +9401,26 @@
         "repo": "NousResearch/hermes-agent",
         "kind": "doc",
         "file": "apps/desktop/BUILDING.md",
-        "line": 408,
+        "line": 412,
         "ref": "../../docs/pm-audit-status.md",
         "path": "docs/pm-audit-status.md",
         "context": "separate in [PM audit status](../../docs/pm-audit-status.md).",
         "evidence": [
-          "apps/desktop/BUILDING.md:408 links to ../../docs/pm-audit-status.md",
+          "apps/desktop/BUILDING.md:412 links to ../../docs/pm-audit-status.md",
           "same file name exists at website/docs/developer-guide/pm-audit-status.md"
         ],
         "recovery_sha": null,
         "deleted_in": null,
         "live_alternative": "website/docs/developer-guide/pm-audit-status.md",
         "confidence": 0.55,
-        "head_sha": "2fcdbfea1847a1119901835d5970fdca2b3d8ea8"
+        "head_sha": "76b55a46791914921da552c91a2264569dca2055"
       }
     },
     "fc79b7768c86": {
       "id": "fc79b7768c86",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -8266,7 +9451,7 @@
       "id": "fcd5ff24b6f6",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -8297,7 +9482,7 @@
       "id": "fcf2f7ebf83c",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
@@ -8322,14 +9507,14 @@
         "deleted_in": null,
         "live_alternative": "main.py",
         "confidence": 0.8,
-        "head_sha": "b27006af3d753e4a94cd703d9a2432b68a7e6865"
+        "head_sha": "4a4b3409792d499cc36626d76a24fe425f40b5e7"
       }
     },
     "fe60adc0a327": {
       "id": "fe60adc0a327",
       "state": "new",
       "first_seen": "2026-10-24T14:57:35Z",
-      "last_seen": "2026-11-25T09:25:54Z",
+      "last_seen": "2026-11-26T09:28:05Z",
       "history": [
         {
           "at": "2026-10-24T14:57:35Z",
